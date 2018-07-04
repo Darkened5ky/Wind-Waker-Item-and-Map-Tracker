@@ -1,0 +1,83 @@
+﻿[
+	{
+		"name": "Telescope",
+		"type": "toggle",
+		"img": "images/Telescope.png",
+		"codes": "telescope"
+	},
+	{
+		"name": "sail",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+     	{
+       	"img": "images/Sail.png",
+       	"codes": "sail"
+     	}
+    ]
+	},
+	{
+		"name": "Wind Waker",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/Wind Waker",
+				"codes": "windwaker"
+			}
+		]
+	},
+	{
+		"name": "Grappling Hook",
+		"type": "toggle",
+		"img": "images/Grappling Hook.png",
+		"codes": "grapple"
+	},
+	{
+		"name": "Spoils Bag",
+		"type": "toggle",
+		"img": "images/Spoils Bag.png",
+		"codes": "spoils"
+	},
+	{
+		"name": "Boomerang",
+		"type": "toggle",
+		"img": "images/Boomerang.png",
+		"codes": "boomerang"
+	},
+	{
+		"name": "Deku Leaf",
+		"type": "toggle",
+		"img": "images/Deku Leaf.png",
+		"codes": "leaf"
+	},
+	{
+		"name": "Tingle Tuner",
+		"type": "toggle",
+		"img": "images/Tingle Tuner.png",
+		"codes": "tuner"
+	},	
+	{
+		"name": "Picto Box",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/Picto Box.png",
+				"codes": "pic1"
+			},
+			{
+				"img": "images/Deluxe Picto Box.png",
+				"codes": "pic2"
+			}
+		]
+	},
+	{
+		"name": "Iron Boots",
+		"type": "toggle",
+		"img": "Iron Boots.png",
+		"codes": "boots"
+	},
+	{
+		
+	}
+] 
