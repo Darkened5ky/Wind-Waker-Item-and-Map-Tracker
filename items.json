@@ -1,10 +1,13 @@
 ﻿[
+	//Telescope
 	{
 		"name": "Telescope",
 		"type": "toggle",
 		"img": "images/Telescope.png",
 		"codes": "telescope"
 	},
+
+	//Sail?
 	{
 		"name": "sail",
 		"type": "progressive",
@@ -16,6 +19,8 @@
      	}
     ]
 	},
+
+	//Wind Waker
 	{
 		"name": "Wind Waker",
 		"type": "progressive",
@@ -27,12 +32,16 @@
 			}
 		]
 	},
+
+	//Grapple Hook
 	{
 		"name": "Grappling Hook",
 		"type": "toggle",
 		"img": "images/Grappling Hook.png",
 		"codes": "grapple"
 	},
+
+	//Bags
 	{
 		"name": "Spoils Bag",
 		"type": "toggle",
@@ -40,23 +49,43 @@
 		"codes": "spoils"
 	},
 	{
+		"name": "Bait Bag",
+		"type": "toggle",
+		"img": "images/Bait Bag.png",
+		"codes": "baitbag"
+	},
+	{
+		"name": "Delivery Bag",
+		"type": "toggle",
+		"img": "images/Delivery Bag.png",
+		"codes": "delivery"
+	},
+
+	//Boomerang
+	{
 		"name": "Boomerang",
 		"type": "toggle",
 		"img": "images/Boomerang.png",
 		"codes": "boomerang"
 	},
+
+	//Deku Leaf
 	{
 		"name": "Deku Leaf",
 		"type": "toggle",
 		"img": "images/Deku Leaf.png",
 		"codes": "leaf"
 	},
+
+	//Tingle Tuner
 	{
 		"name": "Tingle Tuner",
 		"type": "toggle",
 		"img": "images/Tingle Tuner.png",
 		"codes": "tuner"
-	},	
+	},
+
+	//Cameras	
 	{
 		"name": "Picto Box",
 		"type": "progressive",
@@ -71,13 +100,102 @@
 			}
 		]
 	},
+
+	//Iron Boots
 	{
 		"name": "Iron Boots",
 		"type": "toggle",
-		"img": "Iron Boots.png",
+		"img": "images/Iron Boots.png",
 		"codes": "boots"
 	},
+
+	//Magic Armor (might change)
 	{
-		
+		"name": "Magic Armor",
+		"type": "toggle",
+		"img": "images/Magic Armor.png",
+		"codes": "armor"
+	},
+
+	//Bow and Arrows (may also change)
+	{
+		"name": "Hero's Bow",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/Hero's Bow.png",
+				"codes": "bow"
+			},
+			{
+				"img": "images/Hero's Bow 60.png"
+			},
+			{
+				"img": "images/Hero's Bow 99.png"
+			}
+		]
+	},
+	{
+		"name": "Fire & Ice Arrows",
+		"type": "toggle",
+		"img": "images/Fire and Ice Arrows.png",
+		"codes": "elementals"
+	},
+	{
+		"name": "Light Arrows",
+		"type": "toggle",
+		"img": "images/Light Arrow.png",
+		"codes": "lightarrow"
+	},
+
+	//Bombs
+	{
+		"name": "Bombs",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/Bomb.png",
+				"codes": "bombs"
+			},
+			{
+				"img": "images/Bomb 60.png"
+			},
+			{
+				"img": "images/Bomb 99.png"
+			}
+		]
+	},
+
+	//Bottles
+	{
+		"name": "Bottles",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/Empty Bottle.png",
+				"codes": "bottle"
+			},
+			{
+				"img": "images/Bottles2.png"
+			},
+			{
+				"img": "images/Bottles3.png"
+			}
+		]
+	},
+
+	//Hookshot
+	{
+		"name": "Hookshot",
+		"type": "toggle",
+		"img": "images/Hookshot.png",
+		"codes": "hookshot"
+	},
+
+	//Hammer
+	{
+		"name": "Skull Hammer",
+		"type": "toggle",
+		"img": "images/Skull Hammer.png",
+		"codes": ""
 	}
 ] 
