@@ -196,6 +196,88 @@
 		"name": "Skull Hammer",
 		"type": "toggle",
 		"img": "images/Skull Hammer.png",
-		"codes": ""
+		"codes": "hammer"
+	},
+
+	//Equipment Screen
+
+	//Songs
+	{
+		"name": "Wind's Requiem",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/Wind's Requiem.png",
+				"codes": "requiem"
+			}
+		]
+	},
+	{
+		"name": "Ballad of Gales",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/Ballad of Gales.png",
+				"codes": "ballad"
+			}
+		]
+	},
+	{
+		"name": "Command Melody",
+		"type": "toggle",
+		"img": "images/Command Melody.png",
+		"codes": "command"
+	},
+	{
+		"name": "Earth God's Lyric",
+		"type": "toggle",
+		"img": "images/Earth God's Lyric with Harp Icon.png",
+		"codes": "lyric"
+	},
+	{
+		"name": "Wind God's Aria",
+		"type": "toggle",
+		"img": "images/Wind God's Aria with Violin Icon.png",
+		"codes": "aria"
+	},
+	{
+		"name": "Song of Passing",
+		"type": "toggle",
+		"img": "images/Wind Waker.png",
+		"codes": "passing"
+	},
+
+	//Equipment
+
+	{
+		"name": "Swords",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/Hero's Sword.png",
+				"codes": "sword"
+			},
+			{
+				"img": "images/Master Sword (Half Charged).png",
+				"codes": "ms"
+			},
+			{
+				"img": "images/Master Sword (Fully Charged).png",
+				"codes": "ms2"
+			}
+		]
+	},
+	{
+		"name": "Shields",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/Hero's Shield.png",
+			}
+		]
 	}
 ] 
