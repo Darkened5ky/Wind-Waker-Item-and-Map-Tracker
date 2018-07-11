@@ -1,0 +1,31 @@
+﻿{
+  "type": "array",
+    "background": "#000000",
+    "margin": "0",
+    "width": 400,
+    "height": 600,
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "h_alignment": "center",
+        "content": [
+          {
+            "type": "layout",
+            "key": "shared_item_grid"
+          },
+          {
+            "type": "container",
+            "width": 400,
+            "height": 560,
+            "content": {
+              "type": "map",
+              "maps": [
+                "Sea Chart"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+}

@@ -7,17 +7,20 @@
 		"codes": "telescope"
 	},
 
-	//Sail?
+	//Sails
 	{
 		"name": "sail",
 		"type": "progressive",
 		"allow_disabled": false,
 		"stages": [
-     	{
-       	"img": "images/Sail.png",
-       	"codes": "sail"
-     	}
-    ]
+     		{
+       			"img": "images/Sail.png",
+       			"codes": "sail"
+     		},
+     		{
+     			"img": "images/Swift Sail.png" 
+     		}
+    	]
 	},
 
 	//Wind Waker
@@ -27,7 +30,7 @@
 		"allow_disabled": false,
 		"stages": [
 			{
-				"img": "images/Wind Waker",
+				"img": "images/Wind Waker.png",
 				"codes": "windwaker"
 			}
 		]
@@ -245,7 +248,7 @@
 	{
 		"name": "Song of Passing",
 		"type": "toggle",
-		"img": "images/Wind Waker.png",
+		"img": "images/Song of Passing.png",
 		"codes": "passing"
 	},
 
@@ -297,6 +300,12 @@
 		"img": "images/Ghost Ship Chart.png",
 		"codes": "gschart"
 	},
+	{
+		"name": "Cabana Deed",
+		"type": "toggle",
+		"img": "images/Cabana Deed.png",
+		"codes": "deed"
+	},
 
 	//Mail
 	{
@@ -344,7 +353,21 @@
 		"type": "progressive",
 		"stages": [
 			{
-				"img": "images/Piece of Heart.png"
+				"img": "images/Triforce of Courage.png"
+			}
+		]
+	},
+	{
+		"name": "Wallets",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/Wallet.png",
+				"codes": "wallet"
+			},
+			{
+				"img": "images/Wallet2.png",
+				"codes": "wallet2"
 			}
 		]
 	}
