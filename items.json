@@ -264,6 +264,9 @@
 				"codes": "sword"
 			},
 			{
+				"img": "images/Master Sword (Uncharged).png",
+			},
+			{
 				"img": "images/Master Sword (Half Charged).png",
 				"codes": "ms"
 			},
