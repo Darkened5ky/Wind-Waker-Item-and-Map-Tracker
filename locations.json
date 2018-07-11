@@ -1,0 +1,199 @@
+[
+  //Action Rules
+  {
+    "name": "move_boulders",
+    "access_rules": [ "bombs", "power" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+    "name": ""
+  },
+
+  //Area Access Rules
+  {
+    "name": "access_haven",
+    "access_rules": [ "grapple","leaf" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  }
+
+  //Enemy Rules
+  {
+    "name": "defeat_door_flowers",
+    "access_rules": [ "boomerang", "bow", "bombs", "hookshot" ],
+
+  },
+  {
+    "name": "defeat_peahats",
+    "access_rules": [ "boomerang", "hookshot", "leaf", "hammer", "bow" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+    "name": "defeat_bluebubbles",
+    "access_rules": [ "leaf", "elementals,bow", "hookshot", "bombs" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+    "name": "defeat_electric",
+    "access_rules": [ "boomerang", "bow", "bombs", "leaf", "hammer" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+    "name": "defeat_wizz_ranged",
+    "access_rules": [ "bow", "hookshot" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  }
+  {
+    "name": "defeat_octos",
+    "access_rules": [ "bow", "bombs", "boomerang" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  }
+
+
+  //The Locations
+
+  //Major Islands
+  {
+    "name": "Outset Island",
+    "sections": [
+      {
+        "name": "Under Link's House",
+        "item_count": 1
+      },
+      {
+        "name": "Mesa's House (nighttime)",
+        "item_count": 1
+      },
+      {
+        "name": "Orca Knight's Crests",
+        "item_count": 1,
+        "access_rules": [ "spoils" ]
+      },
+      {
+        "name": "Great Fairy",
+        "item_count": 1,
+        "access_rules": [ "leaf,@move_boulders" ]
+      },
+      {
+        "name": "Black Soil",
+        "item_count": 1,
+        "access_rules": [ "baitbag,power" ]
+      }
+    ]
+  },
+  {
+    "name": "Savage Labyrinth",
+    "access_rules": [ "leaf,power", "hookshot,power" ],
+    "sections": [
+      {
+        "name": "Floor 30",
+        "item_count": 1,
+        "capture_item": true,
+        "always_allow_cest_manipulation": true,
+        "access_rules": [ "@defeat_peahats,@defeat_electric"]
+      },
+      {
+        "name": "Floor 50",
+        "item_count": 1,
+        "capture_item": true,
+        "always_allow_cest_manipulation": true,
+        "access_rules": [ "hammer,mirror,@defeat_peahats,@defeat_electric,@defeat_bluebubbles" ]
+      }
+    ]
+  },
+  {
+    "name": "Windfall Island (Sidequests)",
+    "sections": [
+      {
+        "name": "Hide & Seek",
+        "item_count": 1
+      },
+      {
+        "name": "Mrs. Marie (H&S)",
+        "item_count": 1
+      }
+      {
+        "name": "Mrs. Marie's Joy Pendants",
+        "item_count": 3,
+        "access_rules": [ "spoils" ]
+      },
+      {
+        "name": "Lenzo's Assistant",
+        "item_count": 1,
+        "access_rules": [ "pic1" ]
+      },
+      {
+        "name": "Bring Lenzo Firefly",
+        "item_count": 1,
+        "access_rules": [ "pic1,bottle,@access_haven" ]
+      },
+      {
+        "name": "20 Skull Necklaces",
+        "item_count": 1,
+        "access_rules": [ "spoils" ]
+      },
+      {
+        "name": "Maggie's Letter",
+        "item_count": 1
+      },
+      {
+        "name": "Deliver Moe's Letter",
+        "item_count": 1,
+        "access_rules": [ "delivery,moeletter" ]
+      },
+      {
+        "name": "Postman in Bar",
+        "item_count": 1,
+        "access_rules": [ "delivery,magletter" ]
+      }
+    ]
+  }
+  {
+    "name": "Windfall Island (Misc.)",
+    "sections": [
+      {
+        "name": "Tingle's Gifts (Free Gift)",
+        "item_count": 2
+      },
+      {
+        "name": "Jail Tunnel (Other)",
+        "item_count": 1
+      },
+      {
+        "name": "Dancing Man Tott (Free Gift)",
+        "item_count": 1
+      },
+      {
+        "name": "Pirate Ship (Other)",
+        "item_count": 1
+      },
+      {
+        "name": "Wealth House Chest (Other)",
+        "item_count": 1
+      },
+      {
+        "name": "Lenzo's Balcony",
+        "item_count": 2,
+        "access_rules": [ "pic1" ]
+      }
+    ]
+  }
+
+]
+/* template
+  {
+    "name": "",
+    "sections": [
+      {
+        "name": "",
+        "item_count": 1
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "child",
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+*/

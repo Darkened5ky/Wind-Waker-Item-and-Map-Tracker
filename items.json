@@ -277,6 +277,74 @@
 		"stages": [
 			{
 				"img": "images/Hero's Shield.png",
+				"codes": "shield"
+			},
+			{
+				"img": "images/Mirror Shield.png",
+				"codes": "mirror"
+			}
+		]
+	},
+	{
+		"name": "Power Bracelets",
+		"type": "toggle",
+		"img": "images/Power Bracelets.png",
+		"codes": "power"
+	},
+	{
+		"name": "Ghost Ship Chart",
+		"type": "toggle",
+		"img": "images/Ghost Ship Chart.png",
+		"codes": "gschart"
+	},
+
+	//Mail
+	{
+		"name": "Moblin's Letter",
+		"type": "toggle",
+		"img": "images/Moblin's Letter.png",
+		"codes": "moeletter"
+	},
+	{
+		"name": "Maggie's Letter",
+		"type": "toggle",
+		"img": "images/Maggie's Letter.png",
+		"codes": "magletter"
+	},
+	{
+		"name": "Note to Mom",
+		"type": "toggle",
+		"img": "images/Note to Mom.png",
+		"codes": "momletter"
+	},
+
+	//Pearls
+	{
+		"name": "Din's Pearl",
+		"type": "toggle",
+		"img": "images/Din's Pearl.png",
+		"codes": "din"
+	},
+	{
+		"name": "Farore's Pearl",
+		"type": "toggle",
+		"img": "images/Farore's Pearl.png",
+		"codes": "farore"
+	},
+	{
+		"name": "Nayru's Pearl",
+		"type": "toggle",
+		"img": "images/Nayru's Pearl.png",
+		"codes": "nayru"
+	},
+
+	//The Rest
+	{
+		"name": "Triforce Shards",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/Piece of Heart.png"
 			}
 		]
 	}
