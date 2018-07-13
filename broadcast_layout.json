@@ -2,8 +2,8 @@
   "type": "array",
     "background": "#000000",
     "margin": "0",
-    "width": 400,
-    "height": 600,
+    "width": 475,
+    "height": 685,
     "content": [
       {
         "type": "array",
@@ -16,7 +16,7 @@
           },
           {
             "type": "container",
-            "width": 400,
+            "width": 420,
             "height": 560,
             "content": {
               "type": "map",

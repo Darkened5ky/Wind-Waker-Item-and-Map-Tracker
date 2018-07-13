@@ -373,5 +373,91 @@
 				"codes": "wallet2"
 			}
 		]
+	},
+
+	//Settings
+	{
+		"name": "Dungeons",
+		"type": "toggle",
+		"img": "images/ToggleDungeon.png",
+		"codes": "dungeons"
+	},
+	{
+		"name": "Sidequests",
+		"type": "toggle",
+		"img": "images/ToggleSidequests.png",
+		"codes": "sidequests"
+	},
+	{
+		"name": "Platforms",
+		"type": "toggle",
+		"img": "images/TogglePlatform.png",
+		"codes": "platforms"
+	},
+	{
+		"name": "Eye Reefs",
+		"type": "toggle",
+		"img": "images/ToggleReefChests.png",
+		"codes": "reefs"
+	},
+	{
+		"name": "Triforce Charts",
+		"type": "toggle",
+		"img": "images/ToggleTriforceCharts.png",
+		"codes": "triforcecharts"
+	},
+	{
+		"name": "Treasure Charts",
+		"type": "toggle",
+		"img": "images/ToggleTreasureCharts.png",
+		"codes": "treasurecharts"
+	},
+	{
+		"name": "Free Gifts",
+		"type": "toggle",
+		"img": "images/ToggleFreeGifts.png",
+		"codes": "gifts"
+	},
+	{
+		"name": "Expensive Stuff",
+		"type": "toggle",
+		"img": "images/ToggleExpensive.png",
+		"codes": "expensive"
+	},
+	{
+		"name": "Caves",
+		"type": "toggle",
+		"img": "images/ToggleCaves.png",
+		"codes": "caves"
+	},
+	{
+		"name": "Minigames",
+		"type": "toggle",
+		"img": "images/ToggleMinigames.png",
+		"codes": "minigames"
+	},
+	{
+		"name": "Submarines",
+		"type": "toggle",
+		"img": "images/ToggleSubmarines.png",
+		"codes": "subs"
+	},
+	{
+		"name": "Big Octos",
+		"type": "toggle",
+		"img": "images/ToggleOcto.png",
+		"codes": "octos"
+	},
+	{
+		"name": "Mail",
+		"type": "toggle",
+		"img": "images/ToggleMail.png",
+		"codes": "mail"
+	},
+	{
+		"name": "Everywhere Else",
+		"type": "toggle",
+		"img": "images/ToggleEverywhereElse.png",
+		"codes": "misc"
 	}
 ] 
