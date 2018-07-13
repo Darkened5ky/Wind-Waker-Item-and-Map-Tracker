@@ -18,7 +18,7 @@
        			"codes": "sail"
      		},
      		{
-     			"img": "images/Swift Sail.png" 
+     			"img": "images/Swift Sail.png"
      		}
     	]
 	},
@@ -88,7 +88,7 @@
 		"codes": "tuner"
 	},
 
-	//Cameras	
+	//Cameras
 	{
 		"name": "Picto Box",
 		"type": "progressive",
@@ -358,6 +358,62 @@
 		]
 	},
 	{
+		"name": "Triforce Shard 1",
+		"type": "toggle",
+		"img": "images/Triforce Shard 1.png",
+		"codes": "triforce,triforce_1",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 2",
+		"type": "toggle",
+		"img": "images/Triforce Shard 2.png",
+		"codes": "triforce,triforce_2",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 3",
+		"type": "toggle",
+		"img": "images/Triforce Shard 3.png",
+		"codes": "triforce,triforce_3",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 4",
+		"type": "toggle",
+		"img": "images/Triforce Shard 4.png",
+		"codes": "triforce,triforce_4",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 5",
+		"type": "toggle",
+		"img": "images/Triforce Shard 5.png",
+		"codes": "triforce,triforce_5",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 6",
+		"type": "toggle",
+		"img": "images/Triforce Shard 6.png",
+		"codes": "triforce,triforce_6",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 7",
+		"type": "toggle",
+		"img": "images/Triforce Shard 7.png",
+		"codes": "triforce,triforce_7",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 8",
+		"type": "toggle",
+		"img": "images/Triforce Shard 8.png",
+		"codes": "triforce,triforce_8",
+		"mask_input": true
+	},
+	{
 		"name": "Wallets",
 		"type": "progressive",
 		"stages": [
@@ -371,4 +427,4 @@
 			}
 		]
 	}
-] 
+]

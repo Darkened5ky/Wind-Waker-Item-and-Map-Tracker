@@ -5,6 +5,77 @@
   "chest_unopened_img": "images/BasicChestClosed.png",
   "chest_opened_img": "images/BasicChestOpen.png",
   "layouts": {
+    "triforce": {
+      "type": "canvas",
+      "width": 119,
+      "height": 105,
+      "content": [
+        {
+          "type": "item",
+          "item": "triforce_1",
+          "width": 48,
+          "height": 48,
+          "canvas_left": 37,
+          "canvas_top": 0
+        },
+        {
+          "type": "item",
+          "item": "triforce_2",
+          "width": 48,
+          "height": 48,
+          "canvas_left": 16,
+          "canvas_top": 17
+        },
+        {
+          "type": "item",
+          "item": "triforce_3",
+          "width": 48,
+          "height": 48,
+          "canvas_left": 35,
+          "canvas_top": 26
+        },
+        {
+          "type": "item",
+          "item": "triforce_4",
+          "width": 48,
+          "height": 48,
+          "canvas_left": 16,
+          "canvas_top": 43
+        },
+        {
+          "type": "item",
+          "item": "triforce_5",
+          "width": 48,
+          "height": 48,
+          "canvas_left": 56,
+          "canvas_top": 32
+        },
+        {
+          "type": "item",
+          "item": "triforce_6",
+          "width": 48,
+          "height": 48,
+          "canvas_left": 0,
+          "canvas_top": 52
+        },
+        {
+          "type": "item",
+          "item": "triforce_7",
+          "width": 48,
+          "height": 48,
+          "canvas_left": 39,
+          "canvas_top": 57
+        },
+        {
+          "type": "item",
+          "item": "triforce_8",
+          "width": 48,
+          "height": 48,
+          "canvas_left": 71,
+          "canvas_top": 55
+        }
+      ]
+    },
     "shared_item_grid": {
       "type": "array",
       "orientation": "vertical",
@@ -13,12 +84,16 @@
           "type": "itemgrid",
           "h_alignment": "center",
           "item_margin": "0,0,4,15",
-          "rows": [ 
+          "rows": [
             [ "telescope", "sail", "windwaker", "grapple", "spoils", "boomerang", "leaf", "bombs", "sword" ],
             [ "tuner", "pic1", "boots", "armor", "baitbag", "bow", "elementals", "lightarrow", "shield" ],
             [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "wallet", "power" ],
             [ "deed", "requiem", "ballad", "command", "lyric", "aria", "passing", "gschart" ],
           ]
+        },
+        {
+          "type": "layout",
+          "key": "triforce"
         }
       ]
     },
