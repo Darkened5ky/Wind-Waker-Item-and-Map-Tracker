@@ -57,32 +57,41 @@
     "sections": [
       {
         "name": "Under Link's House",
-        "item_count": 1
+        "item_count": 1,
+        "access_rules": [ "misc" ]
       },
       {
         "name": "Mesa's House (nighttime)",
-        "item_count": 1
+        "item_count": 1,
+        "access_rules": [ "misc" ]
       },
       {
         "name": "Orca Knight's Crests",
         "item_count": 1,
-        "access_rules": [ "spoils" ]
+        "access_rules": [ "spoils,sidequests" ]
       },
       {
         "name": "Great Fairy",
         "item_count": 1,
-        "access_rules": [ "leaf,@move_boulders" ]
+        "access_rules": [ "gifts,leaf,@move_boulders" ]
       },
       {
         "name": "Black Soil",
         "item_count": 1,
-        "access_rules": [ "baitbag,power" ]
+        "access_rules": [ "misc,baitbag,power" ]
       }
+    ],
+    "map_locations": [
+    	{
+    		"map": "map",
+        "x": 233,
+    		"y": 983
+    	}
     ]
   },
   {
     "name": "Savage Labyrinth",
-    "access_rules": [ "leaf,power", "hookshot,power" ],
+    "access_rules": [ "caves,leaf,power", "caves,hookshot,power" ],
     "sections": [
       {
         "name": "Floor 30",
@@ -98,10 +107,18 @@
         "always_allow_cest_manipulation": true,
         "access_rules": [ "hammer,mirror,@defeat_peahats,@defeat_electric,@defeat_bluebubbles" ]
       }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 198,
+        "y": 975
+      }
     ]
   },
   {
     "name": "Windfall Island (Sidequests)",
+    "access_rules": [ "sidequests" ],
     "sections": [
       {
         "name": "Hide & Seek",
@@ -114,7 +131,12 @@
       {
         "name": "Mrs. Marie's Joy Pendants",
         "item_count": 3,
+        "clear_as_group": false,
         "access_rules": [ "spoils" ]
+      },
+      {
+        "name": "Mila",
+        "item_count": 1
       },
       {
         "name": "Lenzo's Assistant",
@@ -144,40 +166,135 @@
         "name": "Postman in Bar",
         "item_count": 1,
         "access_rules": [ "delivery,magletter" ]
+      },
+      {
+        "name": "Kreeb (Windmill)",
+        "item_count": 1,
+        "access_rules": [ "bow,elementals" ]
+      },
+      {
+        "name": "Invisible Chest",
+        "item_count": 1,
+        "access_rules": [ "bow,elementals,leaf", "bow,elementals,hookshot" ]
+      },
+      {
+        "name": "Sam - Decorate Town",
+        "item_count": 1,
+        "access_rules": [ "delivery" ]
+      },
+      {
+        "name": "Zunari - Trade Quest",
+        "item_count": 1,
+        "access_rules": [ "delivery" ]
+      },
+      {
+        "name": "Gossip",
+        "item_count": 1,
+        "access_rules": [ "pic1" ]
+      },
+      {
+        "name": "Kamo",
+        "item_count": 1,
+        "access_rules": [ "pic2,[passing]" ]
+      },
+      {
+        "name": "Old Miss Windfall",
+        "item_count": 1,
+        "access_rules": [ "pic2" ]
+      },
+      {
+        "name": "Linda & Anton",
+        "item_count": 1,
+        "access_rules": [ "pic2,passing" ]
+      }
+    ], 
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 514,
+        "y": 226
       }
     ]
   },
   {
-    "name": "Windfall Island (Misc.)",
+    "name": "Windfall Island (Other)",
     "sections": [
       {
-        "name": "Tingle's Gifts (Free Gift)",
-        "item_count": 2
+        "name": "Tingle's Gifts",
+        "item_count": 2,
+        "access_rules": [ "gifts" ]
       },
       {
-        "name": "Jail Tunnel (Other)",
-        "item_count": 1
+        "name": "Jail Tunnel",
+        "item_count": 1,
+        "access_rules": [ "misc" ]
       },
       {
-        "name": "Dancing Man Tott (Free Gift)",
-        "item_count": 1
+        "name": "Dancing Man Tott",
+        "item_count": 1,
+        "access_rules": [ "gifts" ]
       },
       {
-        "name": "Pirate Ship (Other)",
-        "item_count": 1
+        "name": "Pirate Ship",
+        "item_count": 1,
+        "access_rules": [ "misc" ]
       },
       {
-        "name": "Wealth House Chest (Other)",
-        "item_count": 1
+        "name": "Wealth House Chest",
+        "item_count": 1,
+        "access_rules": [ "misc" ]
       },
       {
         "name": "Lenzo's Balcony",
         "item_count": 2,
-        "access_rules": [ "pic1" ]
+        "access_rules": [ "misc,pic1" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 505,
+        "y": 244
+      }
+    ]
+  },
+  {
+    "name": "Windfall Minigames",
+    "access_rules": [ "minigames" ],
+    "sections": [
+      {
+        "name": "Auction",
+        "item_count": 4,
+        "clear_as_group": false,
+        "access_rules": [ "expensive" ]
+      },
+      {
+        "name": "Sploosh Kaboom",
+        "item_count": 3,
+        "clear_as_group": false
+      },
+      {
+        "name": "Dampa's Pigs",
+        "item_count": 1,
+        "access_rules": [ "spoils" ]
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 524,
+        "y": 244
+      }
+    ]
+  },
+  {
+    "name": "Dragon Roost Island",
+    "sections": [
+      {
+        
       }
     ]
   }
-
 ]
 /* template
   {

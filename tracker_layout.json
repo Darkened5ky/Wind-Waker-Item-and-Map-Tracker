@@ -84,6 +84,7 @@
           "type": "itemgrid",
           "h_alignment": "center",
           "item_margin": "0,0,4,15",
+          "item_size": 48,
           "rows": [
             [ "telescope", "sail", "windwaker", "grapple", "spoils", "boomerang", "leaf", "bombs", "sword" ],
             [ "tuner", "pic1", "boots", "armor", "baitbag", "bow", "elementals", "lightarrow", "shield" ],
@@ -97,9 +98,86 @@
         }
       ]
     },
+    "toggles": {
+      "type": "array",
+      "orientation": "horizontal",
+      "h_alignment": "center",
+      "content": [
+        {
+          "type": "array",
+          "orientation": "vertical",
+          "h_alignment": "center",
+          "content": [
+            {
+              "type": "item",
+              "item": "dungeons"
+            },
+            {
+              "type": "item",
+              "item": "sidequests"
+            },
+            {
+              "type": "item",
+              "item": "platforms"
+            },
+            {
+              "type": "item",
+              "item": "reefs"
+            },
+            {
+              "type": "item",
+              "item": "triforcecharts"
+            },
+            {
+              "type": "item",
+              "item": "gifts"
+            },
+            {
+              "type": "item",
+              "item": "expensive"
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "orientation": "vertical",
+          "h_alignment": "center",
+          "content": [
+            {
+              "type": "item",
+              "item": "caves"
+            },
+            {
+              "type": "item",
+              "item": "minigames"
+            },
+            {
+              "type": "item",
+              "item": "subs"
+            },
+            {
+              "type": "item",
+              "item": "octos"
+            },
+            {
+              "type": "item",
+              "item": "treasurecharts"
+            },
+            {
+              "type": "item",
+              "item": "mail"
+            },
+            {
+              "type": "item",
+              "item": "misc"
+            }
+          ]
+        }
+      ]
+    },
     "tracker_default": {
       "type": "container",
-      "background": "#877373",
+      "background": "#00FF74",
       "content": {
         "type": "dock",
         "dropshadow": true,
@@ -133,14 +211,31 @@
             ]
           },
           {
-            "type": "map"
+            "type": "tabbed",
+            "tabs": [
+              {
+                "title": "Sea Chart",
+                "icon": "images/Dungeon Map.png",
+                "content": {
+                  "type": "map"
+                }
+              },
+              {
+                "title": "Settings",
+                "icon": "images/gear.png",
+                "content": {
+                  "type": "layout",
+                  "key": "toggles"
+                }
+              }
+            ]
           }
         ]
       }
     },
     "tracker_horizontal": {
       "type": "container",
-      "background": "#877373",
+      "background": "#00FF74",
       "content": {
         "type": "dock",
         "dropshadow": true,
@@ -174,7 +269,24 @@
             ]
           },
           {
-            "type": "map"
+            "type": "tabbed",
+            "tabs": [
+              {
+                "title": "Sea Chart",
+                "icon": "images/Dungeon Map.png",
+                "content": {
+                  "type": "map"
+                }
+              },
+              {
+                "title": "Settings",
+                "icon": "images/gear.png",
+                "content": {
+                  "type": "layout",
+                  "key": "toggles"
+                }
+              }
+            ]
           }
         ]
       }
