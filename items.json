@@ -431,6 +431,50 @@
 		]
 	},
 
+	//Dungeon Keys
+	{
+		"name": "DRC Keys",
+		"type": "consumable",
+		"max_quantity": 4,
+		"img": "images/Small Key.png",
+		"codes": "drc_key"
+	},
+	{
+
+		"name": "DRC Big Key",
+		"type": "toggle",
+		"img": "images/Boss Key.png",
+		"codes": "drc_bk"
+	},
+	{
+		"name": "FW Keys",
+		"type": "consumable",
+		"max_quantity": 1,
+		"img": "images/Small Key.png",
+		"codes": "fw_key"
+	},
+	{
+		"name": "ToTG Keys",
+		"type": "consumable",
+		"max_quantity": 2,
+		"img": "images/Small Key.png",
+		"codes": "totg_key"
+	},
+	{
+		"name": "ET Keys",
+		"type": "consumable",
+		"max_quantity": 3,
+		"img": "images/Small Key.png",
+		"codes": "et_key"
+	},
+	{
+		"name": "WT Keys",
+		"type": "consumable",
+		"max_quantity": 2,
+		"img": "images/Small Key.png",
+		"codes": "wt_key"
+	},
+
 	//Settings
 	{
 		"name": "Dungeons",
@@ -515,5 +559,11 @@
 		"type": "toggle",
 		"img": "images/ToggleEverywhereElse.png",
 		"codes": "misc"
+	},
+	{
+		"name": "Tingle Statues",
+		"type": "toggle",
+		"img": "images/Tingle Statue.png",
+		"codes": "statues"
 	}
 ]

@@ -248,6 +248,11 @@
         "name": "Lenzo's Balcony",
         "item_count": 2,
         "access_rules": [ "misc,pic1" ]
+      },
+      {
+      	"name": "Sunken Treasure",
+      	"item_count": 1,
+      	"access_rules": [ "grapple" ]
       }
     ],
     "map_locations": [
@@ -291,9 +296,138 @@
     "name": "Dragon Roost Island",
     "sections": [
       {
-        
+        "name": "Wind Shrine",
+        "item_count": 1,
+        "access_rules": [ "misc" ]
+      },
+      {
+      	"name": "Boulder Chest",
+      	"item_count": 1,
+      	"access_rules": [ "misc,bow" ]
+      },
+      {
+      	"name": "Secret Cave",
+      	"item_count": 1,
+      	"access_rules": [ "caves,[bombs]", "caves,[power]" ]
+      },
+      {
+      	"name": "Long Passage",
+      	"item_count": 1,
+      	"access_rules": [ "leaf" ]
+      },
+      {
+      	"name": "20 Gold Feathers",
+      	"item_count": 1,
+      	"access_rules": [ "sidequests,spoils" ]
+      },
+      {
+      	"name": "Baito Mail Sorting",
+      	"item_count": 1,
+      	"access_rules": [ "minigames" ]
+      }
+    ],
+    "map_locations": [
+      {
+      	"map": "map",
+      	"x": 797,
+      	"y": 226
       }
     ]
+  },
+  {
+  	"name": "Dragon Roost Cavern",
+  	"access_rules": [ "dungeons" ],
+  	"sections": [
+  	  {
+  	  	"name": "Keys",
+  	  	"hosted_item": "drc_key"
+  	  },
+  	  {
+  	  	"name": "Big Key",
+  	  	"hosted_item": "drc_bk"
+  	  },
+  	  {
+  	  	"name": "First Room",
+  	  	"item_count": 1
+  	  },
+  	  {
+  	  	"name": "Map Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:1" ]
+  	  },
+  	  {
+  	  	"name": "Across Lava Pit",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:2,leaf", "drc_key:2,grapple" ]
+  	  },
+  	  {
+  	  	"name": "Boarded-up Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:1" ]
+  	  },
+  	  {
+  	  	"name": "Compass Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:2" ]
+  	  },
+  	  {
+  	  	"name": "Rat Room",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:2" ]
+  	  },
+  	  {
+  	  	"name": "Bird's Nest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:3" ]
+  	  },
+  	  {
+  	  	"name": "Dark Room",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:4" ]
+  	  },
+  	  {
+  	  	"name": "Pot Room Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:4" ]
+  	  },
+  	  {
+  	  	"name": "Miniboss Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:4" ]
+  	  },
+  	  {
+  	  	"name": "Rope Bridge",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:4,grapple", "drc_key:4,leaf" ]
+  	  },
+  	  /*{
+  	  	"name": "Tingle Statue",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "statues,drc_key:4,grapple,tuner" ]
+  	  }*/
+  	  {
+  	  	"name": "Big Key Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:4,grapple" ]
+  	  },
+  	  {
+  	  	"name": "Boss Stairs",
+  	  	"item_count": 2,
+  	  	"access_rules": [ "drc_key:4,grapple", "drc_key:4,leaf", "drc_key:4,hookshot" ]
+  	  },
+  	  {
+  	  	"name": "Gohma Item",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "drc_key:4,grapple,drc_bk" ]
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 817,
+  	  	"y": 230
+  	  }
+  	]
   }
 ]
 /* template
