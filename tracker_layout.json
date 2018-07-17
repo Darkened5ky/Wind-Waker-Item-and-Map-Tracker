@@ -5,6 +5,22 @@
   "chest_unopened_img": "images/BasicChestClosed.png",
   "chest_opened_img": "images/BasicChestOpen.png",
   "layouts": {
+    "pearls": {
+      "type": "array",
+      "orientation": "vertical",
+      "content": [
+        {
+          "type": "itemgrid",
+          "h_alignment": "center",
+          "item_margin": "0,0,0,14",
+          "item_size": 32,
+          "rows": [
+            [ "", "nayru", "" ],
+            [ "din", "", "farore" ]
+          ]
+        }
+      ]
+    },
     "triforce": {
       "type": "canvas",
       "width": 119,
@@ -93,8 +109,20 @@
           ]
         },
         {
-          "type": "layout",
-          "key": "triforce"
+          "type": "array",
+          "orientation": "horizontal",
+          "h_alignment": "center",
+          "margin": "0,0,0,6",
+          "content": [
+            {
+              "type": "layout",
+              "key": "pearls"
+            },
+            {
+              "type": "layout",
+              "key": "triforce"
+            }
+          ]
         }
       ]
     },
@@ -177,7 +205,7 @@
     },
     "tracker_default": {
       "type": "container",
-      "background": "#00FF74",
+      "background": "#000000",
       "content": {
         "type": "dock",
         "dropshadow": true,
@@ -235,7 +263,7 @@
     },
     "tracker_horizontal": {
       "type": "container",
-      "background": "#00FF74",
+      "background": "#000000",
       "content": {
         "type": "dock",
         "dropshadow": true,

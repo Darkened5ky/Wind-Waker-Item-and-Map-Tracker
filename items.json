@@ -140,7 +140,7 @@
 	{
 		"name": "Fire & Ice Arrows",
 		"type": "toggle",
-		"img": "images/Fire and Ice Arrows.png",
+		"img": "images/Fire and Ice Arrows New.png",
 		"codes": "elementals"
 	},
 	{
@@ -265,14 +265,15 @@
 			},
 			{
 				"img": "images/Master Sword (Uncharged).png",
-			},
-			{
-				"img": "images/Master Sword (Half Charged).png",
 				"codes": "ms"
 			},
 			{
-				"img": "images/Master Sword (Fully Charged).png",
+				"img": "images/Master Sword (Half Charged).png",
 				"codes": "ms2"
+			},
+			{
+				"img": "images/Master Sword (Fully Charged).png",
+				"codes": "ms3"
 			}
 		]
 	},
@@ -440,7 +441,6 @@
 		"codes": "drc_key"
 	},
 	{
-
 		"name": "DRC Big Key",
 		"type": "toggle",
 		"img": "images/Boss Key.png",
@@ -454,11 +454,23 @@
 		"codes": "fw_key"
 	},
 	{
+		"name": "FW Big Key",
+		"type": "toggle",
+		"img": "images/Boss Key.png",
+		"codes": "fw_bk"
+	},
+	{
 		"name": "ToTG Keys",
 		"type": "consumable",
 		"max_quantity": 2,
 		"img": "images/Small Key.png",
 		"codes": "totg_key"
+	},
+	{
+		"name": "TotG Big Key",
+		"type": "toggle",
+		"img": "images/Boss Key.png",
+		"codes": "totg_bk"
 	},
 	{
 		"name": "ET Keys",
@@ -468,11 +480,23 @@
 		"codes": "et_key"
 	},
 	{
+		"name": "ET Big Key",
+		"type": "toggle",
+		"img": "images/Boss Key.png",
+		"codes": "et_bk"
+	},
+	{
 		"name": "WT Keys",
 		"type": "consumable",
 		"max_quantity": 2,
 		"img": "images/Small Key.png",
 		"codes": "wt_key"
+	},
+	{
+		"name": "WT Big Key",
+		"type": "toggle",
+		"img": "images/Boss Key.png",
+		"codes": "wt_bk"
 	},
 
 	//Settings

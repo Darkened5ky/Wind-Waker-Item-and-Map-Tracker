@@ -1,12 +1,24 @@
 [
-  //Action Rules
+  //Action Rules, dont forget to REVIEW everything marked at the end.
   {
     "name": "move_boulders",
     "access_rules": [ "bombs", "power" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
-    "name": ""
+    "name": "hit_switches",
+    "access_rules": [ "boomerang", "bow", "hookshot" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+  	"name": "hit_switches_sq",
+  	"access_rules": [ "[boomerang]", "[bow]", "[hookshot]" ],
+  	"sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+  	"name": "hanging_seeds_sq",
+  	"access_rules": [ "[boomerang]", "[bow]", "[bombs]", "[hookshot]" ],
+  	"sections": [{ "name": "access", "item_count": 1 }]
   },
 
   //Area Access Rules
@@ -14,6 +26,16 @@
     "name": "access_haven",
     "access_rules": [ "grapple","leaf" ],
     "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+  	"name": "gt_gap_cross",
+  	"access_rules": [ "leaf", "hookshot" ],
+  	"sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+  	"name": "enter_hyrule",
+  	"access_rules": [ "triforce_1,triforce_2,triforce_3,triforce_4,triforce_5,triforce_6,triforce_7,triforce_8" ],
+  	"sections": [{ "name": "access", "item_count": 1 }]
   },
 
   //Enemy Rules
@@ -47,11 +69,13 @@
     "access_rules": [ "bow", "bombs", "boomerang" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
-
+  {
+  	"name": "defeat_jalhalla",
+  	"access_rules": [ "mirror,power", "lightarrow,bow,power" ],
+  	"sections": [{ "name": "access", "item_count": 1 }]
+  },
 
   //The Locations
-
-  //Major Islands
   {
     "name": "Outset Island",
     "sections": [
@@ -339,7 +363,7 @@
   	"access_rules": [ "dungeons" ],
   	"sections": [
   	  {
-  	  	"name": "Keys",
+  	  	"name": "Small Keys",
   	  	"hosted_item": "drc_key"
   	  },
   	  {
@@ -428,15 +452,620 @@
   	  	"y": 230
   	  }
   	]
+  },
+  {
+  	"name": "Forest Haven",
+  	"access_rules": [ "@access_haven" ],
+  	"sections": [
+  	  {
+  	  	"name": "Tree Branch",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "misc,leaf,[grapple]" ] 
+  	  },
+  	  {
+  	  	"name": "Small Island",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "misc,leaf,[grapple]" ]
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+		"map": "map",
+		"x": 820,
+		"y": 820
+  	  }
+  	]
+  },
+  {
+  	"name": "Forbidden Woods",
+  	"access_rules": [ "dungeons,leaf,[grapple]" ],
+  	"sections": [
+  	  {
+  	  	"name": "Small Keys",
+  	  	"hosted_item": "fw_key"
+  	  },
+  	  {
+  	  	"name": "Big Key",
+  	  	"hosted_item": "fw_bk"
+  	  },
+  	  {
+  	  	"name": "Map Chest",
+  	  	"item_count": 1
+  	  },
+  	  {
+  	  	"name": "Hollow Tree Mouth",
+  	  	"item_count": 1
+  	  },
+  	  {
+  	  	"name": "Hole in Tree",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf" ]
+  	  },
+  	  {
+  	  	"name": "Morth Pit",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,grapple" ]
+  	  },
+  	  {
+  	  	"name": "Compass Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,grapple" ]
+  	  },
+  	  {
+  	  	"name": "Vine Maze Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,grapple" ]
+  	  },
+  	  {
+  	  	"name": "Before Miniboss Top",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,grapple,fw_key:1" ]
+  	  },
+  	  {
+  	  	"name": "Mothula (Miniboss)",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,grapple,fw_key:1,@hit_switches_sq" ]
+  	  },
+  	  {
+  	  	"name": "Hanging Seeds Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,grapple,fw_key:1,@defeat_door_flowers,@hanging_seeds_sq" ]
+  	  },
+  	  {
+  	  	"name": "Hanging Flower Room",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,grapple,[boomerang]" ]
+  	  },
+  	  /*{
+  	  	"name": "Tingle Statue Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "statues,leaf,grapple,boomerang,tuner" ]
+  	  },*/
+  	  {
+  	  	"name": "Tree Trunk Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,grapple,boomerang" ]
+  	  },
+  	  {
+  	  	"name": "Wingless Mothulas",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,@defeat_door_flowers" ]
+  	  },
+  	  {
+  	  	"name": "Topmost Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,@defeat_door_flowers" ]
+  	  },
+  	  {
+  	  	"name": "Kalle Demos",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,@defeat_door_flowers,fw_bk,boomerang" ]
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 772,
+  	  	"y": 813
+  	  }
+  	]
+  },
+  {
+  	"name": "Greatfish Isle",
+  	"sections": [
+  	  {
+  	  	"name": "Hidden Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "misc,leaf" ]
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 228,
+  	  	"y": 526
+  	  }
+  	]
+  },
+  {
+  	"name": "Tower of the Gods",
+  	"access_rules": [ "dungeons,din,farore,nayru" ],
+  	"sections": [
+  	  {
+  	  	"name": "Small Keys",
+  	  	"hosted_item": "totg_key"
+  	  },
+  	  {
+  	  	"name": "Big Key",
+  	  	"hosted_item": "totg_bk"
+  	  },
+  	  {
+  	  	"name": "Map Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bombs" ]
+  	  },
+  	  {
+  	  	"name": "Floating Boxes Chest",
+  	  	"item_count": 1
+  	  },
+  	  {
+  	  	"name": "Light Two Torches",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bombs" ]
+  	  },
+  	  {
+  	  	"name": "Compass Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bombs" ]
+  	  },
+  	  {
+  	  	"name": "Behind Compass Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bombs,bow" ]
+  	  },
+  	  /*{
+  	  	"name": "Tingle Statue",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "statues,bombs,totg_key:1,@defeat_electric,tuner" ]
+  	  },*/
+  	  {
+  	  	"name": "Stone Tablet",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bombs,totg_key:1,@defeat_electric" ]
+  	  },
+  	  {
+  	  	"name": "Darknut Miniboss",
+  	  	"item_count": 1,
+  	  	"access_rules": [ 
+  	  		"bombs,totg_key:1,@defeat_electric,grapple,command",
+  	  		"bombs,totg_key:1,@defeat_electric,grapple,bow",
+  	  		"bombs,totg_key:1,@defeat_electric,leaf,command",
+  	  		"bombs,totg_key:1,@defeat_electric,leaf,bow"
+  	  	]
+  	  },
+  	  {
+  	  	"name": "Upper Armos Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bombs,totg_key:1,@defeat_electric" ]
+  	  },
+  	  {
+  	  	"name": "Lower Armos",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bombs,totg_key:1,@defeat_electric,command,bow" ]
+  	  },
+  	  //Review!!!! Why is grapple hook here?
+  	  {
+  	  	"name": "Floating Platforms",
+  	  	"item_count": 2,
+  	  	"access_rules": [ "bombs,totg_key:1,@defeat_electric,grapple,command,bow" ]
+  	  },
+  	  {
+  	  	"name": "Big Key Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bombs,@defeat_electric,grapple,command,bow,totg_key:2,leaf" ]
+  	  },
+  	  {
+  	  	"name": "Gohdan",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bombs,@defeat_electric,grapple,command,bow,totg_key:2,leaf,totg_bk"]
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 660,
+  	  	"y": 517
+  	  }
+  	]
+  },
+  {
+  	"name": "Forsaken Fortress",
+  	"access_rules": [ "dungeons,bombs,ms" ],
+  	"sections": [
+  	  {
+  	  	"name": "Phantom Ganon",
+  	  	"item_count": 1
+  	  },
+  	  {
+  	  	"name": "Map Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "hammer,leaf", "hammer,hookshot" ]
+  	  },
+  	  {
+  	  	"name": "Bed Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "hammer" ]
+  	  },
+  	  {
+  	  	"name": "Compass Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "hammer" ]
+  	  },
+  	  {
+  	  	"name": "Jail Cell",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "hammer" ]
+  	  },
+  	  {
+  	  	"name": "Helmaroc King",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "hammer,[leaf]"]
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 80,
+  	  	"y": 88
+  	  }
+  	]
+  },
+  {
+  	"name": "Mother and Child Isles",
+  	"access_rules": [ "misc" ],
+  	"sections": [
+  	  {
+  	  	"name": "Fairy Queen",
+  	  	"item_count": 1
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 246,
+  	  	"y": 232
+  	  }
+  	]
+  },
+  {
+  	"name": "Fire Mountain",
+  	"access_rules": [ "elementals,bow,caves" ],
+  	"sections": [
+  	  {
+  	  	"name": "Cave Chest",
+  	  	"item_count": 1
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 782,
+  	  	"y": 347
+  	  }
+  	]
+  },
+  {
+  	"name": "Fire Mountain Platform",
+  	"access_rules": [ "platforms" ],
+  	"sections": [
+  	  {
+  	  	"name": "Platform Chest",
+  	  	"item_count": 1
+  	  },
+  	  {
+  	  	"name": "Destroy Cannons",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bombs", "boomerang" ]
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 813,
+  	  	"y": 377
+  	  }
+  	]
+  },
+  {
+  	"name": "Fire Mountain Big Octo",
+  	"access_rules": [ "octos,grapple,@defeat_octos" ],
+  	"sections": [
+  	  {
+  	  	"name": "Octo Chest",
+  	  	"item_count": 1
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 830,
+  	  	"y": 400
+  	  }
+  	]
+  },
+  {
+  	"name": "Ice Ring Isle",
+  	"access_rules": [ "elementals,bow" ],
+  	"sections": [
+  	  {
+  	  	"name": "Frozen Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "misc" ]
+  	  },
+  	  {
+  	  	"name": "Cave Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "caves" ]
+  	  },
+  	  {
+  	  	"name": "Inner Cave Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "caves,boots" ]
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 630,
+  	  	"y": 840
+  	  }
+  	]
+  },
+  {
+  	"name": "Headstone Submarine",
+  	"access_rules": [ "subs" ],
+  	"sections": [
+  	  {
+  	  	"name": "Annoying Chest",
+  	  	"item_count": 1
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 370,
+  	  	"y": 945
+  	  }
+  	]
+  },
+  {
+  	"name": "Headstone Island",
+  	"access_rules": [ "misc,baitbag" ],
+  	"sections": [
+  	  {
+  	  	"name": "Top of Island",
+  	  	"item_count": 1
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 395,
+  	  	"y": 975
+  	  }
+  	]
+  },
+  {
+  	"name": "Earth Temple",
+  	"access_rules": [ "dungeons,command" ],
+  	"sections": [
+  	  {
+  	  	"name": "Small Keys",
+  	  	"hosted_item": "et_key"
+  	  },
+  	  {
+  	  	"name": "Big Key",
+  	  	"hosted_item": "et_bk"
+  	  },
+  	  {
+  	  	"name": "Map Chest",
+  	  	"item_count": 1
+  	  },
+  	  {
+  	  	"name": "Behind Curtain",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bow,elementals" ]
+  	  },
+  	  {
+  	  	"name": "First Crypt Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "hammer,power" ]
+  	  },
+  	  {
+  	  	"name": "Compass Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "et_key:2,bow,elementals,power" ]
+  	  },
+  	  {
+  	  	"name": "Chest Behind Statues",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "et_key:2,elementals,bow,power" ]
+  	  },
+  	  {
+  	  	"name": "Casket Near Miniboss",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "et_key:2,elementals,bow,power" ]
+  	  },
+  	  {
+  	  	"name": "Stalfos Miniboss",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "et_key:3,elementals,bow,power" ]
+  	  },
+  	  {
+  	  	"name": "Destructible Wall Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "hammer,mirror" ]
+  	  },
+  	  /*{
+  	  	"name": "Tingle Statue",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "statues,mirror,leaf,tuner" ]
+  	  },*/
+  	  {
+  	  	"name": "Foggy Floormaster Maze",
+  	  	"item_count": 2,
+  	  	"access_rules": [ "mirror,lyric" ]
+  	  },
+  	  {
+  	  	"name": "Curtains next to Hammer Peg",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "mirror,lyric" ]
+  	  },
+  	  {
+  	  	"name": "Crypt Maze Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "mirror,lyric,power,hammer,et_key:3" ]
+  	  },
+  	  {
+  	  	"name": "Mirror Room Chests",
+  	  	"item_count": 2,
+  	  	"access_rules": [ "mirror,lyric,power,hammer,et_key:3"]
+  	  },
+  	  {
+  	  	"name": "Stalfos Crpyt",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "mirror,lyric,power,hammer,et_key:3" ]
+  	  },
+  	  {
+  	  	"name": "Big Key Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "mirror,lyric,power,hammer,et_key:3,@defeat_bluebubbles" ]
+  	  },
+  	  {
+  	  	"name": "Jalhalla",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "et_bk,et_key:3,mirror,lyric,power,hammer" ]
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 395,
+  	  	"y": 995
+  	  }
+  	]
+  },
+  {
+  	"name": "Wind Temple",
+  	"access_rules": [ "dungeons,hammer,boots" ],
+  	"sections": [
+  	  {
+  	  	"name": "Chest Between Trees",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "command" ]
+  	  },
+  	  /*{
+  	  	"name": "Tingle Statue",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "statues,command,boots,leaf,tuner" ]
+  	  },*/
+  	  {
+        "name": "Chest in Alcove",
+        "item_count": 1,
+        "access_rules": [ "command,boots,leaf" ]
+      },
+      {
+        "name": "Map Chest",
+        "item_count": 1,
+        "access_rules": [ "command,boots,leaf" ]
+      },
+      {
+        "name": "Compass Chest",
+        "item_count": 1,
+        "access_rules": [ "command,boots,leaf" ]
+      },
+      {
+        "name": "Spike Wall Room",
+        "item_count": 2,
+        "access_rules": [ "command,leaf,boots" ]
+      },
+      {
+        "name": "Miniboss",
+        "item_count": 1,
+        "access_rules": [ "command,boots,leaf,wt_key:2,@defeat_peahats" ]
+      },
+      {
+        "name": "Makar's Cell",
+        "item_count": 1,
+        "access_rules": [ "command,boots,leaf,hookshot" ]
+      },
+      {
+        "name": "Top of Hub Room",
+        "item_count": 1,
+        "access_rules": [ "boots,command,leaf,hookshot" ]
+      },
+      {
+        "name": "Seven Armos",
+        "item_count": 1,
+        "access_rules": [ "command,boots,leaf,hookshot" ]
+      },
+      {
+        "name": "Big Key Chest",
+        "item_count": 1,
+        "access_rules": [ "command,boots,leaf,hookshot,aria" ]
+      },
+      {
+      	"name": "Basement Enemy Room",
+      	"item_count": 1,
+      	"access_rules": [ "command,boots,leaf,hookshot,wt_key:2" ]
+      },
+      {
+        "name": "Molgera",
+        "item_count": 1,
+        "access_rules": [ "command,boots,leaf,hookshot,wt_key:2,aria,wt_bk" ]
+      },
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 540,
+  	  	"y": 55
+  	  }
+  	]
+  },
+  {
+  	"name": "Ganon's Tower",
+  	"access_rules": [ "@enter_hyrule,ms3,grapple,leaf,boomerang,@defeat_jalhalla,boots,hookshot" ],
+  	"sections": [
+  	  {
+  	  	"name": "Maze Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "dungeons" ]
+  	  },
+  	  {
+  	  	"name": "GOGOGOGO!",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bow,lightarrow" ]
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 660,
+  	  	"y": 535
+  	  }
+  	]
   }
 ]
 /* template
   {
     "name": "",
+    "access_rules": [ "" ],
     "sections": [
       {
         "name": "",
-        "item_count": 1
+        "item_count": 1,
+        "access_rules": [ "" ]
       },
     ],
     "map_locations": [
