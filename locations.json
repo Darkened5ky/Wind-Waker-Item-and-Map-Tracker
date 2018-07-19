@@ -229,7 +229,7 @@
       {
         "name": "Linda & Anton",
         "item_count": 1,
-        "access_rules": [ "pic2,passing" ]
+        "access_rules": [ "pic2,[passing]" ]
       }
     ], 
     "map_locations": [
@@ -1041,11 +1041,6 @@
   	  	"name": "Maze Chest",
   	  	"item_count": 1,
   	  	"access_rules": [ "dungeons" ]
-  	  },
-  	  {
-  	  	"name": "GOGOGOGO!",
-  	  	"item_count": 1,
-  	  	"access_rules": [ "bow,lightarrow" ]
   	  }
   	],
   	"map_locations": [
@@ -1055,7 +1050,86 @@
   	  	"y": 535
   	  }
   	]
+  },
+  {
+  	"name": "Mail",
+  	"access_rules": [ "mail" ],
+  	"sections": [
+  	  {
+  	  	"name": "Bird Girlfriend",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "spoils,[passing]" ]
+  	  },
+  	  {
+  	  	"name": "Baito's Mom",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "delivery,momletter,[passing]" ]
+  	  },
+  	  {
+  	  	"name": "Baito (Must Clear ET)",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "delivery,momletter,mirror,lyric,power,hammer,[passing]" ] /*fix*/
+  	  },
+  	  {
+  	  	"name": "Rito Chieftan",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "farore,[passing]" ]
+  	  },
+  	  {
+  	  	"name": "Beetle Bombs",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "bombs" ]
+  	  },
+  	  {
+        "name": "Rock Spire Ad",
+        "item_count": 1,
+        "access_rules": [ "wallet" ]
+      },
+      {
+        "name": "Orca (Must Clear FW)",
+        "item_count": 1,
+        "access_rules": [ "leaf,@defeat_door_flowers,boomerang" ]
+      },
+      {
+        "name": "Grandma",
+        "item_count": 1,
+        "access_rules": [ "bottle,[passing]" ]
+      },
+      {
+        "name": "Aryll (Must Clear FF)",
+        "item_count": 1,
+        "access_rules": [ "bombs,hammer,[leaf],[passing]" ]
+      },
+      {
+        "name": "Tingle (Free him, Clear FF)",
+        "item_count": 1,
+        "access_rules": [ "expensive,wallet,bombs,hammer,[leaf],[passing]" ]
+      }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 24,
+  	  	"y": 24
+  	  }
+  	]
+  },
+  {
+  	"name": "Beetle Bait Bag",
+  	"access_rules": [ "misc" ],
+  	"item_count": 1,
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 24,
+  	  	"y": 48
+  	  }
+  	]
+  },
+  {
+  	
   }
+
 ]
 /* template
   {
