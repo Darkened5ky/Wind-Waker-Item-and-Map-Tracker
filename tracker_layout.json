@@ -6,18 +6,33 @@
   "chest_opened_img": "images/BasicChestOpen.png",
   "layouts": {
     "pearls": {
-      "type": "array",
-      "orientation": "vertical",
+      "type": "canvas",
+      "width": 119,
+      "height": 105,
       "content": [
         {
-          "type": "itemgrid",
-          "h_alignment": "center",
-          "item_margin": "0,0,0,14",
-          "item_size": 32,
-          "rows": [
-            [ "", "nayru", "" ],
-            [ "din", "", "farore" ]
-          ]
+          "type": "item",
+          "item": "din",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 0,
+          "canvas_top": 60
+        },
+        {
+          "type": "item",
+          "item": "farore",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 64,
+          "canvas_top": 60
+        },
+        {
+          "type": "item",
+          "item": "nayru",
+          "width": 32,
+          "height": 32,
+          "canvas_left": 32,
+          "canvas_top": 12
         }
       ]
     },
