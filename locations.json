@@ -20,6 +20,11 @@
   	"access_rules": [ "[boomerang]", "[bow]", "[bombs]", "[hookshot]" ],
   	"sections": [{ "name": "access", "item_count": 1 }]
   },
+  {
+  	"name": "destroy_cannons",
+  	"access_rules": [ "boomerang", "bombs" ],
+  	"sections": [{ "name": "access", "item_count": 1 }]
+  },
 
   //Area Access Rules
   {
@@ -121,14 +126,14 @@
         "name": "Floor 30",
         "item_count": 1,
         "capture_item": true,
-        "always_allow_cest_manipulation": true,
+        "always_allow_chest_manipulation": true,
         "access_rules": [ "@defeat_peahats,@defeat_electric"]
       },
       {
         "name": "Floor 50",
         "item_count": 1,
         "capture_item": true,
-        "always_allow_cest_manipulation": true,
+        "always_allow_chest_manipulation": true,
         "access_rules": [ "hammer,mirror,@defeat_peahats,@defeat_electric,@defeat_bluebubbles" ]
       }
     ],
@@ -292,9 +297,31 @@
     "access_rules": [ "minigames" ],
     "sections": [
       {
-        "name": "Auction",
-        "item_count": 4,
-        "clear_as_group": false,
+        "name": "5 Rupee Auction",
+        "always_allow_chest_manipulation": true,
+        "item_count": 1,
+        "capture_item": true,
+        "access_rules": [ "expensive" ]
+      },
+      {
+        "name": "40 Rupee Auction",
+        "always_allow_chest_manipulation": true,
+        "item_count": 1,
+        "capture_item": true,
+        "access_rules": [ "expensive" ]
+      },
+      {
+        "name": "60 Rupee Auction",
+        "always_allow_chest_manipulation": true,
+        "item_count": 1,
+        "capture_item": true,
+        "access_rules": [ "expensive" ]
+      },
+      {
+        "name": "80 Rupee Auction",
+        "always_allow_chest_manipulation": true,
+        "item_count": 1,
+        "capture_item": true,
         "access_rules": [ "expensive" ]
       },
       {
@@ -306,7 +333,7 @@
         "name": "Dampa's Pigs",
         "item_count": 1,
         "access_rules": [ "spoils" ]
-      },
+      }
     ],
     "map_locations": [
       {
@@ -577,6 +604,11 @@
   	  	"name": "Hidden Chest",
   	  	"item_count": 1,
   	  	"access_rules": [ "misc,leaf" ]
+  	  },
+  	  {
+  		"name": "Trading Reward (Clear FF)",
+  		"item_count": 1,
+  		"access_rules": [ "delivery,expensive,sidequests" ]
   	  }
   	],
   	"map_locations": [
@@ -725,7 +757,7 @@
   	"access_rules": [ "misc" ],
   	"sections": [
   	  {
-  	  	"name": "Fairy Queen",
+  	  	"name": "Creepy Little Girl Fairy",
   	  	"item_count": 1
   	  }
   	],
@@ -1076,7 +1108,7 @@
   	  	"access_rules": [ "farore,[passing]" ]
   	  },
   	  {
-  	  	"name": "Beetle Bombs",
+  	  	"name": "Beedle Bombs",
   	  	"item_count": 1,
   	  	"access_rules": [ "bombs" ]
   	  },
@@ -1115,9 +1147,14 @@
   	]
   },
   {
-  	"name": "Beetle Bait Bag",
+  	"name": "Beedle Bait Bag",
   	"access_rules": [ "misc" ],
-  	"item_count": 1,
+  	"sections": [
+  	  {
+  	  	"name": "Bait Bag",
+  	  	"item_count": 1
+  	  }
+  	],
   	"map_locations": [
   	  {
   	  	"map": "map", /*Add the other map locations*/
@@ -1129,47 +1166,793 @@
   {
   	"name": "Salvage Corps. Gift",
   	"access_rules": [ "gifts" ],
-  	"item_count": 1,
+  	"sections": [
+  	  {
+  	  	"name": "Mmm hmm",
+  	  	"item_count": 1
+  	  }
+  	],
   	"map_locations": [
   	  {
-  	  	"map": "map", /*Add others*/
-  	  	"x": 24,
-  	  	"y": 72
+  	  	"map": "map",
+  	  	"x": 500,
+  	  	"y": 389
+  	  },
+  	  {
+  	  	"map": "map",
+  	  	"x": 77,
+  	  	"y": 355
+  	  },
+  	  {
+  	  	"map": "map",
+  	  	"x": 40,
+  	  	"y": 984
+  	  },
+  	  {
+  	  	"map": "map",
+  	  	"x": 649,
+  	  	"y": 246
   	  }
     ]
   },
   {
   	"name": "Cyclos",
   	"access_rules": [ "gifts,bow" ],
-  	"item_count": 1,
+  	"sections": [
+  	  {
+  	  	"name": "Shoot Him",
+  	  	"item_count": 1
+  	  }
+  	],
   	"map_locations": [
   	  {
-  	  	"map": "map", /*fix*/
-  	  	"x": 24,
-  	  	"y": 96
-  	  }
-  	]
-  },
-  {
-  	"name": "Trading Reward (Clear FF)",
-  	"access_rules": [ "delivery,expensive,sidequests" ], /*Add Others*/
-  	"item_count": 1,
-  	"map_locations": [
+  	  	"map": "map",
+  	  	"x": 216,
+  	  	"y": 254
+  	  },
   	  {
-  	  	"map": "map", /*fix*/
-  	  	"x": 24,
-  	  	"y": 120
-  	  }
+  	  	"map": "map",
+  	  	"x": 533,
+  	  	"y": 393
+  	  },
   	]
   },
   {
   	"name": "Withered Trees",
-  	"access_rules": [ "sidequests,@access_haven,bottle,leaf" ]
+  	"access_rules": [ "sidequests,@access_haven,bottle,leaf" ],
+  	"sections": [
+  	  {
+  	  	"name": "Pour Water",
+  	  	"item_count": 1
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 24,
+  	  	"y": 108
+  	  }
+  	]
   },
   {
   	"name": "Ghost Ship",
-  }
-
+  	"access_rules": [ "misc,gschart" ],
+  	"sections": [
+  	  {
+  	  	"name": "Chest",
+  	  	"item_count": 1
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 679,
+  	  	"y": 58
+  	  },
+  	  {
+  	  	"map": "map",
+  	  	"x": 52,
+  	  	"y": 795
+  	  },
+  	  {
+  	  	"map": "map",
+  	  	"x": 812,
+  	  	"y": 624
+  	  },
+  	  {
+  	  	"map": "map",
+  	  	"x": 961,
+  	  	"y": 387
+  	  }
+  	]
+  },
+  {
+  	"name": "Private Oasis",
+  	"sections": [
+  	  {
+  	  	"name": "Waterfall Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "misc,hookshot", "misc,leaf" ]
+  	  },
+  	  {
+  	  	"name": "Cabana Maze",
+  	  	"item_count": 2,
+  	  	"access_rules": [ "caves,delivery,deed,grapple,hammer" ]
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 686,
+  	  	"y": 698
+  	  }
+  	]
+  },
+  {
+  	"name": "Oasis Octo",
+  	"access_rules": [ "octos,@defeat_octos,grapple" ],
+  	"sections": [
+  	  {
+  	  	"name": "Chest",
+  	  	"item_count": 1
+  	  }
+  	],
+  	"map_locations": [
+  	  {
+  	  	"map": "map",
+  	  	"x": 632,
+  	  	"y": 670
+  	  }
+  	]
+  },
+  {
+    "name": "Spectacle Island",
+    "access_rules": [ "minigames" ],
+    "sections": [
+      {
+        "name": "Barrel Shooting",
+        "item_count": 2,
+        "clear_as_group": false
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 343,
+        "y": 252
+      }
+    ]
+  },
+  {
+    "name": "Needle Rock Isle",
+    "sections": [
+      {
+        "name": "Fire Ring Chest",
+        "item_count": 1,
+        "access_rules": [ "baitbag,misc" ]
+      },
+      {
+      	"name": "Cave Torches",
+      	"item_count": 1,
+      	"access_rules": [ "elementals,bow" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 106,
+        "y": 700
+      }
+    ]
+  },
+  {
+    "name": "Golden Gunboat",
+    "access_rules": [ "octos,bombs,grapple" ],
+    "sections": [
+      {
+        "name": "Sunken Chest",
+        "item_count": 1
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 64,
+        "y": 669
+      }
+    ]
+  },
+  {
+    "name": "Angular Isles",
+    "sections": [
+      {
+        "name": "Peak",
+        "item_count": 1,
+        "access_rules": [ "misc" ]
+      },
+      {
+      	"name": "Cave",
+      	"item_count": 1,
+      	"access_rules": [ "caves,leaf,mirror", "caves,hookshot,mirror" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 662,
+        "y": 984
+      }
+    ]
+  },
+  {
+    "name": "Raft",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 828,
+        "y": 980
+      }
+    ]
+  },
+  {
+    "name": "Boat Course",
+    "access_rules": [ "caves,hookshot,@hit_switches", "caves,leaf,@hit_switches" ],
+    "sections": [
+      {
+        "name": "Cave",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 782,
+        "y": 928
+      }
+    ]
+  },
+  {
+    "name": "Stone Watcher Island",
+    "access_rules": [ "caves,power" ],
+    "sections": [
+      {
+        "name": "Cave",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 335,
+        "y": 667
+      }
+    ]
+  },
+  {
+    "name": "Stone Watcher Platform",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Grab Chest",
+        "item_count": 1
+      },
+      {
+      	"name": "Destroy Cannons",
+      	"item_count": 1,
+      	"access_rules": [ "@destroy_cannons" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 392,
+        "y": 683
+      }
+    ]
+  },
+  {
+    "name": "Islet of Steel",
+    "access_rules": [ "bombs,misc" ],
+    "sections": [
+      {
+        "name": "Requiem",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 250,
+        "y": 642
+      }
+    ]
+  },
+  {
+    "name": "Islet of Steel Platform",
+    "access_rules": [ "platforms,@defeat_wizz_ranged" ],
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 231,
+        "y": 699
+      }
+    ]
+  },
+  {
+    "name": "Overlook Island",
+    "access_rules": [ "caves,hookshot" ],
+    "sections": [
+      {
+        "name": "Requiem",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 962,
+        "y": 87
+      }
+    ]
+  },
+  {
+    "name": "Brid's Peak Rock",
+    "access_rules": [ "caves,baitbag", "caves,baitbag,[grapple]" ],
+    "sections": [
+      {
+        "name": "Birb",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 965,
+        "y": 681
+      }
+    ]
+  },
+  {
+    "name": "Pawprint Isle ChuChu Cave",
+    "access_rules": [ "caves" ],
+    "sections": [
+      {
+        "name": "Free Chest",
+        "item_count": 1
+      },
+      {
+      	"name": "Behind Boulders",
+      	"item_count": 2,
+      	"access_rules": [ "@move_boulders" ]
+      },
+      {
+      	"name": "Grapple Peg Wall",
+      	"item_count": 1,
+      	"access_rules": [ "grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 637,
+        "y": 258
+      }
+    ]
+  },
+  {
+    "name": "Pawprint Isle Wizzrobe Cave",
+    "access_rules": [ "caves,hookshot,@defeat_wizz_ranged,@defeat_electric,@defeat_peahats" ],
+    "sections": [
+      {
+        "name": "Kill Everything",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 625,
+        "y": 256
+      }
+    ]
+  },
+  {
+    "name": "Pawprint Isle Platform",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 682,
+        "y": 204
+      }
+    ]
+  },
+  {
+    "name": "Thorned Fairy Island",
+    "access_rules": [ "gifts,hammer" ],
+    "sections": [
+      {
+        "name": "Great Fairy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 976,
+        "y": 550
+      }
+    ]
+  },
+  {
+    "name": "Thorned Fairy Platforms",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Destroy Cannons",
+        "item_count": 1,
+        "access_rules": [ "@destroy_cannons" ]
+      },
+      {
+      	"name": "Chest",
+      	"item_count": 1,
+      	"access_rules": [ "leaf" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 933,
+        "y": 514
+      }
+    ]
+  },
+  {
+    "name": "Eastern Fairy Island",
+    "access_rules": [ "gifts,@move_boulders" ],
+    "sections": [
+      {
+        "name": "Great Fairy",
+        "item_count": 1
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 689,
+        "y": 408
+      }
+    ]
+  },
+  {
+    "name": "Eastern Fairy Platform",
+    "access_rules": [ "platforms,@destroy_cannons" ],
+    "sections": [
+      {
+        "name": "Destroy Cannons",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 616,
+        "y": 369
+      }
+    ]
+  },
+  {
+    "name": "Western Fairy Island",
+    "access_rules": [ "gifts,hammer" ],
+    "sections": [
+      {
+        "name": "Great Fairy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 87,
+        "y": 392
+      }
+    ]
+  },
+  {
+    "name": "Western Fairy Platform",
+    "access_rules": [ "platform" ],
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 110,
+        "y": 403
+      }
+    ]
+  },
+  {
+    "name": "Southern Fairy Island",
+    "access_rules": [ "gifts,bombs", "gifts,bow,elementals" ],
+    "sections": [
+      {
+        "name": "Great Fairy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 485,
+        "y": 784
+      }
+    ]
+  },
+  {
+    "name": "Southern Fairy Platforms",
+    "access_rules": [ "platforms,leaf,@destroy_cannons" ],
+    "sections": [
+      {
+        "name": "Destroy Both Cannon Sets",
+        "item_count": 2,
+        "clear_as_group": false
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 535,
+        "y": 844
+      }
+    ]
+  },
+  {
+    "name": "Northern Fairy Island",
+    "access_rules": [ "gifts" ],
+    "sections": [
+      {
+        "name": "Great Fairy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 397,
+        "y": 117
+      }
+    ]
+  },
+  {
+    "name": "Northern Fairy Submarine",
+    "access_rules": [ "subs" ],
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 327,
+        "y": 89
+      }
+    ]
+  },
+  {
+    "name": "Tingle Island Octo",
+    "access_rules": [ "octos,@defeat_octos,grapple" ],
+    "sections": [
+      {
+        "name": "Sunken Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 368,
+        "y": 354
+      }
+    ]
+  },
+  {
+    "name": "Diamond Steppe Island",
+    "access_rules": [ "caves,hookshot" ],
+    "sections": [
+      {
+        "name": "Warp Maze",
+        "item_count": 2
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 85,
+        "y": 817
+      }
+    ]
+  },
+  {
+    "name": "Diamond Steppe Octo",
+    "access_rules": [ "octos,@defeat_octos,grapple" ],
+    "sections": [
+      {
+        "name": "Sunken Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 110,
+        "y": 840
+      }
+    ]
+  },
+  {
+    "name": "Bomb Island",
+    "access_rules": [ "caves,@move_boulders" ],
+    "sections": [
+      {
+        "name": "Firey Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 831,
+        "y": 647
+      }
+    ]
+  },
+  {
+    "name": "Bomb Island Submarine",
+    "access_rules": [ "subs" ],
+    "sections": [
+      {
+        "name": "Bokoblin Slaughter",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 806,
+        "y": 680
+      }
+    ]
+  },
+  {
+    "name": "Bomb Island Platform",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Free Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 809,
+        "y": 723
+      }
+    ]
+  },
+  {
+    "name": "Rock Spire Isle",
+    "access_rules": [ "caves,bombs" ],
+    "sections": [
+      {
+        "name": "Too Many Keese",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 210,
+        "y": 351
+      }
+    ]
+  },
+  {
+    "name": "Beedle's Special Shop Ship'",
+    "access_rules": [ "expensive,wallet" ],
+    "sections": [
+      {
+        "name": "500 Rupees",
+        "always_allow_chest_manipulation": true,
+        "item_count": 1,
+        "capture_item": true
+      },
+      {
+        "name": "950 Rupees",
+        "always_allow_chest_manipulation": true,
+        "item_count": 1,
+        "capture_item": true
+      },
+      {
+        "name": "900 Rupees",
+        "always_allow_chest_manipulation": true,
+        "item_count": 1,
+        "capture_item": true
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 186,
+        "y": 349
+      }
+    ]
+  },
+  {
+    "name": "Rock Spire Platforms",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+      	"name": "Free Chest (Center)",
+      	"item_count": 1
+      },
+      {
+        "name": "Destroy Both Cannon Sets",
+        "item_count": 2,
+        "access_rules": [ "leaf,@destroy_cannons" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 259,
+        "y": 386
+      }
+    ]
+  },
+  {
+    "name": "",
+    "access_rules": [ "" ],
+    "sections": [
+      {
+        "name": "",
+        "item_count": 1,
+        "access_rules": [ "" ]
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
 ]
 /* template
   {
@@ -1184,7 +1967,7 @@
     ],
     "map_locations": [
       {
-        "map": "child",
+        "map": "map",
         "x": 0,
         "y": 0
       }

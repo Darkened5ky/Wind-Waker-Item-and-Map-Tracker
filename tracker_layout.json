@@ -141,6 +141,10 @@
         }
       ]
     },
+    "tracker_capture_item": {
+      "type": "layout",
+      "key": "shared_item_grid"
+    },
     "toggles": {
       "type": "array",
       "orientation": "horizontal",
