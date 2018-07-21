@@ -1120,14 +1120,54 @@
   	"item_count": 1,
   	"map_locations": [
   	  {
-  	  	"map": "map",
+  	  	"map": "map", /*Add the other map locations*/
   	  	"x": 24,
   	  	"y": 48
   	  }
   	]
   },
   {
-  	
+  	"name": "Salvage Corps. Gift",
+  	"access_rules": [ "gifts" ],
+  	"item_count": 1,
+  	"map_locations": [
+  	  {
+  	  	"map": "map", /*Add others*/
+  	  	"x": 24,
+  	  	"y": 72
+  	  }
+    ]
+  },
+  {
+  	"name": "Cyclos",
+  	"access_rules": [ "gifts,bow" ],
+  	"item_count": 1,
+  	"map_locations": [
+  	  {
+  	  	"map": "map", /*fix*/
+  	  	"x": 24,
+  	  	"y": 96
+  	  }
+  	]
+  },
+  {
+  	"name": "Trading Reward (Clear FF)",
+  	"access_rules": [ "delivery,expensive,sidequests" ], /*Add Others*/
+  	"item_count": 1,
+  	"map_locations": [
+  	  {
+  	  	"map": "map", /*fix*/
+  	  	"x": 24,
+  	  	"y": 120
+  	  }
+  	]
+  },
+  {
+  	"name": "Withered Trees",
+  	"access_rules": [ "sidequests,@access_haven,bottle,leaf" ]
+  },
+  {
+  	"name": "Ghost Ship",
   }
 
 ]
