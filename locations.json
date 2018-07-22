@@ -858,7 +858,7 @@
   	"access_rules": [ "subs" ],
   	"sections": [
   	  {
-  	  	"name": "Annoying Chest",
+  	  	"name": "Bomb Hell",
   	  	"item_count": 1
   	  }
   	],
@@ -1141,8 +1141,8 @@
   	"map_locations": [
   	  {
   	  	"map": "map",
-  	  	"x": 24,
-  	  	"y": 24
+  	  	"x": 530,
+  	  	"y": 1055
   	  }
   	]
   },
@@ -1246,7 +1246,7 @@
   	"map_locations": [
   	  {
   	  	"map": "map",
-  	  	"x": 679,
+  	  	"x": 665,
   	  	"y": 58
   	  },
   	  {
@@ -1564,7 +1564,7 @@
     "map_locations": [
       {
         "map": "map",
-        "x": 625,
+        "x": 620,
         "y": 256
       }
     ]
@@ -1932,6 +1932,136 @@
         "map": "map",
         "x": 259,
         "y": 386
+      }
+    ]
+  },
+  {
+    "name": "Rock Spire Gunboat",
+    "access_rules": [ "octos,bombs,grapple" ],
+    "sections": [
+      {
+        "name": "Sunken Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 212,
+        "y": 405
+      }
+    ]
+  },
+  {
+    "name": "Shark Island",
+    "access_rules": [ "caves,boots,hammer" ],
+    "sections": [
+      {
+        "name": "Enemy Hell",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 370,
+        "y": 851
+      }
+    ]
+  },
+  {
+    "name": "Cliff Plateau Isles",
+    "access_rules": [ "caves" ],
+    "sections": [
+      {
+        "name": "Cave",
+        "item_count": 1
+      },
+      {
+      	"name": "Highest Isle",
+      	"item_count": 1,
+      	"access_rules": [ "leaf" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 917,
+        "y": 783
+      }
+    ]
+  },
+  {
+    "name": "Cliff Plateau Platform",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Free Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 982,
+        "y": 840
+      }
+    ]
+  },
+  {
+    "name": "Crescent Moon Island",
+    "access_rules": [ "misc" ],
+    "sections": [
+      {
+        "name": "Free Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 655,
+        "y": 80
+      }
+    ]
+  },
+  {
+    "name": "Crescent Moon Submarine",
+    "access_rules": [ "subs" ],
+    "sections": [
+      {
+        "name": "Annoying Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 690,
+        "y": 45
+      }
+    ]
+  },
+  {
+    "name": "Horseshoe Island",
+    "access_rules": [ "leaf" ],
+    "sections": [
+      {
+        "name": "Play Golf",
+        "item_count": 1,
+        "access_rules": [ "misc" ]
+      },
+      {
+      	"name": "Cave",
+      	"item_count": 1,
+      	"access_rules": [ "caves" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 50,
+        "y": 963
       }
     ]
   },
