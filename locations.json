@@ -281,7 +281,7 @@
       {
       	"name": "Sunken Treasure",
       	"item_count": 1,
-      	"access_rules": [ "grapple" ]
+      	"access_rules": [ "treasurecharts,grapple" ]
       }
     ],
     "map_locations": [
@@ -364,7 +364,7 @@
       {
       	"name": "Long Passage",
       	"item_count": 1,
-      	"access_rules": [ "leaf" ]
+      	"access_rules": [ "misc,leaf" ]
       },
       {
       	"name": "20 Gold Feathers",
@@ -1334,7 +1334,7 @@
       {
       	"name": "Cave Torches",
       	"item_count": 1,
-      	"access_rules": [ "elementals,bow" ]
+      	"access_rules": [ "caves,elementals,bow" ]
       }
     ],
     "map_locations": [
@@ -2062,6 +2062,92 @@
         "map": "map",
         "x": 50,
         "y": 963
+      }
+    ]
+  },
+  {
+    "name": "Horseshoe Platforms",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Free Chests",
+        "item_count": 1,
+        "access_rules": [ "" ]
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 114,
+        "y": 1006
+      }
+    ]
+  },
+  {
+    "name": "Flight Control Platform",
+    "access_rules": [ "minigames,leaf,double" ],
+    "sections": [
+      {
+        "name": "Birb Man",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 958,
+        "y": 231
+      }
+    ]
+  },
+  {
+    "name": "Flight Control Submarine",
+    "access_rules": [ "subs,@defeat_wizz_ranged" ],
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 989,
+        "y": 269
+      }
+    ]
+  },
+  {
+    "name": "Star Island",
+    "access_rules": [ "caves,@move_boulders" ],
+    "sections": [
+      {
+        "name": "Cave Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 219,
+        "y": 52
+      }
+    ]
+  },
+  {
+    "name": "Star Platform",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Free Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 188,
+        "y": 115
       }
     ]
   },
