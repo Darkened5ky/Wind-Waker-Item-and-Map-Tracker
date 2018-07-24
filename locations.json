@@ -102,7 +102,7 @@
       {
         "name": "Orca Knight's Crests",
         "item_count": 1,
-        "access_rules": [ "spoils,sidequests" ]
+        "access_rules": [ "spoils,sidequests,[grapple]" ]
       },
       {
         "name": "Great Fairy",
@@ -166,7 +166,7 @@
         "name": "Mrs. Marie's Joy Pendants",
         "item_count": 3,
         "clear_as_group": false,
-        "access_rules": [ "spoils" ]
+        "access_rules": [ "spoils,[grapple]" ]
       },
       {
         "name": "Mila",
@@ -185,7 +185,7 @@
       {
         "name": "20 Skull Necklaces",
         "item_count": 1,
-        "access_rules": [ "spoils" ]
+        "access_rules": [ "spoils,[grpaple]" ]
       },
       {
         "name": "Maggie's Letter",
@@ -374,7 +374,7 @@
       {
       	"name": "20 Gold Feathers",
       	"item_count": 1,
-      	"access_rules": [ "sidequests,spoils" ]
+      	"access_rules": [ "sidequests,spoils,[grapple]" ]
       },
       {
       	"name": "Baito Mail Sorting",
@@ -894,7 +894,7 @@
   },
   {
   	"name": "Earth Temple",
-  	"access_rules": [ "dungeons,command" ],
+  	"access_rules": [ "dungeons,command,power" ],
   	"sections": [
   	  {
   	  	"name": "Small Keys",
@@ -1095,7 +1095,7 @@
   	  {
   	  	"name": "Bird Girlfriend",
   	  	"item_count": 1,
-  	  	"access_rules": [ "spoils,[passing]" ]
+  	  	"access_rules": [ "spoils,[grapple],[passing]" ]
   	  },
   	  {
   	  	"name": "Baito's Mom",
