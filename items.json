@@ -64,9 +64,50 @@
 		"codes": "delivery"
 	},
 
+	//Trading Quest
+	{
 		"name": "Trading Quest",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/Town Flower.png",
+				"codes": "tflower"
+			},
 			{
 				"img": "images/Sea Flower.png",
+				"codes": "sflower"
+			},
+			{
+				"img": "images/Exotic Flower.png",
+				"codes": "eflower"
+			},
+			{
+				"img": "images/Sickle Moon Flag.png",
+				"codes": "sflag"
+			},
+			{
+				"img": "images/Fountain Idol.png",
+				"codes": "fountain"
+			},
+			{
+				"img": "images/Big Sale Flag.png",
+				"codes": "bigflag"
+			},
+			{
+				"img": "images/Hero's Flag.png",
+				"codes": "hflag"
+			},
+			{
+				"img": "images/Postman Statue.png",
+				"codes": "pstatue"
+			},
+			{
+				"img": "images/Shop Guru Statue.png",
+				"codes": "sgstatue"
+			}
+		]
+	},
+
 	//Boomerang
 	{
 		"name": "Boomerang",
@@ -129,28 +170,18 @@
 		"type": "progressive",
 		"stages": [
 			{
-				"img": "images/Hero's Bow.png",
+				"img": "images/Hero's Bow New.png",
 				"codes": "bow"
 			},
 			{
-				"img": "images/Hero's Bow 60.png"
+				"img": "images/Hero's Bow New Fi.png",
+				"codes": "elementals"
 			},
 			{
-				"img": "images/Hero's Bow 99.png"
+				"img": "images/Hero's Bow New Light.png",
+				"codes": "lightarrow"
 			}
 		]
-	},
-	{
-		"name": "Fire & Ice Arrows",
-		"type": "toggle",
-		"img": "images/Fire and Ice Arrows New.png",
-		"codes": "elementals"
-	},
-	{
-		"name": "Light Arrows",
-		"type": "toggle",
-		"img": "images/Light Arrow.png",
-		"codes": "lightarrow"
 	},
 
 	//Bombs
@@ -312,6 +343,12 @@
 		"type": "toggle",
 		"img": "images/Cabana Deed.png",
 		"codes": "deed"
+	},
+	{
+		"name": "Double Magic",
+		"type": "toggle",
+		"img": "images/Green Potion.png",
+		"codes": "double"
 	},
 
 	//Mail

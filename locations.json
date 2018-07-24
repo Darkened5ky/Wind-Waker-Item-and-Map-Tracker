@@ -38,6 +38,11 @@
   	"sections": [{ "name": "access", "item_count": 1 }]
   },
   {
+    "name": "reef_access",
+    "access_rules": [ "bombs,ms,leaf" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
   	"name": "enter_hyrule",
   	"access_rules": [ "triforce_1,triforce_2,triforce_3,triforce_4,triforce_5,triforce_6,triforce_7,triforce_8" ],
   	"sections": [{ "name": "access", "item_count": 1 }]
@@ -791,7 +796,7 @@
   	"access_rules": [ "platforms" ],
   	"sections": [
   	  {
-  	  	"name": "Platform Chest",
+  	  	"name": "Free Chest",
   	  	"item_count": 1
   	  },
   	  {
@@ -1158,8 +1163,8 @@
   	"map_locations": [
   	  {
   	  	"map": "map", /*Add the other map locations*/
-  	  	"x": 24,
-  	  	"y": 48
+  	  	"x": 215,
+  	  	"y": 952
   	  }
   	]
   },
@@ -1229,8 +1234,8 @@
   	"map_locations": [
   	  {
   	  	"map": "map",
-  	  	"x": 24,
-  	  	"y": 108
+  	  	"x": 824,
+  	  	"y": 801
   	  }
   	]
   },
@@ -1385,7 +1390,7 @@
     ]
   },
   {
-    "name": "Raft",
+    "name": "Boat Course Raft",
     "access_rules": [ "platforms" ],
     "sections": [
       {
@@ -1396,8 +1401,8 @@
     "map_locations": [
       {
         "map": "map",
-        "x": 828,
-        "y": 980
+        "x": 812,
+        "y": 983
       }
     ]
   },
@@ -1440,7 +1445,7 @@
     "access_rules": [ "platforms" ],
     "sections": [
       {
-        "name": "Grab Chest",
+        "name": "Free Chest",
         "item_count": 1
       },
       {
@@ -1479,7 +1484,7 @@
     "access_rules": [ "platforms,@defeat_wizz_ranged" ],
     "sections": [
       {
-        "name": "Chest",
+        "name": "Kill Enemies",
         "item_count": 1
       }
     ],
@@ -1574,7 +1579,7 @@
     "access_rules": [ "platforms" ],
     "sections": [
       {
-        "name": "Chest",
+        "name": "Defeat Enemies",
         "item_count": 1
       }
     ],
@@ -1608,14 +1613,14 @@
     "access_rules": [ "platforms" ],
     "sections": [
       {
+        "name": "Kill Enemies",
+        "item_count": 1,
+        "access_rules": [ "leaf" ]
+      },
+      {
         "name": "Destroy Cannons",
         "item_count": 1,
         "access_rules": [ "@destroy_cannons" ]
-      },
-      {
-      	"name": "Chest",
-      	"item_count": 1,
-      	"access_rules": [ "leaf" ]
       }
     ],
     "map_locations": [
@@ -1682,15 +1687,15 @@
     "access_rules": [ "platform" ],
     "sections": [
       {
-        "name": "Chest",
+        "name": "Slaughter Enemies",
         "item_count": 1
       }
     ],
     "map_locations": [
       {
         "map": "map",
-        "x": 110,
-        "y": 403
+        "x": 87,
+        "y": 392
       }
     ]
   },
@@ -1758,8 +1763,8 @@
     "map_locations": [
       {
         "map": "map",
-        "x": 327,
-        "y": 89
+        "x": 334,
+        "y": 76
       }
     ]
   },
@@ -1853,7 +1858,7 @@
     "access_rules": [ "platforms" ],
     "sections": [
       {
-        "name": "Free Chest",
+        "name": "Obliterate Enemies",
         "item_count": 1
       }
     ],
@@ -1930,8 +1935,8 @@
     "map_locations": [
       {
         "map": "map",
-        "x": 259,
-        "y": 386
+        "x": 231,
+        "y": 393
       }
     ]
   },
@@ -2037,8 +2042,8 @@
     "map_locations": [
       {
         "map": "map",
-        "x": 690,
-        "y": 45
+        "x": 675,
+        "y": 40
       }
     ]
   },
@@ -2070,16 +2075,15 @@
     "access_rules": [ "platforms" ],
     "sections": [
       {
-        "name": "Free Chests",
-        "item_count": 1,
-        "access_rules": [ "" ]
-      },
+        "name": "Press Switches",
+        "item_count": 2
+      }
     ],
     "map_locations": [
       {
         "map": "map",
-        "x": 114,
-        "y": 1006
+        "x": 92,
+        "y": 991
       }
     ]
   },
@@ -2146,29 +2150,310 @@
     "map_locations": [
       {
         "map": "map",
-        "x": 188,
-        "y": 115
+        "x": 211,
+        "y": 101
       }
     ]
   },
   {
-    "name": "",
-    "access_rules": [ "" ],
+    "name": "Star Belt Archipelago Platform",
+    "access_rules": [ "platforms" ],
     "sections": [
       {
-        "name": "",
-        "item_count": 1,
-        "access_rules": [ "" ]
-      },
+        "name": "Free Chest",
+        "item_count": 1
+      }
     ],
     "map_locations": [
       {
         "map": "map",
-        "x": 0,
-        "y": 0
+        "x": 992,
+        "y": 371
       }
     ]
   },
+  {
+    "name": "Five-Star Isles",
+    "sections": [
+      {
+        "name": "Submarine",
+        "item_count": 1,
+        "access_rules": [ "subs" ]
+      },
+      {
+        "name": "Raft",
+        "item_count": 1,
+        "access_rules": [ "platforms" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 990,
+        "y": 1003
+      }
+    ]
+  },
+  {
+    "name": "Five-Star Platform",
+    "access_rules": [ "platforms,@destroy_cannons" ],
+    "sections": [
+      {
+        "name": "Destroy Cannons",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 943,
+        "y": 975
+      }
+    ]
+  },
+  {
+    "name": "Seven-Star Platforms",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Kill Wizzrobes",
+        "item_count": 2
+      },
+      {
+        "name": "Kill Ranged Wizzrobes",
+        "item_count": 1,
+        "access_rules": [ "@defeat_wizz_ranged" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 833,
+        "y": 110
+      }
+    ]
+  },
+  {
+    "name": "Seven-Star Big Octo",
+    "access_rules": [ "octos,@defeat_octos,grapple" ],
+    "sections": [
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 771,
+        "y": 111
+      }
+    ]
+  },
+  {
+    "name": "Cyclops Reef (Defeat Phantom Ganon)",
+    "access_rules": [ "reefs,@reef_access" ],
+    "sections": [
+      {
+        "name": "Reef Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 385,
+        "y": 548
+      }
+    ]
+  },
+  {
+    "name": "Cyclops Platform",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Annihilate Enemies",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 338,
+        "y": 512
+      }
+    ]
+  },
+  {
+    "name": "Two-Eye Reef (Defeat Phantom Ganon)",
+    "access_rules": [ "reefs,@reef_access" ],
+    "sections": [
+      {
+        "name": "Reef Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 519,
+        "y": 944
+      }
+    ]
+  },
+  {
+    "name": "Two-Eye Platform",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Free Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 526,
+        "y": 1011
+      }
+    ]
+  },
+  {
+    "name": "Octo Fairy",
+    "access_rules": [ "octos,@defeat_octos" ],
+    "sections": [
+      {
+        "name": "Four Eyes",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 477,
+        "y": 955
+      }
+    ]
+  },
+  {
+    "name": "Three-Eye Reef (Defeat Phantom Ganon)",
+    "access_rules": [ "reefs,@reef_access" ],
+    "sections": [
+      {
+        "name": "Reef Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 47,
+        "y": 557
+      }
+    ]
+  },
+  {
+    "name": "Four-Eye Reef (Defeat Phantom Ganon)",
+    "access_rules": [ "reefs,@reef_access" ],
+    "sections": [
+      {
+        "name": "Reef Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 100,
+        "y": 194
+      }
+    ]
+  },
+  {
+    "name": "Five-Eye Reef (Defeat Phantom Ganon)",
+    "access_rules": [ "reefs,@reef_access" ],
+    "sections": [
+      {
+        "name": "Reef Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 201,
+        "y": 798
+      }
+    ]
+  },
+  {
+    "name": "Five-Eye Platform",
+    "access_rules": [ "platforms" ],
+    "sections": [
+      {
+        "name": "Free Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 259,
+        "y": 835
+      }
+    ]
+  },
+  {
+    "name": "Six-Eye Reef (Defeat Phantom Ganon)",
+    "access_rules": [ "reefs,@reef_access" ],
+    "sections": [
+      {
+        "name": "Reef Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 528,
+        "y": 508
+      }
+    ]
+  },
+  {
+    "name": "Six-Eye Platform",
+    "access_rules": [ "platforms,@destroy_cannons" ],
+    "sections": [
+      {
+        "name": "Destroy Cannons",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 553,
+        "y": 560
+      }
+    ]
+  },
+  {
+    "name": "Six-Eye Submarine",
+    "access_rules": [ "subs" ],
+    "sections": [
+      {
+        "name": "Chest",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 479,
+        "y": 561
+      }
+    ]
+  }
 ]
 /* template
   {
