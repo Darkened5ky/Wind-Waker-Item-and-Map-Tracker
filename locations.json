@@ -217,7 +217,7 @@
         "access_rules": [ "delivery" ]
       },
       {
-        "name": "Zunari - Trade Quest",
+        "name": "Zunari - Exotic Flower Reward",
         "item_count": 1,
         "access_rules": [ "delivery" ]
       },
@@ -906,13 +906,13 @@
   	  },
   	  {
   	  	"name": "Map Chest",
-  	  	"item_count": 1
+  	  	"item_count": 1,
   	  },
-  	  {
+  	  /*{
   	  	"name": "Behind Curtain",
   	  	"item_count": 1,
   	  	"access_rules": [ "bow,elementals" ]
-  	  },
+  	  },*/
   	  {
   	  	"name": "First Crypt Chest",
   	  	"item_count": 1,
@@ -953,11 +953,11 @@
   	  	"item_count": 2,
   	  	"access_rules": [ "mirror,lyric" ]
   	  },
-  	  {
+  	  /*{
   	  	"name": "Curtains next to Hammer Peg",
   	  	"item_count": 1,
   	  	"access_rules": [ "mirror,lyric" ]
-  	  },
+  	  },*/
   	  {
   	  	"name": "Crypt Maze Chest",
   	  	"item_count": 1,
@@ -997,6 +997,14 @@
   	"access_rules": [ "dungeons,hammer,boots" ],
   	"sections": [
   	  {
+        "name": "Small Keys",
+        "hosted_item": "wt_key"
+      },
+      {
+        "name": "Big Key",
+        "hosted_item": "wt_bk"
+      },
+      {
   	  	"name": "Chest Between Trees",
   	  	"item_count": 1,
   	  	"access_rules": [ "command" ]
@@ -1268,7 +1276,12 @@
   	  	"map": "map",
   	  	"x": 961,
   	  	"y": 387
-  	  }
+  	  },
+      {
+        "map": "map",
+        "x": "934",
+        "y": "935"
+      }
   	]
   },
   {
@@ -1334,7 +1347,7 @@
       {
         "name": "Fire Ring Chest",
         "item_count": 1,
-        "access_rules": [ "baitbag,misc" ]
+        "access_rules": [ "baitbag,misc", "misc,elementals,[baitbag]" ]
       },
       {
       	"name": "Cave Torches",
@@ -1515,7 +1528,7 @@
   },
   {
     "name": "Brid's Peak Rock",
-    "access_rules": [ "caves,baitbag", "caves,baitbag,[grapple]" ],
+    "access_rules": [ "caves,baitbag", "caves,grapple,[baitbag]" ],
     "sections": [
       {
         "name": "Birb",
@@ -1677,8 +1690,8 @@
     "map_locations": [
       {
         "map": "map",
-        "x": 87,
-        "y": 392
+        "x": 60,
+        "y": 379
       }
     ]
   },
@@ -1687,7 +1700,7 @@
     "access_rules": [ "platform" ],
     "sections": [
       {
-        "name": "Slaughter Enemies",
+        "name": "Free Chest",
         "item_count": 1
       }
     ],
@@ -2364,8 +2377,8 @@
     "map_locations": [
       {
         "map": "map",
-        "x": 100,
-        "y": 194
+        "x": 101,
+        "y": 207
       }
     ]
   },
