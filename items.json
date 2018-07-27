@@ -629,5 +629,13 @@
 		"type": "toggle",
 		"img": "images/Tingle Statue.png",
 		"codes": "statues"
+	},
+
+	//Charts...
+	{
+		"name": "Chart 1",
+		"type": "toggle",
+		"img": "images/Treasure Chart.png",
+		"codes": "chart1"
 	}
 ]
