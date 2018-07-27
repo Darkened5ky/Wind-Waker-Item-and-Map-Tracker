@@ -576,7 +576,7 @@
   	  {
   	  	"name": "Wingless Mothulas",
   	  	"item_count": 1,
-  	  	"access_rules": [ "leaf,@defeat_door_flowers" ]
+  	  	"access_rules": [ "leaf" ]
   	  },
   	  {
   	  	"name": "Topmost Chest",
