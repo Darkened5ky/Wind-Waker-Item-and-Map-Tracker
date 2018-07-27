@@ -282,11 +282,6 @@
         "name": "Lenzo's Balcony",
         "item_count": 2,
         "access_rules": [ "misc,pic1" ]
-      },
-      {
-      	"name": "Sunken Treasure",
-      	"item_count": 1,
-      	"access_rules": [ "treasurecharts,grapple" ]
       }
     ],
     "map_locations": [
@@ -2475,13 +2470,18 @@
     ]
   },
   {
-    "name": "Chart",
+    "name": "Forsaken Fortress Chart",
     "access_rules": [ "treasurecharts" ],
     "sections": [
       {
         "name": "Chart",
         "hosted_item": "chart1",
         "chest_open_image": "images/Treasure Chart Open.png",
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart1,grapple" ]
       }
     ],
     "map_locations": [
@@ -2491,7 +2491,306 @@
         "y": 19
       }
     ]
-  }
+  },
+  {
+    "name": "Star Island Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart2",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart2,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 165,
+        "y": 23
+      }
+    ]
+  },
+  {
+    "name": "Northern Fairy Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart3",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart3,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 308,
+        "y": 23
+      }
+    ]
+  },
+  {
+    "name": "Gale Isle Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart4",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart4,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 452,
+        "y": 23
+      }
+    ]
+  },
+  {
+    "name": "Crescent Moon Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart5",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart5,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 600,
+        "y": 23
+      }
+    ]
+  },
+  {
+    "name": "Seven-Star Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart6",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart6,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 745,
+        "y": 23
+      }
+    ]
+  },
+  {
+    "name": "Overlook Island Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart7",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart7,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 890,
+        "y": 23
+      }
+    ]
+  },
+  {
+    "name": "Four-Eye Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart8",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart8,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 20,
+        "y": 165
+      }
+    ]
+  },
+  {
+    "name": "Mother & Child Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart9",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart9,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 163,
+        "y": 168
+      }
+    ]
+  },
+  {
+    "name": "Spectacle Island Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart10",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart10,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 305,
+        "y": 168
+      }
+    ]
+  },
+  {
+    "name": "Windfall Island Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart11",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart11,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 450,
+        "y": 168
+      }
+    ]
+  },
+  {
+    "name": "Pawprint Isle Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart12",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart12,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 598,
+        "y": 168
+      }
+    ]
+  },
+  {
+    "name": "Dragon Roost Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart13",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart13,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 745,
+        "y": 168
+      }
+    ]
+  },
+  {
+    "name": "Flight Control Chart",
+    "access_rules": [ "treasurecharts" ],
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart14",
+        "chest_open_image": "images/Treasure Chart Open.png"
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart14,grapple" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 890,
+        "y": 168
+      }
+    ]
+  },
 ]
 /* template
   {
