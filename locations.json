@@ -185,7 +185,7 @@
       {
         "name": "20 Skull Necklaces",
         "item_count": 1,
-        "access_rules": [ "spoils,[grpaple]" ]
+        "access_rules": [ "spoils,[grapple]" ]
       },
       {
         "name": "Maggie's Letter",
