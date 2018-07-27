@@ -36,6 +36,133 @@
         }
       ]
     },
+    "dungeon_keys": {
+      "type": "canvas",
+      "width": 130,
+      "height": 80,
+      "content": [
+        {
+          "type": "image",
+          "image": "images/drcicon.png",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 12,
+          "canvas_top": 0
+        },
+        {
+          "type": "item",
+          "item": "drc_key",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 0,
+          "canvas_top": 18
+        },
+        {
+          "type": "item",
+          "item": "drc_bk",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 20,
+          "canvas_top": 18
+        },
+        {
+          "type": "image",
+          "image": "images/fwicon.png",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 59,
+          "canvas_top": 0
+        },
+        {
+          "type": "item",
+          "item": "fw_key",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 46,
+          "canvas_top": 18
+        },
+        {
+          "type": "item",
+          "item": "fw_bk",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 66,
+          "canvas_top": 18
+        },
+        {
+          "type": "image",
+          "image": "images/totgicon.png",
+          "width": 35,
+          "height": 20,
+          "canvas_left": 96,
+          "canvas_top": 0
+        },
+        {
+          "type": "item",
+          "item": "totg_key",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 90,
+          "canvas_top": 18
+        },
+        {
+          "type": "item",
+          "item": "totg_bk",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 110,
+          "canvas_top": 18
+        },
+        {
+          "type": "image",
+          "image": "images/eticon.png",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 30,
+          "canvas_top": 43
+        },
+        {
+          "type": "item",
+          "item": "et_key",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 17,
+          "canvas_top": 60
+        },
+        {
+          "type": "item",
+          "item": "et_bk",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 37,
+          "canvas_top": 60
+        },
+        {
+          "type": "image",
+          "image": "images/wticon.png",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 78,
+          "canvas_top": 43
+        },
+        {
+          "type": "item",
+          "item": "wt_key",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 69,
+          "canvas_top": 60
+        },
+        {
+          "type": "item",
+          "item": "wt_bk",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 89,
+          "canvas_top": 60
+        }
+      ]
+    },
     "triforce": {
       "type": "canvas",
       "width": 119,
@@ -132,6 +259,10 @@
             {
               "type": "layout",
               "key": "pearls"
+            },
+            {
+              "type": "layout",
+              "key": "dungeon_keys"
             },
             {
               "type": "layout",
