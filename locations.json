@@ -1115,7 +1115,7 @@
   	  {
   	  	"name": "Rito Chieftan",
   	  	"item_count": 1,
-  	  	"access_rules": [ "farore,[passing]" ]
+  	  	"access_rules": [ "farore" ]
   	  },
   	  {
   	  	"name": "Beedle Bombs",
