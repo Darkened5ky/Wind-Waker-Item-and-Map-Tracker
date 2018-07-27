@@ -877,11 +877,13 @@
   },
   {
   	"name": "Headstone Island",
-  	"access_rules": [ "misc,baitbag" ],
+  	"access_rules": [ "misc,baitbag", "{misc}" ],
   	"sections": [
   	  {
   	  	"name": "Top of Island",
-  	  	"item_count": 1
+  	  	"item_count": 1,
+        "always_allow_chest_manipulation": true,
+        "capture_item": true
   	  }
   	],
   	"map_locations": [
@@ -1177,7 +1179,7 @@
   	]
   },
   {
-  	"name": "Salvage Corps. Gift",
+  	"name": "Salvage Corp Gift",
   	"access_rules": [ "gifts" ],
   	"sections": [
   	  {
@@ -1205,7 +1207,12 @@
   	  	"map": "map",
   	  	"x": 649,
   	  	"y": 246
-  	  }
+  	  },
+      {
+        "map": "map",
+        "x": 795,
+        "y": 520
+      }
     ]
   },
   {
