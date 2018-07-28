@@ -329,11 +329,11 @@
         "item_count": 3,
         "clear_as_group": false
       },
-      {
+      /*{
         "name": "Dampa's Pigs",
         "item_count": 1,
         "access_rules": [ "spoils" ]
-      }
+      }*/
     ],
     "map_locations": [
       {
