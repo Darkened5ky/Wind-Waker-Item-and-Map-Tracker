@@ -523,6 +523,11 @@
   	  	"name": "Hollow Tree Mouth",
   	  	"item_count": 1
   	  },
+      {
+        "name": "Topmost Chest",
+        "item_count": 1,
+        "access_rules": [ "leaf,@defeat_door_flowers" ]
+      },
   	  {
   	  	"name": "Hole in Tree",
   	  	"item_count": 1,
@@ -577,11 +582,6 @@
   	  	"name": "Wingless Mothulas",
   	  	"item_count": 1,
   	  	"access_rules": [ "leaf" ]
-  	  },
-  	  {
-  	  	"name": "Topmost Chest",
-  	  	"item_count": 1,
-  	  	"access_rules": [ "leaf,@defeat_door_flowers" ]
   	  },
   	  {
   	  	"name": "Kalle Demos",
@@ -921,6 +921,11 @@
   	  	"item_count": 1,
   	  	"access_rules": [ "bow,elementals" ]
   	  },*/
+      {
+        "name": "Destructible Wall Chest",
+        "item_count": 1,
+        "access_rules": [ "hammer,mirror" ]
+      },
   	  {
   	  	"name": "First Crypt Chest",
   	  	"item_count": 1,
@@ -945,11 +950,6 @@
   	  	"name": "Stalfos Miniboss",
   	  	"item_count": 1,
   	  	"access_rules": [ "et_key:3,elementals,bow,power" ]
-  	  },
-  	  {
-  	  	"name": "Destructible Wall Chest",
-  	  	"item_count": 1,
-  	  	"access_rules": [ "hammer,mirror" ]
   	  },
   	  /*{
   	  	"name": "Tingle Statue",
