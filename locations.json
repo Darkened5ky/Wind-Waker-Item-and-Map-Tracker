@@ -683,23 +683,34 @@
   	  {
   	  	"name": "Lower Armos",
   	  	"item_count": 1,
-  	  	"access_rules": [ "bombs,totg_key:1,@defeat_electric,command,bow" ]
+  	  	"access_rules": [ 
+          "bombs,totg_key:1,leaf,@defeat_electric,command,bow",
+          "bombs,totg_key:1,grapple,@defeat_electric,command,bow" 
+        ]
   	  },
-  	  //Review!!!! Why is grapple hook here?
   	  {
   	  	"name": "Floating Platforms",
   	  	"item_count": 2,
-  	  	"access_rules": [ "bombs,totg_key:1,@defeat_electric,grapple,command,bow" ]
+  	  	"access_rules": [ 
+          "bombs,totg_key:1,@defeat_electric,grapple,command,bow",
+          "bombs,totg_key:1,@defeat_electric,leaf,command,bow" 
+        ]
   	  },
   	  {
   	  	"name": "Big Key Chest",
   	  	"item_count": 1,
-  	  	"access_rules": [ "bombs,@defeat_electric,grapple,command,bow,totg_key:2,leaf" ]
+  	  	"access_rules": [ 
+          "bombs,@defeat_electric,grapple,command,bow,totg_key:2",
+          "bombs,@defeat_electric,leaf,command,bow,totg_key:2" 
+        ]
   	  },
   	  {
   	  	"name": "Gohdan",
   	  	"item_count": 1,
-  	  	"access_rules": [ "bombs,@defeat_electric,grapple,command,bow,totg_key:2,leaf,totg_bk"]
+  	  	"access_rules": [ 
+          "bombs,@defeat_electric,grapple,command,bow,totg_key:2,totg_bk",
+          "bombs,@defeat_electric,leaf,command,bow,totg_key:2,totg_bk" 
+        ]
   	  }
   	],
   	"map_locations": [
