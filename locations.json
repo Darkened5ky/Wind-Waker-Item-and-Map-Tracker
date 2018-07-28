@@ -752,7 +752,7 @@
   	  {
   	  	"name": "Helmaroc King",
   	  	"item_count": 1,
-  	  	"access_rules": [ "hammer,[leaf]"]
+  	  	"access_rules": [ "hammer,[leaf]", "hammer,[hookshot]" ]
   	  }
   	],
   	"map_locations": [
