@@ -212,10 +212,13 @@
 				"codes": "bottle"
 			},
 			{
-				"img": "images/Bottles2.png"
+				"img": "images/Bottle2.png"
 			},
 			{
-				"img": "images/Bottles3.png"
+				"img": "images/Bottle3.png"
+			},
+			{
+				"img": "images/Bottle4.png"
 			}
 		]
 	},
