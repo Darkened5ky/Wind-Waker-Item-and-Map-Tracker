@@ -142,7 +142,7 @@
           "image": "images/wticon.png",
           "width": 20,
           "height": 20,
-          "canvas_left": 78,
+          "canvas_left": 82,
           "canvas_top": 43
         },
         {
@@ -254,7 +254,6 @@
           "type": "array",
           "orientation": "horizontal",
           "h_alignment": "center",
-          "margin": "0,0,0,6",
           "content": [
             {
               "type": "layout",
@@ -266,6 +265,7 @@
             },
             {
               "type": "layout",
+              "margin": "10,0,0,0",
               "key": "triforce"
             }
           ]
