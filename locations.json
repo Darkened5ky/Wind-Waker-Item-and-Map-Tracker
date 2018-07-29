@@ -131,14 +131,12 @@
         "name": "Floor 30",
         "item_count": 1,
         "capture_item": true,
-        "always_allow_chest_manipulation": true,
         "access_rules": [ "@defeat_peahats,@defeat_electric" ]
       },
       {
         "name": "Floor 50",
         "item_count": 1,
         "capture_item": true,
-        "always_allow_chest_manipulation": true,
         "access_rules": [ "hammer,mirror,@defeat_peahats,@defeat_electric,@defeat_bluebubbles", "{}" ]
       }
     ],
@@ -298,28 +296,24 @@
     "sections": [
       {
         "name": "5 Rupee Auction",
-        "always_allow_chest_manipulation": true,
         "item_count": 1,
         "capture_item": true,
         "access_rules": [ "expensive" ]
       },
       {
         "name": "40 Rupee Auction",
-        "always_allow_chest_manipulation": true,
         "item_count": 1,
         "capture_item": true,
         "access_rules": [ "expensive" ]
       },
       {
         "name": "60 Rupee Auction",
-        "always_allow_chest_manipulation": true,
         "item_count": 1,
         "capture_item": true,
         "access_rules": [ "expensive" ]
       },
       {
         "name": "80 Rupee Auction",
-        "always_allow_chest_manipulation": true,
         "item_count": 1,
         "capture_item": true,
         "access_rules": [ "expensive" ]
@@ -888,7 +882,6 @@
   	  {
   	  	"name": "Top of Island",
   	  	"item_count": 1,
-        "always_allow_chest_manipulation": true,
         "capture_item": true
   	  }
   	],
@@ -1088,7 +1081,7 @@
   },
   {
   	"name": "Ganon's Tower",
-  	"access_rules": [ "@enter_hyrule,ms3,grapple,leaf,boomerang,@defeat_jalhalla,boots,hookshot" ],
+  	"access_rules": [ "@enter_hyrule,ms3,grapple,leaf,boomerang,@defeat_jalhalla,hookshot" ],
   	"sections": [
   	  {
   	  	"name": "Maze Chest",
@@ -1111,7 +1104,7 @@
   	  {
   	  	"name": "Bird Girlfriend",
   	  	"item_count": 1,
-  	  	"access_rules": [ "spoils,[grapple],[passing]" ]
+  	  	"access_rules": [ "sidequests,spoils,[grapple],[passing]" ]
   	  },
   	  {
   	  	"name": "Baito's Mom",
@@ -1919,22 +1912,19 @@
     "sections": [
       {
         "name": "500 Rupees",
-        "always_allow_chest_manipulation": true,
         "item_count": 1,
         "capture_item": true
       },
       {
         "name": "950 Rupees",
-        "always_allow_chest_manipulation": true,
         "item_count": 1,
         "capture_item": true
       },
       {
         "name": "900 Rupees",
-        "always_allow_chest_manipulation": true,
         "item_count": 1,
         "capture_item": true
-      },
+      }
     ],
     "map_locations": [
       {
