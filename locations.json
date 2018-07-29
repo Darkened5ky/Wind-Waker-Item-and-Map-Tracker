@@ -824,7 +824,7 @@
   	"access_rules": [ "octos,grapple,@defeat_octos" ],
   	"sections": [
   	  {
-  	  	"name": "Octo Chest",
+  	  	"name": "Eight Eyes",
   	  	"item_count": 1
   	  }
   	],
@@ -1324,7 +1324,7 @@
   	"access_rules": [ "octos,@defeat_octos,grapple" ],
   	"sections": [
   	  {
-  	  	"name": "Chest",
+  	  	"name": "Eight Eyes",
   	  	"item_count": 1
   	  }
   	],
@@ -1799,7 +1799,7 @@
     "access_rules": [ "octos,@defeat_octos,grapple" ],
     "sections": [
       {
-        "name": "Sunken Chest",
+        "name": "Twelve Eyes",
         "item_count": 1
       }
     ],
@@ -1833,7 +1833,7 @@
     "access_rules": [ "octos,@defeat_octos,grapple" ],
     "sections": [
       {
-        "name": "Sunken Chest",
+        "name": "Eight Eyes",
         "item_count": 1
       }
     ],
@@ -2264,7 +2264,7 @@
     "access_rules": [ "octos,@defeat_octos,grapple" ],
     "sections": [
       {
-        "name": "Sunken Treasure",
+        "name": "Twelve Eyes",
         "item_count": 1
       }
     ],
