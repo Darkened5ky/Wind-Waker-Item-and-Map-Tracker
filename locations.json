@@ -131,7 +131,7 @@
         "name": "Floor 30",
         "item_count": 1,
         "capture_item": true,
-        "access_rules": [ "@defeat_peahats,@defeat_electric" ]
+        "access_rules": [ "@defeat_peahats,@defeat_electric", "{}" ]
       },
       {
         "name": "Floor 50",
@@ -877,11 +877,11 @@
   },
   {
   	"name": "Headstone Island",
-  	"access_rules": [ "misc,baitbag", "{misc}" ],
   	"sections": [
   	  {
   	  	"name": "Top of Island",
   	  	"item_count": 1,
+  	  	"access_rules": [ "misc,baitbag", "{misc}" ],
         "capture_item": true
   	  }
   	],
@@ -1908,21 +1908,23 @@
   },
   {
     "name": "Beedle's Special Shop Ship'",
-    "access_rules": [ "expensive,wallet", "{expensive}" ],
     "sections": [
       {
         "name": "500 Rupees",
         "item_count": 1,
+        "access_rules": [ "expensive,wallet", "{expensive}" ],
         "capture_item": true
       },
       {
         "name": "950 Rupees",
         "item_count": 1,
+        "access_rules": [ "expensive,wallet", "{expensive}" ],
         "capture_item": true
       },
       {
         "name": "900 Rupees",
         "item_count": 1,
+        "access_rules": [ "expensive,wallet", "{expensive}" ],
         "capture_item": true
       }
     ],
