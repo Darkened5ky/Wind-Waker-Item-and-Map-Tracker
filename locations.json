@@ -573,6 +573,11 @@
   	  	"access_rules": [ "leaf,grapple,boomerang" ]
   	  },
   	  {
+  	  	"name": "Big Key Chest",
+  	  	"item_count": 1,
+  	  	"access_rules": [ "leaf,grapple,boomerang"]
+  	  },
+  	  {
   	  	"name": "Wingless Mothulas",
   	  	"item_count": 1,
   	  	"access_rules": [ "leaf" ]
