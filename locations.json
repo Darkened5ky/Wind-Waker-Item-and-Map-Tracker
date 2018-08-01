@@ -615,7 +615,7 @@
   	  {
   		"name": "Trading Reward",
   		"item_count": 1,
-  		"access_rules": [ "delivery,expensive,sidequests" ]
+  		"access_rules": [ "delivery,expensive,longsidequests" ]
   	  }
   	],
   	"map_locations": [
@@ -1117,7 +1117,7 @@
   	  {
   	  	"name": "Bird Girlfriend",
   	  	"item_count": 1,
-  	  	"access_rules": [ "sidequests,spoils,[grapple],[passing]" ]
+  	  	"access_rules": [ "spoilstrading,spoils,[grapple],[passing]" ]
   	  },
   	  {
   	  	"name": "Baito's Mom",
@@ -1251,7 +1251,7 @@
   },
   {
   	"name": "Withered Trees",
-  	"access_rules": [ "sidequests,@access_haven,bottle,leaf" ],
+  	"access_rules": [ "longsidequests,@access_haven,bottle,leaf" ],
   	"sections": [
   	  {
   	  	"name": "Pour Water",
@@ -1716,7 +1716,7 @@
   },
   {
     "name": "Western Fairy Platform",
-    "access_rules": [ "platform" ],
+    "access_rules": [ "platforms" ],
     "sections": [
       {
         "name": "Free Chest",
