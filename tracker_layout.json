@@ -292,7 +292,19 @@
             },
             {
               "type": "item",
-              "item": "sidequests"
+              "item": "puzzlecaves"
+            },
+            {
+              "type": "item",
+              "item": "shortsidequests"
+            },
+            {
+              "type": "item",
+              "item": "spoilstrading"
+            },
+            {
+              "type": "item",
+              "item": "gifts"
             },
             {
               "type": "item",
@@ -308,10 +320,6 @@
             },
             {
               "type": "item",
-              "item": "gifts"
-            },
-            {
-              "type": "item",
               "item": "expensive"
             }
           ]
@@ -323,11 +331,23 @@
           "content": [
             {
               "type": "item",
-              "item": "caves"
+              "item": "greatfairies"
+            },
+            {
+              "type": "item",
+              "item": "combatcaves"
+            },
+            {
+              "type": "item",
+              "item": "longsidequests"
             },
             {
               "type": "item",
               "item": "minigames"
+            },
+            {
+              "type": "item",
+              "item": "mail"
             },
             {
               "type": "item",
@@ -340,10 +360,6 @@
             {
               "type": "item",
               "item": "treasurecharts"
-            },
-            {
-              "type": "item",
-              "item": "mail"
             },
             {
               "type": "item",

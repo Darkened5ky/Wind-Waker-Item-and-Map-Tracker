@@ -550,10 +550,22 @@
 		"codes": "dungeons"
 	},
 	{
-		"name": "Sidequests",
+		"name": "Short Sidequests",
 		"type": "toggle",
-		"img": "images/ToggleSidequests.png",
-		"codes": "sidequests"
+		"img": "images/ToggleShortSidequests.png",
+		"codes": "shortsidequests"
+	},
+	{
+		"name": "LongSidequests",
+		"type": "toggle",
+		"img": "images/ToggleLongSidequests.png",
+		"codes": "longsidequests"
+	},
+	{
+		"name": "Spoils Trading",
+		"type": "toggle",
+		"img": "images/ToggleSpoilsTrading.png",
+		"codes": "spoilstrading"
 	},
 	{
 		"name": "Platforms",
@@ -592,10 +604,22 @@
 		"codes": "expensive"
 	},
 	{
-		"name": "Caves",
+		"name": "Puzzle Secret Caves",
 		"type": "toggle",
-		"img": "images/ToggleCaves.png",
-		"codes": "caves"
+		"img": "images/TogglePuzzleCaves.png",
+		"codes": "puzzlecaves"
+	},
+	{
+		"name": "Combat Secret Caves",
+		"type": "toggle",
+		"img": "images/ToggleCombatCaves.png",
+		"codes": "combatcaves"
+	},
+	{
+		"name": "Great Fairies",
+		"type": "toggle",
+		"img": "images/ToggleGreatFairies.png",
+		"codes": "greatfairies"
 	},
 	{
 		"name": "Minigames",
@@ -622,9 +646,9 @@
 		"codes": "mail"
 	},
 	{
-		"name": "Everywhere Else",
+		"name": "Miscellaneous",
 		"type": "toggle",
-		"img": "images/ToggleEverywhereElse.png",
+		"img": "images/ToggleMisc.png",
 		"codes": "misc"
 	},
 	{

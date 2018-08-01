@@ -102,12 +102,12 @@
       {
         "name": "Orca Knight's Crests",
         "item_count": 1,
-        "access_rules": [ "spoils,sidequests,[grapple]" ]
+        "access_rules": [ "spoils,spoilstrading,[grapple]" ]
       },
       {
         "name": "Great Fairy",
         "item_count": 1,
-        "access_rules": [ "gifts,leaf,@move_boulders" ]
+        "access_rules": [ "greatfairies,leaf,@move_boulders" ]
       },
       {
         "name": "Black Soil",
@@ -125,7 +125,7 @@
   },
   {
     "name": "Savage Labyrinth",
-    "access_rules": [ "caves,leaf,power", "caves,hookshot,power" ],
+    "access_rules": [ "combatcaves,leaf,power", "combatcaves,hookshot,power" ],
     "sections": [
       {
         "name": "Floor 30",
@@ -150,96 +150,88 @@
   },
   {
     "name": "Windfall Island (Sidequests)",
-    "access_rules": [ "sidequests" ],
     "sections": [
       {
         "name": "Hide & Seek",
-        "item_count": 1
+        "item_count": 1,
+        "access_rules": [ "shortsidequests" ]
       },
       {
         "name": "Mrs. Marie (H&S)",
-        "item_count": 1
-      },
-      {
-        "name": "Mrs. Marie's Joy Pendants",
-        "item_count": 3,
-        "clear_as_group": false,
-        "access_rules": [ "spoils,[grapple]" ]
+        "item_count": 1,
+        "access_rules": [ "shortsidequests" ]
       },
       {
         "name": "Mila",
-        "item_count": 1
-      },
-      {
-        "name": "Lenzo's Assistant",
         "item_count": 1,
-        "access_rules": [ "pic1" ]
-      },
-      {
-        "name": "Bring Lenzo Firefly",
-        "item_count": 1,
-        "access_rules": [ "pic1,bottle,@access_haven" ]
-      },
-      {
-        "name": "20 Skull Necklaces",
-        "item_count": 1,
-        "access_rules": [ "spoils,[grapple]" ]
+        "access_rules": [ "shortsidequests" ]
       },
       {
         "name": "Maggie's Letter",
-        "item_count": 1
+        "item_count": 1,
+        "access_rules": [ "shortsidequests" ]
       },
       {
         "name": "Deliver Moe's Letter",
         "item_count": 1,
-        "access_rules": [ "delivery,moeletter" ]
+        "access_rules": [ "delivery,moeletter,shortsidequests" ]
       },
       {
         "name": "Postman in Bar",
         "item_count": 1,
-        "access_rules": [ "delivery,magletter" ]
+        "access_rules": [ "delivery,magletter,shortsidequests" ]
       },
       {
         "name": "Kreeb (Windmill)",
         "item_count": 1,
-        "access_rules": [ "bow,elementals" ]
+        "access_rules": [ "bow,elementals,shortsidequests" ]
       },
       {
         "name": "Invisible Chest",
         "item_count": 1,
-        "access_rules": [ "bow,elementals,leaf", "bow,elementals,hookshot" ]
-      },
-      {
-        "name": "Sam - Decorate Town",
-        "item_count": 1,
-        "access_rules": [ "delivery" ]
-      },
-      {
-        "name": "Zunari - Exotic Flower Reward",
-        "item_count": 1,
-        "access_rules": [ "delivery" ]
+        "access_rules": [ "bow,elementals,leaf,shortsidequests", "bow,elementals,hookshot,shortsidequests" ]
       },
       {
         "name": "Gossip",
         "item_count": 1,
-        "access_rules": [ "pic1" ]
-      },
-      {
-        "name": "Kamo",
-        "item_count": 1,
-        "access_rules": [ "pic2,[passing]" ]
+        "access_rules": [ "pic1,shortsidequests" ]
       },
       {
         "name": "Old Miss Windfall",
         "item_count": 1,
-        "access_rules": [ "pic2" ]
+        "access_rules": [ "pic2,shortsidequests" ]
+      },
+      {
+        "name": "Lenzo's Assistant",
+        "item_count": 1,
+        "access_rules": [ "pic1,longsidequests" ]
+      },
+      {
+        "name": "Bring Lenzo Firefly",
+        "item_count": 1,
+        "access_rules": [ "pic1,bottle,@access_haven,longsidequests" ]
+      },
+      {
+        "name": "Sam - Decorate Town",
+        "item_count": 1,
+        "access_rules": [ "delivery,longsidequests" ]
+      },
+      {
+        "name": "Zunari - Exotic Flower Reward",
+        "item_count": 1,
+        "access_rules": [ "delivery,longsidequests" ]
+      },
+      {
+        "name": "Kamo",
+        "item_count": 1,
+        "access_rules": [ "pic2,[passing],longsidequests" ]
       },
       {
         "name": "Linda & Anton",
         "item_count": 1,
-        "access_rules": [ "pic2,[passing]" ]
+        "access_rules": [ "pic2,[passing],longsidequests" ]
       }
-    ], 
+    ],
     "map_locations": [
       {
         "map": "map",
@@ -280,6 +272,17 @@
         "name": "Lenzo's Balcony",
         "item_count": 2,
         "access_rules": [ "misc,pic1" ]
+      },
+      {
+        "name": "Mrs. Marie's Joy Pendants",
+        "item_count": 3,
+        "clear_as_group": false,
+        "access_rules": [ "spoils,spoilstrading,[grapple]" ]
+      },
+      {
+        "name": "20 Skull Necklaces",
+        "item_count": 1,
+        "access_rules": [ "spoils,spoilstrading,[grapple]" ]
       }
     ],
     "map_locations": [
@@ -353,7 +356,7 @@
       {
       	"name": "Secret Cave",
       	"item_count": 1,
-      	"access_rules": [ "caves,[bombs]", "caves,[power]" ]
+      	"access_rules": [ "combatcaves,[bombs]", "combatcaves,[power]" ]
       },
       {
       	"name": "Long Passage",
@@ -363,7 +366,7 @@
       {
       	"name": "20 Gold Feathers",
       	"item_count": 1,
-      	"access_rules": [ "sidequests,spoils,[grapple]" ]
+      	"access_rules": [ "spoilstrading,spoils,[grapple]" ]
       },
       {
       	"name": "Baito Mail Sorting",
@@ -481,7 +484,7 @@
   	  {
   	  	"name": "Tree Branch",
   	  	"item_count": 1,
-  	  	"access_rules": [ "misc,leaf,[grapple]" ] 
+  	  	"access_rules": [ "misc,leaf,[grapple]" ]
   	  },
   	  {
   	  	"name": "Small Island",
@@ -781,7 +784,7 @@
   },
   {
   	"name": "Fire Mountain",
-  	"access_rules": [ "elementals,bow,caves" ],
+  	"access_rules": [ "elementals,bow,puzzlecaves" ],
   	"sections": [
   	  {
   	  	"name": "Cave Chest",
@@ -847,12 +850,12 @@
   	  {
   	  	"name": "Cave Chest",
   	  	"item_count": 1,
-  	  	"access_rules": [ "caves" ]
+  	  	"access_rules": [ "puzzlecaves" ]
   	  },
   	  {
   	  	"name": "Inner Cave Chest",
   	  	"item_count": 1,
-  	  	"access_rules": [ "caves,boots" ]
+  	  	"access_rules": [ "puzzlecaves,boots" ]
   	  }
   	],
   	"map_locations": [
@@ -1221,7 +1224,7 @@
   },
   {
   	"name": "Cyclos",
-  	"access_rules": [ "gifts,bow" ],
+  	"access_rules": [ "misc,bow" ],
   	"sections": [
   	  {
   	  	"name": "Shoot Him",
@@ -1306,7 +1309,7 @@
   	  {
   	  	"name": "Cabana Maze",
   	  	"item_count": 2,
-  	  	"access_rules": [ "caves,delivery,deed,grapple,hammer" ]
+  	  	"access_rules": [ "puzzlecaves,delivery,deed,grapple,hammer" ]
   	  }
   	],
   	"map_locations": [
@@ -1363,7 +1366,7 @@
       {
       	"name": "Cave Torches",
       	"item_count": 1,
-      	"access_rules": [ "caves,elementals,bow" ]
+      	"access_rules": [ "puzzlecaves,elementals,bow" ]
       }
     ],
     "map_locations": [
@@ -1402,7 +1405,7 @@
       {
       	"name": "Cave",
       	"item_count": 1,
-      	"access_rules": [ "caves,leaf,mirror", "caves,hookshot,mirror" ]
+      	"access_rules": [ "puzzlecaves,leaf,mirror", "puzzlecaves,hookshot,mirror" ]
       }
     ],
     "map_locations": [
@@ -1432,7 +1435,7 @@
   },
   {
     "name": "Boat Course",
-    "access_rules": [ "caves,hookshot,@hit_switches", "caves,leaf,@hit_switches" ],
+    "access_rules": [ "combatcaves,hookshot,@hit_switches", "combatcaves,leaf,@hit_switches" ],
     "sections": [
       {
         "name": "Cave",
@@ -1449,7 +1452,7 @@
   },
   {
     "name": "Stone Watcher Island",
-    "access_rules": [ "caves,power" ],
+    "access_rules": [ "combatcaves,power" ],
     "sections": [
       {
         "name": "Cave",
@@ -1522,7 +1525,7 @@
   },
   {
     "name": "Overlook Island",
-    "access_rules": [ "caves,hookshot" ],
+    "access_rules": [ "combatcaves,hookshot" ],
     "sections": [
       {
         "name": "Requiem",
@@ -1538,8 +1541,8 @@
     ]
   },
   {
-    "name": "Brid's Peak Rock",
-    "access_rules": [ "caves,baitbag", "caves,grapple,[baitbag]" ],
+    "name": "Bird's Peak Rock",
+    "access_rules": [ "puzzlecaves,baitbag", "puzzlecaves,grapple,[baitbag]" ],
     "sections": [
       {
         "name": "Birb",
@@ -1556,7 +1559,7 @@
   },
   {
     "name": "Pawprint Isle ChuChu Cave",
-    "access_rules": [ "caves" ],
+    "access_rules": [ "puzzlecaves" ],
     "sections": [
       {
         "name": "Free Chest",
@@ -1583,7 +1586,7 @@
   },
   {
     "name": "Pawprint Isle Wizzrobe Cave",
-    "access_rules": [ "caves,hookshot,@defeat_wizz_ranged,@defeat_electric,@defeat_peahats" ],
+    "access_rules": [ "combatcaves,hookshot,@defeat_wizz_ranged,@defeat_electric,@defeat_peahats" ],
     "sections": [
       {
         "name": "Kill Everything",
@@ -1617,7 +1620,7 @@
   },
   {
     "name": "Thorned Fairy Island",
-    "access_rules": [ "gifts,hammer" ],
+    "access_rules": [ "greatfairies,hammer" ],
     "sections": [
       {
         "name": "Great Fairy",
@@ -1657,7 +1660,7 @@
   },
   {
     "name": "Eastern Fairy Island",
-    "access_rules": [ "gifts,@move_boulders" ],
+    "access_rules": [ "greatfairies,@move_boulders" ],
     "sections": [
       {
         "name": "Great Fairy",
@@ -1691,7 +1694,7 @@
   },
   {
     "name": "Western Fairy Island",
-    "access_rules": [ "gifts,hammer" ],
+    "access_rules": [ "greatfairies,hammer" ],
     "sections": [
       {
         "name": "Great Fairy",
@@ -1725,7 +1728,7 @@
   },
   {
     "name": "Southern Fairy Island",
-    "access_rules": [ "gifts,bombs", "gifts,bow,elementals" ],
+    "access_rules": [ "greatfairies,bombs", "greatfairies,bow,elementals" ],
     "sections": [
       {
         "name": "Great Fairy",
@@ -1760,7 +1763,7 @@
   },
   {
     "name": "Northern Fairy Island",
-    "access_rules": [ "gifts" ],
+    "access_rules": [ "greatfairies" ],
     "sections": [
       {
         "name": "Great Fairy",
@@ -1811,7 +1814,7 @@
   },
   {
     "name": "Diamond Steppe Island",
-    "access_rules": [ "caves,hookshot" ],
+    "access_rules": [ "puzzlecaves,hookshot" ],
     "sections": [
       {
         "name": "Warp Maze",
@@ -1845,7 +1848,7 @@
   },
   {
     "name": "Bomb Island",
-    "access_rules": [ "caves,@move_boulders" ],
+    "access_rules": [ "puzzlecaves,@move_boulders" ],
     "sections": [
       {
         "name": "Firey Chest",
@@ -1896,7 +1899,7 @@
   },
   {
     "name": "Rock Spire Isle",
-    "access_rules": [ "caves,bombs" ],
+    "access_rules": [ "combatcaves,bombs" ],
     "sections": [
       {
         "name": "Too Many Keese",
@@ -1982,7 +1985,7 @@
   },
   {
     "name": "Shark Island",
-    "access_rules": [ "caves,boots,hammer" ],
+    "access_rules": [ "combatcaves,boots,hammer" ],
     "sections": [
       {
         "name": "Enemy Hell",
@@ -1999,7 +2002,7 @@
   },
   {
     "name": "Cliff Plateau Isles",
-    "access_rules": [ "caves" ],
+    "access_rules": [ "puzzlecaves" ],
     "sections": [
       {
         "name": "Cave",
@@ -2082,7 +2085,7 @@
       {
       	"name": "Cave",
       	"item_count": 1,
-      	"access_rules": [ "caves" ]
+      	"access_rules": [ "combatcaves" ]
       }
     ],
     "map_locations": [
@@ -2146,7 +2149,7 @@
   },
   {
     "name": "Star Island",
-    "access_rules": [ "caves,@move_boulders" ],
+    "access_rules": [ "combatcaves,@move_boulders" ],
     "sections": [
       {
         "name": "Cave Chest",
@@ -2343,7 +2346,7 @@
   },
   {
     "name": "Octo Fairy",
-    "access_rules": [ "octos,@defeat_octos" ],
+    "access_rules": [ "octos,greatfairies,@defeat_octos" ],
     "sections": [
       {
         "name": "Four Eyes",
