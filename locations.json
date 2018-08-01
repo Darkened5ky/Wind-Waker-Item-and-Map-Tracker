@@ -84,6 +84,11 @@
   	"access_rules": [ "mirror,power", "lightarrow,bow,power" ],
   	"sections": [{ "name": "access", "item_count": 1 }]
   },
+  {
+    "name": "defeat_seahats",
+  	"access_rules": [ "boomerang", "bow", "hookshot", "bombs" ],
+  	"sections": [{ "name": "access", "item_count": 1 }]
+  },
 
   //The Locations
   {
@@ -583,12 +588,12 @@
   	  {
   	  	"name": "Wingless Mothulas",
   	  	"item_count": 1,
-  	  	"access_rules": [ "leaf" ]
+  	  	"access_rules": [ "leaf,@defeat_door_flowers", "leaf,grapple" ]
   	  },
   	  {
   	  	"name": "Kalle Demos",
   	  	"item_count": 1,
-  	  	"access_rules": [ "leaf,@defeat_door_flowers,fw_bk,boomerang" ]
+  	  	"access_rules": [ "leaf,@defeat_door_flowers,fw_bk,boomerang", "leaf,grapple,fw_bk,boomerang" ]
   	  }
   	],
   	"map_locations": [
@@ -670,7 +675,7 @@
   	  {
   	  	"name": "Darknut Miniboss",
   	  	"item_count": 1,
-  	  	"access_rules": [ 
+  	  	"access_rules": [
   	  		"bombs,totg_key:1,@defeat_electric,grapple,command",
   	  		"bombs,totg_key:1,@defeat_electric,grapple,bow",
   	  		"bombs,totg_key:1,@defeat_electric,leaf,command",
@@ -685,33 +690,33 @@
   	  {
   	  	"name": "Lower Armos",
   	  	"item_count": 1,
-  	  	"access_rules": [ 
+  	  	"access_rules": [
           "bombs,totg_key:1,leaf,@defeat_electric,command,bow",
-          "bombs,totg_key:1,grapple,@defeat_electric,command,bow" 
+          "bombs,totg_key:1,grapple,@defeat_electric,command,bow"
         ]
   	  },
   	  {
   	  	"name": "Floating Platforms",
   	  	"item_count": 2,
-  	  	"access_rules": [ 
+  	  	"access_rules": [
           "bombs,totg_key:1,@defeat_electric,grapple,command,bow",
-          "bombs,totg_key:1,@defeat_electric,leaf,command,bow" 
+          "bombs,totg_key:1,@defeat_electric,leaf,command,bow"
         ]
   	  },
   	  {
   	  	"name": "Big Key Chest",
   	  	"item_count": 1,
-  	  	"access_rules": [ 
+  	  	"access_rules": [
           "bombs,@defeat_electric,grapple,command,bow,totg_key:2",
-          "bombs,@defeat_electric,leaf,command,bow,totg_key:2" 
+          "bombs,@defeat_electric,leaf,command,bow,totg_key:2"
         ]
   	  },
   	  {
   	  	"name": "Gohdan",
   	  	"item_count": 1,
-  	  	"access_rules": [ 
+  	  	"access_rules": [
           "bombs,@defeat_electric,grapple,command,bow,totg_key:2,totg_bk",
-          "bombs,@defeat_electric,leaf,command,bow,totg_key:2,totg_bk" 
+          "bombs,@defeat_electric,leaf,command,bow,totg_key:2,totg_bk"
         ]
   	  }
   	],
@@ -754,7 +759,7 @@
   	  {
   	  	"name": "Helmaroc King",
   	  	"item_count": 1,
-  	  	"access_rules": [ "hammer,[leaf]", "hammer,[hookshot]" ]
+  	  	"access_rules": [ "hammer,leaf", "hammer,hookshot" ]
   	  }
   	],
   	"map_locations": [
@@ -2607,7 +2612,7 @@
       {
         "name": "Sunken Treasure",
         "item_count": 1,
-        "access_rules": [ "chart6,grapple" ]
+        "access_rules": [ "chart6,grapple,bombs" ]
       }
     ],
     "map_locations": [
@@ -3182,7 +3187,7 @@
       {
         "name": "Sunken Treasure",
         "item_count": 1,
-        "access_rules": [ "chart31,grapple" ]
+        "access_rules": [ "chart31,grapple,@defeat_seahats" ]
       }
     ],
     "map_locations": [
