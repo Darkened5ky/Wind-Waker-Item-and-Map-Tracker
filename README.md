@@ -1,11 +1,14 @@
 # Wind-Waker-Item-and-Map-Tracker
 A Map/Item tracker for the Wind Waker Randomizer. Created by Darkened5ky with aesthetics help from Spleebie.
 
+##Usage
+- This is a pack for the program "EmoTracker", which can be obtained at https://emotracker.net/. The pack itself can be downloaded directly from within EmoTracker, so there is no need for you to download it from here.
+
 ##Map Tracking Help
 - Locations that are green mean that every item in that location is within logic.
-- Locations that are orange mean some items are in logic, but not all of them.
+- Locations that are orange mean some items are in obtainable, but not all of them.
 - Dungeons will always appear orange at first. Be sure you're marking your keys as the tracker checks for those keys in order to open the   dungeon chests that need them. Once you have all of the keys and necessary items, the dungeons will finally turn green as well.
-- Locations that are yellow mean that you can get the item, but it isn't in logic. Usually this means there is some kind of glitch or       tricky tech involved. Check the Randomizer Discord for details on the sequence breaks.
+- Locations that are yellow mean that you can get the item, but it isn't in logic. This is called a sequence break. Usually this means      there is some kind of glitch or tricky tech involved. Check the Randomizer Discord for details on the sequence breaks.
 - Locations that are blue mean that you can find out what item is there (via. seeing it or from reading some type of hint) before you can   get it. For these, you can mark which item is there by clicking on the dotted box. Eventually when you mark off this location, the item   will automatically fill into your tracker.
 
 ##The Map Itself
