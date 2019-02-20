@@ -294,7 +294,6 @@
 	{
 		"name": "Swords",
 		"type": "progressive",
-		"allow_disabled": false,
 		"stages": [
 			{
 				"img": "images/Hero's Sword.png",
@@ -654,8 +653,14 @@
 	{
 		"name": "Tingle Statues",
 		"type": "toggle",
-		"img": "images/Tingle Statue.png",
+		"img": "images/ToggleStatues.png",
 		"codes": "statues"
+	},
+	{
+		"name": "Swordless",
+		"type": "toggle",
+		"img": "images/ToggleSwordless.png",
+		"codes": "swordless"
 	},
 
 	//Charts...

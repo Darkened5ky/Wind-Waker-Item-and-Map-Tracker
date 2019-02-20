@@ -25,6 +25,11 @@
   	"access_rules": [ "boomerang", "bombs" ],
   	"sections": [{ "name": "access", "item_count": 1 }]
   },
+  {
+  	"name": "aim_mirror_shield",
+  	"access_rules": [ "mirror,sword", "mirror,windwaker", "mirror,grapple", "mirror,boomerang", "mirror,leaf", "mirror,bow", "mirror,hookshot" ],
+  	"sections": [{ "name": "access", "item_count": 1 }]
+  },
 
   //Area Access Rules
   {
@@ -66,7 +71,7 @@
   },
   {
     "name": "defeat_electric",
-    "access_rules": [ "boomerang", "bow", "bombs", "leaf", "hammer" ],
+    "access_rules": [ "boomerang,sword", "bow", "bombs", "leaf,sword", "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -81,7 +86,7 @@
   },
   {
   	"name": "defeat_jalhalla",
-  	"access_rules": [ "mirror,power", "lightarrow,bow,power" ],
+  	"access_rules": [ "@aim_mirror_shield,power", "lightarrow,bow,power" ],
   	"sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -142,7 +147,7 @@
         "name": "Floor 50",
         "item_count": 1,
         "capture_item": true,
-        "access_rules": [ "hammer,mirror,@defeat_peahats,@defeat_electric,@defeat_bluebubbles", "{}" ]
+        "access_rules": [ "hammer,@aim_mirror_shield,@defeat_peahats,@defeat_electric,@defeat_bluebubbles", "{}" ]
       }
     ],
     "map_locations": [
@@ -453,11 +458,14 @@
   	  	"item_count": 1,
   	  	"access_rules": [ "drc_key:4,grapple", "drc_key:4,leaf" ]
   	  },
-  	  /*{
+  	  {
   	  	"name": "Tingle Statue",
   	  	"item_count": 1,
-  	  	"access_rules": [ "statues,drc_key:4,grapple,tuner" ]
-  	  }*/
+  	  	"access_rules": [ "statues,drc_key:4,grapple,tuner,sword", 
+  	  					  "statues,drc_key:4,grapple,tuner,bombs", 
+  	  					  "statues,drc_key:4,grapple,tuner,bow", 
+  	  					  "statues,drc_key:4,grapple,tuner,hammer" ]
+  	  },
   	  {
   	  	"name": "Big Key Chest",
   	  	"item_count": 1,
@@ -570,11 +578,11 @@
   	  	"item_count": 1,
   	  	"access_rules": [ "leaf,grapple,[boomerang]" ]
   	  },
-  	  /*{
+  	  {
   	  	"name": "Tingle Statue Chest",
   	  	"item_count": 1,
   	  	"access_rules": [ "statues,leaf,grapple,boomerang,tuner" ]
-  	  },*/
+  	  },
   	  {
   	  	"name": "Tree Trunk Chest",
   	  	"item_count": 1,
@@ -662,11 +670,11 @@
   	  	"item_count": 1,
   	  	"access_rules": [ "bombs,bow" ]
   	  },
-  	  /*{
-  	  	"name": "Tingle Statue",
+  	  {
+  	  	"name": "Tingle Statue Chest",
   	  	"item_count": 1,
   	  	"access_rules": [ "statues,bombs,totg_key:1,@defeat_electric,tuner" ]
-  	  },*/
+  	  },
   	  {
   	  	"name": "Stone Tablet",
   	  	"item_count": 1,
@@ -930,7 +938,7 @@
       {
         "name": "Destructible Wall Chest",
         "item_count": 1,
-        "access_rules": [ "hammer,mirror" ]
+        "access_rules": [ "hammer,@aim_mirror_shield" ]
       },
   	  {
   	  	"name": "First Crypt Chest",
@@ -957,45 +965,45 @@
   	  	"item_count": 1,
   	  	"access_rules": [ "et_key:3,elementals,bow,power" ]
   	  },
-  	  /*{
+  	  {
   	  	"name": "Tingle Statue",
   	  	"item_count": 1,
-  	  	"access_rules": [ "statues,mirror,leaf,tuner" ]
-  	  },*/
+  	  	"access_rules": [ "statues,@aim_mirror_shield,leaf,tuner,command" ]
+  	  },
   	  {
   	  	"name": "Foggy Floormaster Maze",
   	  	"item_count": 2,
-  	  	"access_rules": [ "mirror,lyric" ]
+  	  	"access_rules": [ "@aim_mirror_shield,lyric" ]
   	  },
   	  /*{
   	  	"name": "Curtains next to Hammer Peg",
   	  	"item_count": 1,
-  	  	"access_rules": [ "mirror,lyric" ]
+  	  	"access_rules": [ "@aim_mirror_shield,lyric" ]
   	  },*/
   	  {
   	  	"name": "Crypt Maze Chest",
   	  	"item_count": 1,
-  	  	"access_rules": [ "mirror,lyric,power,hammer,et_key:3" ]
+  	  	"access_rules": [ "@aim_mirror_shield,lyric,power,hammer,et_key:3" ]
   	  },
   	  {
   	  	"name": "Mirror Room Chests",
   	  	"item_count": 2,
-  	  	"access_rules": [ "mirror,lyric,power,hammer,et_key:3"]
+  	  	"access_rules": [ "@aim_mirror_shield,lyric,power,hammer,et_key:3"]
   	  },
   	  {
   	  	"name": "Stalfos Crpyt",
   	  	"item_count": 1,
-  	  	"access_rules": [ "mirror,lyric,power,hammer,et_key:3" ]
+  	  	"access_rules": [ "@aim_mirror_shield,lyric,power,hammer,et_key:3" ]
   	  },
   	  {
   	  	"name": "Big Key Chest",
   	  	"item_count": 1,
-  	  	"access_rules": [ "mirror,lyric,power,hammer,et_key:3,@defeat_bluebubbles" ]
+  	  	"access_rules": [ "@aim_mirror_shield,lyric,power,hammer,et_key:3,@defeat_bluebubbles" ]
   	  },
   	  {
   	  	"name": "Jalhalla",
   	  	"item_count": 1,
-  	  	"access_rules": [ "et_bk,et_key:3,mirror,lyric,power,hammer" ]
+  	  	"access_rules": [ "et_bk,et_key:3,@aim_mirror_shield,lyric,power,hammer" ]
   	  }
   	],
   	"map_locations": [
@@ -1023,11 +1031,11 @@
   	  	"item_count": 1,
   	  	"access_rules": [ "command" ]
   	  },
-  	  /*{
+  	  {
   	  	"name": "Tingle Statue",
   	  	"item_count": 1,
   	  	"access_rules": [ "statues,command,boots,leaf,tuner" ]
-  	  },*/
+  	  },
   	  {
         "name": "Chest in Alcove",
         "item_count": 1,
@@ -1127,7 +1135,7 @@
   	  {
   	  	"name": "Baito (Must Clear ET)",
   	  	"item_count": 1,
-  	  	"access_rules": [ "delivery,momletter,mirror,lyric,power,hammer,[passing]" ] /*fix*/
+  	  	"access_rules": [ "delivery,momletter,@aim_mirror_shield,lyric,power,hammer,[passing]" ] /*fix*/
   	  },
   	  {
   	  	"name": "Rito Chieftan",
@@ -1410,7 +1418,7 @@
       {
       	"name": "Cave",
       	"item_count": 1,
-      	"access_rules": [ "puzzlecaves,leaf,mirror", "puzzlecaves,hookshot,mirror" ]
+      	"access_rules": [ "puzzlecaves,leaf,@aim_mirror_shield", "puzzlecaves,hookshot,@aim_mirror_shield" ]
       }
     ],
     "map_locations": [

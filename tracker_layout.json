@@ -335,6 +335,10 @@
             },
             {
               "type": "item",
+              "item": "statues"
+            },
+            {
+              "type": "item",
               "item": "combatcaves"
             },
             {
@@ -366,7 +370,18 @@
               "item": "misc"
             }
           ]
-        }
+        },
+        {
+          "type": "array",
+          "orientation": "vertical",
+          "h_alignment": "center",
+          "content": [
+            {
+              "type": "item",
+              "item": "swordless"
+            }
+          ]
+        },
       ]
     },
     "tracker_default": {
