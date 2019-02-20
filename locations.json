@@ -229,7 +229,7 @@
       {
         "name": "Zunari - Exotic Flower Reward",
         "item_count": 1,
-        "access_rules": [ "delivery,longsidequests" ]
+        "access_rules": [ "delivery,shortsidequests" ]
       },
       {
         "name": "Kamo",
@@ -245,7 +245,7 @@
     "map_locations": [
       {
         "map": "map",
-        "x": 514,
+        "x": 505,
         "y": 226
       }
     ]
@@ -330,12 +330,7 @@
         "item_count": 1,
         "capture_item": true,
         "access_rules": [ "expensive" ]
-      },
-      {
-        "name": "Sploosh Kaboom",
-        "item_count": 3,
-        "clear_as_group": false
-      },
+      }
       /*{
         "name": "Dampa's Pigs",
         "item_count": 1,
@@ -347,6 +342,31 @@
         "map": "map",
         "x": 524,
         "y": 244
+      }
+    ]
+  },
+  {
+    "name": "Sploosh Kaboom",
+    "access_rules": [ "sploosh" ],
+    "sections": [
+      {
+      	"name": "First Prize",
+      	"item_count": 1
+      },
+      {
+      	"name": "Second Prize",
+      	"item_count": 1
+      },
+      {
+      	"name": "Under 20 Shots",
+      	"item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+      	"map": "map",
+      	"x": 524,
+      	"y": 226
       }
     ]
   },
@@ -1822,6 +1842,23 @@
         "map": "map",
         "x": 368,
         "y": 354
+      }
+    ]
+  },
+  {
+    "name": "Ankle",
+    "access_rules": [ "misc,statue5" ],
+    "sections": [
+      {
+        "name": "Reward for 5 Tingle Statues",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 367,
+        "y": 412
       }
     ]
   },

@@ -284,9 +284,14 @@
 	},
 	{
 		"name": "Song of Passing",
-		"type": "toggle",
-		"img": "images/Song of Passing.png",
-		"codes": "passing"
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages":[
+			{
+				"img": "images/Song of Passing.png",
+				"codes": "passing"
+			}
+		]
 	},
 
 	//Equipment
@@ -371,6 +376,34 @@
 		"type": "toggle",
 		"img": "images/Note to Mom.png",
 		"codes": "momletter"
+	},
+
+	//Tingle Statues
+	{
+		"name": "Tingle Statues",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/Tingle Statue.png",
+				"codes": "statue1"
+			},
+			{
+				"img": "images/Tingle Statue2.png",
+				"codes": "statue2"
+			},
+			{
+				"img": "images/Tingle Statue3.png",
+				"codes": "statue3"
+			},
+			{
+				"img": "images/Tingle Statue4.png",
+				"codes": "statue4"
+			},
+			{
+				"img": "images/Tingle Statue5.png",
+				"codes": "statue5"
+			}
+		]
 	},
 
 	//Pearls
@@ -595,6 +628,12 @@
 		"type": "toggle",
 		"img": "images/ToggleFreeGifts.png",
 		"codes": "gifts"
+	},
+	{
+		"name": "Sploosh",
+		"type": "toggle",
+		"img": "images/ToggleSploosh.png",
+		"codes": "sploosh"
 	},
 	{
 		"name": "Expensive Stuff",

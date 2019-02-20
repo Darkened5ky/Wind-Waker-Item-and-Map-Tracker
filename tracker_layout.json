@@ -244,10 +244,10 @@
           "item_margin": "0,0,4,15",
           "item_size": 48,
           "rows": [
-            [ "telescope", "sail", "windwaker", "grapple", "spoils", "boomerang", "leaf", "double", "sword" ],
-            [ "tuner", "pic1", "boots", "armor", "baitbag", "bow", "bombs", "wallet", "shield" ],
-            [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "tflower", "power" ],
-            [ "deed", "requiem", "ballad", "command", "lyric", "aria", "passing", "gschart" ],
+            [ "telescope", "sail", "windwaker", "grapple", "spoils", "boomerang", "leaf", "double", "sword", "statue1" ],
+            [ "tuner", "pic1", "boots", "armor", "baitbag", "bow", "bombs", "wallet", "shield", "" ],
+            [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "tflower", "power", "" ],
+            [ "requiem", "ballad", "command", "lyric", "aria", "passing", "deed", "gschart", "gschart", "" ]
           ]
         },
         {
@@ -305,6 +305,10 @@
             {
               "type": "item",
               "item": "gifts"
+            },
+            {
+              "type": "item",
+              "item": "sploosh"
             },
             {
               "type": "item",
