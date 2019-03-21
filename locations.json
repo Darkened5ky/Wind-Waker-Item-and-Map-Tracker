@@ -517,7 +517,7 @@
   	  {
   	  	"name": "Tree Branch",
   	  	"item_count": 1,
-  	  	"access_rules": [ "misc,leaf,[grapple]" ]
+  	  	"access_rules": [ "misc,leaf,[grapple]", "misc,grapple" ]
   	  },
   	  {
   	  	"name": "Small Island",
