@@ -76,57 +76,57 @@
 			{
 				"img": "images/Sea Flower.png",
 				"codes": "sflower",
-        "inherit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Exotic Flower.png",
 				"codes": "eflower",
-        "inherit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Pinwheel.png",
 				"codes": "pinwheel",
-        "inherit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Sickle Moon Flag.png",
 				"codes": "smflag",
-        "inherit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Big Catch Flag.png",
 				"codes": "bcflag",
-        "inherit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Fountain Idol.png",
 				"codes": "fidol",
-        "inherit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Skull Tower Idol.png",
 				"codes": "stidol",
-        "inherit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Big Sale Flag.png",
 				"codes": "bsflag",
-        "inherit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Hero's Flag.png",
 				"codes": "hflag",
-        "inherit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Postman Statue.png",
 				"codes": "pstatue",
-        "inherit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Shop Guru Statue.png",
 				"codes": "sgstatue",
-        "inherit_codes": false
+				"inherit_codes": false
 			}
 		]
 	},
