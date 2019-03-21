@@ -489,7 +489,7 @@
   	  {
   	  	"name": "Big Key Chest",
   	  	"item_count": 1,
-  	  	"access_rules": [ "drc_key:4,grapple" ]
+  	  	"access_rules": [ "drc_key:4,grapple", "drc_key:1,leaf,grapple", "drc_key:1,elementals,grapple" ]
   	  },
   	  {
   	  	"name": "Boss Stairs",
