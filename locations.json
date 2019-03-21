@@ -1079,7 +1079,7 @@
       {
         "name": "Miniboss",
         "item_count": 1,
-        "access_rules": [ "command,boots,leaf,wt_key:2,@defeat_peahats" ]
+        "access_rules": [ "command,boots,leaf,wt_key:1,@defeat_peahats" ]
       },
       {
         "name": "Makar's Cell",
@@ -1104,12 +1104,12 @@
       {
       	"name": "Basement Enemy Room",
       	"item_count": 1,
-      	"access_rules": [ "command,boots,leaf,hookshot,wt_key:2" ]
+      	"access_rules": [ "command,boots,leaf,hookshot,wt_key:1" ]
       },
       {
         "name": "Molgera",
         "item_count": 1,
-        "access_rules": [ "command,boots,leaf,hookshot,wt_key:2,aria,wt_bk" ]
+        "access_rules": [ "command,boots,leaf,hookshot,wt_key:1,aria,wt_bk" ]
       },
   	],
   	"map_locations": [
