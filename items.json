@@ -27,7 +27,7 @@
 	{
 		"name": "Wind Waker",
 		"type": "progressive",
-		"allow_disabled": false,
+		"initial_stage_idx": 0,
 		"stages": [
 			{
 				"img": "images/Wind Waker.png",
@@ -71,39 +71,62 @@
 		"stages": [
 			{
 				"img": "images/Town Flower.png",
-				"codes": "tflower,flower,trade,trading,tradequest"
+				"codes": "tflower"
 			},
 			{
 				"img": "images/Sea Flower.png",
-				"codes": "sflower"
+				"codes": "sflower",
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Exotic Flower.png",
-				"codes": "eflower"
+				"codes": "eflower",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/Pinwheel.png",
+				"codes": "pinwheel",
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Sickle Moon Flag.png",
-				"codes": "sflag"
+				"codes": "smflag",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/Big Catch Flag.png",
+				"codes": "bcflag",
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Fountain Idol.png",
-				"codes": "fountain"
+				"codes": "fidol",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/Skull Tower Idol.png",
+				"codes": "stidol",
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Big Sale Flag.png",
-				"codes": "bigflag"
+				"codes": "bsflag",
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Hero's Flag.png",
-				"codes": "hflag"
+				"codes": "hflag",
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Postman Statue.png",
-				"codes": "pstatue"
+				"codes": "pstatue",
+				"inherit_codes": false
 			},
 			{
 				"img": "images/Shop Guru Statue.png",
-				"codes": "sgstatue"
+				"codes": "sgstatue",
+				"inherit_codes": false
 			}
 		]
 	},
@@ -175,7 +198,7 @@
 			},
 			{
 				"img": "images/Hero's Bow New Fi.png",
-				"codes": "elementals"
+				"codes": "firearrow,icearrow"
 			},
 			{
 				"img": "images/Hero's Bow New Light.png",
@@ -245,7 +268,7 @@
 	{
 		"name": "Wind's Requiem",
 		"type": "progressive",
-		"allow_disabled": false,
+		"initial_stage_idx": 0,
 		"stages": [
 			{
 				"img": "images/Wind's Requiem.png",
@@ -256,7 +279,7 @@
 	{
 		"name": "Ballad of Gales",
 		"type": "progressive",
-		"allow_disabled": false,
+		"initial_stage_idx": 0,
 		"stages": [
 			{
 				"img": "images/Ballad of Gales.png",
@@ -285,7 +308,7 @@
 	{
 		"name": "Song of Passing",
 		"type": "progressive",
-		"allow_disabled": false,
+		"initial_stage_idx": 0,
 		"stages":[
 			{
 				"img": "images/Song of Passing.png",
@@ -321,7 +344,7 @@
 	{
 		"name": "Shields",
 		"type": "progressive",
-		"allow_disabled": false,
+		"initial_stage_idx": 0,
 		"stages": [
 			{
 				"img": "images/Hero's Shield.png",
@@ -700,6 +723,18 @@
 		"type": "toggle",
 		"img": "images/ToggleSwordless.png",
 		"codes": "swordless"
+	},
+	{
+		"name": "Skip Rematches",
+		"type": "toggle",
+		"img": "images/ToggleRematches.png",
+		"codes": "skip_rematches"
+	},
+	{
+		"name": "Savage Labyrinth",
+		"type": "toggle",
+		"img": "images/ToggleSavage.png",
+		"codes": "savage"
 	},
 
 	//Charts...
