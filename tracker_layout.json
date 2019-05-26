@@ -300,15 +300,11 @@
             },
             {
               "type": "item",
-              "item": "spoilstrading"
+              "item": "greatfairies"
             },
             {
               "type": "item",
-              "item": "gifts"
-            },
-            {
-              "type": "item",
-              "item": "sploosh"
+              "item": "minigames"
             },
             {
               "type": "item",
@@ -316,15 +312,7 @@
             },
             {
               "type": "item",
-              "item": "reefs"
-            },
-            {
-              "type": "item",
               "item": "triforcecharts"
-            },
-            {
-              "type": "item",
-              "item": "expensive"
             }
           ]
         },
@@ -333,10 +321,6 @@
           "orientation": "vertical",
           "h_alignment": "center",
           "content": [
-            {
-              "type": "item",
-              "item": "greatfairies"
-            },
             {
               "type": "item",
               "item": "statues"
@@ -351,11 +335,11 @@
             },
             {
               "type": "item",
-              "item": "minigames"
+              "item": "gifts"
             },
             {
               "type": "item",
-              "item": "mail"
+              "item": "sploosh"
             },
             {
               "type": "item",
@@ -363,15 +347,11 @@
             },
             {
               "type": "item",
-              "item": "octos"
-            },
-            {
-              "type": "item",
               "item": "treasurecharts"
             },
             {
               "type": "item",
-              "item": "misc"
+              "item": "swordless"
             }
           ]
         },
@@ -382,7 +362,31 @@
           "content": [
             {
               "type": "item",
-              "item": "swordless"
+              "item": "mail"
+            },
+            {
+              "type": "item",
+              "item": "savage"
+            },
+            {
+              "type": "item",
+              "item": "spoilstrading"
+            },
+            {
+              "type": "item",
+              "item": "misc"
+            },
+            {
+              "type": "item",
+              "item": "expensive"
+            },
+            {
+              "type": "item",
+              "item": "octos"
+            },
+            {
+              "type": "item",
+              "item": "reefs"
             }
           ]
         },
