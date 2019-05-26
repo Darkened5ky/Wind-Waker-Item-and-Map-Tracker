@@ -1,5 +1,5 @@
 # Wind-Waker-Item-and-Map-Tracker
-A Map/Item tracker for the Wind Waker Randomizer. Created by Darkened5ky with aesthetics help from Spleebie.
+A Map/Item tracker for the Wind Waker Randomizer. Created by Darkened5ky, updated logic by emerald000, with aesthetics help from Spleebie.
 
 ##Usage
 - This is a pack for the program "EmoTracker", which can be obtained at https://emotracker.net/. The pack itself can be downloaded directly from within EmoTracker, so there is no need for you to download it from here.
