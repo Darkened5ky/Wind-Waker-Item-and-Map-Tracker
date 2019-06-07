@@ -1246,7 +1246,7 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Tingle Statue",
+        "name": "Tingle Statue Chest",
         "item_count": 1,
         "access_rules": [ "drc_key:4,@can_cut_down_hanging_drc_platform,grapple,@tingle_tuner_bombs", 
                           "drc_key:1,leaf,grapple,@tingle_tuner_bombs", 
@@ -4430,7 +4430,7 @@
       {
         "name": "Sunken Treasure",
         "item_count": 1,
-        "access_rules": [ "chart31,grapple,[@can_defeat_seahats" ],
+        "access_rules": [ "chart31,grapple,[@can_defeat_seahats]" ],
         "visibility_rules": [ "treasurecharts",
                               "triforcecharts" ]
       }
