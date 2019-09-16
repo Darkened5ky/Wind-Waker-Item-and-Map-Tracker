@@ -1,6 +1,5 @@
 ﻿{
   "type": "array",
-    //"background": "#8d5e8d", //this color works well for color keying in OBS
     "margin": "0",
     "width": 520,
     "height": 800,
