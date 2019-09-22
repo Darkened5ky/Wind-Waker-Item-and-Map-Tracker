@@ -19,7 +19,6 @@ A Map/Item tracker for the Wind Waker Randomizer. Created by Darkened5ky, update
 
 ##TODO List:
 - Create a tab for tracking Treasure/Triforce Charts. This will take some time and may not be done until post-release. (Yes, I do plan on   still doing this potentially.)
-- Ensure the platform chests properly detail what you need to do in order to get them. Some of these may currently be wrong.
 - Decide what to do with the Withered Trees Sidequest. Currently it is located at Forest Haven, but I may want to have it show for every     location a withered tree is at. So maybe get coordinates for these?
 - Get coordinates for all of the locations the Ghost Ship appears in.
 - Get coordinates for all of the locations Cyclos appears in.

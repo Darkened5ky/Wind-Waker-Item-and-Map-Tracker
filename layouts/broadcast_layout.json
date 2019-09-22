@@ -1,0 +1,292 @@
+﻿{
+  "tracker_broadcast": {
+    "type": "array",
+      "margin": "0",
+      "width": 520,
+      "height": 800,
+      "content": [
+        {
+          "type": "array",
+          "orientation": "vertical",
+          "h_alignment": "center",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "itemgrid",
+                  "h_alignment": "center",
+                  "item_margin": "0,0,4,15",
+                  "item_size": 48,
+                  "rows": [
+                    [ "telescope", "sail", "windwaker", "grapple", "spoils", "boomerang", "leaf", "double", "sword" ],
+                    [ "tuner", "pic1", "boots", "armor", "baitbag", "bow", "bombs", "wallet", "shield" ],
+                    [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "tflower", "power"],
+                    [ "requiem", "ballad", "command", "lyric", "aria", "passing", "deed", "gschart", "statue1"]
+                  ]
+                },
+                {
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "h_alignment": "center",
+                  "content": [
+                    {
+                      "type": "canvas",
+                      "width": 119,
+                      "height": 105,
+                      "content": [
+                        {
+                          "type": "item",
+                          "item": "din",
+                          "width": 32,
+                          "height": 32,
+                          "canvas_left": 0,
+                          "canvas_top": 60
+                        },
+                        {
+                          "type": "item",
+                          "item": "farore",
+                          "width": 32,
+                          "height": 32,
+                          "canvas_left": 64,
+                          "canvas_top": 60
+                        },
+                        {
+                          "type": "item",
+                          "item": "nayru",
+                          "width": 32,
+                          "height": 32,
+                          "canvas_left": 32,
+                          "canvas_top": 12
+                        }
+                      ]
+                    },
+                    {
+                      "type": "canvas",
+                      "width": 130,
+                      "height": 80,
+                      "content": [
+                        {
+                          "type": "image",
+                          "image": "images/drcicon.png",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 12,
+                          "canvas_top": 0
+                        },
+                        {
+                          "type": "item",
+                          "item": "drc_key",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 0,
+                          "canvas_top": 18
+                        },
+                        {
+                          "type": "item",
+                          "item": "drc_bk",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 20,
+                          "canvas_top": 18
+                        },
+                        {
+                          "type": "image",
+                          "image": "images/fwicon.png",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 59,
+                          "canvas_top": 0
+                        },
+                        {
+                          "type": "item",
+                          "item": "fw_key",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 46,
+                          "canvas_top": 18
+                        },
+                        {
+                          "type": "item",
+                          "item": "fw_bk",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 66,
+                          "canvas_top": 18
+                        },
+                        {
+                          "type": "image",
+                          "image": "images/totgicon.png",
+                          "width": 35,
+                          "height": 20,
+                          "canvas_left": 96,
+                          "canvas_top": 0
+                        },
+                        {
+                          "type": "item",
+                          "item": "totg_key",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 90,
+                          "canvas_top": 18
+                        },
+                        {
+                          "type": "item",
+                          "item": "totg_bk",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 110,
+                          "canvas_top": 18
+                        },
+                        {
+                          "type": "image",
+                          "image": "images/eticon.png",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 30,
+                          "canvas_top": 43
+                        },
+                        {
+                          "type": "item",
+                          "item": "et_key",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 17,
+                          "canvas_top": 60
+                        },
+                        {
+                          "type": "item",
+                          "item": "et_bk",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 37,
+                          "canvas_top": 60
+                        },
+                        {
+                          "type": "image",
+                          "image": "images/wticon.png",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 82,
+                          "canvas_top": 43
+                        },
+                        {
+                          "type": "item",
+                          "item": "wt_key",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 69,
+                          "canvas_top": 60
+                        },
+                        {
+                          "type": "item",
+                          "item": "wt_bk",
+                          "width": 20,
+                          "height": 20,
+                          "canvas_left": 89,
+                          "canvas_top": 60
+                        }
+                      ]
+                    },
+                    {
+                      "type": "canvas",
+                        "width": 120,
+                        "height": 105,
+                        "content": [
+                          {
+                            "type": "item",
+                            "item": "triforce_1",
+                            "width": 48,
+                            "height": 48,
+                            "canvas_left": 38,
+                            "canvas_top": 0
+                          },
+                          {
+                            "type": "item",
+                            "item": "triforce_2",
+                            "width": 48,
+                            "height": 48,
+                            "canvas_left": 17,
+                            "canvas_top": 17
+                          },
+                          {
+                            "type": "item",
+                            "item": "triforce_3",
+                            "width": 48,
+                            "height": 48,
+                            "canvas_left": 36,
+                            "canvas_top": 26
+                          },
+                          {
+                            "type": "item",
+                            "item": "triforce_4",
+                            "width": 48,
+                            "height": 48,
+                            "canvas_left": 17,
+                            "canvas_top": 43
+                          },
+                          {
+                            "type": "item",
+                            "item": "triforce_5",
+                            "width": 48,
+                            "height": 48,
+                            "canvas_left": 57,
+                            "canvas_top": 32
+                          },
+                          {
+                            "type": "item",
+                            "item": "triforce_6",
+                            "width": 48,
+                            "height": 48,
+                            "canvas_left": 1,
+                            "canvas_top": 52
+                          },
+                          {
+                            "type": "item",
+                            "item": "triforce_7",
+                            "width": 48,
+                            "height": 48,
+                            "canvas_left": 40,
+                            "canvas_top": 57
+                          },
+                          {
+                            "type": "item",
+                            "item": "triforce_8",
+                            "width": 48,
+                            "height": 48,
+                            "canvas_left": 72,
+                            "canvas_top": 55
+                          },
+                          {
+                            "type": "item",
+                            "item": "triforce_full",
+                            "width": 118,
+                            "height": 104,
+                            "canvas_depth": 0,
+                            "canvas_top": 3,
+                            "canvas_left": 0,
+                            "hit_test_visible": false
+                          }
+                        ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "width": 420,
+              "height": 800,
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+  }
+}

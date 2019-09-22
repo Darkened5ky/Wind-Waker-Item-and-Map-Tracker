@@ -452,12 +452,10 @@
 	//The Rest
 	{
 		"name": "Triforce Shards",
-		"type": "progressive",
-		"stages": [
-			{
-				"img": "images/Triforce of Courage.png"
-			}
-		]
+		"type": "toggle",
+		"img": "images/Triforce of Courage.png",
+		"disabled_img": "images/triforce_disabled.png",
+		"codes": "triforce_full"
 	},
 	{
 		"name": "Triforce Shard 1",

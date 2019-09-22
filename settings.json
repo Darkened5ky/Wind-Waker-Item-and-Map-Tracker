@@ -1,0 +1,7 @@
+{
+    "map_enabled": true,
+    "auto_unpin_on_clear": true,
+    "disabled_image_filter": "grayscale, dim",
+    "chest_unopened_img": "images/BasicChestClosed.png",
+    "chest_opened_img": "images/BasicChestOpen.png"
+}
