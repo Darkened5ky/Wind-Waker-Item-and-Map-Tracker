@@ -2,8 +2,9 @@
   "tracker_broadcast": {
     "type": "array",
       "margin": "0",
-      "width": 520,
-      "height": 800,
+      "width": 535,
+      "height": 420,
+	  "background": "#0000ff",
       "content": [
         {
           "type": "array",
@@ -269,21 +270,21 @@
                           "hit_test_visible": false
                         }
                       ]
-                    }
+                    },
+					{
+					  "type": "container",
+					  "width": 130,
+					  "height": 130,
+					  "content": {
+						"type": "map",
+						"maps": [
+						  "map"
+						]
+					  }
+					}
                   ]
                 }
               ]
-            },
-            {
-              "type": "container",
-              "width": 420,
-              "height": 800,
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map"
-                ]
-              }
             }
           ]
         }

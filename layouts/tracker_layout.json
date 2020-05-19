@@ -296,15 +296,11 @@
           },
           {
             "type": "item",
-            "item": "puzzlecaves"
+            "item": "greatfairies"
           },
           {
             "type": "item",
             "item": "shortsidequests"
-          },
-          {
-            "type": "item",
-            "item": "greatfairies"
           },
           {
             "type": "item",
@@ -317,7 +313,7 @@
           {
             "type": "item",
             "item": "triforcecharts"
-          }
+          },
         ]
       },
       {
@@ -327,19 +323,15 @@
         "content": [
           {
             "type": "item",
-            "item": "statues"
-          },
-          {
-            "type": "item",
-            "item": "combatcaves"
-          },
-          {
-            "type": "item",
-            "item": "longsidequests"
+            "item": "puzzlecaves"
           },
           {
             "type": "item",
             "item": "gifts"
+          },
+          {
+            "type": "item",
+            "item": "longsidequests"
           },
           {
             "type": "item",
@@ -353,10 +345,6 @@
             "type": "item",
             "item": "treasurecharts"
           },
-          {
-            "type": "item",
-            "item": "swordless"
-          }
         ]
       },
       {
@@ -366,19 +354,15 @@
         "content": [
           {
             "type": "item",
-            "item": "mail"
-          },
-          {
-            "type": "item",
-            "item": "savage"
-          },
-          {
-            "type": "item",
-            "item": "spoilstrading"
+            "item": "combatcaves"
           },
           {
             "type": "item",
             "item": "misc"
+          },
+          {
+            "type": "item",
+            "item": "spoilstrading"
           },
           {
             "type": "item",
@@ -390,8 +374,39 @@
           },
           {
             "type": "item",
+            "item": "skip_rematches"
+          },
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "h_alignment": "center",
+        "content": [
+          {
+            "type": "item",
+            "item": "savage"
+          },
+          {
+            "type": "item",
+            "item": "statues"
+          },
+          {
+            "type": "item",
+            "item": "mail"
+          },
+          {
+            "type": "item",
+            "item": "islandpuzzle"
+          },
+          {
+            "type": "item",
             "item": "reefs"
-          }
+          },
+          {
+            "type": "item",
+            "item": "swordless"
+          },
         ]
       },
     ]
