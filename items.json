@@ -609,7 +609,7 @@
 		"codes": "shortsidequests"
 	},
 	{
-		"name": "LongSidequests",
+		"name": "Long Sidequests",
 		"type": "toggle",
 		"img": "images/ToggleLongSidequests.png",
 		"codes": "longsidequests"
@@ -733,6 +733,12 @@
 		"type": "toggle",
 		"img": "images/ToggleSavage.png",
 		"codes": "savage"
+	},
+	{
+		"name": "Island Puzzles",
+		"type": "toggle",
+		"img": "images/ToggleIslandPuzzle.png",
+		"codes": "islandpuzzle"
 	},
 
 	//Charts...
