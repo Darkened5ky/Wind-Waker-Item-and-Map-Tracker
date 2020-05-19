@@ -641,7 +641,7 @@
   },
   {
     "name": "can_get_inside_forsaken_fortress",
-    "access_rules": [ "@can_get_past_forsaken_fortress_gate,hammer" ],
+    "access_rules": [ "@can_get_past_forsaken_fortress_gate,[hammer]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -996,7 +996,7 @@
         "visibility_rules": [ "gifts" ]
       },
       {
-        "name": "Pirate Ship",
+        "name": "Pirate Ship", //need to move to minigames but I am currently in a run and don't want brick
         "item_count": 1,
         "visibility_rules": [ "minigames" ]
       },
@@ -1183,7 +1183,7 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Across Lava Pit",
+        "name": "Across Lava Pit", //move lower in list to better match player movement
         "item_count": 1,
         "access_rules": [ "drc_key:2,leaf",
                           "drc_key:2,grapple",
@@ -1618,8 +1618,8 @@
       {
         "name": "Map Chest",
         "item_count": 1,
-        "access_rules": [ "@can_get_inside_forsaken_fortress,leaf",
-                          "@can_get_inside_forsaken_fortress,hookshot" ],
+        "access_rules": [ "@can_get_inside_forsaken_fortress,[leaf]",
+                          "@can_get_inside_forsaken_fortress,[hookshot]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -1645,7 +1645,8 @@
         "item_count": 1,
         "access_rules": [ "@can_get_inside_forsaken_fortress,hammer,[leaf],@can_defeat_helmaroc_king",
                           "@can_get_inside_forsaken_fortress,hammer,[hookshot],@can_defeat_helmaroc_king" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/4 Helmaroc King.png"
       }
     ],
     "map_locations": [
@@ -1653,6 +1654,11 @@
         "map": "map",
         "x": 677,
         "y": 1055
+      },
+      {
+        "map": "map",
+        "x": 80,
+        "y": 88
       }
     ]
   },
@@ -1816,7 +1822,7 @@
         "item_count": 1,
         "access_rules": [ "baitbag,@can_buy_hyoi_pears",
                           "{}" ],
-        "visibility_rules": [ "island" ],
+        "visibility_rules": [ "islandpuzzle" ],
         "capture_item": true
       }
     ],
@@ -2072,7 +2078,7 @@
         "name": "Defeat Ganondorf",
         "item_count": 1,
         "access_rules": [ "@can_reach_and_defeat_ganondorf" ],
-        "chest_unopened_img": "images/Triforce of Courage.png"
+        "chest_unopened_img": "images/dungeon/7 Ganondorf.png"
       }
     ],
     "map_locations": [
@@ -4893,7 +4899,8 @@
         "name": "Completed Dungeon",
         "item_count": 1,
         "access_rules": [ "@can_access_dragon_roost_cavern" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/1 Gohma.png"
       },
     ],
     "map_locations": [
@@ -4912,7 +4919,8 @@
         "name": "Completed Dungeon",
         "item_count": 1,
         "access_rules": [ "@can_access_forbidden_woods" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/2 Kalle Demos.png"
       },
     ],
     "map_locations": [
@@ -4931,7 +4939,8 @@
         "name": "Completed Dungeon",
         "item_count": 1,
         "access_rules": [ "@can_access_tower_of_the_gods" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/3 Gohdan.png"
       },
     ],
     "map_locations": [
@@ -4943,26 +4952,6 @@
     ]
   },
   {
-    "name": "Forsaken Fortress Location",
-    "access_rules": [ "@can_get_inside_forsaken_fortress" ],
-    "sections": [
-      {
-        "name": "Helmaroc King",
-        "item_count": 1,
-        "access_rules": [ "@can_get_inside_forsaken_fortress,hammer,[leaf],@can_defeat_helmaroc_king",
-                          "@can_get_inside_forsaken_fortress,hammer,[hookshot],@can_defeat_helmaroc_king"],
-        "visibility_rules": [ "dungeons" ]
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "map",
-        "x": 80,
-        "y": 88
-      }
-    ]
-  },
-  {
     "name": "Earth Temple Entrance",
     "access_rules": [ "@can_access_earth_temple" ],
     "sections": [
@@ -4970,7 +4959,8 @@
         "name": "Completed Dungeon",
         "item_count": 1,
         "access_rules": [ "@can_access_earth_temple" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/5 Jalhalla.png"
       },
     ],
     "map_locations": [
@@ -4989,7 +4979,8 @@
         "name": "Completed Dungeon",
         "item_count": 1,
         "access_rules": [ "@can_access_wind_temple" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/6 Molgera.png"
       },
     ],
     "map_locations": [
