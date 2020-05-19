@@ -1,5 +1,5 @@
 # Wind-Waker-Item-and-Map-Tracker
-A Map/Item tracker for the Wind Waker Randomizer. Created by Darkened5ky, updated logic by emerald000, with aesthetics help from Spleebie.
+A Map/Item tracker for the Wind Waker Randomizer. Created by Darkened5ky, updated logic by emerald000 and Zach the DualVission, with aesthetics help from Spleebie.
 
 ##Usage
 - This is a pack for the program "EmoTracker", which can be obtained at https://emotracker.net/. The pack itself can be downloaded directly from within EmoTracker, so there is no need for you to download it from here.
@@ -23,3 +23,8 @@ A Map/Item tracker for the Wind Waker Randomizer. Created by Darkened5ky, update
 - Get coordinates for all of the locations the Ghost Ship appears in.
 - Get coordinates for all of the locations Cyclos appears in.
 - Get coordinates for all of the Salvage Corps. locations. I don't know where all of these are since there are no lists online.
+- Add vertical broadcaster mode (dv)
+- Minor update to map graphic (dv)
+- Stylize settings text for broadcaster view (dv)
+- Update Forsaken Fortress to reflect both locations (dv)
+- Ideally change Earth and Wind Temple icons to in game renders instead of silhouettes to match the rest of the row (dv)
