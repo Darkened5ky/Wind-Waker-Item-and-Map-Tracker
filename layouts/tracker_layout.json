@@ -37,7 +37,7 @@
     "content": [
       {
         "type": "image",
-        "image": "images/drcicon.png",
+        "image": "images/dungeon/drcicon.png",
         "width": 20,
         "height": 20,
         "canvas_left": 12,
@@ -61,7 +61,7 @@
       },
       {
         "type": "image",
-        "image": "images/fwicon.png",
+        "image": "images/dungeon/fwicon.png",
         "width": 20,
         "height": 20,
         "canvas_left": 59,
@@ -85,7 +85,7 @@
       },
       {
         "type": "image",
-        "image": "images/totgicon.png",
+        "image": "images/dungeon/totgicon.png",
         "width": 35,
         "height": 20,
         "canvas_left": 96,
@@ -109,7 +109,7 @@
       },
       {
         "type": "image",
-        "image": "images/eticon.png",
+        "image": "images/dungeon/eticon.png",
         "width": 20,
         "height": 20,
         "canvas_left": 30,
@@ -133,7 +133,7 @@
       },
       {
         "type": "image",
-        "image": "images/wticon.png",
+        "image": "images/dungeon/wticon.png",
         "width": 20,
         "height": 20,
         "canvas_left": 82,
