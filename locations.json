@@ -2172,57 +2172,57 @@
     ],
     "map_locations": [
       {
-        "map": "map",
+        "map": "map", //Spectacle Rock
         "x": 330,
         "y": 223
       },
-      {
+      /* Removed because it can't be purchased here{
         "map": "map",
         "x": 512,
         "y": 268
-      },
+      },*/
       {
-        "map": "map",
+        "map": "map", //pawprint
         "x": 688,
         "y": 230
       },
       {
-        "map": "map",
+        "map": "map", //Dragon Roost
         "x": 780,
         "y": 250
       },
       {
-        "map": "map",
+        "map": "map", //Greatfish
         "x": 207,
         "y": 546
       },
       {
-        "map": "map",
+        "map": "map", //Tower of the Gods
         "x": 635,
         "y": 512
       },
       {
-        "map": "map",
+        "map": "map", //Eastern Triangle
         "x": 830,
         "y": 535
       },
       {
-        "map": "map",
+        "map": "map", //Southern Triangle
         "x": 528,
         "y": 650
       },
       {
-        "map": "map",
+        "map": "map", //Shark
         "x": 397,
         "y": 856
       },
       {
-        "map": "map",
+        "map": "map", //Forest Haven
         "x": 845,
         "y": 794
       },
       {
-        "map": "map",
+        "map": "map", //Outset
         "x": 215,
         "y": 952
       }
@@ -2239,27 +2239,27 @@
     ],
     "map_locations": [
       {
-        "map": "map",
+        "map": "map", //Northern Triangle
         "x": 500,
         "y": 389
       },
       {
-        "map": "map",
+        "map": "map", //Western Fairy
         "x": 77,
         "y": 355
       },
       {
-        "map": "map",
+        "map": "map", //Horseshoe
         "x": 40,
         "y": 984
       },
       {
-        "map": "map",
+        "map": "map", //Pawprint
         "x": 649,
         "y": 246
       },
       {
-        "map": "map",
+        "map": "map", //Eastern Triangle
         "x": 795,
         "y": 520
       }
@@ -2277,17 +2277,17 @@
     ],
     "map_locations": [
       {
-        "map": "map",
+        "map": "map", //Mother Child
         "x": 216,
         "y": 254
       },
       {
-        "map": "map",
+        "map": "map", //Northern Triangle
         "x": 533,
         "y": 393
       },
       {
-        "map": "map",
+        "map": "map", //Shark Isle
         "x": 396,
         "y": 812
       }
@@ -2306,11 +2306,50 @@
     ],
     "map_locations": [
       {
-        "map": "map",
+        "map": "map", //Forest Haven
         "x": 824,
         "y": 801
-      }
-    ]
+      },
+      {
+        "map": "map", //Cliff Plateau
+        "x": 935,
+        "y": 783
+      },
+      {
+        "map": "map", //Shark Island
+        "x": 352,
+        "y": 851
+      },
+      {
+        "map": "map", //Greatfish
+        "x": 210,
+        "y": 526
+      },
+      {
+        "map": "map", //Needle Rock
+        "x": 106,
+        "y": 682
+      },
+      {
+        "map": "map", //Private Oasis
+        "x": 668,
+        "y": 698
+      },
+      {
+        "map": "map", //Eastern Fairy
+        "x": 671,
+        "y": 408
+      },
+      {
+        "map": "map", //Mother Child
+        "x": 246,
+        "y": 214
+      },
+      {
+        "map": "map", //Star
+        "x": 201,
+        "y": 52
+      },
   },
   {
     "name": "Ghost Ship",
@@ -2325,30 +2364,40 @@
     ],
     "map_locations": [
       {
-        "map": "map",
+        "map": "map", //Star Island
         "x": 665,
         "y": 58
       },
       {
-        "map": "map",
+        "map": "map", //Diamond
         "x": 52,
         "y": 795
       },
       {
-        "map": "map",
+        "map": "map", //Bomb
         "x": 812,
         "y": 624
       },
       {
-        "map": "map",
+        "map": "map", //Star Belt
         "x": 961,
         "y": 387
       },
       {
-        "map": "map",
+        "map": "map", //Five-Star
         "x": 934,
         "y": 935
-      }
+      },
+      {
+        "map": "map", //Greatfish
+        "x": 177,
+        "y": 515
+      },
+      {
+        "map": "map", //Spectacle
+        "x": 387,
+        "y": 225
+      },
     ]
   },
   {

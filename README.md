@@ -19,12 +19,7 @@ A Map/Item tracker for the Wind Waker Randomizer. Created by Darkened5ky, update
 
 ##TODO List:
 - Create a tab for tracking Treasure/Triforce Charts. This will take some time and may not be done until post-release. (Yes, I do plan on   still doing this potentially.)
-- Decide what to do with the Withered Trees Sidequest. Currently it is located at Forest Haven, but I may want to have it show for every     location a withered tree is at. So maybe get coordinates for these?
-- Get coordinates for all of the locations the Ghost Ship appears in.
-- Get coordinates for all of the locations Cyclos appears in.
-- Get coordinates for all of the Salvage Corps. locations. I don't know where all of these are since there are no lists online.
 - Add vertical broadcaster mode (dv)
 - Minor update to map graphic (dv)
 - Stylize settings text for broadcaster view (dv)
-- Update Forsaken Fortress to reflect both locations (dv)
 - Ideally change Earth and Wind Temple icons to in game renders instead of silhouettes to match the rest of the row (dv)
