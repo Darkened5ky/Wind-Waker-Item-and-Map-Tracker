@@ -996,11 +996,6 @@
         "visibility_rules": [ "gifts" ]
       },
       {
-        "name": "Pirate Ship", //need to move to minigames but I am currently in a run and don't want brick
-        "item_count": 1,
-        "visibility_rules": [ "minigames" ]
-      },
-      {
         "name": "Maggie's Letter",
         "item_count": 1,
         "visibility_rules": [ "gifts" ]
@@ -1064,7 +1059,12 @@
         "item_count": 1,
         "capture_item": true,
         "visibility_rules": [ "expensive,minigames" ]
-      }
+     },
+     {
+      "name": "Pirate Ship",
+      "item_count": 1,
+      "visibility_rules": [ "minigames" ]
+     },
       /*{
         "name": "Dampa's Pigs",
         "item_count": 1,
@@ -1183,17 +1183,17 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Across Lava Pit", //move lower in list to better match player movement
+        "name": "Boarded-up Chest",
+        "item_count": 1,
+        "access_rules": [ "drc_key:1" ],
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Across Lava Pit",
         "item_count": 1,
         "access_rules": [ "drc_key:2,leaf",
                           "drc_key:2,grapple",
                           "drc_key:2,hookshot,[leaf]" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      {
-        "name": "Boarded-up Chest",
-        "item_count": 1,
-        "access_rules": [ "drc_key:1" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -1646,7 +1646,7 @@
         "access_rules": [ "@can_get_inside_forsaken_fortress,hammer,[leaf],@can_defeat_helmaroc_king",
                           "@can_get_inside_forsaken_fortress,hammer,[hookshot],@can_defeat_helmaroc_king" ],
         "visibility_rules": [ "dungeons" ],
-        "chest_unopened_img": "images/dungeon/4 Helmaroc King.png"
+        "chest_unopened_img": "images/dungeon/4 Heart Container.png"
       }
     ],
     "map_locations": [
@@ -4947,9 +4947,10 @@
       {
         "name": "Completed Dungeon",
         "item_count": 1,
-        "access_rules": [ "@can_access_dragon_roost_cavern" ],
+        "access_rules": [ "@can_access_dragon_roost_cavern,@can_defeat_gohma",
+            "@can_access_dragon_roost_cavern,[@can_defeat_gohma]"],
         "visibility_rules": [ "dungeons" ],
-        "chest_unopened_img": "images/dungeon/1 Gohma.png"
+        "chest_unopened_img": "images/dungeon/1 Heart Container.png"
       },
     ],
     "map_locations": [
@@ -4962,14 +4963,15 @@
   },
   {
     "name": "Forbidden Woods Entrance",
-    "access_rules": [ "@can_access_forbidden_woods" ],
+    "access_rules": [ "@can_access_forbidden_woods"],
     "sections": [
       {
         "name": "Completed Dungeon",
         "item_count": 1,
-        "access_rules": [ "@can_access_forbidden_woods" ],
+        "access_rules": [ "@can_access_forbidden_woods,@can_defeat_kalle_demos",
+            "can_access_forbidden_woods,[@can_defeat_kalle_demos]"],
         "visibility_rules": [ "dungeons" ],
-        "chest_unopened_img": "images/dungeon/2 Kalle Demos.png"
+        "chest_unopened_img": "images/dungeon/2 Heart Container.png"
       },
     ],
     "map_locations": [
@@ -4987,9 +4989,10 @@
       {
         "name": "Completed Dungeon",
         "item_count": 1,
-        "access_rules": [ "@can_access_tower_of_the_gods" ],
+        "access_rules": [ "@can_access_tower_of_the_gods,@can_defeat_gohdan",
+            "@can_access_tower_of_the_gods,[@can_defeat_gohdan]" ],
         "visibility_rules": [ "dungeons" ],
-        "chest_unopened_img": "images/dungeon/3 Gohdan.png"
+        "chest_unopened_img": "images/dungeon/3 Heart Container.png"
       },
     ],
     "map_locations": [
@@ -5007,9 +5010,10 @@
       {
         "name": "Completed Dungeon",
         "item_count": 1,
-        "access_rules": [ "@can_access_earth_temple" ],
+        "access_rules": [ "@can_access_earth_temple,@can_defeat_jalhalla,@can_defeat_jalhalla_poes",
+            "@can_access_earth_temple,[@can_defeat_jalhalla],[@can_defeat_jalhalla_poes]"],
         "visibility_rules": [ "dungeons" ],
-        "chest_unopened_img": "images/dungeon/5 Jalhalla.png"
+        "chest_unopened_img": "images/dungeon/5 Heart Container.png"
       },
     ],
     "map_locations": [
@@ -5027,9 +5031,10 @@
       {
         "name": "Completed Dungeon",
         "item_count": 1,
-        "access_rules": [ "@can_access_wind_temple" ],
+        "access_rules": [ "@can_access_wind_temple,@can_defeat_molgera",
+            "@can_access_wind_temple,[@can_defeat_molgera]"],
         "visibility_rules": [ "dungeons" ],
-        "chest_unopened_img": "images/dungeon/6 Molgera.png"
+        "chest_unopened_img": "images/dungeon/6 Heart Container.png"
       },
     ],
     "map_locations": [
