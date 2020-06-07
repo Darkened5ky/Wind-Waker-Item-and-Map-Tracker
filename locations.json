@@ -2690,9 +2690,16 @@
         "visibility_rules": [ "puzzlecaves" ]
       },
       {
-        "name": "Behind Boulders",
-        "item_count": 2,
+        "name": "Behind Right Boulder",
+        "item_count": 1,
         "access_rules": [ "@can_move_boulders" ],
+        "visibility_rules": [ "puzzlecaves" ]
+      },
+      {
+        "name": "Behind Independent Boulder",
+        "item_count": 1,
+        "access_rules": [ "@can_move_boulders",
+           "[@can_move_boulders]" ],
         "visibility_rules": [ "puzzlecaves" ]
       },
       {
