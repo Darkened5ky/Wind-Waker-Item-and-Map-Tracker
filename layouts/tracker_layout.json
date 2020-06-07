@@ -38,9 +38,9 @@
       {
         "type": "image",
         "image": "images/dungeon/1 drcicon.png",
-        "width": 20,
-        "height": 20,
-        "canvas_left": 12,
+        "width": 22,
+        "height": 22,
+        "canvas_left": 11,
         "canvas_top": 0
       },
       {
@@ -62,9 +62,9 @@
       {
         "type": "image",
         "image": "images/dungeon/2 fwicon.png",
-        "width": 20,
-        "height": 20,
-        "canvas_left": 59,
+        "width": 22,
+        "height": 22,
+        "canvas_left": 58,
         "canvas_top": 0
       },
       {
@@ -86,9 +86,9 @@
       {
         "type": "image",
         "image": "images/dungeon/3 totgicon.png",
-        "width": 35,
-        "height": 20,
-        "canvas_left": 96,
+        "width": 31,
+        "height": 22,
+        "canvas_left": 95,
         "canvas_top": 0
       },
       {
@@ -110,9 +110,9 @@
       {
         "type": "image",
         "image": "images/dungeon/5 eticon.png",
-        "width": 20,
-        "height": 20,
-        "canvas_left": 30,
+        "width": 22,
+        "height": 22,
+        "canvas_left": 29,
         "canvas_top": 43
       },
       {
@@ -134,9 +134,9 @@
       {
         "type": "image",
         "image": "images/dungeon/6 wticon.png",
-        "width": 20,
-        "height": 20,
-        "canvas_left": 82,
+        "width": 22,
+        "height": 22,
+        "canvas_left": 81,
         "canvas_top": 43
       },
       {

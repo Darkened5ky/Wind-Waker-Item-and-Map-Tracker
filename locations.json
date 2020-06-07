@@ -964,8 +964,8 @@
       {
         "name": "Get Town Flower",
         "hosted_item": "tflower",
-        "visibility_rules": [ "longsidequests,delivery",
-                              "shortsidequests,delivery"  ]
+        "visibility_rules": [ "longsidequests,delivery,no_trade",
+                              "shortsidequests,delivery,no_trade"  ]
       }
     ],
     "map_locations": [
@@ -1271,10 +1271,11 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Gohma Item",
+        "name": "Gohma Heart Container",
         "item_count": 1,
         "access_rules": [ "drc_key:4,grapple,drc_bk,@can_defeat_gohma" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/1 Gohma.png"
       }
     ],
     "map_locations": [
@@ -1409,11 +1410,12 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Kalle Demos",
+        "name": "Kalle Demos Heart Container",
         "item_count": 1,
         "access_rules": [ "leaf,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_defeat_mothulas,fw_bk,@can_defeat_kalle_demos",
                           "leaf,@can_defeat_boko_babas,grapple,@can_defeat_mothulas,fw_bk,@can_defeat_kalle_demos" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/2 Kalle Demos.png"
       }
     ],
     "map_locations": [
@@ -1572,7 +1574,7 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Gohdan",
+        "name": "Gohdan Heart Container",
         "item_count": 1,
         "access_rules": [ "bombs,totg_key:2,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow,@can_defeat_armos,totg_bk,@can_defeat_gohdan" ],
         "visibility_rules": [ "dungeons" ]
@@ -1646,7 +1648,7 @@
         "access_rules": [ "@can_get_inside_forsaken_fortress,hammer,[leaf],@can_defeat_helmaroc_king",
                           "@can_get_inside_forsaken_fortress,hammer,[hookshot],@can_defeat_helmaroc_king" ],
         "visibility_rules": [ "dungeons" ],
-        "chest_unopened_img": "images/dungeon/4 Heart Container.png"
+        "chest_unopened_img": "images/dungeon/4 Helmaroc King.png"
       }
     ],
     "map_locations": [
@@ -1943,10 +1945,11 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Jalhalla",
+        "name": "Jalhalla Heart Container",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],et_bk,@can_defeat_jalhalla" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/5 Jalhalla.png"
       }
     ],
     "map_locations": [
@@ -2051,10 +2054,11 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Molgera",
+        "name": "Molgera Heart Container",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles,wt_key:1,[wt_key:2],@can_play_wind_gods_aria,wt_bk,@can_defeat_molgera" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/6 Molgera.png"
       }
     ],
     "map_locations": [

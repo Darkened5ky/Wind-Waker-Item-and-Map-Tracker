@@ -69,10 +69,18 @@
 	{
 		"name": "Trading Quest",
 		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
 		"stages": [
 			{
 				"img": "images/trading/Town Flower.png",
-				"codes": "tflower"
+				"codes": "no_trade",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/trading/Town Flower.png",
+				"codes": "tflower",
+				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Sea Flower.png",
@@ -180,7 +188,7 @@
 		"codes": "boots"
 	},
 
-	//Magic Armor (might change)
+	//Magic Armor (might remove)
 	{
 		"name": "Magic Armor",
 		"type": "toggle",
@@ -188,21 +196,28 @@
 		"codes": "armor"
 	},
 
-	//Bow and Arrows (may also change)
+	//Bow and Arrows
 	{
 		"name": "Hero's Bow",
 		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
 		"stages": [
 			{
-				"img": "images/bow/Hero's Bow New.png",
+				"img": "images/bow/bow0.png",
+				"codes": "nobow"
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/bow/bow1.png",
 				"codes": "bow"
 			},
 			{
-				"img": "images/bow/Hero's Bow New Fi.png",
+				"img": "images/bow/bow2.png",
 				"codes": "firearrow,icearrow"
 			},
 			{
-				"img": "images/bow/Hero's Bow New Light.png",
+				"img": "images/bow/bow3.png",
 				"codes": "lightarrow"
 			}
 		]
@@ -211,17 +226,17 @@
 	//Bombs
 	{
 		"name": "Bombs",
-		"type": "progressive",
+		"type": "progressive_toggle",
 		"stages": [
 			{
-				"img": "images/Bomb.png",
+				"img": "images/bomb/bomb30.png",
 				"codes": "bombs"
 			},
 			{
-				"img": "images/Bomb (60).png"
+				"img": "images/bomb/bomb60.png"
 			},
 			{
-				"img": "images/Bomb (99).png"
+				"img": "images/bomb/bomb99.png"
 			}
 		]
 	},
