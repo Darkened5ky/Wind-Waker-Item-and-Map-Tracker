@@ -37,10 +37,10 @@
     "content": [
       {
         "type": "image",
-        "image": "images/dungeon/1 drcicon.png",
-        "width": 22,
-        "height": 22,
-        "canvas_left": 11,
+        "image": "images/drcicon.png",
+        "width": 20,
+        "height": 20,
+        "canvas_left": 12,
         "canvas_top": 0
       },
       {
@@ -61,10 +61,10 @@
       },
       {
         "type": "image",
-        "image": "images/dungeon/2 fwicon.png",
-        "width": 22,
-        "height": 22,
-        "canvas_left": 58,
+        "image": "images/fwicon.png",
+        "width": 20,
+        "height": 20,
+        "canvas_left": 59,
         "canvas_top": 0
       },
       {
@@ -85,10 +85,10 @@
       },
       {
         "type": "image",
-        "image": "images/dungeon/3 totgicon.png",
-        "width": 31,
-        "height": 22,
-        "canvas_left": 95,
+        "image": "images/totgicon.png",
+        "width": 35,
+        "height": 20,
+        "canvas_left": 96,
         "canvas_top": 0
       },
       {
@@ -109,10 +109,10 @@
       },
       {
         "type": "image",
-        "image": "images/dungeon/5 eticon.png",
-        "width": 22,
-        "height": 22,
-        "canvas_left": 29,
+        "image": "images/eticon.png",
+        "width": 20,
+        "height": 20,
+        "canvas_left": 30,
         "canvas_top": 43
       },
       {
@@ -133,10 +133,10 @@
       },
       {
         "type": "image",
-        "image": "images/dungeon/6 wticon.png",
-        "width": 22,
-        "height": 22,
-        "canvas_left": 81,
+        "image": "images/wticon.png",
+        "width": 20,
+        "height": 20,
+        "canvas_left": 82,
         "canvas_top": 43
       },
       {
@@ -249,8 +249,8 @@
         "item_size": 48,
         "rows": [
           [ "telescope", "sail", "windwaker", "grapple", "spoils", "boomerang", "leaf", "double", "sword" ],
-          [ "tuner", "pic1", "boots", "armor", "baitbag", "bow", "bombs", "wallet", "shield" ],
-          [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "tflower", "power"],
+          [ "tuner", "pic1", "boots", "armor", "baitbag", "no_bow", "bombs", "wallet", "shield" ],
+          [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "no_trade", "power"],
           [ "requiem", "ballad", "command", "lyric", "aria", "passing", "deed", "gschart", "statue1"]
         ]
       },
