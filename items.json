@@ -24,7 +24,7 @@
     	]
 	},
 
-	//Wind Waker
+	//Wind Waker (Might Combine with sail)
 	{
 		"name": "Wind Waker",
 		"type": "progressive",
@@ -45,7 +45,7 @@
 		"codes": "grapple"
 	},
 
-	//Bags
+	//Bags (Might merge delivery bag with trading quest)
 	{
 		"name": "Spoils Bag",
 		"type": "toggle",
@@ -205,7 +205,7 @@
 		"stages": [
 			{
 				"img": "images/bow/bow0.png",
-				"codes": "nobow"
+				"codes": "no_bow",
 				"img_mods": "@disabled"
 			},
 			{
