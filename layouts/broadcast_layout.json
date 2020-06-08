@@ -1,4 +1,4 @@
-﻿{
+{
   "tracker_broadcast": {
     "type": "array",
       "margin": "0",
@@ -21,8 +21,8 @@
                   "item_size": 48,
                   "rows": [
                     [ "telescope", "sail", "windwaker", "grapple", "spoils", "boomerang", "leaf", "double", "sword" ],
-                    [ "tuner", "pic1", "boots", "armor", "baitbag", "bow", "bombs", "wallet", "shield" ],
-                    [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "tflower", "power"],
+                    [ "tuner", "pic1", "boots", "armor", "baitbag", "no_bow", "bombs", "wallet", "shield" ],
+                    [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "no_trade", "power"],
                     [ "requiem", "ballad", "command", "lyric", "aria", "passing", "deed", "gschart", "statue1"]
                   ]
                 },
