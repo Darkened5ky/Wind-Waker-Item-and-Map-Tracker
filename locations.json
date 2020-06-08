@@ -588,7 +588,8 @@
   },
   {
     "name": "can_access_birds_peak_rock_secret_cave",
-    "access_rules": [ "baitbag,@can_buy_hyoi_pears" ],
+    "access_rules": [ "baitbag,@can_buy_hyoi_pears",
+      "grapple,[baitbag]"],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -820,7 +821,8 @@
         "item_count": 1,
         "capture_item": true,
         "access_rules": [ "@Savage Labyrinth/Floor 30,@can_aim_mirror_shield,@can_defeat_redeads,@can_defeat_blue_bubbles,@can_defeat_dark_chuchus,@can_defeat_poes,@can_defeat_stalfos,hammer",
-                          "{}" ],
+                          "{leaf},{double}",
+                          "{hookshot}" ],
         "visibility_rules": [ "savage" ]
       }
     ],
@@ -1064,12 +1066,7 @@
       "name": "Pirate Ship",
       "item_count": 1,
       "visibility_rules": [ "minigames" ]
-     },
-      /*{
-        "name": "Dampa's Pigs",
-        "item_count": 1,
-        "access_rules": [ "spoils" ]
-      }*/
+     }
     ],
     "map_locations": [
       {
@@ -1134,6 +1131,7 @@
         "name": "Long Passage",
         "item_count": 1,
         "access_rules": [ "@can_fly_with_deku_leaf_outdoors,@can_cut_grass",
+                          "@can_fly_with_deku_leaf_outdoors,[@can_cut_grass]",
                           "@can_fly_with_deku_leaf_outdoors,double" ],
         "visibility_rules": [ "islandpuzzle" ]
       },
@@ -1197,14 +1195,8 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Compass Chest",
-        "item_count": 1,
-        "access_rules": [ "drc_key:2" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      {
         "name": "Rat Room",
-        "item_count": 1,
+        "item_count": 2,
         "access_rules": [ "drc_key:2" ],
         "visibility_rules": [ "dungeons" ]
       },
@@ -1325,7 +1317,7 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Map Chest",
+        "name": "Entrance Room",
         "item_count": 1,
         "visibility_rules": [ "dungeons" ]
       },
@@ -1385,7 +1377,7 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Tingle Statue Chest",
+        "name": "Tingle Chest",
         "item_count": 1,
         "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang,@tingle_tuner_bombs" ],
         "visibility_rules": [ "dungeons,statues" ]
@@ -1498,50 +1490,59 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Map Chest",
+        "name": "Flooding Room",
         "item_count": 1,
         "access_rules": [ "bombs" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Floating Boxes Chest",
+        "name": "Floating Boxes",
         "item_count": 1,
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Light Two Torches",
         "item_count": 1,
-        "access_rules": [ "bombs" ],
+        "access_rules": [ "bombs",
+                          "leaf,double,[bombs]",
+                          "leaf,bottle,[bombs]"],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Compass Chest",
         "item_count": 1,
-        "access_rules": [ "bombs" ],
+        "access_rules": [ "bombs",
+                          "leaf,double,[bombs]",
+                          "leaf,bottle,[bombs]"],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Behind Compass Chest",
         "item_count": 1,
-        "access_rules": [ "bombs,bow" ],
+        "access_rules": [ "bombs,bow",
+                          "leaf,double,[bombs],bow",
+                          "leaf,bottle,[bombs],bow"],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Tingle Statue Chest",
+        "name": "Tingle Chest",
         "item_count": 1,
-        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,@tingle_tuner_bombs" ],
+        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,@tingle_tuner_bombs",
+        "bombs,[totg_key:1],@can_defeat_yellow_chuchus,@tingle_tuner_bombs,leaf" ],
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
-        "name": "Upper Armos Chest",
+        "name": "Kill Armos Knights",
         "item_count": 1,
-        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,bow" ],
+        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,bow",
+        "bombs,[totg_key:1],@can_defeat_yellow_chuchus,bow,leaf" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Stone Tablet",
         "item_count": 1,
-        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker" ],
+        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker",
+        "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -1550,34 +1551,40 @@
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,@can_play_command_melody,@can_defeat_darknuts",
                           "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,bow,@can_defeat_darknuts",
                           "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,@can_defeat_darknuts",
-                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,bow,@can_defeat_darknuts" ],
+                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,bow,@can_defeat_darknuts",
+                          "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf,bow,@can_defeat_darknuts"],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Lower Armos",
+        "name": "Winds Requiem",
         "item_count": 1,
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,@can_play_command_melody,bow,@can_play_winds_requiem",
-                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow,@can_play_winds_requiem" ],
+                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow,@can_play_winds_requiem",
+                          "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow,@can_play_winds_requiem"],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Floating Platforms",
         "item_count": 2,
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,@can_play_command_melody,bow",
-                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow" ],
+                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow",
+                          "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow"],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Big Key Chest",
         "item_count": 1,
-        "access_rules": [ "bombs,totg_key:2,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow" ],
+        "access_rules": [ "bombs,totg_key:2,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow",
+                          "bombs,totg_key:1,[totg_key:2],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow"],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Gohdan Heart Container",
         "item_count": 1,
-        "access_rules": [ "bombs,totg_key:2,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow,@can_defeat_armos,totg_bk,@can_defeat_gohdan" ],
-        "visibility_rules": [ "dungeons" ]
+        "access_rules": [ "bombs,totg_key:2,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow,@can_defeat_armos,totg_bk,@can_defeat_gohdan",
+                          "bombs,totg_key:1,[totg_key:2],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow,[@can_defeat_armos],totg_bk,@can_defeat_gohdan"],
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/3 Gohdan.png"
       }
     ],
     "map_locations": [
@@ -1618,7 +1625,7 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Map Chest",
+        "name": "Near Upper Cell",
         "item_count": 1,
         "access_rules": [ "@can_get_inside_forsaken_fortress,[leaf]",
                           "@can_get_inside_forsaken_fortress,[hookshot]" ],
@@ -1631,19 +1638,19 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Compass Chest",
+        "name": "Bokoblin Protected Chest",
         "item_count": 1,
         "access_rules": [ "@can_get_inside_forsaken_fortress" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Jail Cell",
+        "name": "Lower Jail Cell",
         "item_count": 1,
         "access_rules": [ "@can_get_inside_forsaken_fortress" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Helmaroc King",
+        "name": "Helmaroc King Heart Container",
         "item_count": 1,
         "access_rules": [ "@can_get_inside_forsaken_fortress,hammer,[leaf],@can_defeat_helmaroc_king",
                           "@can_get_inside_forsaken_fortress,hammer,[hookshot],@can_defeat_helmaroc_king" ],
@@ -1851,20 +1858,10 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Map Chest",
+        "name": "ChuChu Room",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      /*{
-        "name": "Behind Curtain",
-        "item_count": 1,
-        "access_rules": [ "bow,elementals" ]
-      },*/
-      {
-        "name": "Destructible Wall Chest",
-        "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,@can_defeat_red_chuchus,@can_defeat_green_chuchus,@can_defeat_dark_chuchus,hammer,mirror" ],
+        "access_rules": [ "@can_play_command_melody",
+                          "[@can_play_command_melody],leaf,bottle"],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -1874,19 +1871,25 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Compass Chest",
+        "name": "Destructible Wall Chest",
+        "item_count": 1,
+        "access_rules": [ "@can_play_command_melody,@can_defeat_red_chuchus,@can_defeat_green_chuchus,@can_defeat_dark_chuchus,hammer,mirror" ],
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Block Puzzle",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Chest Behind Statues",
+        "name": "Behind Statues",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Casket Near Miniboss",
+        "name": "ReDead Crypt",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters]" ],
         "visibility_rules": [ "dungeons" ]
@@ -1898,7 +1901,7 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Tingle Statue",
+        "name": "Tingle Chest",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@tingle_tuner_bombs" ],
         "visibility_rules": [ "dungeons,statues" ]
@@ -1915,19 +1918,14 @@
         "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,@can_defeat_floormasters" ],
         "visibility_rules": [ "dungeons" ]
       },
-      /*{
-        "name": "Curtains next to Hammer Peg",
-        "item_count": 1,
-        "access_rules": [ "@aim_mirror_shield,lyric" ]
-      },*/
       {
-        "name": "Crypt Maze Chest",
+        "name": "Large Crypt",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Mirror Room Chests",
+        "name": "Mirror Room",
         "item_count": 2,
         "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles]" ],
         "visibility_rules": [ "dungeons" ]
@@ -1947,7 +1945,7 @@
       {
         "name": "Jalhalla Heart Container",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],et_bk,@can_defeat_jalhalla" ],
+        "access_rules": [ "@can_play_command_melody,[@can_aim_mirror_shield],@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],et_bk,@can_defeat_jalhalla" ],
         "visibility_rules": [ "dungeons" ],
         "chest_unopened_img": "images/dungeon/5 Jalhalla.png"
       }
@@ -1975,25 +1973,31 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Chest Between Trees",
+        "name": "Between Trees",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Tingle Statue",
+        "name": "Tingle Chest",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,boots,leaf,@tingle_tuner_bombs" ],
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
-        "name": "Chest in Alcove",
+        "name": "Makar's Cell",
+        "item_count": 1,
+        "access_rules": [ "@can_play_command_melody,boots,leaf,hookshot" ],
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "In Alcove",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,boots,leaf" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Map Chest",
+        "name": "Many Cyclones Room",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass",
                           "@can_play_command_melody,boots,leaf,double",
@@ -2001,7 +2005,7 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Compass Chest",
+        "name": "Bottom of Hub Room",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass",
                           "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles" ],
@@ -2010,7 +2014,7 @@
       {
         "name": "Spike Wall Room",
         "item_count": 2,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass",
+        "access_rules": [ "@can_play_command_melody,boots,[leaf],[@can_cut_grass]",
                           "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles" ],
         "visibility_rules": [ "dungeons" ]
       },
@@ -2019,12 +2023,6 @@
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass,wt_key:1,[wt_key:2],@can_defeat_darknuts,@can_remove_peahat_armor",
                           "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles,wt_key:1,[wt_key:2],@can_defeat_darknuts,@can_remove_peahat_armor" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      {
-        "name": "Makar's Cell",
-        "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,hookshot" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -2075,7 +2073,7 @@
       {
         "name": "Maze Chest",
         "item_count": 1,
-        "access_rules": [ "@can_reach_ganons_tower_phantom_ganon_room,@can_defeat_phantom_ganon" ],
+        "access_rules": [ "@can_reach_ganons_tower_phantom_ganon_room,[@can_defeat_phantom_ganon]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -2099,7 +2097,7 @@
       {
         "name": "Bird Girlfriend",
         "item_count": 1,
-        "access_rules": [ "spoils,@can_farm_golden_feathers,[passing]" ],
+        "access_rules": [ "spoils,[@can_farm_golden_feathers],[passing]" ],
         "visibility_rules": [ "mail,spoilstrading" ]
       },
       {
@@ -2171,6 +2169,7 @@
       {
         "name": "Bait Bag",
         "item_count": 1,
+        "access_rules":"",
         "visibility_rules": [ "misc" ]
       }
     ],
@@ -2180,29 +2179,24 @@
         "x": 330,
         "y": 223
       },
-      /* Removed because it can't be purchased here{
-        "map": "map",
-        "x": 512,
-        "y": 268
-      },*/
       {
         "map": "map", //pawprint
         "x": 688,
-        "y": 230
+        "y": 226
       },
       {
         "map": "map", //Dragon Roost
         "x": 780,
-        "y": 250
+        "y": 265
       },
       {
         "map": "map", //Greatfish
-        "x": 207,
+        "x": 195,
         "y": 546
       },
       {
         "map": "map", //Tower of the Gods
-        "x": 635,
+        "x": 620,
         "y": 512
       },
       {
@@ -2242,28 +2236,33 @@
       }
     ],
     "map_locations": [
+      //Northern Triangle
       {
-        "map": "map", //Northern Triangle
+        "map": "map",
         "x": 500,
         "y": 389
       },
+      //Western Fairy
       {
-        "map": "map", //Western Fairy
+        "map": "map",
         "x": 77,
         "y": 355
       },
+      //Horseshoe
       {
-        "map": "map", //Horseshoe
+        "map": "map",
         "x": 40,
         "y": 984
       },
+      //Pawprint
       {
-        "map": "map", //Pawprint
+        "map": "map",
         "x": 649,
-        "y": 246
+        "y": 234
       },
+      //Eastern Triangle
       {
-        "map": "map", //Eastern Triangle
+        "map": "map",
         "x": 795,
         "y": 520
       }
@@ -2353,7 +2352,8 @@
         "map": "map", //Star
         "x": 201,
         "y": 52
-      },
+      }
+    ]
   },
   {
     "name": "Ghost Ship",
@@ -2619,7 +2619,7 @@
       {
         "name": "Requiem",
         "item_count": 1,
-        "access_rules": [ "bombs,@can_play_winds_requiem" ],
+        "access_rules": [ "[bombs],@can_play_winds_requiem" ],
         "visibility_rules": [ "misc" ]
       }
     ],
@@ -2673,7 +2673,8 @@
       {
         "name": "Birb",
         "item_count": 1,
-        "access_rules": [ "@can_access_birds_peak_rock_secret_cave,@can_play_winds_requiem" ],
+        "access_rules": [ "@can_access_birds_peak_rock_secret_cave,@can_play_winds_requiem",
+                          "[@can_access_birds_peak_rock_secret_cave],@can_play_winds_requiem,grapple" ],
         "visibility_rules": [ "puzzlecaves" ]
       }
     ],
@@ -2694,16 +2695,16 @@
         "visibility_rules": [ "puzzlecaves" ]
       },
       {
-        "name": "Behind Right Boulder",
-        "item_count": 1,
-        "access_rules": [ "@can_move_boulders" ],
-        "visibility_rules": [ "puzzlecaves" ]
-      },
-      {
         "name": "Behind Independent Boulder",
         "item_count": 1,
         "access_rules": [ "@can_move_boulders",
            "[@can_move_boulders]" ],
+        "visibility_rules": [ "puzzlecaves" ]
+      },
+      {
+        "name": "Behind Right Boulder",
+        "item_count": 1,
+        "access_rules": [ "@can_move_boulders" ],
         "visibility_rules": [ "puzzlecaves" ]
       },
       {
@@ -2984,7 +2985,8 @@
       {
         "name": "Warp Maze",
         "item_count": 2,
-        "access_rules": [ "@can_access_diamond_steppe_island_warp_maze_cave" ],
+        "access_rules": [ "@can_access_diamond_steppe_island_warp_maze_cave",
+                          "[@can_access_diamond_steppe_island_warp_maze_cave],windwaker"],
         "visibility_rules": [ "puzzlecaves" ]
       }
     ],
