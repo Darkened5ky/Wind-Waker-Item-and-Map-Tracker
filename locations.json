@@ -2054,7 +2054,9 @@
       {
         "name": "Molgera Heart Container",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles,wt_key:1,[wt_key:2],@can_play_wind_gods_aria,wt_bk,@can_defeat_molgera" ],
+        "access_rules": [ "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles,wt_key:1,[wt_key:2],@can_play_wind_gods_aria,wt_bk,@can_defeat_molgera",
+                        "[@can_play_command_melody],[boots],leaf,hookshot,[@can_defeat_blue_bubbles],[wt_key:1],[@can_play_wind_gods_aria],wt_bk,@can_defeat_molgera"
+                     ],
         "visibility_rules": [ "dungeons" ],
         "chest_unopened_img": "images/dungeon/6 Molgera.png"
       }
@@ -2697,14 +2699,15 @@
       {
         "name": "Behind Independent Boulder",
         "item_count": 1,
-        "access_rules": [ "@can_move_boulders",
-           "[@can_move_boulders]" ],
+        "access_rules": [ "[@can_move_boulders]" ],
         "visibility_rules": [ "puzzlecaves" ]
       },
       {
         "name": "Behind Right Boulder",
         "item_count": 1,
-        "access_rules": [ "@can_move_boulders" ],
+        "access_rules": [ "@can_move_boulders",
+                           "[@can_move_boulders],leaf"
+                        ],
         "visibility_rules": [ "puzzlecaves" ]
       },
       {
@@ -2729,7 +2732,7 @@
       {
         "name": "Kill Everything",
         "item_count": 1,
-        "access_rules": [ "@can_defeat_wizzrobes_at_range,@can_defeat_fire_keese,@can_defeat_magtails,@can_defeat_red_chuchus,@can_defeat_green_chuchus,@can_defeat_yellow_chuchus,@can_defeat_red_bubbles,@can_remove_peahat_armor" ],
+        "access_rules": [ "@can_defeat_wizzrobes_at_range,[@can_defeat_fire_keese],[@can_defeat_magtails],[@can_defeat_red_chuchus],[@can_defeat_green_chuchus],[@can_defeat_yellow_chuchus],[@can_defeat_red_bubbles],[@can_remove_peahat_armor]" ],
         "visibility_rules": [ "combatcaves" ]
       }
     ],
