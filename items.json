@@ -233,10 +233,12 @@
 				"codes": "bombs"
 			},
 			{
-				"img": "images/bomb/bomb60.png"
+				"img": "images/bomb/bomb60.png",
+				"codes": "bombs,bomb60"
 			},
 			{
-				"img": "images/bomb/bomb99.png"
+				"img": "images/bomb/bomb99.png",
+				"codes": "bombs,bomb60,bomb99"
 			}
 		]
 	},
