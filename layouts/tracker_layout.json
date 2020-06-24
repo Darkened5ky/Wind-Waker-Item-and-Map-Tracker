@@ -37,7 +37,7 @@
     "content": [
       {
         "type": "image",
-        "image": "images/drcicon.png",
+        "image": "images/1 drcicon.png",
         "width": 20,
         "height": 20,
         "canvas_left": 12,
@@ -61,7 +61,7 @@
       },
       {
         "type": "image",
-        "image": "images/fwicon.png",
+        "image": "images/2 fwicon.png",
         "width": 20,
         "height": 20,
         "canvas_left": 59,
@@ -85,7 +85,7 @@
       },
       {
         "type": "image",
-        "image": "images/totgicon.png",
+        "image": "images/3 totgicon.png",
         "width": 35,
         "height": 20,
         "canvas_left": 96,
@@ -109,7 +109,7 @@
       },
       {
         "type": "image",
-        "image": "images/eticon.png",
+        "image": "images/5 eticon.png",
         "width": 20,
         "height": 20,
         "canvas_left": 30,
@@ -133,7 +133,7 @@
       },
       {
         "type": "image",
-        "image": "images/wticon.png",
+        "image": "images/6 wticon.png",
         "width": 20,
         "height": 20,
         "canvas_left": 82,
