@@ -622,8 +622,10 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"stages": [
-			"img": "images/dungeons/1 drcicon.png",
+			{
+			"img": "images/dungeon/1 drcicon.png",
 			"codes": "drc_true"
+			}
 		]
 	},
 	{
@@ -631,8 +633,10 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"stages": [
-			"img": "images/dungeons/2 fwicon.png",
+			{
+			"img": "images/dungeon/2 fwicon.png",
 			"codes": "fw_true"
+			}
 		]
 	},
 	{
@@ -640,8 +644,10 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"stages": [
-			"img": "images/dungeons/3 totgicon.png",
+			{
+			"img": "images/dungeon/3 totgicon.png",
 			"codes": "totg_true"
+			}
 		]
 	},
 	{
@@ -649,8 +655,10 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"stages": [
-			"img": "images/dungeons/4 fficon.png",
+			{
+			"img": "images/dungeon/4 fficon.png",
 			"codes": "ff_true"
+			}
 		]
 	},
 	{
@@ -658,8 +666,10 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"stages": [
-			"img": "images/dungeons/5 eticon.png",
+			{
+			"img": "images/dungeon/5 eticon.png",
 			"codes": "et_true"
+			}
 		]
 	},
 	{
@@ -667,8 +677,10 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"stages": [
-			"img": "images/dungeons/6 wticon.png",
+			{
+			"img": "images/dungeon/6 wticon.png",
 			"codes": "wt_true"
+			}
 		]
 	},
 

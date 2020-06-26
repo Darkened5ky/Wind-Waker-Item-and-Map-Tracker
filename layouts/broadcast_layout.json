@@ -2,8 +2,8 @@
   "tracker_broadcast": {
     "type": "array",
       "margin": "0",
-      "width": 535,
-      "height": 920,
+      "width": 500,
+      "height": 870,
       "content": [
         {
           "type": "array",
@@ -70,7 +70,7 @@
                         //DRC
                         {
                           "type": "item",
-                          "image": "drc_true",
+                          "item": "drc_true",
                           "width": 20,
                           "height": 20,
                           "canvas_left": 12,
@@ -195,7 +195,7 @@
                        //FF
                        {
                         "type": "item",
-                        "item": "ff_true"
+                        "item": "ff_true",
                         "width": 20,
                         "height": 20,
                         "canvas_left": 59,

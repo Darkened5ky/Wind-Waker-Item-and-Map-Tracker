@@ -172,8 +172,8 @@
     "name": "can_defeat_darknuts",
     "access_rules": [ "sword",
                       "lightarrow",
-                      "hammer, [sword]",
-                      "hammer, swordless",
+                      "hammer,[sword]",
+                      "hammer,swordless",
                       "bow,[sword]"],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -728,8 +728,8 @@
     "access_rules": [ "[grapple],spoils,[firearrow],[boots]", // Ice Ring Isle inner cave (or maybe you can have enough with random non-respawning Darknuts)
                       "[grapple],spoils,@can_access_savage_labyrinth,@can_defeat_keese,@can_defeat_miniblins,@can_defeat_red_chuchus,@can_defeat_magtails,@can_defeat_fire_keese,@can_defeat_peahats,@can_defeat_green_chuchus,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_armos,@can_defeat_yellow_chuchus,@can_defeat_red_bubbles,[@can_defeat_darknuts],[@can_play_winds_requiem]", // Savage Labyrinth floor 27
                       "[grapple],spoils,@can_access_earth_temple,@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,[et_key:3],et_key:2,@can_defeat_red_bubbles,@can_defeat_blue_bubbles,@can_defeat_darknuts,[@can_defeat_darknuts_easily]", // Earth Temple big key room
-                      "[grapple],spoils,@can_access_shark_island_secret_cave,@can_defeat_miniblins" ], // Shark Island Secret Cave
-                      "@can_access_hyrule,@can_defeat_darknuts" //1.8
+                      "[grapple],spoils,@can_access_shark_island_secret_cave,@can_defeat_miniblins", // Shark Island Secret Cave
+                      "@can_access_hyrule,@can_defeat_darknuts"], //1.8
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {

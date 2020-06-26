@@ -38,7 +38,7 @@
       //DRC
       {
         "type": "item",
-        "image": "drc_true",
+        "item": "drc_true",
         "width": 20,
         "height": 20,
         "canvas_left": 12,
@@ -163,7 +163,7 @@
      //FF
      {
       "type": "item",
-      "item": "ff_true"
+      "item": "ff_true",
       "width": 20,
       "height": 20,
       "canvas_left": 59,
