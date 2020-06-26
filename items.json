@@ -73,7 +73,7 @@
 		"initial_stage_idx": 0,
 		"stages": [
 			{
-				"img": "images/trading/Town Flower.png",
+				"img": "images/trading/no-trade.png",
 				"codes": "no_trade",
 				"img_mods": "@disabled"
 			},
@@ -616,6 +616,62 @@
 		"codes": "wt_bk"
 	},
 
+	//Race Mode
+	{
+		"name": "DRC Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			"img": "images/dungeons/1 drcicon.png",
+			"codes": "drc_true"
+		]
+	},
+	{
+		"name": "FW Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			"img": "images/dungeons/2 fwicon.png",
+			"codes": "fw_true"
+		]
+	},
+	{
+		"name": "TOTG Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			"img": "images/dungeons/3 totgicon.png",
+			"codes": "totg_true"
+		]
+	},
+	{
+		"name": "FF Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			"img": "images/dungeons/4 fficon.png",
+			"codes": "ff_true"
+		]
+	},
+	{
+		"name": "ET Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			"img": "images/dungeons/5 eticon.png",
+			"codes": "et_true"
+		]
+	},
+	{
+		"name": "WT Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			"img": "images/dungeons/6 wticon.png",
+			"codes": "wt_true"
+		]
+	},
+
 	//Settings
 	{
 		"name": "Dungeons",
@@ -745,9 +801,14 @@
 	},
 	{
 		"name": "Skip Rematches",
-		"type": "toggle",
-		"img": "images/toggles/ToggleRematches.png",
-		"codes": "skip_rematches"
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages":[
+			{
+				"img": "images/toggles/ToggleRematches.png",
+				"codes":"skip_rematches"
+			}
+		]
 	},
 	{
 		"name": "Savage Labyrinth",

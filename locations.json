@@ -39,8 +39,7 @@
                       "mirror,leaf",
                       "mirror,bow",
                       "mirror,hookshot",
-                      "mirror,[bottle]",
-                      "mirror,[pic1]" ],
+                      "mirror,[]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -173,7 +172,9 @@
     "name": "can_defeat_darknuts",
     "access_rules": [ "sword",
                       "lightarrow",
-                      "hammer" ],
+                      "hammer, [sword]",
+                      "hammer, swordless",
+                      "bow,[sword]"],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -302,7 +303,9 @@
                       "leaf,sword",
                       "hammer",
                       "bow",
-                      "bombs" ],
+                      "bombs",
+                      "hookshot,grapple,[sword]",
+                      "leaf,grapple,[sword]"],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -362,7 +365,9 @@
   {
     "name": "can_defeat_wizzrobes_at_range",
     "access_rules": [ "bow",
-                      "hookshot" ],
+                      "hookshot",
+                      "grapple,[hookshot]",
+                      "grapple,[bow]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -443,6 +448,7 @@
     "access_rules": [ "sword",
                       "bow",
                       "hammer,[sword]",
+                      "hammer,swordless",
                       "bombs,[sword]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -453,7 +459,8 @@
                       "bow",
                       "hookshot",
                       "hammer,[sword]",
-                      "bombs,[sword]" ],
+                      "bombs,[sword]",
+                      "grapple,[sword]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -695,7 +702,8 @@
   {
     "name": "can_unlock_ganons_tower_four_boss_door",
     "access_rules": [ "@can_complete_all_memory_dungeons_and_bosses",
-                      "skip_rematches" ],
+                      "skip_rematches",
+                      "leaf,[@can_complete_all_memory_dungeons_and_bosses]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -721,6 +729,7 @@
                       "[grapple],spoils,@can_access_savage_labyrinth,@can_defeat_keese,@can_defeat_miniblins,@can_defeat_red_chuchus,@can_defeat_magtails,@can_defeat_fire_keese,@can_defeat_peahats,@can_defeat_green_chuchus,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_armos,@can_defeat_yellow_chuchus,@can_defeat_red_bubbles,[@can_defeat_darknuts],[@can_play_winds_requiem]", // Savage Labyrinth floor 27
                       "[grapple],spoils,@can_access_earth_temple,@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,[et_key:3],et_key:2,@can_defeat_red_bubbles,@can_defeat_blue_bubbles,@can_defeat_darknuts,[@can_defeat_darknuts_easily]", // Earth Temple big key room
                       "[grapple],spoils,@can_access_shark_island_secret_cave,@can_defeat_miniblins" ], // Shark Island Secret Cave
+                      "@can_access_hyrule,@can_defeat_darknuts" //1.8
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -1157,7 +1166,7 @@
   },
   {
     "name": "Dragon Roost Cavern",
-    "access_rules": [ "@can_access_dragon_roost_cavern" ],
+    "access_rules": [ "@can_access_dragon_roost_cavern,drc_true" ],
     "sections": [
       {
         "name": "Small Keys",
@@ -1304,7 +1313,7 @@
   },
   {
     "name": "Forbidden Woods",
-    "access_rules": [ "@can_access_dragon_roost_cavern" ],
+    "access_rules": [ "@can_access_dragon_roost_cavern,fw_true" ],
     "sections": [
       {
         "name": "Small Keys",
@@ -1477,7 +1486,7 @@
   },
   {
     "name": "Tower of the Gods",
-    "access_rules": [ "@can_access_dragon_roost_cavern" ],
+    "access_rules": [ "@can_access_dragon_roost_cavern,totg_true" ],
     "sections": [
       {
         "name": "Small Keys",
@@ -1616,7 +1625,7 @@
   },
   {
     "name": "Forsaken Fortress",
-    "access_rules": [ "@can_get_past_forsaken_fortress_gate" ],
+    "access_rules": [ "@can_get_past_forsaken_fortress_gate,ff_true" ],
     "sections": [
       {
         "name": "Phantom Ganon",
@@ -1845,7 +1854,7 @@
   },
   {
     "name": "Earth Temple",
-    "access_rules": [ "@can_access_dragon_roost_cavern" ],
+    "access_rules": [ "@can_access_dragon_roost_cavern,et_true" ],
     "sections": [
       {
         "name": "Small Keys",
@@ -1960,7 +1969,7 @@
   },
   {
     "name": "Wind Temple",
-    "access_rules": [ "@can_access_dragon_roost_cavern" ],
+    "access_rules": [ "@can_access_dragon_roost_cavern,wt_true" ],
     "sections": [
       {
         "name": "Small Keys",
@@ -2111,7 +2120,7 @@
       {
         "name": "Baito (Must Clear ET)",
         "item_count": 1,
-        "access_rules": [ "delivery,momletter,[passing],@Earth Temple/Jalhalla" ],
+        "access_rules": [ "delivery,momletter,[passing],@Earth Temple/Jalhalla Heart Container" ],
         "visibility_rules": [ "mail,dungeons" ]
       },
       {
@@ -2135,7 +2144,7 @@
       {
         "name": "Orca (Must Clear FW)",
         "item_count": 1,
-        "access_rules": [ "@Forbidden Woods/Kalle Demos" ],
+        "access_rules": [ "@Forbidden Woods/Kalle Demos Heart Container" ],
         "visibility_rules": [ "mail,dungeons" ]
       },
       {
@@ -2147,13 +2156,13 @@
       {
         "name": "Aryll (Must Clear FF)",
         "item_count": 1,
-        "access_rules": [ "@Forsaken Fortress/Helmaroc King,[passing]" ],
+        "access_rules": [ "@Forsaken Fortress/Helmaroc King Heart Container,[passing]" ],
         "visibility_rules": [ "mail,dungeons" ]
       },
       {
         "name": "Tingle (Free him, Clear FF)",
         "item_count": 1,
-        "access_rules": [ "wallet,@Forsaken Fortress/Helmaroc King,[passing]" ],
+        "access_rules": [ "wallet,@Forsaken Fortress/Helmaroc King Heart Container,[passing]" ],
         "visibility_rules": [ "mail,dungeons,expensive" ]
       }
     ],

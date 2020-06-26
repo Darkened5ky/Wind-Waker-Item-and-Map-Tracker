@@ -3,7 +3,7 @@
     "type": "array",
       "margin": "0",
       "width": 535,
-      "height": 420,
+      "height": 920,
       "content": [
         {
           "type": "array",
@@ -65,11 +65,12 @@
                     {
                       "type": "canvas",
                       "width": 130,
-                      "height": 80,
+                      "height": 110,
                       "content": [
+                        //DRC
                         {
-                          "type": "image",
-                          "image": "images/dungeon/1 drcicon.png",
+                          "type": "item",
+                          "image": "drc_true",
                           "width": 20,
                           "height": 20,
                           "canvas_left": 12,
@@ -91,9 +92,10 @@
                           "canvas_left": 20,
                           "canvas_top": 18
                         },
+                        //FW
                         {
-                          "type": "image",
-                          "image": "images/dungeon/2 fwicon.png",
+                          "type": "item",
+                          "item": "fw_true",
                           "width": 20,
                           "height": 20,
                           "canvas_left": 59,
@@ -115,9 +117,10 @@
                           "canvas_left": 66,
                           "canvas_top": 18
                         },
+                        //TOTG
                         {
-                          "type": "image",
-                          "image": "images/dungeon/3 totgicon.png",
+                          "type": "item",
+                          "item": "totg_true",
                           "width": 35,
                           "height": 20,
                           "canvas_left": 96,
@@ -139,9 +142,10 @@
                           "canvas_left": 110,
                           "canvas_top": 18
                         },
+                        //ET
                         {
-                          "type": "image",
-                          "image": "images/dungeon/5 eticon.png",
+                          "type": "item",
+                          "item": "et_true",
                           "width": 20,
                           "height": 20,
                           "canvas_left": 30,
@@ -163,9 +167,10 @@
                           "canvas_left": 37,
                           "canvas_top": 60
                         },
+                        //WT
                         {
-                          "type": "image",
-                          "image": "images/dungeon/6 wticon.png",
+                          "type": "item",
+                          "item": "wt_true",
                           "width": 20,
                           "height": 20,
                           "canvas_left": 82,
@@ -186,7 +191,16 @@
                           "height": 20,
                           "canvas_left": 89,
                           "canvas_top": 60
-                        }
+                       },
+                       //FF
+                       {
+                        "type": "item",
+                        "item": "ff_true"
+                        "width": 20,
+                        "height": 20,
+                        "canvas_left": 59,
+                        "canvas_top": 85
+                       }
                       ]
                     },
                     {
@@ -269,20 +283,20 @@
                           "hit_test_visible": false
                         }
                       ]
-                    },
-					{
-					  "type": "container",
-					  "width": 130,
-					  "height": 130,
-					  "content": {
-						"type": "map",
-						"maps": [
-						  "map"
-						]
-					  }
-					}
-                  ]
+                    }
+                 ]
+              },
+              {
+                "type": "container",
+                "width": 500,
+                "height": 500,
+                "content": {
+                 "type": "map",
+                 "maps": [
+                   "map"
+                 ]
                 }
+              }
               ]
             }
           ]
