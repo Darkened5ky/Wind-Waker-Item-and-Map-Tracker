@@ -1,6 +1,33 @@
-# Wind-Waker-Item-and-Map-Tracker
-A Map/Item tracker for the Wind Waker Randomizer.
-   Created by Darkened5ky with aesthetics help from Spleebie, updated logic by cheur, emerald000, and Zach the DualVission.
+#Wind-Waker-Item-and-Map-Tracker
+A map and item tracker for the Wind Waker Randomizer
+   Created by Darkened5ky with aesthetics help from Spleebie
+   Updated logic by cheur, emerald000, and Zach the DualVission
+
+##Updates new to 2.0.1.0
+The Wind Waker Randomizer logic updated to reflect 1.8.0
+   Added Island Puzzle Setting Toggle
+   Adjusted checks moved to new Island Puzzle setting
+   Moved Pirate Ship to Minigames setting
+   Adjusted dungeon logic for Forsaken Fortress
+   Added Darknuts in Hyrule to Knight's Crests farming
+Glitched Logic increased
+   Added Early Diamond Steppe via Big Octo
+   Added Tower of The Gods First Floor Skip
+   Added Early Forsaken Fortress
+   Added Early Forsaken Fortress Interior
+   Added Final Wind God's Aria Skip
+   Added Earth Temple glitches
+   Added Kalle Demos glitches
+Additional Changes
+   Added support for Race Mode dungeon disabling
+   Added support for dungeon entrance randomizing
+   Added support for customizing pre-trading quest and pre-bow images
+   Added support for customizing dungeon complete and boss defeat graphics
+   Corrected bomb bag tracking
+   Undepricated Skip Boss Rematches Settings Toggle but defaults to on
+   Re-organized image files, you're welcome and sorry
+   Updated number and text graphics for item tracker
+   Updated sea chart design to increase island sizes to be consistent
 
 ##Usage
 - This is a pack for EmoTracker, which can be obtained at https://emotracker.net/.
@@ -31,5 +58,4 @@ A Map/Item tracker for the Wind Waker Randomizer.
 
 ##TODO List:
 - Create a tab for tracking Treasure/Triforce Charts. This will take some time and may not be done until post-release. (Yes, I do plan on still doing this potentially.)
-- Add vertical broadcaster mode (dv)
 - Stylize settings text for broadcaster view (dv)
