@@ -1,9 +1,9 @@
-﻿{
+{
   "tracker_broadcast": {
     "type": "array",
       "margin": "0",
-      "width": 520,
-      "height": 800,
+      "width": 500,
+      "height": 870,
       "content": [
         {
           "type": "array",
@@ -21,8 +21,8 @@
                   "item_size": 48,
                   "rows": [
                     [ "telescope", "sail", "windwaker", "grapple", "spoils", "boomerang", "leaf", "double", "sword" ],
-                    [ "tuner", "pic1", "boots", "armor", "baitbag", "bow", "bombs", "wallet", "shield" ],
-                    [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "tflower", "power"],
+                    [ "tuner", "pic1", "boots", "armor", "baitbag", "no_bow", "bombs", "wallet", "shield" ],
+                    [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "no_trade", "power"],
                     [ "requiem", "ballad", "command", "lyric", "aria", "passing", "deed", "gschart", "statue1"]
                   ]
                 },
@@ -65,11 +65,12 @@
                     {
                       "type": "canvas",
                       "width": 130,
-                      "height": 80,
+                      "height": 110,
                       "content": [
+                        //DRC
                         {
-                          "type": "image",
-                          "image": "images/drcicon.png",
+                          "type": "item",
+                          "item": "drc_true",
                           "width": 20,
                           "height": 20,
                           "canvas_left": 12,
@@ -91,9 +92,10 @@
                           "canvas_left": 20,
                           "canvas_top": 18
                         },
+                        //FW
                         {
-                          "type": "image",
-                          "image": "images/fwicon.png",
+                          "type": "item",
+                          "item": "fw_true",
                           "width": 20,
                           "height": 20,
                           "canvas_left": 59,
@@ -115,9 +117,10 @@
                           "canvas_left": 66,
                           "canvas_top": 18
                         },
+                        //TOTG
                         {
-                          "type": "image",
-                          "image": "images/totgicon.png",
+                          "type": "item",
+                          "item": "totg_true",
                           "width": 35,
                           "height": 20,
                           "canvas_left": 96,
@@ -139,9 +142,10 @@
                           "canvas_left": 110,
                           "canvas_top": 18
                         },
+                        //ET
                         {
-                          "type": "image",
-                          "image": "images/eticon.png",
+                          "type": "item",
+                          "item": "et_true",
                           "width": 20,
                           "height": 20,
                           "canvas_left": 30,
@@ -163,9 +167,10 @@
                           "canvas_left": 37,
                           "canvas_top": 60
                         },
+                        //WT
                         {
-                          "type": "image",
-                          "image": "images/wticon.png",
+                          "type": "item",
+                          "item": "wt_true",
                           "width": 20,
                           "height": 20,
                           "canvas_left": 82,
@@ -186,7 +191,16 @@
                           "height": 20,
                           "canvas_left": 89,
                           "canvas_top": 60
-                        }
+                       },
+                       //FF
+                       {
+                        "type": "item",
+                        "item": "ff_true",
+                        "width": 20,
+                        "height": 20,
+                        "canvas_left": 59,
+                        "canvas_top": 85
+                       }
                       ]
                     },
                     {
@@ -270,20 +284,20 @@
                         }
                       ]
                     }
-                  ]
+                 ]
+              },
+              {
+                "type": "container",
+                "width": 500,
+                "height": 500,
+                "content": {
+                 "type": "map",
+                 "maps": [
+                   "map"
+                 ]
                 }
-              ]
-            },
-            {
-              "type": "container",
-              "width": 420,
-              "height": 800,
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map"
-                ]
               }
+              ]
             }
           ]
         }

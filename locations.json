@@ -32,15 +32,14 @@
   },
   {
     "name": "can_aim_mirror_shield",
-    "access_rules": [ "mirror,sword", 
-                      "mirror,windwaker", 
-                      "mirror,grapple", 
-                      "mirror,boomerang", 
-                      "mirror,leaf", 
-                      "mirror,bow", 
-                      "mirror,hookshot", 
-                      "mirror,[bottle]", 
-                      "mirror,[pic1]" ],
+    "access_rules": [ "mirror,sword",
+                      "mirror,windwaker",
+                      "mirror,grapple",
+                      "mirror,boomerang",
+                      "mirror,leaf",
+                      "mirror,bow",
+                      "mirror,hookshot",
+                      "mirror,[]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -51,16 +50,16 @@
   },
   {
     "name": "can_hit_diamond_switches_at_range",
-    "access_rules": [ "boomerang", 
-                      "bow", 
+    "access_rules": [ "boomerang",
+                      "bow",
                       "hookshot" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_destroy_seeds_hanging_by_vines",
-    "access_rules": [ "boomerang", 
-                      "bow", 
-                      "bombs", 
+    "access_rules": [ "boomerang",
+                      "bow",
+                      "bombs",
                       "hookshot" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -83,19 +82,19 @@
   },
   {
     "name": "can_cut_down_outset_trees",
-    "access_rules": [ "sword", 
-                      "boomerang", 
+    "access_rules": [ "sword",
+                      "boomerang",
                       "hammer",
-                      "grapple,[sword]", 
-                      "bow,[sword]", 
-                      "hookshot,[sword]", 
+                      "grapple,[sword]",
+                      "bow,[sword]",
+                      "hookshot,[sword]",
                       "bombs,[sword]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_cut_down_hanging_drc_platform",
-    "access_rules": [ "sword", 
-                      "bombs", 
+    "access_rules": [ "sword",
+                      "bombs",
                       "bow",
                       "hammer",
                       "hookshot,[sword]",
@@ -104,25 +103,25 @@
   },
   {
     "name": "can_cut_grass",
-    "access_rules": [ "sword", 
-                      "hammer", 
-                      "boomerang", 
+    "access_rules": [ "sword",
+                      "hammer",
+                      "boomerang",
                       "bombs" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_sword_fight_with_orca",
-    "access_rules": [ "sword", 
+    "access_rules": [ "sword",
                       "swordless" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
-  
+
   //Enemy Rules
   {
     "name": "can_defeat_door_flowers",
-    "access_rules": [ "boomerang", 
+    "access_rules": [ "boomerang",
                       "bow",
-                      "bombs", 
+                      "bombs",
                       "hookshot" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -139,15 +138,15 @@
   },
   {
     "name": "can_defeat_ganondorf",
-    "access_rules": [ "sword,shield", 
+    "access_rules": [ "sword,shield",
                       "swordless,shield" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_green_bokoblins",
-    "access_rules": [ "sword", 
-                      "bow", 
-                      "bombs", 
+    "access_rules": [ "sword",
+                      "bow",
+                      "bombs",
                       "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -163,49 +162,51 @@
   },
   {
     "name": "can_defeat_moblins",
-    "access_rules": [ "sword", 
-                      "bow", 
-                      "bombs", 
+    "access_rules": [ "sword",
+                      "bow",
+                      "bombs",
                       "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_darknuts",
     "access_rules": [ "sword",
-                      "lightarrow", 
-                      "hammer" ],
+                      "lightarrow",
+                      "hammer,[sword]",
+                      "hammer,swordless",
+                      "bow,[sword]"],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_darknuts_easily",
-    "access_rules": [ "sword", 
+    "access_rules": [ "sword",
                       "lightarrow" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_miniblins",
-    "access_rules": [ "sword", 
-                      "grapple", 
-                      "boomerang", 
-                      "bow", 
-                      "bombs", 
+    "access_rules": [ "sword",
+                      "grapple",
+                      "boomerang",
+                      "bow",
+                      "bombs",
                       "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_miniblins_easily",
     "access_rules": [ "sword",
-                      "boomerang", 
-                      "bow", 
-                      "bombs", 
+                      "boomerang",
+                      "bow",
+                      "bombs",
                       "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_red_chuchus",
     "access_rules": [ "sword",
-                      "hammer", 
-                      "bombs", 
+                      "hammer",
+                      "bombs",
                       "bow" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -216,11 +217,11 @@
   },
   {
     "name": "can_defeat_yellow_chuchus",
-    "access_rules": [ "boomerang,sword", 
-                      "bow", 
-                      "bombs", 
-                      "leaf,sword", 
-                      "hammer", 
+    "access_rules": [ "boomerang,sword",
+                      "bow",
+                      "bombs",
+                      "leaf,sword",
+                      "hammer",
                       "grapple,sword,[bow]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -231,7 +232,7 @@
   },
   {
     "name": "can_get_blue_chu_jelly_from_blue_chuchus",
-    "access_rules": [ "@can_defeat_blue_chuchus", 
+    "access_rules": [ "@can_defeat_blue_chuchus",
                       "grapple" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -241,12 +242,12 @@
   },
   {
     "name": "can_defeat_keese",
-    "access_rules": [ "sword", 
-                      "hookshot", 
-                      "grapple", 
-                      "boomerang", 
-                      "bow", 
-                      "bombs", 
+    "access_rules": [ "sword",
+                      "hookshot",
+                      "grapple",
+                      "boomerang",
+                      "bow",
+                      "bombs",
                       "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -257,164 +258,168 @@
   },
   {
     "name": "can_defeat_magtails",
-    "access_rules": [ "sword", 
-                      "hammer", 
-                      "boomerang", 
-                      "hookshot", 
-                      "bombs", 
-                      "grapple", 
+    "access_rules": [ "sword",
+                      "hammer",
+                      "boomerang",
+                      "hookshot",
+                      "bombs",
+                      "grapple",
                       "bow" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_stun_magtails",
-    "access_rules": [ "sword", 
-                      "hammer", 
-                      "boomerang", 
-                      "hookshot", 
-                      "bombs", 
-                      "grapple", 
+    "access_rules": [ "sword",
+                      "hammer",
+                      "boomerang",
+                      "hookshot",
+                      "bombs",
+                      "grapple",
                       "bow" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_kargarocs",
     "access_rules": [ "sword",
-                      "boomerang", 
-                      "bow", 
-                      "hammer", 
+                      "boomerang",
+                      "bow",
+                      "hammer",
                       "bombs" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_bombchus",
     "access_rules": [ "sword",
-                      "grapple", 
-                      "boomerang", 
-                      "bow", 
+                      "grapple",
+                      "boomerang",
+                      "bow",
                       "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_peahats",
-    "access_rules": [ "boomerang", 
-                      "hookshot,sword", 
-                      "leaf,sword", 
-                      "hammer", 
-                      "bow", 
-                      "bombs" ],
+    "access_rules": [ "boomerang",
+                      "hookshot,sword",
+                      "leaf,sword",
+                      "hammer",
+                      "bow",
+                      "bombs",
+                      "hookshot,grapple,[sword]",
+                      "leaf,grapple,[sword]"],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_remove_peahat_armor",
     "access_rules": [ "boomerang",
-                      "hookshot", 
-                      "leaf", 
-                      "hammer", 
-                      "bow", 
+                      "hookshot",
+                      "leaf",
+                      "hammer",
+                      "bow",
                       "bombs" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_seahats",
-    "access_rules": [ "boomerang", 
-                      "bow", 
-                      "hookshot", 
+    "access_rules": [ "boomerang",
+                      "bow",
+                      "hookshot",
                       "bombs" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_boko_babas",
-    "access_rules": [ "sword", 
-                      "boomerang", 
-                      "hammer", 
-                      "bow", 
-                      "hookshot", 
-                      "bombs", 
+    "access_rules": [ "sword",
+                      "boomerang",
+                      "hammer",
+                      "bow",
+                      "hookshot",
+                      "bombs",
                       "leaf,grapple" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_mothulas",
-    "access_rules": [ "sword", 
-                      "bow", 
-                      "bombs", 
+    "access_rules": [ "sword",
+                      "bow",
+                      "bombs",
                       "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_winged_mothulas",
     "access_rules": [ "sword",
-                      "bow", 
-                      "bombs", 
+                      "bow",
+                      "bombs",
                       "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_wizzrobes",
-    "access_rules": [ "sword", 
-                      "bow", 
-                      "hookshot", 
-                      "bombs", 
+    "access_rules": [ "sword",
+                      "bow",
+                      "hookshot",
+                      "bombs",
                       "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_wizzrobes_at_range",
-    "access_rules": [ "bow", 
-                      "hookshot" ],
+    "access_rules": [ "bow",
+                      "hookshot",
+                      "grapple,[hookshot]",
+                      "grapple,[bow]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_armos",
-    "access_rules": [ "sword", 
-                      "bow", 
-                      "bombs", 
-                      "hammer", 
+    "access_rules": [ "sword",
+                      "bow",
+                      "bombs",
+                      "hammer",
                       "hookshot" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_armos_knights",
-    "access_rules": [ "bombs", 
+    "access_rules": [ "bombs",
                       "lightarrow" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_big_octos",
-    "access_rules": [ "bow", 
-                      "bombs", 
+    "access_rules": [ "bow",
+                      "bombs",
                       "boomerang" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_red_bubbles",
     "access_rules": [ "sword",
-                      "hammer", 
-                      "bow", 
-                      "bombs", 
-                      "leaf,grapple", 
+                      "hammer",
+                      "bow",
+                      "bombs",
+                      "leaf,grapple",
                       "hookshot,grapple" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_blue_bubbles",
-    "access_rules": [ "icearrow", 
-                      "bombs", 
-                      "leaf,sword", 
+    "access_rules": [ "icearrow",
+                      "bombs",
+                      "leaf,sword",
                       "hookshot,sword",
-                      "leaf,bow", 
-                      "hookshot,bow", 
-                      "leaf,grapple", 
+                      "leaf,bow",
+                      "hookshot,bow",
+                      "leaf,grapple",
                       "hookshot,grapple",
-                      "leaf,hammer", 
+                      "leaf,hammer",
                       "hookshot,hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_redeads",
-    "access_rules": [ "sword", 
-                      "lightarrow", 
+    "access_rules": [ "sword",
+                      "lightarrow",
                       "hammer",
                       "bombs" ],
     "sections": [{ "name": "access", "item_count": 1 }]
@@ -425,35 +430,37 @@
   },
   {
     "name": "can_defeat_jalhalla_poes",
-    "access_rules": [ "sword", 
-                      "bow", 
+    "access_rules": [ "sword",
+                      "bow",
                       "bombs",
                       "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_stalfos",
-    "access_rules": [ "sword", 
-                      "bombs", 
+    "access_rules": [ "sword",
+                      "bombs",
                       "hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_floormasters",
-    "access_rules": [ "sword", 
-                      "bow", 
-                      "hammer,[sword]", 
+    "access_rules": [ "sword",
+                      "bow",
+                      "hammer,[sword]",
+                      "hammer,swordless",
                       "bombs,[sword]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_morths",
-    "access_rules": [ "sword", 
-                      "boomerang", 
-                      "bow", 
-                      "hookshot", 
-                      "hammer,[sword]", 
-                      "bombs,[sword]" ],
+    "access_rules": [ "sword",
+                      "boomerang",
+                      "bow",
+                      "hookshot",
+                      "hammer,[sword]",
+                      "bombs,[sword]",
+                      "grapple,[sword]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -463,7 +470,9 @@
   },
   {
     "name": "can_defeat_kalle_demos",
-    "access_rules": [ "boomerang" ],
+    "access_rules": [ "boomerang",
+                      "[boomerang],bombs",
+                      "[boomerang],bow"],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -479,27 +488,27 @@
   },
   {
     "name": "can_defeat_jalhalla",
-    "access_rules": [ "@can_aim_mirror_shield,power,@can_defeat_jalhalla_poes", 
+    "access_rules": [ "@can_aim_mirror_shield,power,@can_defeat_jalhalla_poes",
                       "lightarrow,power,@can_defeat_jalhalla_poes" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_defeat_molgera",
-    "access_rules": [ "hookshot,sword", 
-                      "hookshot,bow", 
-                      "hookshot,boomerang", 
-                      "hookshot,grapple", 
+    "access_rules": [ "hookshot,[sword]",
+                      "hookshot,bow",
+                      "hookshot,boomerang",
+                      "hookshot,grapple",
                       "hookshot,hammer",
                       "hookshot,bombs" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_destroy_cannons",
-    "access_rules": [ "bombs", 
+    "access_rules": [ "bombs",
                       "boomerang" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
-  
+
   //Area Access Rules
   {
     "name": "can_access_dragon_roost_cavern",
@@ -507,14 +516,14 @@
   },
   {
     "name": "can_access_forest_haven",
-    "access_rules": [ "grapple", 
-                      "@can_fly_with_deku_leaf_outdoors" ],
+    "access_rules": [ "grapple",
+                      "@can_fly_with_deku_leaf_outdoors,[grapple]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_access_forbidden_woods",
-    "access_rules": [ "@can_access_forest_haven,[grapple],@can_fly_with_deku_leaf_outdoors,@can_cut_grass", 
-                      "@can_access_forest_haven,[grapple],@can_fly_with_deku_leaf_outdoors,double" ],
+    "access_rules": [ "@can_access_forest_haven,[grapple],@can_fly_with_deku_leaf_outdoors,[@can_cut_grass]",
+                      "@can_access_forest_haven,[grapple],@can_fly_with_deku_leaf_outdoors,[double]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -534,13 +543,13 @@
   },
   {
     "name": "can_access_savage_labyrinth",
-    "access_rules": [ "power,@can_cut_down_outset_trees,@can_fly_with_deku_leaf_outdoors", 
+    "access_rules": [ "power,@can_cut_down_outset_trees,@can_fly_with_deku_leaf_outdoors",
                       "power,hookshot" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_access_dragon_roost_island_secret_cave",
-    "access_rules": [ "@can_move_boulders", 
+    "access_rules": [ "@can_move_boulders",
                       "[]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -566,13 +575,13 @@
   },
   {
     "name": "can_access_angular_isles_secret_cave",
-    "access_rules": [ "@can_fly_with_deku_leaf_outdoors", 
+    "access_rules": [ "@can_fly_with_deku_leaf_outdoors",
                       "hookshot" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_access_boating_course_secret_cave",
-    "access_rules": [ "@can_fly_with_deku_leaf_outdoors", 
+    "access_rules": [ "@can_fly_with_deku_leaf_outdoors",
                       "hookshot" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -588,7 +597,8 @@
   },
   {
     "name": "can_access_birds_peak_rock_secret_cave",
-    "access_rules": [ "baitbag,@can_buy_hyoi_pears" ],
+    "access_rules": [ "baitbag,@can_buy_hyoi_pears",
+      "grapple,[baitbag]"],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -641,7 +651,7 @@
   },
   {
     "name": "can_get_inside_forsaken_fortress",
-    "access_rules": [ "@can_get_past_forsaken_fortress_gate,hammer" ],
+    "access_rules": [ "@can_get_past_forsaken_fortress_gate,[hammer]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -656,13 +666,13 @@
   },
   {
     "name": "can_get_past_hyrule_barrier",
-    "access_rules": [ "@can_access_hyrule,ms3", 
+    "access_rules": [ "@can_access_hyrule,ms3",
                       "@can_access_hyrule,swordless" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_access_ganons_tower",
-    "access_rules": [ "@can_get_past_hyrule_barrier,hookshot", 
+    "access_rules": [ "@can_get_past_hyrule_barrier,hookshot",
                       "@can_get_past_hyrule_barrier,leaf" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
@@ -693,8 +703,9 @@
   },
   {
     "name": "can_unlock_ganons_tower_four_boss_door",
-    "access_rules": [ "@can_complete_all_memory_dungeons_and_bosses", 
-                      "skip_rematches" ],
+    "access_rules": [ "@can_complete_all_memory_dungeons_and_bosses",
+                      "skip_rematches",
+                      "leaf,[@can_complete_all_memory_dungeons_and_bosses]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -704,7 +715,7 @@
   },
   {
     "name": "can_reach_and_defeat_puppet_ganon",
-    "access_rules": [ "@can_reach_ganons_tower_phantom_ganon_room,lightarrow,@can_defeat_moblins,@can_defeat_darknuts,@can_defeat_puppet_ganon" ],
+    "access_rules": [ "@can_reach_ganons_tower_phantom_ganon_room,lightarrow,@can_defeat_puppet_ganon" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -719,7 +730,8 @@
     "access_rules": [ "[grapple],spoils,[firearrow],[boots]", // Ice Ring Isle inner cave (or maybe you can have enough with random non-respawning Darknuts)
                       "[grapple],spoils,@can_access_savage_labyrinth,@can_defeat_keese,@can_defeat_miniblins,@can_defeat_red_chuchus,@can_defeat_magtails,@can_defeat_fire_keese,@can_defeat_peahats,@can_defeat_green_chuchus,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_armos,@can_defeat_yellow_chuchus,@can_defeat_red_bubbles,[@can_defeat_darknuts],[@can_play_winds_requiem]", // Savage Labyrinth floor 27
                       "[grapple],spoils,@can_access_earth_temple,@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,[et_key:3],et_key:2,@can_defeat_red_bubbles,@can_defeat_blue_bubbles,@can_defeat_darknuts,[@can_defeat_darknuts_easily]", // Earth Temple big key room
-                      "[grapple],spoils,@can_access_shark_island_secret_cave,@can_defeat_miniblins" ], // Shark Island Secret Cave
+                      "[grapple],spoils,@can_access_shark_island_secret_cave,@can_defeat_miniblins", // Shark Island Secret Cave
+                      "@can_access_hyrule,@can_defeat_darknuts"], //1.8
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -785,14 +797,15 @@
       {
         "name": "Jabun's Cave",
         "item_count": 1,
-        "access_rules": [ "bombs" ],
-        "visibility_rules": [ "misc" ]
+        "access_rules": [ "bombs",
+                          "[bombs],windwaker"],
+        "visibility_rules": [ "islandpuzzle" ]
       },
       {
         "name": "Black Soil",
         "item_count": 1,
         "access_rules": [ "baitbag,power,@can_buy_bait" ],
-        "visibility_rules": [ "misc" ]
+        "visibility_rules": [ "islandpuzzle" ]
       }
     ],
     "map_locations": [
@@ -811,7 +824,7 @@
         "name": "Floor 30",
         "item_count": 1,
         "capture_item": true,
-        "access_rules": [ "@can_defeat_keese,@can_defeat_miniblins,@can_defeat_red_chuchus,@can_defeat_magtails,@can_defeat_fire_keese,@can_defeat_peahats,@can_defeat_green_chuchus,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_armos,@can_defeat_yellow_chuchus,@can_defeat_red_bubbles,@can_defeat_darknuts,@can_play_winds_requiem", 
+        "access_rules": [ "@can_defeat_keese,@can_defeat_miniblins,@can_defeat_red_chuchus,@can_defeat_magtails,@can_defeat_fire_keese,@can_defeat_peahats,@can_defeat_green_chuchus,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_armos,@can_defeat_yellow_chuchus,@can_defeat_red_bubbles,@can_defeat_darknuts,@can_play_winds_requiem",
                           "{}" ],
         "visibility_rules": [ "savage" ]
       },
@@ -819,8 +832,9 @@
         "name": "Floor 50",
         "item_count": 1,
         "capture_item": true,
-        "access_rules": [ "@Savage Labyrinth/Floor 30,@can_aim_mirror_shield,@can_defeat_redeads,@can_defeat_blue_bubbles,@can_defeat_dark_chuchus,@can_defeat_poes,@can_defeat_stalfos,hammer", 
-                          "{}" ],
+        "access_rules": [ "@Savage Labyrinth/Floor 30,@can_aim_mirror_shield,@can_defeat_redeads,@can_defeat_blue_bubbles,@can_defeat_dark_chuchus,@can_defeat_poes,@can_defeat_stalfos,hammer",
+                          "{leaf},{double}",
+                          "{hookshot}" ],
         "visibility_rules": [ "savage" ]
       }
     ],
@@ -836,7 +850,7 @@
     "name": "Windfall Island (Sidequests)",
     "sections": [
       {
-        "name": "Hide & Seek",
+        "name": "Ivan (Hide & Seek)",
         "item_count": 1,
         "visibility_rules": [ "shortsidequests" ]
       },
@@ -846,7 +860,7 @@
         "visibility_rules": [ "shortsidequests" ]
       },
       {
-        "name": "Mila",
+        "name": "Mila the Thief",
         "item_count": 1,
         "visibility_rules": [ "shortsidequests" ]
       },
@@ -857,7 +871,7 @@
         "visibility_rules": [ "shortsidequests" ]
       },
       {
-        "name": "Postman in Bar",
+        "name": "Postman in Cafe",
         "item_count": 1,
         "access_rules": [ "delivery,magletter" ],
         "visibility_rules": [ "shortsidequests" ]
@@ -865,30 +879,30 @@
       {
         "name": "Kreeb (Windmill)",
         "item_count": 1,
-        "access_rules": [ "@can_play_winds_requiem,firearrow" ],
+        "access_rules": [ "[@can_play_winds_requiem],firearrow" ],
         "visibility_rules": [ "shortsidequests" ]
       },
       {
         "name": "Invisible Chest",
         "item_count": 1,
-        "access_rules": [ "@can_play_winds_requiem,firearrow,@can_fly_with_deku_leaf_outdoors", 
-                          "@can_play_winds_requiem,firearrow,hookshot" ],
+        "access_rules": [ "[@can_play_winds_requiem],firearrow,@can_fly_with_deku_leaf_outdoors",
+                          "[@can_play_winds_requiem],firearrow,hookshot" ],
         "visibility_rules": [ "shortsidequests" ]
       },
       {
         "name": "Lenzo's Balcony",
         "item_count": 2,
-        "access_rules": [ "@can_play_winds_requiem,pic1" ],
+        "access_rules": [ "[@can_play_winds_requiem],pic1" ],
         "visibility_rules": [ "shortsidequests" ]
       },
       {
-        "name": "Gossip",
+        "name": "Pompie & Vera the Gossips",
         "item_count": 1,
-        "access_rules": [ "@can_play_winds_requiem,pic1" ],
+        "access_rules": [ "[@can_play_winds_requiem],pic1" ],
         "visibility_rules": [ "shortsidequests" ]
       },
       {
-        "name": "Old Miss Windfall",
+        "name": "Minenco, Ole Miss Windfall",
         "item_count": 1,
         "access_rules": [ "pic2" ],
         "visibility_rules": [ "shortsidequests" ]
@@ -908,37 +922,37 @@
       {
         "name": "Sam - Decorate Town",
         "item_count": 1,
-        "access_rules": [ "delivery,tflower", 
-                          "delivery,sflower", 
-                          "delivery,eflower", 
-                          "delivery,pinwheel", 
-                          "delivery,smflag", 
-                          "delivery,bcflag", 
-                          "delivery,fidol", 
-                          "delivery,stidol", 
-                          "delivery,bsflag", 
-                          "delivery,hflag", 
-                          "delivery,pstatue", 
+        "access_rules": [ "delivery,tflower",
+                          "delivery,sflower",
+                          "delivery,eflower",
+                          "delivery,pinwheel",
+                          "delivery,smflag",
+                          "delivery,bcflag",
+                          "delivery,fidol",
+                          "delivery,stidol",
+                          "delivery,bsflag",
+                          "delivery,hflag",
+                          "delivery,pstatue",
                           "delivery,sgstatue" ],
         "visibility_rules": [ "longsidequests" ]
       },
       {
         "name": "Zunari - Exotic Flower Reward",
         "item_count": 1,
-        "access_rules": [ "delivery,eflower", 
-                          "delivery,pinwheel", 
-                          "delivery,smflag", 
-                          "delivery,bcflag", 
-                          "delivery,fidol", 
-                          "delivery,stidol", 
-                          "delivery,bsflag", 
-                          "delivery,hflag", 
-                          "delivery,pstatue", 
+        "access_rules": [ "delivery,eflower",
+                          "delivery,pinwheel",
+                          "delivery,smflag",
+                          "delivery,bcflag",
+                          "delivery,fidol",
+                          "delivery,stidol",
+                          "delivery,bsflag",
+                          "delivery,hflag",
+                          "delivery,pstatue",
                           "delivery,sgstatue" ],
         "visibility_rules": [ "shortsidequests" ]
       },
       {
-        "name": "Kamo",
+        "name": "Kamo The Romantic",
         "item_count": 1,
         "access_rules": [ "pic2,[passing]" ],
         "visibility_rules": [ "longsidequests" ]
@@ -964,8 +978,8 @@
       {
         "name": "Get Town Flower",
         "hosted_item": "tflower",
-        "visibility_rules": [ "longsidequests,delivery",
-                              "shortsidequests,delivery"  ]
+        "visibility_rules": [ "longsidequests,delivery,no_trade",
+                              "shortsidequests,delivery,no_trade"  ]
       }
     ],
     "map_locations": [
@@ -980,28 +994,23 @@
     "name": "Windfall Island (Other)",
     "sections": [
       {
-        "name": "Tingle's Gifts",
+        "name": "Tingle the Prisoner",
         "item_count": 2,
         "visibility_rules": [ "gifts" ]
       },
       {
-        "name": "Jail Tunnel",
+        "name": "Jail Maze",
         "item_count": 1,
-        "visibility_rules": [ "misc" ]
+        "visibility_rules": [ "islandpuzzle" ]
       },
       {
-        "name": "Dancing Man Tott",
+        "name": "Tott the Dancing Man",
         "item_count": 1,
         "access_rules": [ "windwaker" ],
         "visibility_rules": [ "gifts" ]
       },
       {
-        "name": "Pirate Ship",
-        "item_count": 1,
-        "visibility_rules": [ "misc" ]
-      },
-      {
-        "name": "Maggie's Letter",
+        "name": "Maggie the Lover",
         "item_count": 1,
         "visibility_rules": [ "gifts" ]
       },
@@ -1064,12 +1073,12 @@
         "item_count": 1,
         "capture_item": true,
         "visibility_rules": [ "expensive,minigames" ]
-      }
-      /*{
-        "name": "Dampa's Pigs",
-        "item_count": 1,
-        "access_rules": [ "spoils" ]
-      }*/
+     },
+     {
+      "name": "Pirate Ship",
+      "item_count": 1,
+      "visibility_rules": [ "minigames" ]
+     }
     ],
     "map_locations": [
       {
@@ -1080,20 +1089,16 @@
     ]
   },
   {
-    "name": "Sploosh Kaboom",
+    "name": "Sinking Ships Minigame",
     "sections": [
       {
-        "name": "First Prize",
-        "item_count": 1,
+        "name": "Kaboom",
+        "item_count": 2,
+        "clear_as_group": false,
         "visibility_rules": [ "sploosh" ]
       },
       {
-        "name": "Second Prize",
-        "item_count": 1,
-        "visibility_rules": [ "sploosh" ]
-      },
-      {
-        "name": "Under 20 Shots",
+        "name": "New Record",
         "item_count": 1,
         "visibility_rules": [ "sploosh" ]
       }
@@ -1118,14 +1123,14 @@
       {
         "name": "Boulder Chest",
         "item_count": 1,
-        "access_rules": [ "bow", 
-                          "baitbag,@can_buy_hyoi_pears", 
+        "access_rules": [ "bow",
+                          "baitbag,@can_buy_hyoi_pears",
                           "boomerang",
                           "bombs" ],
-        "visibility_rules": [ "misc" ]
+        "visibility_rules": [ "islandpuzzle" ]
       },
       {
-        "name": "Secret Cave",
+        "name": "Special Enemy Trial Cave",
         "item_count": 1,
         "access_rules": [ "@can_access_dragon_roost_island_secret_cave,@can_defeat_keese,[@can_defeat_red_chuchus]" ],
         "visibility_rules": [ "combatcaves" ]
@@ -1133,9 +1138,9 @@
       {
         "name": "Long Passage",
         "item_count": 1,
-        "access_rules": [ "@can_fly_with_deku_leaf_outdoors,@can_cut_grass", 
+        "access_rules": [ "@can_fly_with_deku_leaf_outdoors,[@can_cut_grass]",
                           "@can_fly_with_deku_leaf_outdoors,double" ],
-        "visibility_rules": [ "misc" ]
+        "visibility_rules": [ "islandpuzzle" ]
       },
       {
         "name": "20 Gold Feathers",
@@ -1159,7 +1164,7 @@
   },
   {
     "name": "Dragon Roost Cavern",
-    "access_rules": [ "@can_access_dragon_roost_cavern" ],
+    "access_rules": [ "[@can_access_dragon_roost_cavern],drc_true" ],
     "sections": [
       {
         "name": "Small Keys",
@@ -1177,7 +1182,13 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Map Chest",
+        "name": "Lava Room",
+        "item_count": 1,
+        "access_rules": [ "drc_key:1" ],
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Behind Two Torches",
         "item_count": 1,
         "access_rules": [ "drc_key:1" ],
         "visibility_rules": [ "dungeons" ]
@@ -1185,26 +1196,14 @@
       {
         "name": "Across Lava Pit",
         "item_count": 1,
-        "access_rules": [ "drc_key:2,leaf", 
-                          "drc_key:2,grapple", 
+        "access_rules": [ "drc_key:2,leaf",
+                          "drc_key:2,grapple",
                           "drc_key:2,hookshot,[leaf]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Boarded-up Chest",
-        "item_count": 1,
-        "access_rules": [ "drc_key:1" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      {
-        "name": "Compass Chest",
-        "item_count": 1,
-        "access_rules": [ "drc_key:2" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      {
         "name": "Rat Room",
-        "item_count": 1,
+        "item_count": 2,
         "access_rules": [ "drc_key:2" ],
         "visibility_rules": [ "dungeons" ]
       },
@@ -1227,61 +1226,62 @@
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
-        "name": "Pot Room Chest",
+        "name": "Three Bokoblins",
         "item_count": 1,
         "access_rules": [ "drc_key:4" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Miniboss Chest",
+        "name": "Miniboss",
         "item_count": 1,
         "access_rules": [ "drc_key:4" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Rope Bridge",
+        "name": "Under Rope Bridge",
         "item_count": 1,
-        "access_rules": [ "drc_key:4,grapple", 
+        "access_rules": [ "drc_key:4,grapple",
                           "drc_key:4,@can_fly_with_deku_leaf_outdoors" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Tingle Statue Chest",
         "item_count": 1,
-        "access_rules": [ "drc_key:4,@can_cut_down_hanging_drc_platform,grapple,@tingle_tuner_bombs", 
-                          "drc_key:1,leaf,grapple,@tingle_tuner_bombs", 
+        "access_rules": [ "drc_key:4,@can_cut_down_hanging_drc_platform,grapple,@tingle_tuner_bombs",
+                          "drc_key:1,leaf,grapple,@tingle_tuner_bombs",
                           "drc_key:1,icearrow,grapple,@tingle_tuner_bombs" ],
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
         "name": "Big Key Chest",
         "item_count": 1,
-        "access_rules": [ "drc_key:4,@can_cut_down_hanging_drc_platform,grapple", 
-                          "drc_key:1,leaf,grapple", 
+        "access_rules": [ "drc_key:4,@can_cut_down_hanging_drc_platform,grapple",
+                          "drc_key:1,leaf,grapple",
                           "drc_key:1,icearrow,grapple" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Boss Stairs",
         "item_count": 2,
-        "access_rules": [ "drc_key:4,grapple", 
-                          "drc_key:4,leaf", 
-                          "drc_key:4,hookshot", 
+        "access_rules": [ "drc_key:4,grapple",
+                          "drc_key:4,leaf",
+                          "drc_key:4,hookshot",
                           "drc_key:4,icearrow" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Gohma Item",
+        "name": "Gohma Heart Container",
         "item_count": 1,
         "access_rules": [ "drc_key:4,grapple,drc_bk,@can_defeat_gohma" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/1 Gohma.png"
       }
     ],
     "map_locations": [
       {
         "map": "map",
-        "x": 817,
-        "y": 230
+        "x": 89,
+        "y": 1055
       }
     ]
   },
@@ -1292,13 +1292,13 @@
         "name": "Tree Branch",
         "item_count": 1,
         "access_rules": [ "@can_access_forest_haven,[grapple]" ],
-        "visibility_rules": [ "misc" ]
+        "visibility_rules": [ "islandpuzzle" ]
       },
       {
         "name": "Small Island",
         "item_count": 1,
         "access_rules": [ "@can_access_forest_haven,[grapple],@can_fly_with_deku_leaf_outdoors" ],
-        "visibility_rules": [ "misc" ]
+        "visibility_rules": [ "islandpuzzle" ]
       }
     ],
     "map_locations": [
@@ -1311,7 +1311,7 @@
   },
   {
     "name": "Forbidden Woods",
-    "access_rules": [ "@can_access_forbidden_woods" ],
+    "access_rules": [ "[@can_access_forbidden_woods],fw_true" ],
     "sections": [
       {
         "name": "Small Keys",
@@ -1324,14 +1324,14 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Map Chest",
+        "name": "Entrance Room",
         "item_count": 1,
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Hollow Tree Mouth",
         "item_count": 1,
-        "access_rules": [ "@can_defeat_door_flowers", 
+        "access_rules": [ "@can_defeat_door_flowers",
                           "@can_defeat_boko_babas" ],
         "visibility_rules": [ "dungeons" ]
       },
@@ -1366,31 +1366,31 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Mothula (Miniboss)",
+        "name": "Mothula",
         "item_count": 1,
         "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,fw_key:1,@can_defeat_winged_mothulas" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Hanging Seeds Chest",
+        "name": "Hanging Seeds",
         "item_count": 1,
         "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,fw_key:1,@can_defeat_door_flowers,[@can_destroy_seeds_hanging_by_vines]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Hanging Flower Room",
+        "name": "Behind Red Flower",
         "item_count": 1,
         "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Tingle Statue Chest",
+        "name": "Tingle Chest",
         "item_count": 1,
         "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang,@tingle_tuner_bombs" ],
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
-        "name": "Tree Trunk Chest",
+        "name": "Tree Trunk",
         "item_count": 1,
         "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang" ],
         "visibility_rules": [ "dungeons" ]
@@ -1404,23 +1404,24 @@
       {
         "name": "Wingless Mothulas",
         "item_count": 1,
-        "access_rules": [ "leaf,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_defeat_mothulas", 
+        "access_rules": [ "leaf,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_defeat_mothulas",
                           "leaf,@can_defeat_boko_babas,grapple,@can_defeat_mothulas" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Kalle Demos",
+        "name": "Kalle Demos Heart Container",
         "item_count": 1,
-        "access_rules": [ "leaf,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_defeat_mothulas,fw_bk,@can_defeat_kalle_demos", 
+        "access_rules": [ "leaf,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_defeat_mothulas,fw_bk,@can_defeat_kalle_demos",
                           "leaf,@can_defeat_boko_babas,grapple,@can_defeat_mothulas,fw_bk,@can_defeat_kalle_demos" ],
-        "visibility_rules": [ "dungeons" ]
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/2 Kalle Demos.png"
       }
     ],
     "map_locations": [
       {
         "map": "map",
-        "x": 772,
-        "y": 813
+        "x": 236,
+        "y": 1055
       }
     ]
   },
@@ -1483,7 +1484,7 @@
   },
   {
     "name": "Tower of the Gods",
-    "access_rules": [ "@can_access_tower_of_the_gods" ],
+    "access_rules": [ "[@can_access_tower_of_the_gods],totg_true" ],
     "sections": [
       {
         "name": "Small Keys",
@@ -1496,93 +1497,107 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Map Chest",
+        "name": "Flooding Room",
         "item_count": 1,
         "access_rules": [ "bombs" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Floating Boxes Chest",
+        "name": "Floating Boxes",
         "item_count": 1,
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Light Two Torches",
         "item_count": 1,
-        "access_rules": [ "bombs" ],
+        "access_rules": [ "bombs",
+                          "leaf,[double],[bombs]"],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Compass Chest",
+        "name": "Eye Switch Room",
         "item_count": 1,
-        "access_rules": [ "bombs" ],
+        "access_rules": [ "bombs",
+                          "leaf,double,[bombs]",
+                          "leaf,bottle,[bombs]"],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Behind Compass Chest",
+        "name": "Behind Eye Switch",
         "item_count": 1,
-        "access_rules": [ "bombs,bow" ],
+        "access_rules": [ "bombs,bow",
+                          "leaf,double,[bombs],bow",
+                          "leaf,bottle,[bombs],bow"],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Tingle Statue Chest",
+        "name": "Tingle Chest",
         "item_count": 1,
-        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,@tingle_tuner_bombs" ],
+        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,@tingle_tuner_bombs",
+        "bombs,[totg_key:1],@can_defeat_yellow_chuchus,@tingle_tuner_bombs,leaf" ],
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
-        "name": "Upper Armos Chest",
+        "name": "Kill Armos Knights",
         "item_count": 1,
-        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,bow" ],
+        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,bow",
+        "bombs,[totg_key:1],@can_defeat_yellow_chuchus,bow,leaf" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Stone Tablet",
         "item_count": 1,
-        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker" ],
+        "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker",
+        "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Darknut Miniboss",
+        "name": "Darknut",
         "item_count": 1,
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,@can_play_command_melody,@can_defeat_darknuts",
                           "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,bow,@can_defeat_darknuts",
                           "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,@can_defeat_darknuts",
-                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,bow,@can_defeat_darknuts" ],
+                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,bow,@can_defeat_darknuts",
+                          "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf,bow,@can_defeat_darknuts"],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Lower Armos",
+        "name": "Winds Requiem",
         "item_count": 1,
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,@can_play_command_melody,bow,@can_play_winds_requiem",
-                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow,@can_play_winds_requiem" ],
+                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow,@can_play_winds_requiem",
+                          "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow,@can_play_winds_requiem"],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Floating Platforms",
         "item_count": 2,
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,@can_play_command_melody,bow",
-                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow" ],
+                          "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow",
+                          "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow"],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Big Key Chest",
         "item_count": 1,
-        "access_rules": [ "bombs,totg_key:2,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow" ],
+        "access_rules": [ "bombs,totg_key:2,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow",
+                          "bombs,totg_key:1,[totg_key:2],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow"],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Gohdan",
+        "name": "Gohdan Heart Container",
         "item_count": 1,
-        "access_rules": [ "bombs,totg_key:2,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow,@can_defeat_armos,totg_bk,@can_defeat_gohdan" ],
-        "visibility_rules": [ "dungeons" ]
+        "access_rules": [ "bombs,totg_key:2,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow,@can_defeat_armos,totg_bk,@can_defeat_gohdan",
+                          "bombs,totg_key:1,[totg_key:2],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow,[@can_defeat_armos],totg_bk,@can_defeat_gohdan"],
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/3 Gohdan.png"
       }
     ],
     "map_locations": [
       {
         "map": "map",
-        "x": 660,
-        "y": 517
+        "x": 383,
+        "y": 1055
       }
     ]
   },
@@ -1607,7 +1622,7 @@
   },
   {
     "name": "Forsaken Fortress",
-    "access_rules": [ "@can_get_past_forsaken_fortress_gate" ],
+    "access_rules": [ "@can_get_past_forsaken_fortress_gate,ff_true" ],
     "sections": [
       {
         "name": "Phantom Ganon",
@@ -1616,10 +1631,10 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Map Chest",
+        "name": "Near Upper Cell",
         "item_count": 1,
-        "access_rules": [ "@can_get_inside_forsaken_fortress,leaf", 
-                          "@can_get_inside_forsaken_fortress,hookshot" ],
+        "access_rules": [ "@can_get_inside_forsaken_fortress,[leaf]",
+                          "@can_get_inside_forsaken_fortress,[hookshot]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -1629,26 +1644,32 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Compass Chest",
+        "name": "Bokoblin Protected Chest",
         "item_count": 1,
         "access_rules": [ "@can_get_inside_forsaken_fortress" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Jail Cell",
+        "name": "Lower Jail Cell",
         "item_count": 1,
         "access_rules": [ "@can_get_inside_forsaken_fortress" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Helmaroc King",
+        "name": "Helmaroc King Heart Container",
         "item_count": 1,
-        "access_rules": [ "@can_get_inside_forsaken_fortress,hammer,[leaf],@can_reach_and_defeat_phantom_ganon,@can_defeat_helmaroc_king",
-                          "@can_get_inside_forsaken_fortress,hammer,[hookshot],@can_reach_and_defeat_phantom_ganon,@can_defeat_helmaroc_king" ],
-        "visibility_rules": [ "dungeons" ]
+        "access_rules": [ "@can_get_inside_forsaken_fortress,hammer,[leaf],@can_defeat_helmaroc_king",
+                          "@can_get_inside_forsaken_fortress,hammer,[hookshot],@can_defeat_helmaroc_king" ],
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/4 Helmaroc King.png"
       }
     ],
     "map_locations": [
+      {
+        "map": "map",
+        "x": 677,
+        "y": 1055
+      },
       {
         "map": "map",
         "x": 80,
@@ -1684,7 +1705,7 @@
       {
         "name": "Trade for Big Sale Flag",
         "hosted_item": "bsflag",
-        "visibility_rules": [ "longsidequests,expensive,fidol,delivery", 
+        "visibility_rules": [ "longsidequests,expensive,fidol,delivery",
                               "longsidequests,expensive,stidol,delivery" ]
       },
       {
@@ -1705,7 +1726,7 @@
     "name": "Fire Mountain",
     "sections": [
       {
-        "name": "Cave Chest",
+        "name": "Volcano Chest",
         "item_count": 1,
         "access_rules": [ "@can_access_fire_mountain_secret_cave,@can_defeat_magtails" ],
         "visibility_rules": [ "puzzlecaves" ]
@@ -1767,19 +1788,20 @@
         "name": "Frozen Chest",
         "item_count": 1,
         "access_rules": [ "firearrow" ],
-        "visibility_rules": [ "misc" ]
+        "visibility_rules": [ "islandpuzzle" ]
       },
       {
-        "name": "Cave Chest",
+        "name": "Iron Boots Chest",
         "item_count": 1,
         "access_rules": [ "@can_access_ice_ring_isle_secret_cave" ],
         "visibility_rules": [ "puzzlecaves" ]
       },
       {
-        "name": "Inner Cave Chest",
+        "name": "Icy Combat",
         "item_count": 1,
-        "access_rules": [ "@can_access_ice_ring_isle_secret_cave,boots,firearrow" ],
-        "visibility_rules": [ "puzzlecaves" ]
+        "access_rules": [ "@can_access_ice_ring_isle_secret_cave,boots,firearrow",
+                          "@can_access_ice_ring_isle_secret_cave,[boots],firearrow,windwaker"],
+        "visibility_rules": [ "puzzlecaves,combatcaves" ]
       }
     ],
     "map_locations": [
@@ -1816,7 +1838,7 @@
         "item_count": 1,
         "access_rules": [ "baitbag,@can_buy_hyoi_pears",
                           "{}" ],
-        "visibility_rules": [ "misc" ],
+        "visibility_rules": [ "islandpuzzle" ],
         "capture_item": true
       }
     ],
@@ -1830,7 +1852,7 @@
   },
   {
     "name": "Earth Temple",
-    "access_rules": [ "@can_access_earth_temple" ],
+    "access_rules": [ "[@can_access_earth_temple],et_true" ],
     "sections": [
       {
         "name": "Small Keys",
@@ -1843,54 +1865,52 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Map Chest",
+        "name": "ChuChu Room",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody" ],
+        "access_rules": [ "@can_play_command_melody",
+                          "[@can_play_command_melody],leaf,[double]"],
         "visibility_rules": [ "dungeons" ]
       },
-      /*{
-        "name": "Behind Curtain",
+      {
+        "name": "Bubble Crypt",
         "item_count": 1,
-        "access_rules": [ "bow,elementals" ]
-      },*/
+        "access_rules": [ "[@can_play_command_melody],hammer,power" ],
+        "visibility_rules": [ "dungeons" ]
+      },
       {
         "name": "Destructible Wall Chest",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,@can_defeat_red_chuchus,@can_defeat_green_chuchus,@can_defeat_dark_chuchus,hammer,mirror" ],
+        "access_rules": [ "[@can_play_command_melody],hammer,mirror" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "First Crypt Chest",
+        "name": "Three Blocks",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,hammer,power" ],
+        "access_rules": [ "[@can_play_command_melody],et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Compass Chest",
+        "name": "Behind Statues",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters]" ],
+        "access_rules": [ "[@can_play_command_melody],et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Chest Behind Statues",
+        "name": "ReDead Crypt",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters]" ],
+        "access_rules": [ "[@can_play_command_melody],et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters],[@can_defeat_redeads]",
+                          "[@can_play_command_melody],et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters],leaf,boomerang"],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Casket Near Miniboss",
+        "name": "Two Stalfos",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters]" ],
+        "access_rules": [ "[@can_play_command_melody],et_key:2,[et_key:3],firearrow,power,[@can_defeat_floormasters],@can_defeat_stalfos",
+                          "[@can_play_command_melody],et_key:2,[et_key:3],firearrow,power,[@can_defeat_floormasters],[@can_defeat_stalfos],hookshot"],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Stalfos Miniboss",
-        "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,et_key:2,[et_key:3],firearrow,power,[@can_defeat_floormasters],@can_defeat_stalfos" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      {
-        "name": "Tingle Statue",
+        "name": "Tingle Chest",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@tingle_tuner_bombs" ],
         "visibility_rules": [ "dungeons,statues" ]
@@ -1902,24 +1922,19 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Kill the Floormasters",
+        "name": "Many Floormasters",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,@can_defeat_floormasters" ],
+        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,[@can_defeat_floormasters]" ],
         "visibility_rules": [ "dungeons" ]
       },
-      /*{
-        "name": "Curtains next to Hammer Peg",
-        "item_count": 1,
-        "access_rules": [ "@aim_mirror_shield,lyric" ]
-      },*/
       {
-        "name": "Crypt Maze Chest",
+        "name": "Large Crypt",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Mirror Room Chests",
+        "name": "Mirror Room",
         "item_count": 2,
         "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles]" ],
         "visibility_rules": [ "dungeons" ]
@@ -1937,23 +1952,24 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Jalhalla",
+        "name": "Jalhalla Heart Container",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],et_bk,@can_defeat_jalhalla" ],
-        "visibility_rules": [ "dungeons" ]
+        "access_rules": [ "@can_play_command_melody,[@can_aim_mirror_shield],@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],et_bk,@can_defeat_jalhalla" ],
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/5 Jalhalla.png"
       }
     ],
     "map_locations": [
       {
         "map": "map",
-        "x": 395,
-        "y": 995
+        "x": 824,
+        "y": 1055
       }
     ]
   },
   {
     "name": "Wind Temple",
-    "access_rules": [ "@can_access_wind_temple" ],
+    "access_rules": [ "[@can_access_wind_temple],wt_true" ],
     "sections": [
       {
         "name": "Small Keys",
@@ -1966,51 +1982,16 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Chest Between Trees",
+        "name": "Between Trees",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Tingle Statue",
+        "name": "Tingle Chest",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,boots,leaf,@tingle_tuner_bombs" ],
         "visibility_rules": [ "dungeons,statues" ]
-      },
-      {
-        "name": "Chest in Alcove",
-        "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      {
-        "name": "Map Chest",
-        "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass", 
-                          "@can_play_command_melody,boots,leaf,double", 
-                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      {
-        "name": "Compass Chest",
-        "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass", 
-                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      {
-        "name": "Spike Wall Room",
-        "item_count": 2,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass", 
-                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      {
-        "name": "Miniboss",
-        "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass,wt_key:1,[wt_key:2],@can_defeat_darknuts,@can_remove_peahat_armor", 
-                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles,wt_key:1,[wt_key:2],@can_defeat_darknuts,@can_remove_peahat_armor" ],
-        "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Makar's Cell",
@@ -2019,23 +2000,58 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Top of Hub Room",
+        "name": "In Alcove",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass", 
+        "access_rules": [ "@can_play_command_melody,boots,leaf" ],
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Three Darknuts",
+        "item_count": 1,
+        "access_rules": [ "[@can_play_command_melody],boots,leaf,@can_play_wind_gods_aria,@can_defeat_darknuts" ],
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Many Cyclones Room",
+        "item_count": 1,
+        "access_rules": [ "@can_play_command_melody,[boots],leaf,@can_cut_grass",
+                          "@can_play_command_melody,[boots],leaf,double",
+                          "@can_play_command_melody,[boots],leaf,[hookshot],[@can_defeat_wizzrobes_at_range]" ],
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Bottom of Hub",
+        "item_count": 1,
+        "access_rules": [ "@can_play_command_melody,boots,leaf,[@can_cut_grass]",
+                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles" ],
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Spike Wall Room",
+        "item_count": 2,
+        "access_rules": [ "@can_play_command_melody,boots,[leaf],[@can_cut_grass]",
+                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles" ],
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Miniboss",
+        "item_count": 1,
+        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass,wt_key:1,[wt_key:2],@can_defeat_darknuts,@can_remove_peahat_armor",
+                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles,wt_key:1,[wt_key:2],@can_defeat_darknuts,@can_remove_peahat_armor" ],
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Top of Hub",
+        "item_count": 1,
+        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass",
                           "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Seven Armos",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass,@can_defeat_armos", 
+        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass,@can_defeat_armos",
                           "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles,@can_defeat_armos" ],
-        "visibility_rules": [ "dungeons" ]
-      },
-      {
-        "name": "Big Key Chest",
-        "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_play_wind_gods_aria,@can_defeat_darknuts" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -2045,17 +2061,20 @@
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Molgera",
+        "name": "Molgera Heart Container",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles,wt_key:1,[wt_key:2],@can_play_wind_gods_aria,wt_bk,@can_defeat_molgera" ],
-        "visibility_rules": [ "dungeons" ]
+        "access_rules": [ "@can_play_command_melody,boots,leaf,hookshot,[@can_defeat_blue_bubbles],wt_key:1,[wt_key:2],[@can_play_wind_gods_aria],wt_bk,@can_defeat_molgera",
+                        "@can_play_command_melody,[boots],leaf,hookshot,[@can_defeat_blue_bubbles],[wt_key:1],[@can_play_wind_gods_aria],[wt_bk],@can_defeat_molgera"
+                     ],
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/6 Molgera.png"
       }
     ],
     "map_locations": [
       {
         "map": "map",
-        "x": 540,
-        "y": 55
+        "x": 971,
+        "y": 1055
       }
     ]
   },
@@ -2065,14 +2084,14 @@
       {
         "name": "Maze Chest",
         "item_count": 1,
-        "access_rules": [ "@can_reach_ganons_tower_phantom_ganon_room,@can_defeat_phantom_ganon" ],
+        "access_rules": [ "@can_reach_ganons_tower_phantom_ganon_room,[@can_defeat_phantom_ganon]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Defeat Ganondorf",
         "item_count": 1,
         "access_rules": [ "@can_reach_and_defeat_ganondorf" ],
-        "chest_unopened_img": "images/Triforce of Courage.png"
+        "chest_unopened_img": "images/dungeon/7 Ganondorf.png"
       }
     ],
     "map_locations": [
@@ -2089,7 +2108,7 @@
       {
         "name": "Bird Girlfriend",
         "item_count": 1,
-        "access_rules": [ "spoils,@can_farm_golden_feathers,[passing]" ],
+        "access_rules": [ "spoils,[@can_farm_golden_feathers],[passing]" ],
         "visibility_rules": [ "mail,spoilstrading" ]
       },
       {
@@ -2101,7 +2120,7 @@
       {
         "name": "Baito (Must Clear ET)",
         "item_count": 1,
-        "access_rules": [ "delivery,momletter,[passing],@Earth Temple/Jalhalla" ],
+        "access_rules": [ "delivery,momletter,[passing],@Earth Temple/Jalhalla Heart Container" ],
         "visibility_rules": [ "mail,dungeons" ]
       },
       {
@@ -2125,7 +2144,7 @@
       {
         "name": "Orca (Must Clear FW)",
         "item_count": 1,
-        "access_rules": [ "@Forbidden Woods/Kalle Demos" ],
+        "access_rules": [ "@Forbidden Woods/Kalle Demos Heart Container" ],
         "visibility_rules": [ "mail,dungeons" ]
       },
       {
@@ -2137,13 +2156,13 @@
       {
         "name": "Aryll (Must Clear FF)",
         "item_count": 1,
-        "access_rules": [ "@Forsaken Fortress/Helmaroc King,[passing]" ],
+        "access_rules": [ "@Forsaken Fortress/Helmaroc King Heart Container,[passing]" ],
         "visibility_rules": [ "mail,dungeons" ]
       },
       {
         "name": "Tingle (Free him, Clear FF)",
         "item_count": 1,
-        "access_rules": [ "wallet,@Forsaken Fortress/Helmaroc King,[passing]" ],
+        "access_rules": [ "wallet,@Forsaken Fortress/Helmaroc King Heart Container,[passing]" ],
         "visibility_rules": [ "mail,dungeons,expensive" ]
       }
     ],
@@ -2156,74 +2175,70 @@
     ]
   },
   {
-    "name": "Beedle 20 Rupee Item",
+    "name": "Beedle Shop Ship",
     "sections": [
       {
-        "name": "Bait Bag",
+        "name": "20 Rupee Item",
         "item_count": 1,
+        "access_rules":"",
         "visibility_rules": [ "misc" ]
       }
     ],
     "map_locations": [
       {
-        "map": "map",
+        "map": "map", //Spectacle Rock
         "x": 330,
         "y": 223
       },
       {
-        "map": "map",
-        "x": 512,
-        "y": 268
-      },
-      {
-        "map": "map",
+        "map": "map", //pawprint
         "x": 688,
-        "y": 230
+        "y": 226
       },
       {
-        "map": "map",
+        "map": "map", //Dragon Roost
         "x": 780,
-        "y": 250
+        "y": 265
       },
       {
-        "map": "map",
-        "x": 207,
+        "map": "map", //Greatfish
+        "x": 195,
         "y": 546
       },
       {
-        "map": "map",
-        "x": 635,
+        "map": "map", //Tower of the Gods
+        "x": 620,
         "y": 512
       },
       {
-        "map": "map",
+        "map": "map", //Eastern Triangle
         "x": 830,
         "y": 535
       },
       {
-        "map": "map",
+        "map": "map", //Southern Triangle
         "x": 528,
         "y": 650
       },
       {
-        "map": "map",
+        "map": "map", //Shark
         "x": 397,
         "y": 856
       },
       {
-        "map": "map",
+        "map": "map", //Forest Haven
         "x": 845,
         "y": 794
       },
       {
-        "map": "map",
+        "map": "map", //Outset
         "x": 215,
         "y": 952
       }
     ]
   },
   {
-    "name": "Salvage Corp Gift",
+    "name": "Salvage Corp",
     "sections": [
       {
         "name": "Mmm hmm",
@@ -2232,26 +2247,31 @@
       }
     ],
     "map_locations": [
+      //Northern Triangle
       {
         "map": "map",
         "x": 500,
         "y": 389
       },
+      //Western Fairy
       {
         "map": "map",
         "x": 77,
         "y": 355
       },
+      //Horseshoe
       {
         "map": "map",
         "x": 40,
         "y": 984
       },
+      //Pawprint
       {
         "map": "map",
         "x": 649,
-        "y": 246
+        "y": 234
       },
+      //Eastern Triangle
       {
         "map": "map",
         "x": 795,
@@ -2271,17 +2291,17 @@
     ],
     "map_locations": [
       {
-        "map": "map",
+        "map": "map", //Mother Child
         "x": 216,
         "y": 254
       },
       {
-        "map": "map",
+        "map": "map", //Northern Triangle
         "x": 533,
         "y": 393
       },
       {
-        "map": "map",
+        "map": "map", //Shark Isle
         "x": 396,
         "y": 812
       }
@@ -2293,16 +2313,56 @@
       {
         "name": "Pour Water",
         "item_count": 1,
-        "access_rules": [ "@can_access_forest_haven,bottle,@can_play_ballad_of_gales,@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas,leaf", 
+        "access_rules": [ "@can_access_forest_haven,bottle,@can_play_ballad_of_gales,@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas,leaf",
                           "@can_access_forest_haven,bottle,@can_play_ballad_of_gales,@can_access_cliff_plateau_isles_secret_cave,grapple,leaf,[@can_defeat_boko_babas]" ],
         "visibility_rules": [ "longsidequests" ]
       }
     ],
     "map_locations": [
       {
-        "map": "map",
+        "map": "map", //Forest Haven
         "x": 824,
         "y": 801
+      },
+      {
+        "map": "map", //Cliff Plateau
+        "x": 935,
+        "y": 783
+      },
+      {
+        "map": "map", //Shark Island
+        "x": 352,
+        "y": 851
+      },
+      {
+        "map": "map", //Greatfish
+        "x": 210,
+        "y": 526
+      },
+      {
+        "map": "map", //Needle Rock
+        "x": 106,
+        "y": 682
+      },
+      {
+        "map": "map", //Private Oasis
+        "x": 668,
+        "y": 698
+      },
+      {
+        "map": "map", //Eastern Fairy
+        "x": 671,
+        "y": 408
+      },
+      {
+        "map": "map", //Mother Child
+        "x": 246,
+        "y": 214
+      },
+      {
+        "map": "map", //Star
+        "x": 201,
+        "y": 52
       }
     ]
   },
@@ -2313,36 +2373,47 @@
       {
         "name": "Chest",
         "item_count": 1,
-        "access_rules": [ "@can_play_ballad_of_gales,@can_defeat_wizzrobes,@can_defeat_poes,[@can_defeat_redeads],[@can_defeat_stalfos]" ],
+        "access_rules": [ "@can_play_ballad_of_gales,@can_defeat_wizzrobes,@can_defeat_poes,[@can_defeat_redeads],[@can_defeat_stalfos]",
+                          "[@can_play_ballad_of_gales],[@can_defeat_wizzrobes],[@can_defeat_poes],[@can_defeat_redeads],[@can_defeat_stalfos],leaf"],
         "visibility_rules": [ "misc" ]
       }
     ],
     "map_locations": [
       {
-        "map": "map",
+        "map": "map", //Star Island
         "x": 665,
         "y": 58
       },
       {
-        "map": "map",
+        "map": "map", //Diamond
         "x": 52,
         "y": 795
       },
       {
-        "map": "map",
+        "map": "map", //Bomb
         "x": 812,
         "y": 624
       },
       {
-        "map": "map",
+        "map": "map", //Star Belt
         "x": 961,
         "y": 387
       },
       {
-        "map": "map",
+        "map": "map", //Five-Star
         "x": 934,
         "y": 935
-      }
+      },
+      {
+        "map": "map", //Greatfish
+        "x": 177,
+        "y": 515
+      },
+      {
+        "map": "map", //Spectacle
+        "x": 387,
+        "y": 225
+      },
     ]
   },
   {
@@ -2353,7 +2424,7 @@
         "item_count": 1,
         "access_rules": [ "hookshot",
                           "@can_fly_with_deku_leaf_outdoors" ],
-        "visibility_rules": [ "misc" ]
+        "visibility_rules": [ "islandpuzzle" ]
       },
       {
         "name": "First Maze Chest",
@@ -2419,10 +2490,10 @@
         "name": "Fire Ring Chest",
         "item_count": 1,
         "access_rules": [ "baitbag,@can_buy_hyoi_pears", "firearrow,[baitbag]" ],
-        "visibility_rules": [ "misc" ]
+        "visibility_rules": [ "islandpuzzle" ]
       },
       {
-        "name": "Cave Torches",
+        "name": "Light Torches",
         "item_count": 1,
         "access_rules": [ "@can_access_needle_rock_isle_secret_cave,firearrow" ],
         "visibility_rules": [ "puzzlecaves" ]
@@ -2460,13 +2531,12 @@
       {
         "name": "Peak",
         "item_count": 1,
-        "visibility_rules": [ "misc" ]
+        "visibility_rules": [ "islandpuzzle" ]
       },
       {
-        "name": "Cave",
+        "name": "Light Puzzle",
         "item_count": 1,
-        "access_rules": [ "@can_access_angular_isles_secret_cave,@can_aim_mirror_shield,leaf", 
-                          "@can_access_angular_isles_secret_cave,@can_aim_mirror_shield,hookshot" ],
+        "access_rules": [ "[@can_access_angular_isles_secret_cave],@can_aim_mirror_shield,leaf"],
         "visibility_rules": [ "puzzlecaves" ]
       }
     ],
@@ -2499,7 +2569,7 @@
     "name": "Boat Course",
     "sections": [
       {
-        "name": "Cave",
+        "name": "Three Diamond Switches",
         "item_count": 1,
         "access_rules": [ "@can_access_boating_course_secret_cave,@can_hit_diamond_switches_at_range,[@can_defeat_miniblins_easily]" ],
         "visibility_rules": [ "puzzlecaves,combatcaves" ]
@@ -2517,7 +2587,7 @@
     "name": "Stone Watcher Island",
     "sections": [
       {
-        "name": "Cave",
+        "name": "Easy Combat Trial",
         "item_count": 1,
         "access_rules": [ "@can_access_stone_watcher_island_secret_cave,@can_defeat_armos,@can_defeat_wizzrobes,@can_defeat_darknuts,@can_play_winds_requiem" ],
         "visibility_rules": [ "combatcaves" ]
@@ -2558,9 +2628,9 @@
     "name": "Islet of Steel",
     "sections": [
       {
-        "name": "Requiem",
+        "name": "Wind's Requiem",
         "item_count": 1,
-        "access_rules": [ "bombs,@can_play_winds_requiem" ],
+        "access_rules": [ "[bombs],@can_play_winds_requiem" ],
         "visibility_rules": [ "misc" ]
       }
     ],
@@ -2594,7 +2664,7 @@
     "name": "Overlook Island",
     "sections": [
       {
-        "name": "Requiem",
+        "name": "Hard Combat Trail",
         "item_count": 1,
         "access_rules": [ "@can_access_overlook_island_secret_cave,@can_defeat_stalfos,@can_defeat_wizzrobes,[@can_defeat_red_chuchus],[@can_defeat_green_chuchus],[@can_defeat_keese],[@can_defeat_fire_keese],[@can_defeat_morths],[@can_defeat_kargarocs],@can_defeat_darknuts" ],
         "visibility_rules": [ "combatcaves" ]
@@ -2614,7 +2684,8 @@
       {
         "name": "Birb",
         "item_count": 1,
-        "access_rules": [ "@can_access_birds_peak_rock_secret_cave,@can_play_winds_requiem" ],
+        "access_rules": [ "@can_access_birds_peak_rock_secret_cave,@can_play_winds_requiem",
+                          "[@can_access_birds_peak_rock_secret_cave],@can_play_winds_requiem,grapple" ],
         "visibility_rules": [ "puzzlecaves" ]
       }
     ],
@@ -2635,9 +2706,17 @@
         "visibility_rules": [ "puzzlecaves" ]
       },
       {
-        "name": "Behind Boulders",
-        "item_count": 2,
-        "access_rules": [ "@can_move_boulders" ],
+        "name": "Behind Independent Boulder",
+        "item_count": 1,
+        "access_rules": [ "[@can_move_boulders]" ],
+        "visibility_rules": [ "puzzlecaves" ]
+      },
+      {
+        "name": "Behind Right Boulder",
+        "item_count": 1,
+        "access_rules": [ "@can_move_boulders",
+                           "[@can_move_boulders],leaf"
+                        ],
         "visibility_rules": [ "puzzlecaves" ]
       },
       {
@@ -2662,7 +2741,7 @@
       {
         "name": "Kill Everything",
         "item_count": 1,
-        "access_rules": [ "@can_defeat_wizzrobes_at_range,@can_defeat_fire_keese,@can_defeat_magtails,@can_defeat_red_chuchus,@can_defeat_green_chuchus,@can_defeat_yellow_chuchus,@can_defeat_red_bubbles,@can_remove_peahat_armor" ],
+        "access_rules": [ "@can_defeat_wizzrobes_at_range,[@can_defeat_fire_keese],[@can_defeat_magtails],[@can_defeat_red_chuchus],[@can_defeat_green_chuchus],[@can_defeat_yellow_chuchus],[@can_defeat_red_bubbles],[@can_remove_peahat_armor]" ],
         "visibility_rules": [ "combatcaves" ]
       }
     ],
@@ -2810,7 +2889,7 @@
       {
         "name": "Great Fairy",
         "item_count": 1,
-        "access_rules": [ "bombs", 
+        "access_rules": [ "bombs",
                           "firearrow" ],
         "visibility_rules": [ "greatfairies" ]
       }
@@ -2918,7 +2997,9 @@
       {
         "name": "Warp Maze",
         "item_count": 2,
-        "access_rules": [ "@can_access_diamond_steppe_island_warp_maze_cave" ],
+        "access_rules": [ "@can_access_diamond_steppe_island_warp_maze_cave",
+                          "[@can_access_diamond_steppe_island_warp_maze_cave],windwaker"],
+        "clear_as_group": false
         "visibility_rules": [ "puzzlecaves" ]
       }
     ],
@@ -2966,7 +3047,7 @@
       {
         "name": "Trade for Sickle Moon Flag",
         "hosted_item": "smflag",
-        "visibility_rules": [ "longsidequests,expensive,eflower,delivery", 
+        "visibility_rules": [ "longsidequests,expensive,eflower,delivery",
                               "longsidequests,expensive,pinwheel,delivery" ]
       },
       {
@@ -3140,7 +3221,7 @@
     "name": "Cliff Plateau Isles",
     "sections": [
       {
-        "name": "Cave",
+        "name": "Isle Interior",
         "item_count": 1,
         "access_rules": [ "@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas",
                           "@can_access_cliff_plateau_isles_secret_cave,grapple,[@can_defeat_boko_babas]" ],
@@ -3220,12 +3301,12 @@
       {
         "name": "Play Golf",
         "item_count": 1,
-        "access_rules": [ "@can_fly_with_deku_leaf_outdoors", 
+        "access_rules": [ "@can_fly_with_deku_leaf_outdoors",
                           "leaf,hookshot" ],
-        "visibility_rules": [ "misc" ]
+        "visibility_rules": [ "islandpuzzle" ]
       },
       {
-        "name": "Cave",
+        "name": "Three Mothulas",
         "item_count": 1,
         "access_rules": [ "@can_access_horseshoe_island_secret_cave,@can_defeat_mothulas,@can_defeat_winged_mothulas" ],
         "visibility_rules": [ "combatcaves" ]
@@ -3245,6 +3326,7 @@
       {
         "name": "Press Switches",
         "item_count": 2,
+        "clear_as_group":false,
         "visibility_rules": [ "platforms" ]
       }
     ],
@@ -3296,7 +3378,7 @@
     "name": "Star Island",
     "sections": [
       {
-        "name": "Cave Chest",
+        "name": "Short Combat Trial",
         "item_count": 1,
         "access_rules": [ "@can_access_star_island_secret_cave,@can_defeat_magtails" ],
         "visibility_rules": [ "combatcaves" ]
@@ -3390,6 +3472,7 @@
       {
         "name": "Kill Wizzrobes",
         "item_count": 2,
+        "clear_as_group":false,
         "visibility_rules": [ "platforms" ]
       },
       {
@@ -4882,6 +4965,106 @@
         "map": "map",
         "x": 747,
         "y": 901
+      }
+    ]
+  },
+  {
+    "name": "Dragon Roost Cavern Entrance",
+    "access_rules": [ "@can_access_dragon_roost_cavern" ],
+    "sections": [
+      {
+        "name": "Completed Dungeon",
+        "item_count": 1,
+        "access_rules": [ "@can_access_dragon_roost_cavern,[@can_defeat_gohma]"],
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/1 Heart Container.png"
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 817,
+        "y": 230
+      }
+    ]
+  },
+  {
+    "name": "Forbidden Woods Entrance",
+    "access_rules": [ "@can_access_forbidden_woods"],
+    "sections": [
+      {
+        "name": "Completed Dungeon",
+        "item_count": 1,
+        "access_rules": [ "@can_access_forbidden_woods,[@can_defeat_kalle_demos]"],
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/2 Heart Container.png"
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 772,
+        "y": 813
+      }
+    ]
+  },
+  {
+    "name": "Tower of the Gods Entrance",
+    "access_rules": [ "@can_access_tower_of_the_gods" ],
+    "sections": [
+      {
+        "name": "Completed Dungeon",
+        "item_count": 1,
+        "access_rules": [ "@can_access_tower_of_the_gods,[@can_defeat_gohdan]"],
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/3 Heart Container.png"
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 660,
+        "y": 517
+      }
+    ]
+  },
+  {
+    "name": "Earth Temple Entrance",
+    "access_rules": [ "@can_access_earth_temple" ],
+    "sections": [
+      {
+        "name": "Completed Dungeon",
+        "item_count": 1,
+        "access_rules": [ "@can_access_earth_temple,[@can_defeat_jalhalla],[@can_defeat_jalhalla_poes]"],
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/5 Heart Container.png"
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 395,
+        "y": 995
+      }
+    ]
+  },
+  {
+    "name": "Wind Temple Entrance",
+    "access_rules": [ "@can_access_wind_temple" ],
+    "sections": [
+      {
+        "name": "Completed Dungeon",
+        "item_count": 1,
+        "access_rules": [ "@can_access_wind_temple,[@can_defeat_molgera]"],
+        "visibility_rules": [ "dungeons" ],
+        "chest_unopened_img": "images/dungeon/6 Heart Container.png"
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 540,
+        "y": 55
       }
     ]
   },

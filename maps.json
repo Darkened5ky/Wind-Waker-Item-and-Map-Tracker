@@ -3,6 +3,6 @@
     "name": "map",
     "location_size": 20,
     "location_border_thickness": 3,
-    "img": "images/Sea Chart1.jpg" 
-  }  
+    "img": "images/chart/Sea Chart1.png" 
+  }
 ]

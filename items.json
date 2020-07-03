@@ -12,6 +12,7 @@
 		"name": "sail",
 		"type": "progressive",
 		"allow_disabled": false,
+		"initial_stage_idx": 1,
 		"stages": [
      		{
        			"img": "images/Sail.png",
@@ -23,7 +24,7 @@
     	]
 	},
 
-	//Wind Waker
+	//Wind Waker (Might Combine with sail)
 	{
 		"name": "Wind Waker",
 		"type": "progressive",
@@ -44,7 +45,7 @@
 		"codes": "grapple"
 	},
 
-	//Bags
+	//Bags (Might merge delivery bag with trading quest)
 	{
 		"name": "Spoils Bag",
 		"type": "toggle",
@@ -68,63 +69,71 @@
 	{
 		"name": "Trading Quest",
 		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
 		"stages": [
 			{
-				"img": "images/Town Flower.png",
-				"codes": "tflower"
+				"img": "images/trading/no-trade.png",
+				"codes": "no_trade",
+				"img_mods": "@disabled"
 			},
 			{
-				"img": "images/Sea Flower.png",
+				"img": "images/trading/Town Flower.png",
+				"codes": "tflower",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Sea Flower.png",
 				"codes": "sflower",
 				"inherit_codes": false
 			},
 			{
-				"img": "images/Exotic Flower.png",
+				"img": "images/trading/Exotic Flower.png",
 				"codes": "eflower",
 				"inherit_codes": false
 			},
 			{
-				"img": "images/Pinwheel.png",
+				"img": "images/trading/Pinwheel.png",
 				"codes": "pinwheel",
 				"inherit_codes": false
 			},
 			{
-				"img": "images/Sickle Moon Flag.png",
+				"img": "images/trading/Sickle Moon Flag.png",
 				"codes": "smflag",
 				"inherit_codes": false
 			},
 			{
-				"img": "images/Big Catch Flag.png",
+				"img": "images/trading/Big Catch Flag.png",
 				"codes": "bcflag",
 				"inherit_codes": false
 			},
 			{
-				"img": "images/Fountain Idol.png",
+				"img": "images/trading/Fountain Idol.png",
 				"codes": "fidol",
 				"inherit_codes": false
 			},
 			{
-				"img": "images/Skull Tower Idol.png",
+				"img": "images/trading/Skull Tower Idol.png",
 				"codes": "stidol",
 				"inherit_codes": false
 			},
 			{
-				"img": "images/Big Sale Flag.png",
+				"img": "images/trading/Big Sale Flag.png",
 				"codes": "bsflag",
 				"inherit_codes": false
 			},
 			{
-				"img": "images/Hero's Flag.png",
+				"img": "images/trading/Hero's Flag.png",
 				"codes": "hflag",
 				"inherit_codes": false
 			},
 			{
-				"img": "images/Postman Statue.png",
+				"img": "images/trading/Postman Statue.png",
 				"codes": "pstatue",
 				"inherit_codes": false
 			},
 			{
-				"img": "images/Shop Guru Statue.png",
+				"img": "images/trading/Shop Guru Statue.png",
 				"codes": "sgstatue",
 				"inherit_codes": false
 			}
@@ -179,7 +188,7 @@
 		"codes": "boots"
 	},
 
-	//Magic Armor (might change)
+	//Magic Armor (might remove)
 	{
 		"name": "Magic Armor",
 		"type": "toggle",
@@ -187,21 +196,28 @@
 		"codes": "armor"
 	},
 
-	//Bow and Arrows (may also change)
+	//Bow and Arrows
 	{
 		"name": "Hero's Bow",
 		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
 		"stages": [
 			{
-				"img": "images/Hero's Bow New.png",
+				"img": "images/bow/bow0.png",
+				"codes": "no_bow",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/bow/bow1.png",
 				"codes": "bow"
 			},
 			{
-				"img": "images/Hero's Bow New Fi.png",
+				"img": "images/bow/bow2.png",
 				"codes": "firearrow,icearrow"
 			},
 			{
-				"img": "images/Hero's Bow New Light.png",
+				"img": "images/bow/bow3.png",
 				"codes": "lightarrow"
 			}
 		]
@@ -210,17 +226,19 @@
 	//Bombs
 	{
 		"name": "Bombs",
-		"type": "progressive",
+		"type": "progressive_toggle",
 		"stages": [
 			{
-				"img": "images/Bomb.png",
+				"img": "images/bomb/bomb30.png",
 				"codes": "bombs"
 			},
 			{
-				"img": "images/Bomb 60.png"
+				"img": "images/bomb/bomb60.png",
+				"codes": "bombs,bomb60"
 			},
 			{
-				"img": "images/Bomb 99.png"
+				"img": "images/bomb/bomb99.png",
+				"codes": "bombs,bomb60,bomb99"
 			}
 		]
 	},
@@ -231,17 +249,17 @@
 		"type": "progressive",
 		"stages": [
 			{
-				"img": "images/Empty Bottle.png",
+				"img": "images/bottle/Bottle.png",
 				"codes": "bottle"
 			},
 			{
-				"img": "images/Bottle2.png"
+				"img": "images/bottle/Bottle2.png"
 			},
 			{
-				"img": "images/Bottle3.png"
+				"img": "images/bottle/Bottle3.png"
 			},
 			{
-				"img": "images/Bottle4.png"
+				"img": "images/bottle/Bottle4.png"
 			}
 		]
 	},
@@ -271,7 +289,7 @@
 		"initial_stage_idx": 0,
 		"stages": [
 			{
-				"img": "images/Wind's Requiem.png",
+				"img": "images/music/Wind's Requiem.png",
 				"codes": "requiem"
 			}
 		]
@@ -282,7 +300,7 @@
 		"initial_stage_idx": 0,
 		"stages": [
 			{
-				"img": "images/Ballad of Gales.png",
+				"img": "images/music/Ballad of Gales.png",
 				"codes": "ballad"
 			}
 		]
@@ -290,19 +308,21 @@
 	{
 		"name": "Command Melody",
 		"type": "toggle",
-		"img": "images/Command Melody.png",
+		"img": "images/music/Command Melody.png",
 		"codes": "command"
 	},
 	{
 		"name": "Earth God's Lyric",
 		"type": "toggle",
-		"img": "images/Earth God's Lyric with Harp Icon.png",
+		"img": "images/music/Earth God's Lyric with Harp Icon.png",
+		"disabled_img":"images/music/Earth God's Lyric.png",
 		"codes": "lyric"
 	},
 	{
 		"name": "Wind God's Aria",
 		"type": "toggle",
-		"img": "images/Wind God's Aria with Violin Icon.png",
+		"img": "images/music/Wind God's Aria with Violin Icon.png",
+		"disabled_img":"images/music/Wind God's Aria.png",
 		"codes": "aria"
 	},
 	{
@@ -311,7 +331,7 @@
 		"initial_stage_idx": 0,
 		"stages":[
 			{
-				"img": "images/Song of Passing.png",
+				"img": "images/music/Song of Passing.png",
 				"codes": "passing"
 			}
 		]
@@ -324,19 +344,19 @@
 		"type": "progressive",
 		"stages": [
 			{
-				"img": "images/Hero's Sword.png",
+				"img": "images/sword/Hero's Sword.png",
 				"codes": "sword"
 			},
 			{
-				"img": "images/Master Sword (Uncharged).png",
+				"img": "images/sword/Master Sword (Uncharged).png",
 				"codes": "ms"
 			},
 			{
-				"img": "images/Master Sword (Half Charged).png",
+				"img": "images/sword/Master Sword (Half Charged).png",
 				"codes": "ms2"
 			},
 			{
-				"img": "images/Master Sword (Fully Charged).png",
+				"img": "images/sword/Master Sword (Fully Charged).png",
 				"codes": "ms3"
 			}
 		]
@@ -385,19 +405,19 @@
 	{
 		"name": "Moblin's Letter",
 		"type": "toggle",
-		"img": "images/Moblin's Letter.png",
+		"img": "images/mail/Moblin's Letter.png",
 		"codes": "moeletter"
 	},
 	{
 		"name": "Maggie's Letter",
 		"type": "toggle",
-		"img": "images/Maggie's Letter.png",
+		"img": "images/mail/Maggie's Letter.png",
 		"codes": "magletter"
 	},
 	{
 		"name": "Note to Mom",
 		"type": "toggle",
-		"img": "images/Note to Mom.png",
+		"img": "images/mail/Note to Mom.png",
 		"codes": "momletter"
 	},
 
@@ -407,23 +427,23 @@
 		"type": "progressive",
 		"stages": [
 			{
-				"img": "images/Tingle Statue.png",
+				"img": "images/statue/Tingle Statue.png",
 				"codes": "statue1"
 			},
 			{
-				"img": "images/Tingle Statue2.png",
+				"img": "images/statue/Tingle Statue2.png",
 				"codes": "statue2"
 			},
 			{
-				"img": "images/Tingle Statue3.png",
+				"img": "images/statue/Tingle Statue3.png",
 				"codes": "statue3"
 			},
 			{
-				"img": "images/Tingle Statue4.png",
+				"img": "images/statue/Tingle Statue4.png",
 				"codes": "statue4"
 			},
 			{
-				"img": "images/Tingle Statue5.png",
+				"img": "images/statue/Tingle Statue5.png",
 				"codes": "statue5"
 			}
 		]
@@ -433,86 +453,87 @@
 	{
 		"name": "Din's Pearl",
 		"type": "toggle",
-		"img": "images/Din's Pearl.png",
+		"img": "images/quest/Din's Pearl.png",
 		"codes": "din"
 	},
 	{
 		"name": "Farore's Pearl",
 		"type": "toggle",
-		"img": "images/Farore's Pearl.png",
+		"img": "images/quest/Farore's Pearl.png",
 		"codes": "farore"
 	},
 	{
 		"name": "Nayru's Pearl",
 		"type": "toggle",
-		"img": "images/Nayru's Pearl.png",
+		"img": "images/quest/Nayru's Pearl.png",
 		"codes": "nayru"
 	},
 
-	//The Rest
+	//Triforce Shards
 	{
 		"name": "Triforce Shards",
 		"type": "toggle",
-		"img": "images/Triforce of Courage.png",
-		"disabled_img": "images/triforce_disabled.png",
+		"img": "images/quest/Triforce of Courage.png",
+		"disabled_img": "images/quest/triforce_disabled.png",
 		"codes": "triforce_full"
 	},
 	{
 		"name": "Triforce Shard 1",
 		"type": "toggle",
-		"img": "images/Triforce Shard 1.png",
+		"img": "images/quest/Triforce Shard 1.png",
 		"codes": "triforce,triforce_1",
 		"mask_input": true
 	},
 	{
 		"name": "Triforce Shard 2",
 		"type": "toggle",
-		"img": "images/Triforce Shard 2.png",
+		"img": "images/quest/Triforce Shard 2.png",
 		"codes": "triforce,triforce_2",
 		"mask_input": true
 	},
 	{
 		"name": "Triforce Shard 3",
 		"type": "toggle",
-		"img": "images/Triforce Shard 3.png",
+		"img": "images/quest/Triforce Shard 3.png",
 		"codes": "triforce,triforce_3",
 		"mask_input": true
 	},
 	{
 		"name": "Triforce Shard 4",
 		"type": "toggle",
-		"img": "images/Triforce Shard 4.png",
+		"img": "images/quest/Triforce Shard 4.png",
 		"codes": "triforce,triforce_4",
 		"mask_input": true
 	},
 	{
 		"name": "Triforce Shard 5",
 		"type": "toggle",
-		"img": "images/Triforce Shard 5.png",
+		"img": "images/quest/Triforce Shard 5.png",
 		"codes": "triforce,triforce_5",
 		"mask_input": true
 	},
 	{
 		"name": "Triforce Shard 6",
 		"type": "toggle",
-		"img": "images/Triforce Shard 6.png",
+		"img": "images/quest/Triforce Shard 6.png",
 		"codes": "triforce,triforce_6",
 		"mask_input": true
 	},
 	{
 		"name": "Triforce Shard 7",
 		"type": "toggle",
-		"img": "images/Triforce Shard 7.png",
+		"img": "images/quest/Triforce Shard 7.png",
 		"codes": "triforce,triforce_7",
 		"mask_input": true
 	},
 	{
 		"name": "Triforce Shard 8",
 		"type": "toggle",
-		"img": "images/Triforce Shard 8.png",
+		"img": "images/quest/Triforce Shard 8.png",
 		"codes": "triforce,triforce_8",
 		"mask_input": true
 	},
+	//Wallet
 	{
 		"name": "Wallets",
 		"type": "progressive",
@@ -595,144 +616,223 @@
 		"codes": "wt_bk"
 	},
 
+	//Race Mode
+	{
+		"name": "DRC Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/1 drcicon.png",
+			"codes": "drc_true"
+			}
+		]
+	},
+	{
+		"name": "FW Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/2 fwicon.png",
+			"codes": "fw_true"
+			}
+		]
+	},
+	{
+		"name": "TOTG Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/3 totgicon.png",
+			"codes": "totg_true"
+			}
+		]
+	},
+	{
+		"name": "FF Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/4 fficon.png",
+			"codes": "ff_true"
+			}
+		]
+	},
+	{
+		"name": "ET Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/5 eticon.png",
+			"codes": "et_true"
+			}
+		]
+	},
+	{
+		"name": "WT Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/6 wticon.png",
+			"codes": "wt_true"
+			}
+		]
+	},
+
 	//Settings
 	{
 		"name": "Dungeons",
 		"type": "toggle",
-		"img": "images/ToggleDungeon.png",
+		"img": "images/toggles/ToggleDungeon.png",
 		"codes": "dungeons"
 	},
 	{
 		"name": "Short Sidequests",
 		"type": "toggle",
-		"img": "images/ToggleShortSidequests.png",
+		"img": "images/toggles/ToggleShortSidequests.png",
 		"codes": "shortsidequests"
 	},
 	{
-		"name": "LongSidequests",
+		"name": "Long Sidequests",
 		"type": "toggle",
-		"img": "images/ToggleLongSidequests.png",
+		"img": "images/toggles/ToggleLongSidequests.png",
 		"codes": "longsidequests"
 	},
 	{
 		"name": "Spoils Trading",
 		"type": "toggle",
-		"img": "images/ToggleSpoilsTrading.png",
+		"img": "images/toggles/ToggleSpoilsTrading.png",
 		"codes": "spoilstrading"
 	},
 	{
 		"name": "Platforms",
 		"type": "toggle",
-		"img": "images/TogglePlatform.png",
+		"img": "images/toggles/TogglePlatform.png",
 		"codes": "platforms"
 	},
 	{
 		"name": "Eye Reefs",
 		"type": "toggle",
-		"img": "images/ToggleReefChests.png",
+		"img": "images/toggles/ToggleReefChests.png",
 		"codes": "reefs"
 	},
 	{
 		"name": "Triforce Charts",
 		"type": "toggle",
-		"img": "images/ToggleTriforceCharts.png",
+		"img": "images/toggles/ToggleTriforceCharts.png",
 		"codes": "triforcecharts"
 	},
 	{
 		"name": "Treasure Charts",
 		"type": "toggle",
-		"img": "images/ToggleTreasureCharts.png",
+		"img": "images/toggles/ToggleTreasureCharts.png",
 		"codes": "treasurecharts"
 	},
 	{
 		"name": "Free Gifts",
 		"type": "toggle",
-		"img": "images/ToggleFreeGifts.png",
+		"img": "images/toggles/ToggleFreeGifts.png",
 		"codes": "gifts"
 	},
 	{
 		"name": "Sploosh",
 		"type": "toggle",
-		"img": "images/ToggleSploosh.png",
+		"img": "images/toggles/ToggleSploosh.png",
 		"codes": "sploosh"
 	},
 	{
 		"name": "Expensive Stuff",
 		"type": "toggle",
-		"img": "images/ToggleExpensive.png",
+		"img": "images/toggles/ToggleExpensive.png",
 		"codes": "expensive"
 	},
 	{
 		"name": "Puzzle Secret Caves",
 		"type": "toggle",
-		"img": "images/TogglePuzzleCaves.png",
+		"img": "images/toggles/TogglePuzzleCaves.png",
 		"codes": "puzzlecaves"
 	},
 	{
 		"name": "Combat Secret Caves",
 		"type": "toggle",
-		"img": "images/ToggleCombatCaves.png",
+		"img": "images/toggles/ToggleCombatCaves.png",
 		"codes": "combatcaves"
 	},
 	{
 		"name": "Great Fairies",
 		"type": "toggle",
-		"img": "images/ToggleGreatFairies.png",
+		"img": "images/toggles/ToggleGreatFairies.png",
 		"codes": "greatfairies"
 	},
 	{
 		"name": "Minigames",
 		"type": "toggle",
-		"img": "images/ToggleMinigames.png",
+		"img": "images/toggles/ToggleMinigames.png",
 		"codes": "minigames"
 	},
 	{
 		"name": "Submarines",
 		"type": "toggle",
-		"img": "images/ToggleSubmarines.png",
+		"img": "images/toggles/ToggleSubmarines.png",
 		"codes": "subs"
 	},
 	{
 		"name": "Big Octos",
 		"type": "toggle",
-		"img": "images/ToggleOcto.png",
+		"img": "images/toggles/ToggleOcto.png",
 		"codes": "octos"
 	},
 	{
 		"name": "Mail",
 		"type": "toggle",
-		"img": "images/ToggleMail.png",
+		"img": "images/toggles/ToggleMail.png",
 		"codes": "mail"
 	},
 	{
 		"name": "Miscellaneous",
 		"type": "toggle",
-		"img": "images/ToggleMisc.png",
+		"img": "images/toggles/ToggleMisc.png",
 		"codes": "misc"
 	},
 	{
 		"name": "Tingle Statues",
 		"type": "toggle",
-		"img": "images/ToggleStatues.png",
+		"img": "images/toggles/ToggleStatues.png",
 		"codes": "statues"
 	},
 	{
 		"name": "Swordless",
 		"type": "toggle",
-		"img": "images/ToggleSwordless.png",
+		"img": "images/toggles/ToggleSwordless.png",
 		"codes": "swordless"
 	},
 	{
 		"name": "Skip Rematches",
-		"type": "toggle",
-		"img": "images/ToggleRematches.png",
-		"codes": "skip_rematches"
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages":[
+			{
+				"img": "images/toggles/ToggleRematches.png",
+				"codes":"skip_rematches"
+			}
+		]
 	},
 	{
 		"name": "Savage Labyrinth",
 		"type": "toggle",
-		"img": "images/ToggleSavage.png",
+		"img": "images/toggles/ToggleSavage.png",
 		"codes": "savage"
+	},
+	{
+		"name": "Island Puzzles",
+		"type": "toggle",
+		"img": "images/toggles/ToggleIslandPuzzle.png",
+		"codes": "islandpuzzle"
 	},
 
 	//Charts...

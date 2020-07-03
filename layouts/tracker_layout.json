@@ -33,11 +33,12 @@
   "dungeon_keys": {
     "type": "canvas",
     "width": 130,
-    "height": 80,
+    "height": 110,
     "content": [
+      //DRC
       {
-        "type": "image",
-        "image": "images/drcicon.png",
+        "type": "item",
+        "item": "drc_true",
         "width": 20,
         "height": 20,
         "canvas_left": 12,
@@ -59,9 +60,10 @@
         "canvas_left": 20,
         "canvas_top": 18
       },
+      //FW
       {
-        "type": "image",
-        "image": "images/fwicon.png",
+        "type": "item",
+        "item": "fw_true",
         "width": 20,
         "height": 20,
         "canvas_left": 59,
@@ -83,9 +85,10 @@
         "canvas_left": 66,
         "canvas_top": 18
       },
+      //TOTG
       {
-        "type": "image",
-        "image": "images/totgicon.png",
+        "type": "item",
+        "item": "totg_true",
         "width": 35,
         "height": 20,
         "canvas_left": 96,
@@ -107,9 +110,10 @@
         "canvas_left": 110,
         "canvas_top": 18
       },
+      //ET
       {
-        "type": "image",
-        "image": "images/eticon.png",
+        "type": "item",
+        "item": "et_true",
         "width": 20,
         "height": 20,
         "canvas_left": 30,
@@ -131,9 +135,10 @@
         "canvas_left": 37,
         "canvas_top": 60
       },
+      //WT
       {
-        "type": "image",
-        "image": "images/wticon.png",
+        "type": "item",
+        "item": "wt_true",
         "width": 20,
         "height": 20,
         "canvas_left": 82,
@@ -154,7 +159,16 @@
         "height": 20,
         "canvas_left": 89,
         "canvas_top": 60
-      }
+     },
+     //FF
+     {
+      "type": "item",
+      "item": "ff_true",
+      "width": 20,
+      "height": 20,
+      "canvas_left": 59,
+      "canvas_top": 85
+     }
     ]
   },
   "triforce": {
@@ -249,8 +263,8 @@
         "item_size": 48,
         "rows": [
           [ "telescope", "sail", "windwaker", "grapple", "spoils", "boomerang", "leaf", "double", "sword" ],
-          [ "tuner", "pic1", "boots", "armor", "baitbag", "bow", "bombs", "wallet", "shield" ],
-          [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "tflower", "power"],
+          [ "tuner", "pic1", "boots", "armor", "baitbag", "no_bow", "bombs", "wallet", "shield" ],
+          [ "bottle", "magletter", "moeletter", "momletter", "delivery", "hookshot", "hammer", "no_trade", "power"],
           [ "requiem", "ballad", "command", "lyric", "aria", "passing", "deed", "gschart", "statue1"]
         ]
       },
@@ -296,15 +310,11 @@
           },
           {
             "type": "item",
-            "item": "puzzlecaves"
+            "item": "greatfairies"
           },
           {
             "type": "item",
             "item": "shortsidequests"
-          },
-          {
-            "type": "item",
-            "item": "greatfairies"
           },
           {
             "type": "item",
@@ -317,7 +327,7 @@
           {
             "type": "item",
             "item": "triforcecharts"
-          }
+          },
         ]
       },
       {
@@ -327,19 +337,15 @@
         "content": [
           {
             "type": "item",
-            "item": "statues"
-          },
-          {
-            "type": "item",
-            "item": "combatcaves"
-          },
-          {
-            "type": "item",
-            "item": "longsidequests"
+            "item": "puzzlecaves"
           },
           {
             "type": "item",
             "item": "gifts"
+          },
+          {
+            "type": "item",
+            "item": "longsidequests"
           },
           {
             "type": "item",
@@ -353,10 +359,6 @@
             "type": "item",
             "item": "treasurecharts"
           },
-          {
-            "type": "item",
-            "item": "swordless"
-          }
         ]
       },
       {
@@ -366,19 +368,15 @@
         "content": [
           {
             "type": "item",
-            "item": "mail"
-          },
-          {
-            "type": "item",
-            "item": "savage"
-          },
-          {
-            "type": "item",
-            "item": "spoilstrading"
+            "item": "combatcaves"
           },
           {
             "type": "item",
             "item": "misc"
+          },
+          {
+            "type": "item",
+            "item": "spoilstrading"
           },
           {
             "type": "item",
@@ -390,8 +388,39 @@
           },
           {
             "type": "item",
+            "item": "skip_rematches"
+          },
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "h_alignment": "center",
+        "content": [
+          {
+            "type": "item",
+            "item": "savage"
+          },
+          {
+            "type": "item",
+            "item": "statues"
+          },
+          {
+            "type": "item",
+            "item": "mail"
+          },
+          {
+            "type": "item",
+            "item": "islandpuzzle"
+          },
+          {
+            "type": "item",
             "item": "reefs"
-          }
+          },
+          {
+            "type": "item",
+            "item": "swordless"
+          },
         ]
       },
     ]
