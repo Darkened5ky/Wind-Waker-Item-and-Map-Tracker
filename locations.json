@@ -2999,7 +2999,7 @@
         "item_count": 2,
         "access_rules": [ "@can_access_diamond_steppe_island_warp_maze_cave",
                           "[@can_access_diamond_steppe_island_warp_maze_cave],windwaker"],
-        "clear_as_group": false
+        "clear_as_group": false,
         "visibility_rules": [ "puzzlecaves" ]
       }
     ],
