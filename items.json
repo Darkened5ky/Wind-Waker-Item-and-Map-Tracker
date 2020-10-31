@@ -834,6 +834,58 @@
 		"img": "images/toggles/ToggleIslandPuzzle.png",
 		"codes": "islandpuzzle"
 	},
+	{
+		"name": "Logic Type",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 1,
+		"stages":[
+			{
+				"img": "images/toggles/ToggleLogicType/1GlitchlessBeginner.png",
+				"codes":"logic_easy"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/2GlitchlessStandard.png",
+				"codes":"logic_standard"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/3GlitchledTrivial.png",
+				"codes":"logic_tricked"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/4GlitchledModerate.png",
+				"codes":"logic_glitched"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/5GlitchledLunatic.png",
+				"codes":"logic_complex"
+			},
+		]
+	},
+	{
+		"name": "Cave Entrance Randomization",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages":[
+			{
+				"img": "images/toggles/ToggleEntrance.png",
+				"codes":"standard_entrance",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/toggles/ToggleEntrance.png",
+				"codes":"rando_entrance",
+				"inherit_codes": false
+			},
+		]
+	},
+	{
+		"name": "Shuffle Charts",
+		"type": "toggle",
+		"img": "images/toggles/ToggleChartShuffle.png",
+		"codes": "chart_shuffle"
+	},
 
 	//Charts...
 	{
@@ -1129,5 +1181,127 @@
 		"type": "toggle",
 		"img": "images/Treasure Chart.png",
 		"codes": "chart49"
+	},
+
+	\\Secret Cave Entrances...
+	{
+		"name": "DRI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "driCave"
+	},
+	{
+		"name": "FM Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "fmCave"
+	},
+	{
+		"name": "IR Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "irCave"
+	},
+	{
+		"name": "PO Hidden Panel",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "driCave"
+	},
+	{
+		"name": "NR Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "nrCave"
+	},
+	{
+		"name": "AI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "aiCave"
+	},
+	{
+		"name": "BC Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "bcCave"
+	},
+	{
+		"name": "SW Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "swCave"
+	},
+	{
+		"name": "OL Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "olCave"
+	},
+	{
+		"name": "BP Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "bpCave"
+	},
+	{
+		"name": "PIC Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "picCave"
+	},
+	{
+		"name": "PIW Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "piwCave"
+	},
+	{
+		"name": "DS Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "dsCave"
+	},
+	{
+		"name": "BI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "biCave"
+	},
+	{
+		"name": "RSI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "rsiCave"
+	},
+	{
+		"name": "ShI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "shiCave"
+	},
+	{
+		"name": "CP Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "cpCave"
+	},
+	{
+		"name": "HI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "hiCave"
+	},
+	{
+		"name": "StI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "stiCave"
+	},
+	{
+		"name": "OI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto.png",
+		"codes": "oiGrotto"
 	}
 ]
