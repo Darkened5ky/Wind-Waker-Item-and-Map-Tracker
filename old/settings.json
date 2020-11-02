@@ -1,7 +1,7 @@
 {
     "map_enabled": true,
     "auto_unpin_on_clear": true,
-    "disabled_image_filter": "saturation|0.125|bt601, dim",
+    "disabled_image_filter": "grayscale, dim",
     "chest_unopened_img": "images/BasicChestClosed.png",
     "chest_opened_img": "images/BasicChestOpen.png"
 }

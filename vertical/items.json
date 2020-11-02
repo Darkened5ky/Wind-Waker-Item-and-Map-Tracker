@@ -16,21 +16,12 @@
 		"stages": [
      		{
        			"img": "images/Sail.png",
-       			"codes": "sail"
+       			"codes": "sail,windwaker"
      		},
      		{
      			"img": "images/Swift Sail.png"
      		}
     	]
-	},
-
-	//Wind Waker (Might Combine with sail)
-	{
-		"name": "Wind Waker",
-		"type": "toggle",
-		"initial_active_state": true,
-		"img": "images/Wind Waker.png",
-		"codes": "windwaker"
 	},
 
 	//Grapple Hook
@@ -54,83 +45,74 @@
 		"img": "images/Bait Bag.png",
 		"codes": "baitbag"
 	},
-	{
-		"name": "Delivery Bag",
-		"type": "toggle",
-		"img": "images/Delivery Bag.png",
-		"codes": "delivery"
-	},
 
 	//Trading Quest
 	{
 		"name": "Trading Quest",
 		"type": "progressive",
-		"allow_disabled": false,
-		"initial_stage_idx": 0,
 		"stages": [
 			{
-				"img": "images/trading/no-trade.png",
-				"codes": "no_trade",
-				"img_mods": "@disabled"
+				"img": "images/Delivery Bag.png",
+				"codes": "no_trade,delivery",
 			},
 			{
 				"img": "images/trading/Town Flower.png",
-				"codes": "tflower",
+				"codes": "tflower,delivery",
 				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Sea Flower.png",
-				"codes": "sflower",
+				"codes": "sflower,delivery",
 				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Exotic Flower.png",
-				"codes": "eflower",
+				"codes": "eflower,delivery",
 				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Pinwheel.png",
-				"codes": "pinwheel",
+				"codes": "pinwheel,delivery",
 				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Sickle Moon Flag.png",
-				"codes": "smflag",
+				"codes": "smflag,delivery",
 				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Big Catch Flag.png",
-				"codes": "bcflag",
+				"codes": "bcflag,delivery",
 				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Fountain Idol.png",
-				"codes": "fidol",
+				"codes": "fidol,delivery",
 				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Skull Tower Idol.png",
-				"codes": "stidol",
+				"codes": "stidol,delivery",
 				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Big Sale Flag.png",
-				"codes": "bsflag",
+				"codes": "bsflag,delivery",
 				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Hero's Flag.png",
-				"codes": "hflag",
+				"codes": "hflag,delivery",
 				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Postman Statue.png",
-				"codes": "pstatue",
+				"codes": "pstatue,delivery",
 				"inherit_codes": false
 			},
 			{
 				"img": "images/trading/Shop Guru Statue.png",
-				"codes": "sgstatue",
+				"codes": "sgstatue,delivery",
 				"inherit_codes": false
 			}
 		]
@@ -147,9 +129,21 @@
 	//Deku Leaf
 	{
 		"name": "Deku Leaf",
-		"type": "toggle",
-		"img": "images/Deku Leaf.png",
-		"codes": "leaf"
+		"type": "progressive_toggle",
+		"stages": [
+			{
+				"img": "images/Deku Leaf.png",
+				"codes": "leaf"
+			},
+			{
+				"img": "images/Green Potion.png",
+				"codes": "double"
+			},
+			{
+				"img": "images/Deku Leaf And Double Magic.png",
+				"codes": "leaf,double"
+			}
+		]
 	},
 
 	//Tingle Tuner
@@ -461,66 +455,48 @@
 	//Triforce Shards
 	{
 		"name": "Triforce Shards",
-		"type": "toggle",
-		"img": "images/quest/Triforce of Courage.png",
-		"disabled_img": "images/quest/triforce_disabled.png",
-		"codes": "triforce_full"
-	},
-	{
-		"name": "Triforce Shard 1",
-		"type": "toggle",
-		"img": "images/quest/Triforce Shard 1.png",
-		"codes": "triforce,triforce_1",
-		"mask_input": true
-	},
-	{
-		"name": "Triforce Shard 2",
-		"type": "toggle",
-		"img": "images/quest/Triforce Shard 2.png",
-		"codes": "triforce,triforce_2",
-		"mask_input": true
-	},
-	{
-		"name": "Triforce Shard 3",
-		"type": "toggle",
-		"img": "images/quest/Triforce Shard 3.png",
-		"codes": "triforce,triforce_3",
-		"mask_input": true
-	},
-	{
-		"name": "Triforce Shard 4",
-		"type": "toggle",
-		"img": "images/quest/Triforce Shard 4.png",
-		"codes": "triforce,triforce_4",
-		"mask_input": true
-	},
-	{
-		"name": "Triforce Shard 5",
-		"type": "toggle",
-		"img": "images/quest/Triforce Shard 5.png",
-		"codes": "triforce,triforce_5",
-		"mask_input": true
-	},
-	{
-		"name": "Triforce Shard 6",
-		"type": "toggle",
-		"img": "images/quest/Triforce Shard 6.png",
-		"codes": "triforce,triforce_6",
-		"mask_input": true
-	},
-	{
-		"name": "Triforce Shard 7",
-		"type": "toggle",
-		"img": "images/quest/Triforce Shard 7.png",
-		"codes": "triforce,triforce_7",
-		"mask_input": true
-	},
-	{
-		"name": "Triforce Shard 8",
-		"type": "toggle",
-		"img": "images/quest/Triforce Shard 8.png",
-		"codes": "triforce,triforce_8",
-		"mask_input": true
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/quest/Triforce Shard 0.png",
+				"codes": "triforce",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/quest/Triforce Shard 1.png",
+				"codes": "triforce1"
+			},
+			{
+				"img": "images/quest/Triforce Shard 2.png",
+				"codes": "triforce2"
+			},
+			{
+				"img": "images/quest/Triforce Shard 3.png",
+				"codes": "triforce3"
+			},
+			{
+				"img": "images/quest/Triforce Shard 4.png",
+				"codes": "triforce4"
+			},
+			{
+				"img": "images/quest/Triforce Shard 5.png",
+				"codes": "triforce5"
+			},
+			{
+				"img": "images/quest/Triforce Shard 6.png",
+				"codes": "triforce6"
+			},
+			{
+				"img": "images/quest/Triforce Shard 7.png",
+				"codes": "triforce7"
+			},
+			{
+				"img": "images/quest/Triforce of Courage.png",
+				"codes": "triforce8,triforce_full"
+			},
+		]
 	},
 	//Wallet
 	{
@@ -866,7 +842,7 @@
 	{
 		"name": "Skip Rematches",
 		"type": "toggle",
-		"initial_active_state": true,
+		"initial_active_state": "true",
 		"img": "images/toggles/ToggleRematches.png",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
 		"disabled_img": "images/toggles/ToggleRematches.png",
@@ -950,22 +926,19 @@
 	{
 		"name": "Chart 1",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart1"
 	},
 	{
 		"name": "Chart 2",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart2"
 	},
 	{
 		"name": "Chart 3",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart3"
 	},
 	{
@@ -977,8 +950,7 @@
 	{
 		"name": "Chart 5",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart5"
 	},
 	{
@@ -990,113 +962,97 @@
 	{
 		"name": "Chart 7",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart7"
 	},
 	{
 		"name": "Chart 8",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart8"
 	},
 	{
 		"name": "Chart 9",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart9"
 	},
 	{
 		"name": "Chart 10",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart10"
 	},
 	{
 		"name": "Chart 11",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart11"
 	},
 	{
 		"name": "Chart 12",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart12"
 	},
 	{
 		"name": "Chart 13",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart13"
 	},
 	{
 		"name": "Chart 14",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart14"
 	},
 	{
 		"name": "Chart 15",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart15"
 	},
 	{
 		"name": "Chart 16",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart16"
 	},
 	{
 		"name": "Chart 17",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart17"
 	},
 	{
 		"name": "Chart 18",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart18"
 	},
 	{
 		"name": "Chart 19",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart19"
 	},
 	{
 		"name": "Chart 20",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart20"
 	},
 	{
 		"name": "Chart 21",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart21"
 	},
 	{
 		"name": "Chart 22",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart22"
 	},
 	{
@@ -1108,50 +1064,43 @@
 	{
 		"name": "Chart 24",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart24"
 	},
 	{
 		"name": "Chart 25",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart25"
 	},
 	{
 		"name": "Chart 26",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart26"
 	},
 	{
 		"name": "Chart 27",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart27"
 	},
 	{
 		"name": "Chart 28",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart28"
 	},
 	{
 		"name": "Chart 29",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart29"
 	},
 	{
 		"name": "Chart 30",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart30"
 	},
 	{
@@ -1169,64 +1118,55 @@
 	{
 		"name": "Chart 33",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart33"
 	},
 	{
 		"name": "Chart 34",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart34"
 	},
 	{
 		"name": "Chart 35",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart35"
 	},
 	{
 		"name": "Chart 36",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart36"
 	},
 	{
 		"name": "Chart 37",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart37"
 	},
 	{
 		"name": "Chart 38",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart38"
 	},
 	{
 		"name": "Chart 39",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart39"
 	},
 	{
 		"name": "Chart 40",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart40"
 	},
 	{
 		"name": "Chart 41",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart41"
 	},
 	{
@@ -1238,8 +1178,7 @@
 	{
 		"name": "Chart 43",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart43"
 	},
 	{
@@ -1251,8 +1190,7 @@
 	{
 		"name": "Chart 45",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart45"
 	},
 	{
@@ -1264,22 +1202,19 @@
 	{
 		"name": "Chart 47",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart47"
 	},
 	{
 		"name": "Chart 48",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart48"
 	},
 	{
 		"name": "Chart 49",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart49"
 	},
 

@@ -1,6 +1,20 @@
 # Wind-Waker-Item-and-Map-Tracker
 A map and item tracker for the Wind Waker Randomizer. Created by Darkened5ky with aesthetics help from Spleebie. Updated logic by Spleebie, emerald000, and Zach the DualVission.
 
+## Updates new to 2.0.1.2
+- The Wind Waker Randomizer dv_im logic type support added to reflect 1.8.0g
+   * Glitched Logic moved onto associated Glitched Logic Types
+   * Added assets relating to
+- Additional Changes
+   * Added Secret Cave Entrance Randomization Setting Toggle
+   * Added and Moved Chart Shuffle Setting Toggle to enable faster routing
+   * Added assets relating to
+   * Changed Disabled Filter to desaturate over greyscale
+   * Updated Toggle Settings assets to better match style
+- Additional Variants
+   * Simple Tracker Variants allow a more condensed format for more advanced user
+   * Old Tracker Variant allows new improvements to be used with older versions of EmoTracker
+
 ## Updates new to 2.0.1.0
 - The Wind Waker Randomizer logic updated to reflect 1.8.0
    * Added Island Puzzle Setting Toggle

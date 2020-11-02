@@ -1,0 +1,366 @@
+{
+  "quest_items": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "canvas",
+        "width": 67,
+        "height": 40,
+        "content": [
+          //DRC
+          {
+            "type": "item",
+            "item": "drc_true",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 27,
+            "canvas_top": 0
+          },
+          {
+            "type": "item",
+            "item": "drc_key",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 15,
+            "canvas_top": 18
+          },
+          {
+            "type": "item",
+            "item": "drc_bk",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 35,
+            "canvas_top": 18
+          },
+        ]
+      },
+      {
+        "type": "canvas",
+        "width": 52,
+        "height": 40,
+        "content": [
+          //FW
+          {
+            "type": "item",
+            "item": "fw_true",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 12,
+            "canvas_top": 0
+          },
+          {
+            "type": "item",
+            "item": "fw_key",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 0,
+            "canvas_top": 18
+          },
+          {
+            "type": "item",
+            "item": "fw_bk",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 20,
+            "canvas_top": 18
+          },
+        ]
+      },
+      {
+        "type": "canvas",
+        "width": 52,
+        "height": 40,
+        "content": [
+          //TOTG
+          {
+            "type": "item",
+            "item": "totg_true",
+            "width": 35,
+            "height": 20,
+            "canvas_left": 6,
+            "canvas_top": 0
+          },
+          {
+            "type": "item",
+            "item": "totg_key",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 0,
+            "canvas_top": 18
+          },
+          {
+            "type": "item",
+            "item": "totg_bk",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 20,
+            "canvas_top": 18
+          },
+        ]
+      },
+      {
+        "type": "canvas",
+        "width": 52,
+        "height": 40,
+        "content": [
+          //ET
+          {
+            "type": "item",
+            "item": "et_true",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 6,
+            "canvas_top": 0
+          },
+          {
+            "type": "item",
+            "item": "et_key",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 0,
+            "canvas_top": 18
+          },
+          {
+            "type": "item",
+            "item": "et_bk",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 20,
+            "canvas_top": 18
+          },
+        ]
+      },
+      {
+        "type": "canvas",
+        "width": 52,
+        "height": 40,
+        "content": [
+          //WT
+          {
+            "type": "item",
+            "item": "wt_true",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 12,
+            "canvas_top": 0
+          },
+          {
+            "type": "item",
+            "item": "wt_key",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 0,
+            "canvas_top": 18
+          },
+          {
+            "type": "item",
+            "item": "wt_bk",
+            "width": 20,
+            "height": 20,
+            "canvas_left": 20,
+            "canvas_top": 18
+         },
+       ]
+    },
+    {
+      "type": "canvas",
+      "width": 52,
+      "height": 40,
+      "content": [
+         //FF
+         {
+          "type": "item",
+          "item": "ff_true",
+          "width": 20,
+          "height": 20,
+          "canvas_left": 12,
+          "canvas_top": 0
+         }
+       ]
+     },
+     {
+       "type": "canvas",
+       "width": 52,
+       "height": 40,
+       "content": [
+         {
+           "type": "item",
+           "item": "triforce",
+           "width": 40,
+           "height": 40,
+           "canvas_left": 0,
+           "canvas_top": 0
+         }
+       ]
+     },
+     {
+       "type": "canvas",
+       "width": 52,
+       "height": 40,
+       "content": [
+         {
+           "type": "item",
+           "item": "din",
+           "width": 40,
+           "height": 40,
+           "canvas_left": 0,
+           "canvas_top": 0
+         }
+       ]
+     },
+     {
+       "type": "canvas",
+       "width": 52,
+       "height": 40,
+       "content": [
+         {
+           "type": "item",
+           "item": "farore",
+           "width": 40,
+           "height": 40,
+           "canvas_left": 0,
+           "canvas_top": 0
+         }
+       ]
+     },
+     {
+       "type": "canvas",
+       "width": 52,
+       "height": 40,
+       "content": [
+         {
+           "type": "item",
+           "item": "nayru",
+           "width": 40,
+           "height": 40,
+           "canvas_left": 0,
+           "canvas_top": 0
+         }
+       ]
+     },
+    ]
+  },
+  "shared_item_grid": {
+    "type": "array",
+    "h_alignment": "center",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0,4,15",
+        "item_size": 48,
+        "rows": [
+          [ "magletter", "sail",      "grapple",  "spoils",   "boomerang", "leaf",   "wallet",  "sword",  "requiem", "command" ],
+          [ "moeletter", "pic1",      "boots",    "baitbag",  "no_bow",    "bombs",  "gschart", "shield", "ballad",  "lyric"   ],
+          [ "momletter", "bottle",    "deed",     "delivery", "hookshot",  "hammer", "statue1", "power",  "passing", "aria"    ]
+        ]
+      },
+      {
+        "type": "layout",
+        "key": "quest_items"
+      }
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "layout",
+    "key": "shared_item_grid"
+  },
+    "toggles": {
+      "type": "array",
+      "orientation": "vertical",
+      "h_alignment":"center",
+      "content": [
+        {
+          "type": "array",
+          "orientation": "horizontal",
+          "h_alignment": "center",
+          "content": [
+            {
+              "type": "item",
+              "item": "logic_standard"
+            }
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "h_alignment": "center",
+          "item_margin": "0,0,2,5",
+          "item_height": 26,
+          "item_width": 175,
+          "rows": [
+            [ "dungeons", "puzzlecaves", "combatcaves", "savage" ],
+            [ "greatfairies", "gifts", "misc", "statues" ],
+            [ "shortsidequests", "longsidequests", "spoilstrading", "mail" ],
+            [ "minigames", "sploosh", "expensive", "islandpuzzle" ],
+            [ "platforms", "subs", "octos", "reefs" ],
+            [ "triforcecharts", "treasurecharts", "skip_rematches", "swordless" ]
+          ]
+        },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "center",
+        "content": [
+          {
+            "type": "item",
+            "item": "standard_entrance"
+          },
+          {
+            "type": "item",
+            "item": "chart_shuffle"
+          }
+        ]
+      }
+    ]
+  },
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "header_content":
+                {
+                "type": "button_popup",
+                "layout": "toggles",
+              },
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "vertical",
+                "width": 488,
+                "compact": true
+              }
+            }
+          ]
+        },
+        {
+         "type": "map",
+         "maps": [ "map" ]
+        }
+      ]
+    }
+  }
+}

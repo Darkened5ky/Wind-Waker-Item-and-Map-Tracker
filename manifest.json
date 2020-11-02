@@ -2,7 +2,21 @@
   "name": "Wind Waker Item and Map Tracker",
   "game_name": "Wind Waker Randomizer",
   "game_variant": "yes",
-  "package_version": "2.0.1.0", //TWWR 1.8.0
+  "package_version": "2.0.1.2", //TWWR dv_im 1.8.0g
   "package_uid": "Wind-Waker-Item-and-Map-Tracker-Darkened5ky",
-  "author": "Darkened5ky / Spleebie / emerald000 / DualVission"
+  "author": "Darkened5ky / Spleebie / emerald000 / DualVission",
+  "variants": {
+    "current": {
+      "display_name": "Map / Item Tracker"
+    },
+    "simple": {
+      "display_name": "Simplified Horizontal Tracker"
+    },
+    "vertical": {
+      "display_name": "Simplified Vertical Tracker"
+    },
+    "old": {
+      "display_name": "Old Tracker"
+    },
+  }
 }

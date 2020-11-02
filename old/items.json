@@ -304,7 +304,6 @@
 		"type": "toggle",
 		"img": "images/music/Earth God's Lyric with Harp Icon.png",
 		"disabled_img":"images/music/Earth God's Lyric.png",
-		"disabled_img_mods": "saturation|0.25|bt601,dim",
 		"codes": "lyric"
 	},
 	{
@@ -312,7 +311,6 @@
 		"type": "toggle",
 		"img": "images/music/Wind God's Aria with Violin Icon.png",
 		"disabled_img":"images/music/Wind God's Aria.png",
-		"disabled_img_mods": "saturation|0.25|bt601,dim",
 		"codes": "aria"
 	},
 	{
@@ -440,21 +438,18 @@
 		"name": "Din's Pearl",
 		"type": "toggle",
 		"img": "images/quest/Din's Pearl.png",
-		"disabled_img_mods": "saturation|0.125|max,dim",
 		"codes": "din"
 	},
 	{
 		"name": "Farore's Pearl",
 		"type": "toggle",
 		"img": "images/quest/Farore's Pearl.png",
-		"disabled_img_mods": "saturation|0.125|max,dim",
 		"codes": "farore"
 	},
 	{
 		"name": "Nayru's Pearl",
 		"type": "toggle",
 		"img": "images/quest/Nayru's Pearl.png",
-		"disabled_img_mods": "saturation|0.125|max,dim",
 		"codes": "nayru"
 	},
 
@@ -950,22 +945,19 @@
 	{
 		"name": "Chart 1",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart1"
 	},
 	{
 		"name": "Chart 2",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart2"
 	},
 	{
 		"name": "Chart 3",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart3"
 	},
 	{
@@ -977,8 +969,7 @@
 	{
 		"name": "Chart 5",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart5"
 	},
 	{
@@ -990,113 +981,97 @@
 	{
 		"name": "Chart 7",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart7"
 	},
 	{
 		"name": "Chart 8",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart8"
 	},
 	{
 		"name": "Chart 9",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart9"
 	},
 	{
 		"name": "Chart 10",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart10"
 	},
 	{
 		"name": "Chart 11",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart11"
 	},
 	{
 		"name": "Chart 12",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart12"
 	},
 	{
 		"name": "Chart 13",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart13"
 	},
 	{
 		"name": "Chart 14",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart14"
 	},
 	{
 		"name": "Chart 15",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart15"
 	},
 	{
 		"name": "Chart 16",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart16"
 	},
 	{
 		"name": "Chart 17",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart17"
 	},
 	{
 		"name": "Chart 18",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart18"
 	},
 	{
 		"name": "Chart 19",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart19"
 	},
 	{
 		"name": "Chart 20",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart20"
 	},
 	{
 		"name": "Chart 21",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart21"
 	},
 	{
 		"name": "Chart 22",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart22"
 	},
 	{
@@ -1108,50 +1083,43 @@
 	{
 		"name": "Chart 24",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart24"
 	},
 	{
 		"name": "Chart 25",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart25"
 	},
 	{
 		"name": "Chart 26",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart26"
 	},
 	{
 		"name": "Chart 27",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart27"
 	},
 	{
 		"name": "Chart 28",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart28"
 	},
 	{
 		"name": "Chart 29",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart29"
 	},
 	{
 		"name": "Chart 30",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart30"
 	},
 	{
@@ -1169,64 +1137,55 @@
 	{
 		"name": "Chart 33",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart33"
 	},
 	{
 		"name": "Chart 34",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart34"
 	},
 	{
 		"name": "Chart 35",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart35"
 	},
 	{
 		"name": "Chart 36",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart36"
 	},
 	{
 		"name": "Chart 37",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart37"
 	},
 	{
 		"name": "Chart 38",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart38"
 	},
 	{
 		"name": "Chart 39",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart39"
 	},
 	{
 		"name": "Chart 40",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart40"
 	},
 	{
 		"name": "Chart 41",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart41"
 	},
 	{
@@ -1238,8 +1197,7 @@
 	{
 		"name": "Chart 43",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart43"
 	},
 	{
@@ -1251,8 +1209,7 @@
 	{
 		"name": "Chart 45",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart45"
 	},
 	{
@@ -1264,22 +1221,19 @@
 	{
 		"name": "Chart 47",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart47"
 	},
 	{
 		"name": "Chart 48",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart48"
 	},
 	{
 		"name": "Chart 49",
 		"type": "toggle",
-		"img": "images/Treasure Chart Open.png",
-		"disabled_img": "images/Treasure Chart.png",
+		"img": "images/Treasure Chart.png",
 		"codes": "chart49"
 	},
 

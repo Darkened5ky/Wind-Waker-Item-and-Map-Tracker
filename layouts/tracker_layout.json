@@ -311,137 +311,21 @@
           ]
         },
         {
-        "type": "array",
-        "orientation": "horizontal",
-        "h_alignment": "center",
-        "content": [
-          {
-            "type": "array",
-            "orientation": "vertical",
-            "h_alignment": "center",
-            "content": [
-              {
-                "type": "item",
-                "item": "dungeons"
-              },
-              {
-                "type": "item",
-                "item": "greatfairies"
-              },
-              {
-                "type": "item",
-                "item": "shortsidequests"
-              },
-              {
-                "type": "item",
-                "item": "minigames"
-              },
-              {
-                "type": "item",
-                "item": "platforms"
-              },
-              {
-                "type": "item",
-                "item": "triforcecharts"
-              },
-            ]
-          },
-          {
-            "type": "array",
-            "orientation": "vertical",
-            "h_alignment": "center",
-            "content": [
-              {
-                "type": "item",
-                "item": "puzzlecaves"
-              },
-              {
-                "type": "item",
-                "item": "gifts"
-              },
-              {
-                "type": "item",
-                "item": "longsidequests"
-              },
-              {
-                "type": "item",
-                "item": "sploosh"
-              },
-              {
-                "type": "item",
-                "item": "subs"
-              },
-              {
-                "type": "item",
-                "item": "treasurecharts"
-              },
-            ]
-          },
-          {
-            "type": "array",
-            "orientation": "vertical",
-            "h_alignment": "center",
-            "content": [
-              {
-                "type": "item",
-                "item": "combatcaves"
-              },
-              {
-                "type": "item",
-                "item": "misc"
-              },
-              {
-                "type": "item",
-                "item": "spoilstrading"
-              },
-              {
-                "type": "item",
-                "item": "expensive"
-              },
-              {
-                "type": "item",
-                "item": "octos"
-              },
-              {
-                "type": "item",
-                "item": "skip_rematches"
-              },
-            ]
-          },
-          {
-            "type": "array",
-            "orientation": "vertical",
-            "h_alignment": "center",
-            "content": [
-              {
-                "type": "item",
-                "item": "savage"
-              },
-              {
-                "type": "item",
-                "item": "statues"
-              },
-              {
-                "type": "item",
-                "item": "mail"
-              },
-              {
-                "type": "item",
-                "item": "islandpuzzle"
-              },
-              {
-                "type": "item",
-                "item": "reefs"
-              },
-              {
-                "type": "item",
-                "item": "swordless"
-              },
-            ]
-          },
-        ]
-      },
-      {
+          "type": "itemgrid",
+          "h_alignment": "center",
+          "item_margin": "0,0,2,5",
+          "item_height": 26,
+          "item_width": 175,
+          "rows": [
+            [ "dungeons", "puzzlecaves", "combatcaves", "savage" ],
+            [ "greatfairies", "gifts", "misc", "statues" ],
+            [ "shortsidequests", "longsidequests", "spoilstrading", "mail" ],
+            [ "minigames", "sploosh", "expensive", "islandpuzzle" ],
+            [ "platforms", "subs", "octos", "reefs" ],
+            [ "triforcecharts", "treasurecharts", "skip_rematches", "swordless" ]
+          ]
+        },
+        {
         "type": "array",
         "orientation": "horizontal",
         "h_alignment": "center",
