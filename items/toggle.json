@@ -1,0 +1,274 @@
+[
+  //Settings
+	{
+		"name": "Dungeons",
+		"type": "toggle",
+		"img": "images/toggles/ToggleDungeon.png",
+		"codes": "dungeons",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleDungeon.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Short Sidequests",
+		"type": "toggle",
+		"img": "images/toggles/ToggleShortSidequests.png",
+		"codes": "shortsidequests",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleShortSidequests.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Long Sidequests",
+		"type": "toggle",
+		"img": "images/toggles/ToggleLongSidequests.png",
+		"codes": "longsidequests",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleLongSidequests.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Spoils Trading",
+		"type": "toggle",
+		"img": "images/toggles/ToggleSpoilsTrading.png",
+		"codes": "spoilstrading",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleSpoilsTrading.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Platforms",
+		"type": "toggle",
+		"img": "images/toggles/TogglePlatform.png",
+		"codes": "platforms",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/TogglePlatform.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Eye Reefs",
+		"type": "toggle",
+		"img": "images/toggles/ToggleReefChests.png",
+		"codes": "reefs",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleReefChests.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Triforce Charts",
+		"type": "toggle",
+		"img": "images/toggles/ToggleTriforceCharts.png",
+		"codes": "triforcecharts",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleTriforceCharts.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Treasure Charts",
+		"type": "toggle",
+		"img": "images/toggles/ToggleTreasureCharts.png",
+		"codes": "treasurecharts",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleTreasureCharts.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Free Gifts",
+		"type": "toggle",
+		"img": "images/toggles/ToggleFreeGifts.png",
+		"codes": "gifts",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleFreeGifts.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Sploosh",
+		"type": "toggle",
+		"img": "images/toggles/ToggleSploosh.png",
+		"codes": "sploosh",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleSploosh.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Expensive Stuff",
+		"type": "toggle",
+		"img": "images/toggles/ToggleExpensive.png",
+		"codes": "expensive",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleExpensive.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Puzzle Secret Caves",
+		"type": "toggle",
+		"img": "images/toggles/TogglePuzzleCaves.png",
+		"codes": "puzzlecaves",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/TogglePuzzleCaves.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Combat Secret Caves",
+		"type": "toggle",
+		"img": "images/toggles/ToggleCombatCaves.png",
+		"codes": "combatcaves",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleCombatCaves.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Great Fairies",
+		"type": "toggle",
+		"img": "images/toggles/ToggleGreatFairies.png",
+		"codes": "greatfairies",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleGreatFairies.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Minigames",
+		"type": "toggle",
+		"img": "images/toggles/ToggleMinigames.png",
+		"codes": "minigames",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleMinigames.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Submarines",
+		"type": "toggle",
+		"img": "images/toggles/ToggleSubmarines.png",
+		"codes": "subs",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleSubmarines.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Big Octos",
+		"type": "toggle",
+		"img": "images/toggles/ToggleOcto.png",
+		"codes": "octos",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleOcto.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Mail",
+		"type": "toggle",
+		"img": "images/toggles/ToggleMail.png",
+		"codes": "mail",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleMail.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Miscellaneous",
+		"type": "toggle",
+		"img": "images/toggles/ToggleMisc.png",
+		"codes": "misc",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleMisc.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Tingle Chests",
+		"type": "toggle",
+		"img": "images/toggles/ToggleStatues.png",
+		"codes": "statues",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleStatues.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Swordless",
+		"type": "toggle",
+		"img": "images/toggles/ToggleSwordless.png",
+		"codes": "swordless",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleSwordless.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Skip Rematches",
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/toggles/ToggleRematches.png",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleRematches.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png",
+		"codes":"skip_rematches"
+	},
+	{
+		"name": "Savage Labyrinth",
+		"type": "toggle",
+		"img": "images/toggles/ToggleSavage.png",
+		"codes": "savage",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleSavage.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Island Puzzles",
+		"type": "toggle",
+		"img": "images/toggles/ToggleIslandPuzzle.png",
+		"codes": "islandpuzzle",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleIslandPuzzle.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Logic Type",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 1,
+		"stages":[
+			{
+				"img": "images/toggles/ToggleLogicType/1GlitchlessBeginner.png",
+				"codes":"logic_easy"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/2GlitchlessStandard.png",
+				"codes":"logic_standard"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/3GlitchedTrivial.png",
+				"codes":"logic_tricked"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/4GlitchedModerate.png",
+				"codes":"logic_glitched"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/5GlitchedLunatic.png",
+				"codes":"logic_complex"
+			},
+		]
+	},
+	{
+		"name": "Cave Entrance Randomization",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages":[
+			{
+				"img": "images/toggles/ToggleEntranceOFF.png",
+				"codes":"standard_entrance",
+				"img_mods": "brightness|0.5,overlay|images/toggles/ToggleLargeOFF.png"
+			},
+			{
+				"img": "images/toggles/ToggleEntrance.png",
+				"codes":"rando_entrance",
+				"inherit_codes": false
+			},
+		]
+	},
+	{
+		"name": "Shuffle Charts",
+		"type": "toggle",
+		"img": "images/toggles/ToggleChartShuffle.png",
+		"codes": "chart_shuffle",
+		"disabled_img": "images/toggles/ToggleChartShuffleOFF.png",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleLargeOFF.png"
+	},
+]

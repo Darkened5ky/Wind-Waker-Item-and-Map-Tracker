@@ -1,0 +1,68 @@
+{
+  "floating_item_grid": {
+    "type": "array",
+    "h_alignment": "center",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0,3,10",
+        "item_size": 36,
+        "rows": [
+          [ "telescope", "sail",      "windwaker", "grapple",    "spoils",   "boomerang", "leaf",  "double",    "sword" ],
+          [ "tuner",     "pic1",      "boots",     "armor",      "baitbag",  "no_bow",    "bombs", "wallet",    "shield" ],
+          [ "bottle",    "magletter", "moeletter",  "momletter", "delivery", "hookshot",  "hammer", "no_trade", "power" ],
+          [ "requiem",   "ballad",    "command",    "lyric",     "aria",     "passing",   "deed",   "gschart",  "statue1" ],
+          [ "dgmap",     "dgcomp",    "dgkey",      "dgboss",    "fstsc",    "fstfc",     "fsspc",  "fshhc",    "fshph" ]
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "center",
+        "content": [
+          {
+            "type": "layout",
+            "key": "pearls"
+          },
+          {
+            "type": "layout",
+            "key": "triforce"
+          }
+        ]
+      }
+    ]
+  },
+  "shop_item_grid": {
+    "type": "array",
+    "h_alignment": "center",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0,3,10",
+        "item_size": 36,
+        "rows": [
+          [ "telescope", "sail",      "windwaker", "grapple",    "spoils",   "boomerang", "leaf",  "double",    "sword" ],
+          [ "tuner",     "pic1",      "boots",     "armor",      "baitbag",  "no_bow",    "bombs", "wallet",    "shield" ],
+          [ "bottle",    "magletter", "moeletter",  "momletter", "delivery", "hookshot",  "hammer", "no_trade", "power" ],
+          [ "requiem",   "ballad",    "command",    "lyric",     "aria",     "passing",   "deed",   "gschart",  "statue1" ],
+          [ "dgmap",     "dgcomp",    "fscpi",      "fsfuc",     "fstsc",    "fstfc",     "fsspc",  "fshhc",    "fshph" ]
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "center",
+        "content": [
+          {
+            "type": "layout",
+            "key": "quest_items"
+          },
+        ]
+      }
+    ]
+  },
+}

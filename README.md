@@ -8,9 +8,11 @@ A map and item tracker for the Wind Waker Randomizer. Created by Darkened5ky wit
 - Additional Changes
    * Added Secret Cave Entrance Randomization Setting Toggle
    * Added and Moved Chart Shuffle Setting Toggle to enable faster routing
+   * Added Capturable Layout
    * Added assets relating to
    * Changed Disabled Filter to desaturate over greyscale
    * Updated Toggle Settings assets to better match style
+   * Blew up item sheets
 - Additional Variants
    * Simple Tracker Variants allow a more condensed format for more advanced user
    * Old Tracker Variant allows new improvements to be used with older versions of EmoTracker

@@ -1,0 +1,446 @@
+[
+	//Telescope
+	{
+		"name": "Telescope",
+		"type": "toggle",
+		"img": "images/Telescope.png",
+		"codes": "telescope"
+	},
+
+	//Sails
+	{
+		"name": "sail",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 1,
+		"stages": [
+     		{
+       			"img": "images/Sail.png",
+       			"codes": "sail,windwaker"
+     		},
+     		{
+     			"img": "images/Swift Sail.png"
+     		}
+    	]
+	},
+
+	//Grapple Hook
+	{
+		"name": "Grappling Hook",
+		"type": "toggle",
+		"img": "images/Grappling Hook.png",
+		"codes": "grapple"
+	},
+
+	//Bags (Might merge delivery bag with trading quest)
+	{
+		"name": "Spoils Bag",
+		"type": "toggle",
+		"img": "images/Spoils Bag.png",
+		"codes": "spoils"
+	},
+	{
+		"name": "Bait Bag",
+		"type": "toggle",
+		"img": "images/Bait Bag.png",
+		"codes": "baitbag"
+	},
+
+	//Trading Quest
+	{
+		"name": "Trading Quest",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/Delivery Bag.png",
+				"codes": "no_trade,delivery",
+			},
+			{
+				"img": "images/trading/Town Flower.png",
+				"codes": "tflower,delivery",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Sea Flower.png",
+				"codes": "sflower,delivery",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Exotic Flower.png",
+				"codes": "eflower,delivery",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Pinwheel.png",
+				"codes": "pinwheel,delivery",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Sickle Moon Flag.png",
+				"codes": "smflag,delivery",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Big Catch Flag.png",
+				"codes": "bcflag,delivery",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Fountain Idol.png",
+				"codes": "fidol,delivery",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Skull Tower Idol.png",
+				"codes": "stidol,delivery",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Big Sale Flag.png",
+				"codes": "bsflag,delivery",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Hero's Flag.png",
+				"codes": "hflag,delivery",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Postman Statue.png",
+				"codes": "pstatue,delivery",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/trading/Shop Guru Statue.png",
+				"codes": "sgstatue,delivery",
+				"inherit_codes": false
+			}
+		]
+	},
+
+	//Boomerang
+	{
+		"name": "Boomerang",
+		"type": "toggle",
+		"img": "images/Boomerang.png",
+		"codes": "boomerang"
+	},
+
+	//Deku Leaf
+	{
+		"name": "Deku Leaf",
+		"type": "progressive_toggle",
+		"stages": [
+			{
+				"img": "images/Deku Leaf.png",
+				"codes": "leaf"
+			},
+			{
+				"img": "images/Green Potion.png",
+				"codes": "double"
+			},
+			{
+				"img": "images/Deku Leaf And Double Magic.png",
+				"codes": "leaf,double"
+			}
+		]
+	},
+
+	//Tingle Tuner
+	{
+		"name": "Tingle Tuner",
+		"type": "toggle",
+		"img": "images/Tingle Tuner.png",
+		"codes": "tuner"
+	},
+
+	//Cameras
+	{
+		"name": "Picto Box",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/Picto Box.png",
+				"codes": "pic1"
+			},
+			{
+				"img": "images/Deluxe Picto Box.png",
+				"codes": "pic2"
+			}
+		]
+	},
+
+	//Iron Boots
+	{
+		"name": "Iron Boots",
+		"type": "toggle",
+		"img": "images/Iron Boots.png",
+		"codes": "boots"
+	},
+
+	//Magic Armor (might remove)
+	{
+		"name": "Magic Armor",
+		"type": "toggle",
+		"img": "images/Magic Armor.png",
+		"codes": "armor"
+	},
+
+	//Bow and Arrows
+	{
+		"name": "Hero's Bow",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/bow/bow0.png",
+				"codes": "no_bow",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/bow/bow1.png",
+				"codes": "bow"
+			},
+			{
+				"img": "images/bow/bow2.png",
+				"codes": "firearrow,icearrow"
+			},
+			{
+				"img": "images/bow/bow3.png",
+				"codes": "lightarrow"
+			}
+		]
+	},
+
+	//Bombs
+	{
+		"name": "Bombs",
+		"type": "progressive_toggle",
+		"stages": [
+			{
+				"img": "images/bomb/bomb30.png",
+				"codes": "bombs"
+			},
+			{
+				"img": "images/bomb/bomb60.png",
+				"codes": "bombs,bomb60"
+			},
+			{
+				"img": "images/bomb/bomb99.png",
+				"codes": "bombs,bomb60,bomb99"
+			}
+		]
+	},
+
+	//Bottles
+	{
+		"name": "Bottles",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/bottle/Bottle.png",
+				"codes": "bottle"
+			},
+			{
+				"img": "images/bottle/Bottle2.png"
+			},
+			{
+				"img": "images/bottle/Bottle3.png"
+			},
+			{
+				"img": "images/bottle/Bottle4.png"
+			}
+		]
+	},
+
+	//Hookshot
+	{
+		"name": "Hookshot",
+		"type": "toggle",
+		"img": "images/Hookshot.png",
+		"codes": "hookshot"
+	},
+
+	//Hammer
+	{
+		"name": "Skull Hammer",
+		"type": "toggle",
+		"img": "images/Skull Hammer.png",
+		"codes": "hammer"
+	},
+
+	//Equipment Screen
+
+	//Songs
+	{
+		"name": "Wind's Requiem",
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/music/Wind's Requiem.png",
+		"codes": "requiem"
+	},
+	{
+		"name": "Ballad of Gales",
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/music/Ballad of Gales.png",
+		"codes": "ballad"
+	},
+	{
+		"name": "Command Melody",
+		"type": "toggle",
+		"img": "images/music/Command Melody.png",
+		"codes": "command"
+	},
+	{
+		"name": "Earth God's Lyric",
+		"type": "toggle",
+		"img": "images/music/Earth God's Lyric with Harp Icon.png",
+		"disabled_img":"images/music/Earth God's Lyric.png",
+		"disabled_img_mods": "saturation|0.25|bt601,dim",
+		"codes": "lyric"
+	},
+	{
+		"name": "Wind God's Aria",
+		"type": "toggle",
+		"img": "images/music/Wind God's Aria with Violin Icon.png",
+		"disabled_img":"images/music/Wind God's Aria.png",
+		"disabled_img_mods": "saturation|0.25|bt601,dim",
+		"codes": "aria"
+	},
+	{
+		"name": "Song of Passing",
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/music/Song of Passing.png",
+		"codes": "passing"
+	},
+
+	//Equipment
+
+	{
+		"name": "Swords",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/sword/Hero's Sword.png",
+				"codes": "sword"
+			},
+			{
+				"img": "images/sword/Master Sword (Uncharged).png",
+				"codes": "ms"
+			},
+			{
+				"img": "images/sword/Master Sword (Half Charged).png",
+				"codes": "ms2"
+			},
+			{
+				"img": "images/sword/Master Sword (Fully Charged).png",
+				"codes": "ms3"
+			}
+		]
+	},
+	{
+		"name": "Shields",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/Hero's Shield.png",
+				"codes": "shield"
+			},
+			{
+				"img": "images/Mirror Shield.png",
+				"codes": "mirror"
+			}
+		]
+	},
+	{
+		"name": "Power Bracelets",
+		"type": "toggle",
+		"img": "images/Power Bracelets.png",
+		"codes": "power"
+	},
+	{
+		"name": "Ghost Ship Chart",
+		"type": "toggle",
+		"img": "images/Ghost Ship Chart.png",
+		"codes": "gschart"
+	},
+	{
+		"name": "Cabana Deed",
+		"type": "toggle",
+		"img": "images/Cabana Deed.png",
+		"codes": "deed"
+	},
+	{
+		"name": "Double Magic",
+		"type": "toggle",
+		"img": "images/Green Potion.png",
+		"codes": "double"
+	},
+
+	//Mail
+	{
+		"name": "Moblin's Letter",
+		"type": "toggle",
+		"img": "images/mail/Moblin's Letter.png",
+		"codes": "moeletter"
+	},
+	{
+		"name": "Maggie's Letter",
+		"type": "toggle",
+		"img": "images/mail/Maggie's Letter.png",
+		"codes": "magletter"
+	},
+	{
+		"name": "Note to Mom",
+		"type": "toggle",
+		"img": "images/mail/Note to Mom.png",
+		"codes": "momletter"
+	},
+
+	//Tingle Statues
+	{
+		"name": "Tingle Statues",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/statue/Tingle Statue.png",
+				"codes": "statue1"
+			},
+			{
+				"img": "images/statue/Tingle Statue2.png",
+				"codes": "statue2"
+			},
+			{
+				"img": "images/statue/Tingle Statue3.png",
+				"codes": "statue3"
+			},
+			{
+				"img": "images/statue/Tingle Statue4.png",
+				"codes": "statue4"
+			},
+			{
+				"img": "images/statue/Tingle Statue5.png",
+				"codes": "statue5"
+			}
+		]
+	},
+	//Wallet
+	{
+		"name": "Wallets",
+		"type": "progressive",
+		"stages": [
+			{
+				"img": "images/Wallet.png",
+				"codes": "wallet"
+			},
+			{
+				"img": "images/Wallet2.png",
+				"codes": "wallet2"
+			}
+		]
+	},
+]

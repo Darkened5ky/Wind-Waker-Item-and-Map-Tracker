@@ -903,6 +903,7 @@
         "name": "Floor 30",
         "item_count": 1,
         "capture_item": true,
+        "capture_item_layout": "shop_item_grid",
         "access_rules": [ "@can_defeat_keese,@can_defeat_miniblins,@can_defeat_red_chuchus,@can_defeat_magtails,@can_defeat_fire_keese,@can_defeat_peahats,@can_defeat_green_chuchus,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_armos,@can_defeat_yellow_chuchus,@can_defeat_red_bubbles,@can_defeat_darknuts,@can_play_winds_requiem",
                           "{}" ],
         "visibility_rules": [ "savage,standard_entrance" ]
@@ -911,6 +912,7 @@
         "name": "Floor 50",
         "item_count": 1,
         "capture_item": true,
+        "capture_item_layout": "shop_item_grid",
         "access_rules": [ "@Savage Labyrinth/Floor 30,@can_aim_mirror_shield,@can_defeat_redeads,@can_defeat_blue_bubbles,@can_defeat_dark_chuchus,@can_defeat_poes,@can_defeat_stalfos,hammer",
                           "hookshot,boots,[logic_complex]",
                           "{}" ],
@@ -2069,7 +2071,8 @@
                           "{}",
                           "leaf,[logic_complex],windwaker" ],
         "visibility_rules": [ "islandpuzzle" ],
-        "capture_item": true
+        "capture_item": true,
+        "capture_item_layout": "floating_item_grid"
       }
     ],
     "map_locations": [
@@ -2466,7 +2469,9 @@
       {
         "name": "20 Rupee Item",
         "item_count": 1,
-        "access_rules":"",
+        "access_rules":[ "", "{}" ],
+        "capture_item": true,
+        "capture_item_layout": "shop_item_grid",
         "visibility_rules": [ "misc" ]
       }
     ],
@@ -3648,7 +3653,8 @@
         "access_rules": [ "wallet,[@can_farm_lots_of_rupees]",
                           "{}" ],
         "visibility_rules": [ "expensive" ],
-        "capture_item": true
+        "capture_item": true,
+        "capture_item_layout": "shop_item_grid"
       },
       {
         "name": "950 Rupees",
@@ -3656,7 +3662,8 @@
         "access_rules": [ "wallet,[@can_farm_lots_of_rupees]",
                           "{}" ],
         "visibility_rules": [ "expensive" ],
-        "capture_item": true
+        "capture_item": true,
+        "capture_item_layout": "shop_item_grid"
       },
       {
         "name": "900 Rupees",
@@ -3664,7 +3671,8 @@
         "access_rules": [ "wallet,[@can_farm_lots_of_rupees]",
                           "{}" ],
         "visibility_rules": [ "expensive" ],
-        "capture_item": true
+        "capture_item": true,
+        "capture_item_layout": "shop_item_grid"
       }
     ],
     "map_locations": [

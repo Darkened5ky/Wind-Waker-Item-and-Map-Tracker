@@ -1,0 +1,50 @@
+{
+  "toggles": {
+    "type": "array",
+    "orientation": "vertical",
+    "h_alignment":"center",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "center",
+        "content": [
+          {
+            "type": "item",
+            "item": "logic_standard"
+          }
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0,2,5",
+        "item_height": 26,
+        "item_width": 175,
+        "rows": [
+          [ "dungeons", "puzzlecaves", "combatcaves", "savage" ],
+          [ "greatfairies", "gifts", "misc", "statues" ],
+          [ "shortsidequests", "longsidequests", "spoilstrading", "mail" ],
+          [ "minigames", "sploosh", "expensive", "islandpuzzle" ],
+          [ "platforms", "subs", "octos", "reefs" ],
+          [ "triforcecharts", "treasurecharts", "skip_rematches", "swordless" ]
+        ]
+      },
+      {
+      "type": "array",
+      "orientation": "horizontal",
+      "h_alignment": "center",
+      "content": [
+        {
+          "type": "item",
+          "item": "standard_entrance"
+        },
+        {
+          "type": "item",
+          "item": "chart_shuffle"
+        }
+      ]
+    }
+  ]
+},
+}

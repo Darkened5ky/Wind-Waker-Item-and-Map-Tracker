@@ -4,8 +4,9 @@
 
 cd %~dp0
 
-set udd=%USERPROFILE%\Documents\EmoTracker\packs\Wind-Waker-Item-and-Map-Tracker-Darkened5ky.zip
-set udo=%USERPROFILE%\OneDrive\Documents\EmoTracker\packs\Wind-Waker-Item-and-Map-Tracker-Darkened5ky.zip
+set packname=Wind-Waker-Item-and-Map-Tracker-Darkened5ky.zip
+set udd=%USERPROFILE%\Documents\EmoTracker\packs\%packname%
+set udo=%USERPROFILE%\OneDrive\Documents\EmoTracker\packs\%packname%
 set udl=%udd% %udo%
 set runfail=0
 set itemlist=0
@@ -40,4 +41,4 @@ if %runfail% GEQ %itemlist% (
 
 ::Test
 
-D:\EmoTracker\EmoTracker.exe
+"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\EmoTracker\EmoTracker.lnk"
