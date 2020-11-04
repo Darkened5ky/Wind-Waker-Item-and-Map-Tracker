@@ -3,6 +3,7 @@
   "game_name": "Wind Waker Randomizer",
   "game_variant": "yes",
   "package_version": "2.0.1.2", //TWWR dv_im 1.8.0g
+  "required_app_version": "2.3.9.0",
   "package_uid": "Wind-Waker-Item-and-Map-Tracker-Darkened5ky",
   "author": "Darkened5ky / Spleebie / emerald000 / DualVission",
   "variants": {

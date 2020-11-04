@@ -1,5 +1,5 @@
 {
-  "name": "Lunar Soap Item Trackers",
+  "name": "Darkened5ky Map / Item Trackers",
   "packages": [
     {
       "name": "The Wind Waker Randomizer Map Tracker",
@@ -11,13 +11,13 @@
         "chathud"
       ],
       "version": "2.0.1.2",
+      "required_app_version": "2.3.8.8",
       "uid": "Wind-Waker-Item-and-Map-Tracker-Darkened5ky",
       "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/2.0.1.2/Wind-Waker-Item-and-Map-Tracker.zip",
       "documentation_url": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/blob/master/README.md",
       "variants": [
         {
           "name": "Map / Item Tracker",
-          "required_app_version": "2.3.8.8",
           "flags":
           [
             "map",
@@ -27,7 +27,6 @@
         },
         {
           "name": "Simplified Horizontal Tracker",
-          "required_app_version": "2.3.8.8",
           "flags":
           [
             "map",
@@ -37,7 +36,6 @@
         },
         {
           "name": "Simplified Vertical Tracker",
-          "required_app_version": "2.3.8.8",
           "flags":
           [
             "map",
@@ -47,7 +45,6 @@
         },
         {
           "name": "Old Map / Item Tracker",
-          "required_app_version": "2.0.0.0",
           "flags":
           [
             "map",
