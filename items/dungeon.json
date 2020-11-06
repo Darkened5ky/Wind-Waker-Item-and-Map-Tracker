@@ -1,0 +1,136 @@
+[
+  //Dungeon Keys
+	{
+		"name": "DRC Keys",
+		"type": "consumable",
+		"max_quantity": 4,
+		"img": "images/Small Key.png",
+		"codes": "drc_key"
+	},
+	{
+		"name": "DRC Big Key",
+		"type": "toggle",
+		"img": "images/Boss Key.png",
+		"codes": "drc_bk"
+	},
+	{
+		"name": "FW Keys",
+		"type": "consumable",
+		"max_quantity": 1,
+		"img": "images/Small Key.png",
+		"codes": "fw_key"
+	},
+	{
+		"name": "FW Big Key",
+		"type": "toggle",
+		"img": "images/Boss Key.png",
+		"codes": "fw_bk"
+	},
+	{
+		"name": "ToTG Keys",
+		"type": "consumable",
+		"max_quantity": 2,
+		"img": "images/Small Key.png",
+		"codes": "totg_key"
+	},
+	{
+		"name": "TotG Big Key",
+		"type": "toggle",
+		"img": "images/Boss Key.png",
+		"codes": "totg_bk"
+	},
+	{
+		"name": "ET Keys",
+		"type": "consumable",
+		"max_quantity": 3,
+		"img": "images/Small Key.png",
+		"codes": "et_key"
+	},
+	{
+		"name": "ET Big Key",
+		"type": "toggle",
+		"img": "images/Boss Key.png",
+		"codes": "et_bk"
+	},
+	{
+		"name": "WT Keys",
+		"type": "consumable",
+		"max_quantity": 2,
+		"img": "images/Small Key.png",
+		"codes": "wt_key"
+	},
+	{
+		"name": "WT Big Key",
+		"type": "toggle",
+		"img": "images/Boss Key.png",
+		"codes": "wt_bk"
+	},
+
+	//Race Mode
+	{
+		"name": "DRC Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/1 drcicon.png",
+			"codes": "drc_true"
+			}
+		]
+	},
+	{
+		"name": "FW Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/2 fwicon.png",
+			"codes": "fw_true"
+			}
+		]
+	},
+	{
+		"name": "TOTG Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/3 totgicon.png",
+			"codes": "totg_true"
+			}
+		]
+	},
+	{
+		"name": "FF Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/4 fficon.png",
+			"codes": "ff_true"
+			}
+		]
+	},
+	{
+		"name": "ET Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/5 eticon.png",
+			"codes": "et_true"
+			}
+		]
+	},
+	{
+		"name": "WT Toggle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/dungeon/6 wticon.png",
+			"codes": "wt_true"
+			}
+		]
+	},
+]

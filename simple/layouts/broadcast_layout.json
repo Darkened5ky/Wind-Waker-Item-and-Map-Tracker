@@ -1,0 +1,285 @@
+{
+  "tracker_broadcast": {
+    "type": "array",
+    "margin": "0",
+    "width": 546,
+    "height": 772,
+    "content": [
+      {
+        "type": "array",
+        "h_alignment": "center",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "0,0,4,15",
+            "item_size": 48,
+            "rows": [
+              [ "magletter", "sail",      "grapple",  "spoils",   "boomerang", "leaf",   "wallet",  "sword",  "requiem", "command" ],
+              [ "moeletter", "pic1",      "boots",    "baitbag",  "no_bow",    "bombs",  "gschart", "shield", "ballad",  "lyric"   ],
+              [ "momletter", "bottle",    "deed",     "delivery", "hookshot",  "hammer", "statue1", "power",  "passing", "aria"    ]
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "canvas",
+                "width": 67,
+                "height": 40,
+                "content": [
+                  //DRC
+                  {
+                    "type": "item",
+                    "item": "drc_true",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 27,
+                    "canvas_top": 0
+                  },
+                  {
+                    "type": "item",
+                    "item": "drc_key",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 15,
+                    "canvas_top": 18
+                  },
+                  {
+                    "type": "item",
+                    "item": "drc_bk",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 35,
+                    "canvas_top": 18
+                  },
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 52,
+                "height": 40,
+                "content": [
+                  //FW
+                  {
+                    "type": "item",
+                    "item": "fw_true",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 12,
+                    "canvas_top": 0
+                  },
+                  {
+                    "type": "item",
+                    "item": "fw_key",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 0,
+                    "canvas_top": 18
+                  },
+                  {
+                    "type": "item",
+                    "item": "fw_bk",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 20,
+                    "canvas_top": 18
+                  },
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 52,
+                "height": 40,
+                "content": [
+                  //TOTG
+                  {
+                    "type": "item",
+                    "item": "totg_true",
+                    "width": 35,
+                    "height": 20,
+                    "canvas_left": 6,
+                    "canvas_top": 0
+                  },
+                  {
+                    "type": "item",
+                    "item": "totg_key",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 0,
+                    "canvas_top": 18
+                  },
+                  {
+                    "type": "item",
+                    "item": "totg_bk",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 20,
+                    "canvas_top": 18
+                  },
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 52,
+                "height": 40,
+                "content": [
+                  //ET
+                  {
+                    "type": "item",
+                    "item": "et_true",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 6,
+                    "canvas_top": 0
+                  },
+                  {
+                    "type": "item",
+                    "item": "et_key",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 0,
+                    "canvas_top": 18
+                  },
+                  {
+                    "type": "item",
+                    "item": "et_bk",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 20,
+                    "canvas_top": 18
+                  },
+                ]
+              },
+              {
+                "type": "canvas",
+                "width": 52,
+                "height": 40,
+                "content": [
+                  //WT
+                  {
+                    "type": "item",
+                    "item": "wt_true",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 12,
+                    "canvas_top": 0
+                  },
+                  {
+                    "type": "item",
+                    "item": "wt_key",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 0,
+                    "canvas_top": 18
+                  },
+                  {
+                    "type": "item",
+                    "item": "wt_bk",
+                    "width": 20,
+                    "height": 20,
+                    "canvas_left": 20,
+                    "canvas_top": 18
+                 },
+               ]
+            },
+            {
+              "type": "canvas",
+              "width": 52,
+              "height": 40,
+              "content": [
+                 //FF
+                 {
+                  "type": "item",
+                  "item": "ff_true",
+                  "width": 20,
+                  "height": 20,
+                  "canvas_left": 12,
+                  "canvas_top": 0
+                 }
+               ]
+             },
+             {
+               "type": "canvas",
+               "width": 52,
+               "height": 40,
+               "content": [
+                 {
+                   "type": "item",
+                   "item": "triforce",
+                   "width": 40,
+                   "height": 40,
+                   "canvas_left": 0,
+                   "canvas_top": 0
+                 }
+               ]
+             },
+             {
+               "type": "canvas",
+               "width": 52,
+               "height": 40,
+               "content": [
+                 {
+                   "type": "item",
+                   "item": "din",
+                   "width": 40,
+                   "height": 40,
+                   "canvas_left": 0,
+                   "canvas_top": 0
+                 }
+               ]
+             },
+             {
+               "type": "canvas",
+               "width": 55,
+               "height": 40,
+               "content": [
+                 {
+                   "type": "item",
+                   "item": "farore",
+                   "width": 40,
+                   "height": 40,
+                   "canvas_left": 0,
+                   "canvas_top": 0
+                 }
+               ]
+             },
+             {
+               "type": "canvas",
+               "width": 52,
+               "height": 40,
+               "content": [
+                 {
+                   "type": "item",
+                   "item": "nayru",
+                   "width": 40,
+                   "height": 40,
+                   "canvas_left": 0,
+                   "canvas_top": 0
+                 }
+               ]
+             },
+            ]
+          },
+          {
+            "type": "canvas",
+            "width": 516,
+            "height": 15,
+            "content": []
+          },
+          {
+            "type": "container",
+            "width": 516,
+            "height": 516,
+            "content": {
+             "type": "map",
+             "maps": [ "map" ]
+            }
+          }
+        ]
+      },
+    ]
+  }
+}

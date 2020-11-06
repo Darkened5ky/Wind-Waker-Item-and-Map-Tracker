@@ -1,0 +1,71 @@
+[
+  //Pearls
+	{
+		"name": "Din's Pearl",
+		"type": "toggle",
+		"img": "images/quest/Din's Pearl.png",
+		"disabled_img_mods": "saturation|0.125|max,dim",
+		"codes": "din"
+	},
+	{
+		"name": "Farore's Pearl",
+		"type": "toggle",
+		"img": "images/quest/Farore's Pearl.png",
+		"disabled_img_mods": "saturation|0.125|max,dim",
+		"codes": "farore"
+	},
+	{
+		"name": "Nayru's Pearl",
+		"type": "toggle",
+		"img": "images/quest/Nayru's Pearl.png",
+		"disabled_img_mods": "saturation|0.125|max,dim",
+		"codes": "nayru"
+	},
+
+	//Triforce Shards
+	{
+		"name": "Triforce Shards",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/quest/Triforce Shard 0.png",
+				"codes": "triforce",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/quest/Triforce Shard 1.png",
+				"codes": "triforce1"
+			},
+			{
+				"img": "images/quest/Triforce Shard 2.png",
+				"codes": "triforce2"
+			},
+			{
+				"img": "images/quest/Triforce Shard 3.png",
+				"codes": "triforce3"
+			},
+			{
+				"img": "images/quest/Triforce Shard 4.png",
+				"codes": "triforce4"
+			},
+			{
+				"img": "images/quest/Triforce Shard 5.png",
+				"codes": "triforce5"
+			},
+			{
+				"img": "images/quest/Triforce Shard 6.png",
+				"codes": "triforce6"
+			},
+			{
+				"img": "images/quest/Triforce Shard 7.png",
+				"codes": "triforce7"
+			},
+			{
+				"img": "images/quest/Triforce of Courage.png",
+				"codes": "triforce8,triforce_full"
+			},
+		]
+	},
+]

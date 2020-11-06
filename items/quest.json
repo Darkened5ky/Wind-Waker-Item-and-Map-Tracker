@@ -1,0 +1,89 @@
+[
+	//Pearls
+	{
+		"name": "Din's Pearl",
+		"type": "toggle",
+		"img": "images/quest/Din's Pearl.png",
+		"disabled_img_mods": "saturation|0.125|max,dim",
+		"codes": "din"
+	},
+	{
+		"name": "Farore's Pearl",
+		"type": "toggle",
+		"img": "images/quest/Farore's Pearl.png",
+		"disabled_img_mods": "saturation|0.125|max,dim",
+		"codes": "farore"
+	},
+	{
+		"name": "Nayru's Pearl",
+		"type": "toggle",
+		"img": "images/quest/Nayru's Pearl.png",
+		"disabled_img_mods": "saturation|0.125|max,dim",
+		"codes": "nayru"
+	},
+
+	//Triforce Shards
+	{
+		"name": "Triforce Shards",
+		"type": "toggle",
+		"img": "images/quest/Triforce of Courage.png",
+		"disabled_img": "images/quest/triforce_disabled.png",
+		"codes": "triforce_full"
+	},
+	{
+		"name": "Triforce Shard 1",
+		"type": "toggle",
+		"img": "images/quest/Triforce Shard 1.png",
+		"codes": "triforce,triforce_1",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 2",
+		"type": "toggle",
+		"img": "images/quest/Triforce Shard 2.png",
+		"codes": "triforce,triforce_2",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 3",
+		"type": "toggle",
+		"img": "images/quest/Triforce Shard 3.png",
+		"codes": "triforce,triforce_3",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 4",
+		"type": "toggle",
+		"img": "images/quest/Triforce Shard 4.png",
+		"codes": "triforce,triforce_4",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 5",
+		"type": "toggle",
+		"img": "images/quest/Triforce Shard 5.png",
+		"codes": "triforce,triforce_5",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 6",
+		"type": "toggle",
+		"img": "images/quest/Triforce Shard 6.png",
+		"codes": "triforce,triforce_6",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 7",
+		"type": "toggle",
+		"img": "images/quest/Triforce Shard 7.png",
+		"codes": "triforce,triforce_7",
+		"mask_input": true
+	},
+	{
+		"name": "Triforce Shard 8",
+		"type": "toggle",
+		"img": "images/quest/Triforce Shard 8.png",
+		"codes": "triforce,triforce_8",
+		"mask_input": true
+	},
+]

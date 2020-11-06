@@ -1,0 +1,93 @@
+{
+  "floating_item_grid": {
+    "type": "array",
+    "h_alignment": "center",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0,3,3",
+        "item_size": 36,
+        "rows": [
+          [ "sail",      "grapple",   "spoils",    "boomerang", "leaf",       "wallet",  "sword",  "command" ],
+          [ "pic1",      "boots",     "baitbag",   "no_bow",    "bombs",      "gschart", "shield", "lyric"   ],
+          [ "bottle",    "deed",      "delivery",  "hookshot",  "hammer",     "statue1", "power",  "aria"    ],
+          [ "magletter", "moeletter", "momletter", "fstsc",     "fstfc",      "fsspc",   "fshhc",  "fshph"   ],
+          [ "dgmap",     "dgcomp",    "dgkey",     "dgboss",    "triforce_1", "din",     "farore", "nayru"   ]
+        ]
+      },
+    ]
+  },
+  "shop_item_grid": {
+    "type": "array",
+    "h_alignment": "center",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0,3,0",
+        "item_size": 36,
+        "rows": [
+          [ "sail",      "grapple",   "spoils",    "boomerang", "leaf",       "wallet",     "sword",  "requiem", "command" ],
+          [ "pic1",      "boots",     "baitbag",   "no_bow",    "bombs",      "gschart",    "shield", "ballad",  "lyric"   ],
+          [ "bottle",    "deed",      "delivery",  "hookshot",  "hammer",     "statue1",    "power",  "passing", "aria"    ],
+          [ "magletter", "moeletter", "momletter", "fstsc",     "fstfc",      "fsspc",      "fshhc",  "fshph",   "rupee"   ]
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "h_alignment": "center",
+            "v_alignment": "center",
+            "content": [
+              {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-5,0,0",
+                "hit_test_visible": false,
+                "item_height": 18,
+                "h_alignment": "center",
+                "rows": [
+                  [ "drc_true",  "fw_true",   "totg_true", "et_true",   "wt_true" ],
+                ]
+              },
+              {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,-9,0,0",
+                "h_alignment": "center",
+                "item_size": 18,
+                "rows": [
+                  [ "drc_key", "drc_bk", "fw_key", "fw_bk", "totg_key", "totg_bk", "et_key", "et_bk", "wt_key", "" ],
+                ]
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "content": []
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "0,0,3,0",
+            "item_size": 36,
+            "rows": [
+              [ "triforce", "din", "farore", "nayru" ],
+            ]
+          }
+        ]
+      },
+
+    ]
+  },
+}

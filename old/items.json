@@ -27,14 +27,10 @@
 	//Wind Waker (Might Combine with sail)
 	{
 		"name": "Wind Waker",
-		"type": "progressive",
-		"initial_stage_idx": 0,
-		"stages": [
-			{
-				"img": "images/Wind Waker.png",
-				"codes": "windwaker"
-			}
-		]
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/Wind Waker.png",
+		"codes": "windwaker"
 	},
 
 	//Grapple Hook
@@ -285,25 +281,17 @@
 	//Songs
 	{
 		"name": "Wind's Requiem",
-		"type": "progressive",
-		"initial_stage_idx": 0,
-		"stages": [
-			{
-				"img": "images/music/Wind's Requiem.png",
-				"codes": "requiem"
-			}
-		]
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/music/Wind's Requiem.png",
+		"codes": "requiem"
 	},
 	{
 		"name": "Ballad of Gales",
-		"type": "progressive",
-		"initial_stage_idx": 0,
-		"stages": [
-			{
-				"img": "images/music/Ballad of Gales.png",
-				"codes": "ballad"
-			}
-		]
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/music/Ballad of Gales.png",
+		"codes": "ballad"
 	},
 	{
 		"name": "Command Melody",
@@ -327,14 +315,10 @@
 	},
 	{
 		"name": "Song of Passing",
-		"type": "progressive",
-		"initial_stage_idx": 0,
-		"stages":[
-			{
-				"img": "images/music/Song of Passing.png",
-				"codes": "passing"
-			}
-		]
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/music/Song of Passing.png",
+		"codes": "passing"
 	},
 
 	//Equipment
@@ -689,150 +673,272 @@
 		"name": "Dungeons",
 		"type": "toggle",
 		"img": "images/toggles/ToggleDungeon.png",
-		"codes": "dungeons"
+		"codes": "dungeons",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleDungeon.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Short Sidequests",
 		"type": "toggle",
 		"img": "images/toggles/ToggleShortSidequests.png",
-		"codes": "shortsidequests"
+		"codes": "shortsidequests",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleShortSidequests.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Long Sidequests",
 		"type": "toggle",
 		"img": "images/toggles/ToggleLongSidequests.png",
-		"codes": "longsidequests"
+		"codes": "longsidequests",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleLongSidequests.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Spoils Trading",
 		"type": "toggle",
 		"img": "images/toggles/ToggleSpoilsTrading.png",
-		"codes": "spoilstrading"
+		"codes": "spoilstrading",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleSpoilsTrading.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Platforms",
 		"type": "toggle",
 		"img": "images/toggles/TogglePlatform.png",
-		"codes": "platforms"
+		"codes": "platforms",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/TogglePlatform.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Eye Reefs",
 		"type": "toggle",
 		"img": "images/toggles/ToggleReefChests.png",
-		"codes": "reefs"
+		"codes": "reefs",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleReefChests.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Triforce Charts",
 		"type": "toggle",
 		"img": "images/toggles/ToggleTriforceCharts.png",
-		"codes": "triforcecharts"
+		"codes": "triforcecharts",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleTriforceCharts.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Treasure Charts",
 		"type": "toggle",
 		"img": "images/toggles/ToggleTreasureCharts.png",
-		"codes": "treasurecharts"
+		"codes": "treasurecharts",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleTreasureCharts.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Free Gifts",
 		"type": "toggle",
 		"img": "images/toggles/ToggleFreeGifts.png",
-		"codes": "gifts"
+		"codes": "gifts",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleFreeGifts.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Sploosh",
 		"type": "toggle",
 		"img": "images/toggles/ToggleSploosh.png",
-		"codes": "sploosh"
+		"codes": "sploosh",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleSploosh.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Expensive Stuff",
 		"type": "toggle",
 		"img": "images/toggles/ToggleExpensive.png",
-		"codes": "expensive"
+		"codes": "expensive",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleExpensive.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Puzzle Secret Caves",
 		"type": "toggle",
 		"img": "images/toggles/TogglePuzzleCaves.png",
-		"codes": "puzzlecaves"
+		"codes": "puzzlecaves",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/TogglePuzzleCaves.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Combat Secret Caves",
 		"type": "toggle",
 		"img": "images/toggles/ToggleCombatCaves.png",
-		"codes": "combatcaves"
+		"codes": "combatcaves",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleCombatCaves.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Great Fairies",
 		"type": "toggle",
 		"img": "images/toggles/ToggleGreatFairies.png",
-		"codes": "greatfairies"
+		"codes": "greatfairies",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleGreatFairies.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Minigames",
 		"type": "toggle",
 		"img": "images/toggles/ToggleMinigames.png",
-		"codes": "minigames"
+		"codes": "minigames",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleMinigames.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Submarines",
 		"type": "toggle",
 		"img": "images/toggles/ToggleSubmarines.png",
-		"codes": "subs"
+		"codes": "subs",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleSubmarines.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Big Octos",
 		"type": "toggle",
 		"img": "images/toggles/ToggleOcto.png",
-		"codes": "octos"
+		"codes": "octos",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleOcto.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Mail",
 		"type": "toggle",
 		"img": "images/toggles/ToggleMail.png",
-		"codes": "mail"
+		"codes": "mail",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleMail.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Miscellaneous",
 		"type": "toggle",
 		"img": "images/toggles/ToggleMisc.png",
-		"codes": "misc"
+		"codes": "misc",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleMisc.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
-		"name": "Tingle Statues",
+		"name": "Tingle Chests",
 		"type": "toggle",
 		"img": "images/toggles/ToggleStatues.png",
-		"codes": "statues"
+		"codes": "statues",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleStatues.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Swordless",
 		"type": "toggle",
 		"img": "images/toggles/ToggleSwordless.png",
-		"codes": "swordless"
+		"codes": "swordless",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleSwordless.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Skip Rematches",
-		"type": "progressive",
-		"initial_stage_idx": 0,
-		"stages":[
-			{
-				"img": "images/toggles/ToggleRematches.png",
-				"codes":"skip_rematches"
-			}
-		]
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/toggles/ToggleRematches.png",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleRematches.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png",
+		"codes":"skip_rematches"
 	},
 	{
 		"name": "Savage Labyrinth",
 		"type": "toggle",
 		"img": "images/toggles/ToggleSavage.png",
-		"codes": "savage"
+		"codes": "savage",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleSavage.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
 		"name": "Island Puzzles",
 		"type": "toggle",
 		"img": "images/toggles/ToggleIslandPuzzle.png",
-		"codes": "islandpuzzle"
+		"codes": "islandpuzzle",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleIslandPuzzle.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+	{
+		"name": "Logic Type",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 1,
+		"stages":[
+			{
+				"img": "images/toggles/ToggleLogicType/1GlitchlessBeginner.png",
+				"codes":"logic_easy"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/2GlitchlessStandard.png",
+				"codes":"logic_standard"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/3GlitchedTrivial.png",
+				"codes":"logic_tricked"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/4GlitchedModerate.png",
+				"codes":"logic_glitched"
+			},
+			{
+				"img": "images/toggles/ToggleLogicType/5GlitchedLunatic.png",
+				"codes":"logic_complex"
+			},
+		]
+	},
+	{
+		"name": "Cave Entrance Randomization",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages":[
+			{
+				"img": "images/toggles/ToggleEntranceOFF.png",
+				"codes":"standard_entrance",
+				"img_mods": "brightness|0.5,overlay|images/toggles/ToggleLargeOFF.png"
+			},
+			{
+				"img": "images/toggles/ToggleEntrance.png",
+				"codes":"rando_entrance",
+				"inherit_codes": false
+			},
+		]
+	},
+	{
+		"name": "Shuffle Charts",
+		"type": "toggle",
+		"img": "images/toggles/ToggleChartShuffle.png",
+		"codes": "chart_shuffle",
+		"disabled_img": "images/toggles/ToggleChartShuffleOFF.png",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleLargeOFF.png"
 	},
 
 	//Charts...
@@ -857,7 +963,7 @@
 	{
 		"name": "Chart 4",
 		"type": "toggle",
-		"img": "images/Treasure Chart.png",
+		"img": "images/Triforce Chart.png",
 		"codes": "chart4"
 	},
 	{
@@ -869,7 +975,7 @@
 	{
 		"name": "Chart 6",
 		"type": "toggle",
-		"img": "images/Treasure Chart.png",
+		"img": "images/Triforce Chart.png",
 		"codes": "chart6"
 	},
 	{
@@ -971,7 +1077,7 @@
 	{
 		"name": "Chart 23",
 		"type": "toggle",
-		"img": "images/Treasure Chart.png",
+		"img": "images/Triforce Chart.png",
 		"codes": "chart23"
 	},
 	{
@@ -1019,13 +1125,13 @@
 	{
 		"name": "Chart 31",
 		"type": "toggle",
-		"img": "images/Treasure Chart.png",
+		"img": "images/Triforce Chart.png",
 		"codes": "chart31"
 	},
 	{
 		"name": "Chart 32",
 		"type": "toggle",
-		"img": "images/Treasure Chart.png",
+		"img": "images/Triforce Chart.png",
 		"codes": "chart32"
 	},
 	{
@@ -1085,7 +1191,7 @@
 	{
 		"name": "Chart 42",
 		"type": "toggle",
-		"img": "images/Treasure Chart.png",
+		"img": "images/Triforce Chart.png",
 		"codes": "chart42"
 	},
 	{
@@ -1097,7 +1203,7 @@
 	{
 		"name": "Chart 44",
 		"type": "toggle",
-		"img": "images/Treasure Chart.png",
+		"img": "images/Triforce Chart.png",
 		"codes": "chart44"
 	},
 	{
@@ -1109,7 +1215,7 @@
 	{
 		"name": "Chart 46",
 		"type": "toggle",
-		"img": "images/Treasure Chart.png",
+		"img": "images/Triforce Chart.png",
 		"codes": "chart46"
 	},
 	{
@@ -1129,5 +1235,147 @@
 		"type": "toggle",
 		"img": "images/Treasure Chart.png",
 		"codes": "chart49"
+	},
+
+	//Secret Cave Entrances...
+	{
+		"name": "DRI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "driCave"
+	},
+	{
+		"name": "FM Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "fmCave"
+	},
+	{
+		"name": "IR Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "irCave"
+	},
+	{
+		"name": "PO Hidden Panel",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "driCave"
+	},
+	{
+		"name": "NR Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "nrCave"
+	},
+	{
+		"name": "AI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "aiCave"
+	},
+	{
+		"name": "BC Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "bcCave"
+	},
+	{
+		"name": "SW Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "swCave"
+	},
+	{
+		"name": "OL Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "olCave"
+	},
+	{
+		"name": "BP Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "bpCave"
+	},
+	{
+		"name": "PIC Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "picCave"
+	},
+	{
+		"name": "PIW Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "piwCave"
+	},
+	{
+		"name": "DS Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "dsCave"
+	},
+	{
+		"name": "BI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "biCave"
+	},
+	{
+		"name": "RSI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "rsiCave"
+	},
+	{
+		"name": "ShI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "shiCave"
+	},
+	{
+		"name": "CP Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "cpCave"
+	},
+	{
+		"name": "HI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "hiCave"
+	},
+	{
+		"name": "StI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "stiCave"
+	},
+	{
+		"name": "OI Grotto",
+		"type": "toggle",
+		"img": "images/Grotto Found.png",
+		"disabled_img": "images/Grotto.png",
+		"codes": "oiGrotto"
 	}
 ]

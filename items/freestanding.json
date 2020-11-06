@@ -1,0 +1,76 @@
+[
+	//Freestanding Items...
+	{
+		"name": "Dungeon Map",
+		"type": "toggle",
+		"img": "images/Dungeon Map.png",
+		"codes": "dgmap"
+	},
+	{
+		"name": "Dungeon Compass",
+		"type": "toggle",
+		"img": "images/Freestanding/Compass.png",
+		"codes": "dgcomp"
+	},
+	{
+		"name": "Dungeon Small Key",
+		"type": "toggle",
+		"img": "images/Small Key.png",
+		"codes": "dgkey"
+	},
+	{
+		"name": "Dungeon Boss Key",
+		"type": "toggle",
+		"img": "images/Boss Key.png",
+		"codes": "dgboss"
+	},
+
+	{
+		"name": "Treasure Chart",
+		"type": "toggle",
+		"img": "images/Freestanding/Treasure Chart.png",
+		"codes": "fstsc"
+	},
+	{
+		"name": "Triforce Chart",
+		"type": "toggle",
+		"img": "images/Freestanding/Triforce Chart.png",
+		"codes": "fstfc"
+	},
+	{
+		"name": "Useless Chart",
+		"type": "toggle",
+		"img": "images/Freestanding/Special Chart.png",
+		"codes": "fsspc"
+	},
+	{
+		"name": "Complimentary ID",
+		"type": "toggle",
+		"img": "images/Freestanding/Complimentary ID.png",
+		"codes": "fscpi"
+	},
+	{
+		"name": "Fill-Up Coupon",
+		"type": "toggle",
+		"img": "images/Freestanding/Fill-Up Coupon.png",
+		"codes": "fsfuc"
+	},
+	{
+		"name": "Heart Container",
+		"type": "toggle",
+		"img": "images/Freestanding/Heart Container.png",
+		"codes": "fshhc"
+	},
+	{
+		"name": "Piece of Heart",
+		"type": "toggle",
+		"img": "images/Freestanding/Piece of Heart.png",
+		"codes": "fshph"
+	},
+	{
+		"name": "Rupee",
+		"type": "toggle",
+		"img": "images/Freestanding/Rupee (Silver).png",
+		"codes": "rupee"
+	}
+]

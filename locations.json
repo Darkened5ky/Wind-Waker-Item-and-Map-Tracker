@@ -88,7 +88,8 @@
                       "grapple,[sword]",
                       "bow,[sword]",
                       "hookshot,[sword]",
-                      "bombs,[sword]" ],
+                      "bombs,[sword]",
+                      "leaf,[sword]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -107,6 +108,12 @@
                       "hammer",
                       "boomerang",
                       "bombs" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+    "name": "can_get_magic",
+    "access_rules": [ "@can_cut_grass",
+                      "double" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -174,7 +181,7 @@
                       "lightarrow",
                       "hammer,[sword]",
                       "hammer,swordless",
-                      "bow,[sword]"],
+                      "bow,[sword]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -305,7 +312,7 @@
                       "bow",
                       "bombs",
                       "hookshot,grapple,[sword]",
-                      "leaf,grapple,[sword]"],
+                      "leaf,grapple,[sword]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -471,8 +478,8 @@
   {
     "name": "can_defeat_kalle_demos",
     "access_rules": [ "boomerang",
-                      "[boomerang],bombs",
-                      "[boomerang],bow"],
+                      "[logic_glitched],bombs",
+                      "[logic_complex],bow" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -522,8 +529,8 @@
   },
   {
     "name": "can_access_forbidden_woods",
-    "access_rules": [ "@can_access_forest_haven,[grapple],@can_fly_with_deku_leaf_outdoors,[@can_cut_grass]",
-                      "@can_access_forest_haven,[grapple],@can_fly_with_deku_leaf_outdoors,[double]" ],
+    "access_rules": [ "@can_access_forest_haven,[grapple],@can_fly_with_deku_leaf_outdoors,[@can_get_magic]",
+                      "@can_access_forest_haven,[grapple],@can_fly_with_deku_leaf_outdoors" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -537,14 +544,23 @@
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
+    "name": "can_get_passed_earth_temple",
+    "access_rules": [ "@can_play_command_melody",
+                      "leaf,[logic_glitched]" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
     "name": "can_access_wind_temple",
-    "access_rules": [ "boots,hammer" ],
+    "access_rules": [ "boots,hammer",
+                      "windwaker,hammer,[logic_tricked]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_access_savage_labyrinth",
-    "access_rules": [ "power,@can_cut_down_outset_trees,@can_fly_with_deku_leaf_outdoors",
-                      "power,hookshot" ],
+    "access_rules": [ "power,[@can_cut_down_outset_trees],@can_fly_with_deku_leaf_outdoors",
+                      "power,hookshot",
+                      "power,[logic_tricked],@can_fly_with_deku_leaf_outdoors",
+                      "[logic_complex]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -565,12 +581,15 @@
   },
   {
     "name": "can_access_cabana_labyrinth",
-    "access_rules": [ "delivery,deed,grapple" ],
+    "access_rules": [ "delivery,deed,grapple",
+                      "[logic_glitched],windwaker,grapple,@can_fly_with_deku_leaf_outdoors",
+                      "[logic_glitched],windwaker,grapple,hookshot" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_access_needle_rock_isle_secret_cave",
-    "access_rules": [ "firearrow" ],
+    "access_rules": [ "firearrow",
+                      "[logic_complex],windwaker" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -598,7 +617,7 @@
   {
     "name": "can_access_birds_peak_rock_secret_cave",
     "access_rules": [ "baitbag,@can_buy_hyoi_pears",
-      "grapple,[baitbag]"],
+                      "grapple,[logic_tricked]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -607,12 +626,14 @@
   },
   {
     "name": "can_access_pawprint_isle_wizzrobe_cave",
-    "access_rules": [ "hookshot" ],
+    "access_rules": [ "hookshot",
+                      "[logic_glitched],@can_fly_with_deku_leaf_outdoors,bombs" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_access_diamond_steppe_island_warp_maze_cave",
-    "access_rules": [ "hookshot" ],
+    "access_rules": [ "hookshot",
+                      "[logic_glitched],sail,[windwaker]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -622,7 +643,8 @@
   },
   {
     "name": "can_access_rock_spire_isle_secret_cave",
-    "access_rules": [ "bombs" ],
+    "access_rules": [ "bombs",
+                      "[logic_glitched],@can_fly_with_deku_leaf_outdoors" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -646,12 +668,14 @@
   },
   {
     "name": "can_get_past_forsaken_fortress_gate",
-    "access_rules": [ "[bombs]" ],
+    "access_rules": [ "bombs",
+                      "[logic_tricked]" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
     "name": "can_get_inside_forsaken_fortress",
-    "access_rules": [ "@can_get_past_forsaken_fortress_gate,[hammer]" ],
+    "access_rules": [ "@can_get_past_forsaken_fortress_gate,hammer",
+                      "@can_get_past_forsaken_fortress_gate,[logic_tricked],windwaker" ],
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -731,7 +755,7 @@
                       "[grapple],spoils,@can_access_savage_labyrinth,@can_defeat_keese,@can_defeat_miniblins,@can_defeat_red_chuchus,@can_defeat_magtails,@can_defeat_fire_keese,@can_defeat_peahats,@can_defeat_green_chuchus,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_armos,@can_defeat_yellow_chuchus,@can_defeat_red_bubbles,[@can_defeat_darknuts],[@can_play_winds_requiem]", // Savage Labyrinth floor 27
                       "[grapple],spoils,@can_access_earth_temple,@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,[et_key:3],et_key:2,@can_defeat_red_bubbles,@can_defeat_blue_bubbles,@can_defeat_darknuts,[@can_defeat_darknuts_easily]", // Earth Temple big key room
                       "[grapple],spoils,@can_access_shark_island_secret_cave,@can_defeat_miniblins", // Shark Island Secret Cave
-                      "@can_access_hyrule,@can_defeat_darknuts"], //1.8
+                      "@can_access_hyrule,@can_defeat_darknuts" ], //1.8
     "sections": [{ "name": "access", "item_count": 1 }]
   },
   {
@@ -767,6 +791,32 @@
     "name": "can_farm_lots_of_rupees",
     "sections": [{ "name": "access", "item_count": 1 }]
   },
+  {
+    "name": "can_drc_backward",
+    "access_rules": [ "[logic_complex],bow,drc_key:1" ],
+    "sections": [{ "name": "access", "item_count": 1 }],
+  },
+  {
+    "name": "can_burn_pallet",
+    "access_rules": [ "[logic_complex],firearrow",
+                      "[logic_complex],bombs" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+    "name": "can_get_dri_boulder_chest",
+    "access_rules": [ "bow",
+                      "baitbag",
+                      "boomerang",
+                      "bombs",
+                      "[logic_glitched],@can_fly_with_deku_leaf_outdoors,sword",
+                      "[logic_glitched],@can_fly_with_deku_leaf_outdoors,hammer" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
+  {
+    "name": "can_get_spring_storage",
+    "access_rules": [ "[logic_complex],boots,hookshot" ],
+    "sections": [{ "name": "access", "item_count": 1 }]
+  },
 
   //The Locations
   {
@@ -791,14 +841,17 @@
       {
         "name": "Great Fairy",
         "item_count": 1,
-        "access_rules": [ "@can_cut_down_outset_trees,@can_fly_with_deku_leaf_outdoors,@can_move_boulders" ],
+        "access_rules": [ "@can_cut_down_outset_trees,@can_fly_with_deku_leaf_outdoors,@can_move_boulders,[logic_standard]",
+        "@can_cut_down_outset_trees,@can_fly_with_deku_leaf_outdoors,@can_move_boulders,@can_get_magic" ],
         "visibility_rules": [ "greatfairies" ]
       },
       {
         "name": "Jabun's Cave",
         "item_count": 1,
-        "access_rules": [ "bombs",
-                          "[bombs],windwaker"],
+        "access_rules": [ "bombs,[logic_standard]",
+                          "bombs,nayru",
+                          "bombs,din,farore",
+                          "[logic_complex]" ],
         "visibility_rules": [ "islandpuzzle" ]
       },
       {
@@ -817,6 +870,32 @@
     ]
   },
   {
+    "name": "Outset Island High Cliff Secret Cave",
+    "short_name": "Outset Island High Cliff",
+    "access_rules": [ "@can_access_savage_labyrinth" ],
+    "sections": [
+      {
+        "name": "Secret Cave Entrance",
+        "hosted_item": "oiCave",
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "visibility_rules": [ "oiCave" ]
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 198,
+        "y": 975
+      }
+    ]
+  },
+  {
     "name": "Savage Labyrinth",
     "access_rules": [ "@can_access_savage_labyrinth" ],
     "sections": [
@@ -824,18 +903,20 @@
         "name": "Floor 30",
         "item_count": 1,
         "capture_item": true,
+        "capture_item_layout": "shop_item_grid",
         "access_rules": [ "@can_defeat_keese,@can_defeat_miniblins,@can_defeat_red_chuchus,@can_defeat_magtails,@can_defeat_fire_keese,@can_defeat_peahats,@can_defeat_green_chuchus,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_armos,@can_defeat_yellow_chuchus,@can_defeat_red_bubbles,@can_defeat_darknuts,@can_play_winds_requiem",
                           "{}" ],
-        "visibility_rules": [ "savage" ]
+        "visibility_rules": [ "savage,standard_entrance" ]
       },
       {
         "name": "Floor 50",
         "item_count": 1,
         "capture_item": true,
+        "capture_item_layout": "shop_item_grid",
         "access_rules": [ "@Savage Labyrinth/Floor 30,@can_aim_mirror_shield,@can_defeat_redeads,@can_defeat_blue_bubbles,@can_defeat_dark_chuchus,@can_defeat_poes,@can_defeat_stalfos,hammer",
-                          "{leaf},{double}",
-                          "{hookshot}" ],
-        "visibility_rules": [ "savage" ]
+                          "hookshot,boots,[logic_complex]",
+                          "{}" ],
+        "visibility_rules": [ "savage,standard_entrance" ]
       }
     ],
     "map_locations": [
@@ -848,19 +929,24 @@
   },
   {
     "name": "Windfall Island (Sidequests)",
+    "short_name": "Windfall Sidequests",
+    "color": "khaki",
     "sections": [
       {
         "name": "Ivan (Hide & Seek)",
+        "short_name": "Ivan",
         "item_count": 1,
         "visibility_rules": [ "shortsidequests" ]
       },
       {
         "name": "Mrs. Marie (H&S)",
+        "short_name": "Mrs. Marie",
         "item_count": 1,
         "visibility_rules": [ "shortsidequests" ]
       },
       {
         "name": "Mila the Thief",
+        "short_name": "Mila",
         "item_count": 1,
         "visibility_rules": [ "shortsidequests" ]
       },
@@ -877,7 +963,8 @@
         "visibility_rules": [ "shortsidequests" ]
       },
       {
-        "name": "Kreeb (Windmill)",
+        "name": "Kreeb the Windmill Keep",
+        "short_name": "Kreeb",
         "item_count": 1,
         "access_rules": [ "[@can_play_winds_requiem],firearrow" ],
         "visibility_rules": [ "shortsidequests" ]
@@ -892,17 +979,20 @@
       {
         "name": "Lenzo's Balcony",
         "item_count": 2,
-        "access_rules": [ "[@can_play_winds_requiem],pic1" ],
+        "access_rules": [ "[@can_play_winds_requiem],pic1",
+                          "[logic_glitched]" ],
         "visibility_rules": [ "shortsidequests" ]
       },
       {
         "name": "Pompie & Vera the Gossips",
+        "short_name": "Pompie & Vera",
         "item_count": 1,
         "access_rules": [ "[@can_play_winds_requiem],pic1" ],
         "visibility_rules": [ "shortsidequests" ]
       },
       {
         "name": "Minenco, Ole Miss Windfall",
+        "short_name": "Minenco",
         "item_count": 1,
         "access_rules": [ "pic2" ],
         "visibility_rules": [ "shortsidequests" ]
@@ -921,8 +1011,9 @@
       },
       {
         "name": "Sam - Decorate Town",
+        "short_name": "Sam",
         "item_count": 1,
-        "access_rules": [ "delivery,tflower",
+        "access_rules": [ "delivery,[tflower]",
                           "delivery,sflower",
                           "delivery,eflower",
                           "delivery,pinwheel",
@@ -938,6 +1029,7 @@
       },
       {
         "name": "Zunari - Exotic Flower Reward",
+        "short_name": "Zunari",
         "item_count": 1,
         "access_rules": [ "delivery,eflower",
                           "delivery,pinwheel",
@@ -953,6 +1045,7 @@
       },
       {
         "name": "Kamo The Romantic",
+        "short_name": "Kamo",
         "item_count": 1,
         "access_rules": [ "pic2,[passing]" ],
         "visibility_rules": [ "longsidequests" ]
@@ -992,9 +1085,12 @@
   },
   {
     "name": "Windfall Island (Other)",
+    "short_name": "Windfall Other",
+    "color": "olive",
     "sections": [
       {
         "name": "Tingle the Prisoner",
+        "short_name": "Tingle",
         "item_count": 2,
         "visibility_rules": [ "gifts" ]
       },
@@ -1005,12 +1101,14 @@
       },
       {
         "name": "Tott the Dancing Man",
+        "short_name": "Tott",
         "item_count": 1,
         "access_rules": [ "windwaker" ],
         "visibility_rules": [ "gifts" ]
       },
       {
         "name": "Maggie the Lover",
+        "short_name": "Maggie",
         "item_count": 1,
         "visibility_rules": [ "gifts" ]
       },
@@ -1048,7 +1146,8 @@
     ]
   },
   {
-    "name": "Windfall Minigames",
+    "name": "Windfall Island (Minigames)",
+    "color": "tomato",
     "sections": [
       {
         "name": "5 Rupee Auction",
@@ -1090,6 +1189,8 @@
   },
   {
     "name": "Sinking Ships Minigame",
+    "short_name": "Sploosh Kaboom",
+    "color": "darkcyan",
     "sections": [
       {
         "name": "Kaboom",
@@ -1123,23 +1224,14 @@
       {
         "name": "Boulder Chest",
         "item_count": 1,
-        "access_rules": [ "bow",
-                          "baitbag,@can_buy_hyoi_pears",
-                          "boomerang",
-                          "bombs" ],
+        "access_rules": [ "@can_get_dri_boulder_chest" ],
         "visibility_rules": [ "islandpuzzle" ]
-      },
-      {
-        "name": "Special Enemy Trial Cave",
-        "item_count": 1,
-        "access_rules": [ "@can_access_dragon_roost_island_secret_cave,@can_defeat_keese,[@can_defeat_red_chuchus]" ],
-        "visibility_rules": [ "combatcaves" ]
       },
       {
         "name": "Long Passage",
         "item_count": 1,
-        "access_rules": [ "@can_fly_with_deku_leaf_outdoors,[@can_cut_grass]",
-                          "@can_fly_with_deku_leaf_outdoors,double" ],
+        "access_rules": [ "@can_fly_with_deku_leaf_outdoors,@can_get_magic",
+                          "@can_get_dri_boulder_chest,windwaker" ],
         "visibility_rules": [ "islandpuzzle" ]
       },
       {
@@ -1150,9 +1242,33 @@
       },
       {
         "name": "Baito Mail Sorting",
+        "short_name": "Baito",
         "item_count": 1,
         "visibility_rules": [ "minigames" ]
-      }
+      },
+      {
+        "name": "Special Enemy Trial Cave",
+        "item_count": 1,
+        "access_rules": [ "@can_access_dragon_roost_island_secret_cave,[@can_defeat_keese],[@can_defeat_red_chuchus]" ],
+        "visibility_rules": [ "combatcaves,standard_entrance" ]
+      },
+      {
+        "name": "Dragon Roost Island Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "driCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_dragon_roost_island_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Dragon Roost Island Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_dragon_roost_island_secret_cave" ],
+        "visibility_rules": [ "driCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -1164,6 +1280,8 @@
   },
   {
     "name": "Dragon Roost Cavern",
+    "short_name": "DRC",
+    "color": "red",
     "access_rules": [ "[@can_access_dragon_roost_cavern],drc_true" ],
     "sections": [
       {
@@ -1210,54 +1328,62 @@
       {
         "name": "Bird's Nest",
         "item_count": 1,
-        "access_rules": [ "drc_key:3" ],
+        "access_rules": [ "drc_key:3",
+                          "[logic_complex],@can_drc_backward,@can_burn_pallet,drc_key:2" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Dark Room",
         "item_count": 1,
-        "access_rules": [ "drc_key:4" ],
+        "access_rules": [ "drc_key:4",
+                          "[logic_complex],@can_drc_backward,@can_burn_pallet" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Tingle Chest in Hub",
         "item_count": 1,
-        "access_rules": [ "drc_key:4,@tingle_tuner_bombs" ],
+        "access_rules": [ "drc_key:4,@tingle_tuner_bombs",
+                          "[logic_complex],@can_drc_backward,@tingle_tuner_bombs" ],
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
         "name": "Three Bokoblins",
         "item_count": 1,
-        "access_rules": [ "drc_key:4" ],
+        "access_rules": [ "drc_key:4",
+                          "[logic_glitched],@can_drc_backward" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Miniboss",
         "item_count": 1,
-        "access_rules": [ "drc_key:4" ],
+        "access_rules": [ "drc_key:4",
+                          "[logic_glitched],@can_drc_backward" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Under Rope Bridge",
         "item_count": 1,
         "access_rules": [ "drc_key:4,grapple",
-                          "drc_key:4,@can_fly_with_deku_leaf_outdoors" ],
+                          "drc_key:4,@can_fly_with_deku_leaf_outdoors",
+                          "[logic_glitched],@can_drc_backward" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Tingle Statue Chest",
         "item_count": 1,
         "access_rules": [ "drc_key:4,@can_cut_down_hanging_drc_platform,grapple,@tingle_tuner_bombs",
-                          "drc_key:1,leaf,grapple,@tingle_tuner_bombs",
-                          "drc_key:1,icearrow,grapple,@tingle_tuner_bombs" ],
+                          "drc_key:1,leaf,grapple,@tingle_tuner_bombs,[logic_standard]",
+                          "drc_key:1,icearrow,grapple,@tingle_tuner_bombs,[logic_standard]",
+                          "drc_key:1,grapple,@tingle_tuner_bombs,[logic_complex]" ],
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
         "name": "Big Key Chest",
         "item_count": 1,
         "access_rules": [ "drc_key:4,@can_cut_down_hanging_drc_platform,grapple",
-                          "drc_key:1,leaf,grapple",
-                          "drc_key:1,icearrow,grapple" ],
+                          "drc_key:1,leaf,grapple,[logic_standard]",
+                          "drc_key:1,icearrow,grapple,[logic_standard]",
+                          "drc_key:1,grapple,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -1266,13 +1392,19 @@
         "access_rules": [ "drc_key:4,grapple",
                           "drc_key:4,leaf",
                           "drc_key:4,hookshot",
-                          "drc_key:4,icearrow" ],
+                          "drc_key:4,icearrow",
+                          "[logic_glitched],@can_drc_backward,leaf",
+                          "[logic_glitched],@can_drc_backward,grapple",
+                          "[logic_glitched],@can_drc_backward,hookshot",
+                          "[logic_glitched],@can_drc_backward,icearrow" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Gohma Heart Container",
+        "short_name": "Gohma",
         "item_count": 1,
-        "access_rules": [ "drc_key:4,grapple,drc_bk,@can_defeat_gohma" ],
+        "access_rules": [ "drc_key:4,grapple,drc_bk,@can_defeat_gohma",
+                          "[logic_glitched],@can_drc_backward,@can_defeat_gohma" ],
         "visibility_rules": [ "dungeons" ],
         "chest_unopened_img": "images/dungeon/1 Gohma.png"
       }
@@ -1291,13 +1423,15 @@
       {
         "name": "Tree Branch",
         "item_count": 1,
-        "access_rules": [ "@can_access_forest_haven,[grapple]" ],
+        "access_rules": [ "@can_access_forest_haven,grapple",
+                          "@can_access_forest_haven,leaf,[logic_glitched]" ],
         "visibility_rules": [ "islandpuzzle" ]
       },
       {
         "name": "Small Island",
         "item_count": 1,
-        "access_rules": [ "@can_access_forest_haven,[grapple],@can_fly_with_deku_leaf_outdoors" ],
+        "access_rules": [ "@can_access_forest_haven,[grapple],@can_fly_with_deku_leaf_outdoors",
+                          "@can_access_forest_haven,leaf,[logic_glitched]" ],
         "visibility_rules": [ "islandpuzzle" ]
       }
     ],
@@ -1311,6 +1445,8 @@
   },
   {
     "name": "Forbidden Woods",
+    "short_name": "FW",
+    "color": "green",
     "access_rules": [ "[@can_access_forbidden_woods],fw_true" ],
     "sections": [
       {
@@ -1350,23 +1486,26 @@
       {
         "name": "Morth Pit",
         "item_count": 1,
-        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple" ],
+        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple",
+                          "leaf,@can_defeat_boko_babas,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Vine Maze",
         "item_count": 2,
-        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple" ],
+        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple",
+                          "leaf,@can_defeat_boko_babas,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Before Miniboss Top",
+        "short_name": "Before Miniboss",
         "item_count": 1,
         "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,fw_key:1,[@can_defeat_peahats]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Mothula",
+        "name": "Mothula Miniboss",
         "item_count": 1,
         "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,fw_key:1,@can_defeat_winged_mothulas" ],
         "visibility_rules": [ "dungeons" ]
@@ -1379,37 +1518,50 @@
       },
       {
         "name": "Behind Red Flower",
+        "short_name": "Red Flower",
         "item_count": 1,
-        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang" ],
+        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang",
+                          "leaf,@can_defeat_boko_babas,grapple,bombs,[logic_glitched]",
+                          "leaf,@can_defeat_boko_babas,grapple,windwaker,[logic_glitched]",
+                          "leaf,@can_defeat_boko_babas,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Tingle Chest",
         "item_count": 1,
-        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang,@tingle_tuner_bombs" ],
+        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang,@tingle_tuner_bombs",
+                          "leaf,@can_defeat_boko_babas,grapple,bombs,[logic_glitched],@tingle_tuner_bombs",
+                          "leaf,@can_defeat_boko_babas,grapple,windwaker,[logic_glitched],@tingle_tuner_bombs",
+                          "leaf,@can_defeat_boko_babas,[logic_complex],@tingle_tuner_bombs" ],
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
         "name": "Tree Trunk",
         "item_count": 1,
-        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang" ],
+        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang",
+                          "leaf,@can_defeat_boko_babas,grapple,bombs,[logic_glitched]",
+                          "leaf,@can_defeat_boko_babas,grapple,windwaker,[logic_glitched]",
+                          "leaf,@can_defeat_boko_babas,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Big Key Chest",
         "item_count": 1,
-        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang" ],
+        "access_rules": [ "leaf,@can_defeat_boko_babas,grapple,boomerang",
+                          "leaf,@can_defeat_boko_babas,grapple,hookshot,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Wingless Mothulas",
         "item_count": 1,
         "access_rules": [ "leaf,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_defeat_mothulas",
-                          "leaf,@can_defeat_boko_babas,grapple,@can_defeat_mothulas" ],
+                          "leaf,@can_defeat_boko_babas,grapple,@can_defeat_mothulas",
+                          "leaf,@can_defeat_boko_babas,[logic_complex],@can_defeat_mothulas" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Kalle Demos Heart Container",
+        "short_name": "Kalle Demos",
         "item_count": 1,
         "access_rules": [ "leaf,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_defeat_mothulas,fw_bk,@can_defeat_kalle_demos",
                           "leaf,@can_defeat_boko_babas,grapple,@can_defeat_mothulas,fw_bk,@can_defeat_kalle_demos" ],
@@ -1436,34 +1588,40 @@
       },
       {
         "name": "Trade for Sea Flower",
+        "short_name": "Sea Flower",
         "hosted_item": "sflower",
         "visibility_rules": [ "longsidequests,expensive,tflower,delivery",
                               "shortsidequests,tflower,delivery" ]
       },
       {
         "name": "Trade for Exotic Flower",
+        "short_name": "Exotic Flower",
         "hosted_item": "eflower",
         "visibility_rules": [ "longsidequests,expensive,sflower,delivery",
                               "shortsidequests,sflower,delivery"  ]
       },
       {
         "name": "Trade for Fountain Idol",
+        "short_name": "Fountain Idol",
         "hosted_item": "fidol",
         "visibility_rules": [ "longsidequests,expensive,smflag,delivery",
                               "longsidequests,expensive,bcflag,delivery" ]
       },
       {
         "name": "Trade for Skull Tower Idol",
+        "short_name": "Skull Tower Idol",
         "hosted_item": "skidol",
         "visibility_rules": [ "longsidequests,expensive,fidol,delivery" ]
       },
       {
         "name": "Trade for Hero's Flag",
+        "short_name": "Hero's Flag",
         "hosted_item": "hflag",
         "visibility_rules": [ "longsidequests,expensive,bsflag,delivery" ]
       },
       {
         "name": "Trade for Postman Statue",
+        "short_name": "Postman Statue",
         "hosted_item": "pstatue",
         "visibility_rules": [ "longsidequests,expensive,hflag,delivery" ]
       },
@@ -1484,6 +1642,8 @@
   },
   {
     "name": "Tower of the Gods",
+    "short_name": "TOTG",
+    "color": "yellow",
     "access_rules": [ "[@can_access_tower_of_the_gods],totg_true" ],
     "sections": [
       {
@@ -1499,7 +1659,8 @@
       {
         "name": "Flooding Room",
         "item_count": 1,
-        "access_rules": [ "bombs" ],
+        "access_rules": [ "bombs",
+                          "[logic_glitched]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -1511,54 +1672,72 @@
         "name": "Light Two Torches",
         "item_count": 1,
         "access_rules": [ "bombs",
-                          "leaf,[double],[bombs]"],
+                          "leaf,can_get_magic,[logic_tricked]",
+                          "leaf,[logic_complex]",
+                          "sword,[logic_complex]",
+                          "hammer,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Eye Switch Room",
         "item_count": 1,
         "access_rules": [ "bombs",
-                          "leaf,double,[bombs]",
-                          "leaf,bottle,[bombs]"],
+                          "leaf,can_get_magic,[logic_tricked]",
+                          "leaf,[logic_complex]",
+                          "sword,[logic_complex]",
+                          "hammer,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Behind Eye Switch",
         "item_count": 1,
         "access_rules": [ "bombs,bow",
-                          "leaf,double,[bombs],bow",
-                          "leaf,bottle,[bombs],bow"],
+                          "leaf,@can_get_magic,bow,[logic_tricked]",
+                          "leaf,@can_get_magic,bombs,[logic_glitched]",
+                          "leaf,bombs,[logic_complex]",
+                          "bow,sword,[logic_complex]",
+                          "bow,hammer,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Tingle Chest",
         "item_count": 1,
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,@tingle_tuner_bombs",
-        "bombs,[totg_key:1],@can_defeat_yellow_chuchus,@tingle_tuner_bombs,leaf" ],
+                          "[logic_tricked],@can_defeat_yellow_chuchus,@tingle_tuner_bombs,leaf",
+                          "[logic_complex],@tingle_tuner_bombs,sword",
+                          "[logic_complex],@tingle_tuner_bombs,hammer" ],
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
         "name": "Kill Armos Knights",
         "item_count": 1,
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,bow",
-        "bombs,[totg_key:1],@can_defeat_yellow_chuchus,bow,leaf" ],
+                          "[logic_tricked],@can_defeat_yellow_chuchus,bow,bombs,leaf",
+                          "[logic_complex],bow,bombs,sword",
+                          "[logic_complex],bow,bombs,hammer",
+                          "[logic_complex],bow,bombs,leaf" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Stone Tablet",
         "item_count": 1,
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker",
-        "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf" ],
+                          "[logic_tricked],@can_defeat_yellow_chuchus,bombs,leaf",
+                          "[logic_complex],windwaker,sword",
+                          "[logic_complex],windwaker,hammer",
+                          "[logic_complex],windwaker,leaf" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Darknut",
+        "name": "Darknut Miniboss",
         "item_count": 1,
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,@can_play_command_melody,@can_defeat_darknuts",
                           "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,bow,@can_defeat_darknuts",
                           "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,@can_defeat_darknuts",
                           "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,bow,@can_defeat_darknuts",
-                          "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf,bow,@can_defeat_darknuts"],
+                          "bombs,[logic_tricked],windwaker,leaf,bow,@can_defeat_darknuts",
+                          "[logic_complex],@can_defeat_darknuts,windwaker",
+                          "[logic_complex],@can_defeat_darknuts,windwaker,hammer" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -1566,7 +1745,10 @@
         "item_count": 1,
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,@can_play_command_melody,bow,@can_play_winds_requiem",
                           "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow,@can_play_winds_requiem",
-                          "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow,@can_play_winds_requiem"],
+                          "bombs,[logic_tricked],leaf,@can_play_command_melody,bow,@can_play_winds_requiem",
+                          "[logic_complex],grapple,bow,@can_play_winds_requiem,sword",
+                          "[logic_complex],grapple,bow,@can_play_winds_requiem,hammer",
+                          "[logic_complex],leaf,bow,@can_play_winds_requiem" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -1574,21 +1756,28 @@
         "item_count": 2,
         "access_rules": [ "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,grapple,@can_play_command_melody,bow",
                           "bombs,totg_key:1,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow",
-                          "bombs,[totg_key:1],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow"],
+                          "bombs,[logic_tricked],leaf,@can_play_command_melody,bow",
+                          "[logic_complex],windwaker,grapple,bow,sword",
+                          "[logic_complex],windwaker,grapple,bow,hammer",
+                          "[logic_complex],windwaker,leaf,bow" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Big Key Chest",
         "item_count": 1,
         "access_rules": [ "bombs,totg_key:2,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow",
-                          "bombs,totg_key:1,[totg_key:2],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow"],
+                          "bombs,totg_key:1,[logic_tricked],windwaker,leaf,@can_play_command_melody,bow",
+                          "[logic_complex],windwaker,grapple,bow,sword",
+                          "[logic_complex],windwaker,grapple,bow,hammer",
+                          "[logic_complex],windwaker,leaf,bow" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Gohdan Heart Container",
+        "short_name": "Gohdan",
         "item_count": 1,
         "access_rules": [ "bombs,totg_key:2,@can_defeat_yellow_chuchus,windwaker,leaf,@can_play_command_melody,bow,@can_defeat_armos,totg_bk,@can_defeat_gohdan",
-                          "bombs,totg_key:1,[totg_key:2],@can_defeat_yellow_chuchus,windwaker,leaf,[@can_play_command_melody],bow,[@can_defeat_armos],totg_bk,@can_defeat_gohdan"],
+                          "bombs,totg_key:1,[logic_tricked],leaf,@can_play_command_melody,bow,@can_defeat_armos,totg_bk,@can_defeat_gohdan" ],
         "visibility_rules": [ "dungeons" ],
         "chest_unopened_img": "images/dungeon/3 Gohdan.png"
       }
@@ -1622,6 +1811,8 @@
   },
   {
     "name": "Forsaken Fortress",
+    "short_name": "FF",
+    "color": "purple",
     "access_rules": [ "@can_get_past_forsaken_fortress_gate,ff_true" ],
     "sections": [
       {
@@ -1633,8 +1824,9 @@
       {
         "name": "Near Upper Cell",
         "item_count": 1,
-        "access_rules": [ "@can_get_inside_forsaken_fortress,[leaf]",
-                          "@can_get_inside_forsaken_fortress,[hookshot]" ],
+        "access_rules": [ "@can_get_inside_forsaken_fortress,leaf",
+                          "@can_get_inside_forsaken_fortress,hookshot",
+                          "@can_get_inside_forsaken_fortress,[logic_tricked]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -1657,9 +1849,11 @@
       },
       {
         "name": "Helmaroc King Heart Container",
+        "short_name": "Helmaroc King",
         "item_count": 1,
-        "access_rules": [ "@can_get_inside_forsaken_fortress,hammer,[leaf],@can_defeat_helmaroc_king",
-                          "@can_get_inside_forsaken_fortress,hammer,[hookshot],@can_defeat_helmaroc_king" ],
+        "access_rules": [ "@can_get_inside_forsaken_fortress,hammer,leaf,@can_defeat_helmaroc_king",
+                          "@can_get_inside_forsaken_fortress,hammer,hookshot,@can_defeat_helmaroc_king",
+                          "@can_get_inside_forsaken_fortress,hammer,[logic_tricked],@can_defeat_helmaroc_king" ],
         "visibility_rules": [ "dungeons" ],
         "chest_unopened_img": "images/dungeon/4 Helmaroc King.png"
       }
@@ -1688,28 +1882,33 @@
       },
       {
         "name": "Trade for Sea Flower",
+        "short_name": "Sea Flower",
         "hosted_item": "sflower",
         "visibility_rules": [ "longsidequests,expensive,tflower,delivery",
                               "shortsidequests,tflower,delivery"  ]
       },
       {
         "name": "Trade for Pinwheel",
+        "short_name": "Pinwheel",
         "hosted_item": "pinwheel",
         "visibility_rules": [ "longsidequests,expensive,eflower,delivery" ]
       },
       {
         "name": "Trade for Big Catch Flag",
+        "short_name": "Big Catch Flag",
         "hosted_item": "bcflag",
         "visibility_rules": [ "longsidequests,expensive,smflag,delivery" ]
       },
       {
         "name": "Trade for Big Sale Flag",
+        "short_name": "Big Sale Flag",
         "hosted_item": "bsflag",
         "visibility_rules": [ "longsidequests,expensive,fidol,delivery",
                               "longsidequests,expensive,stidol,delivery" ]
       },
       {
         "name": "Trade for Shop Guru Statue",
+        "short_name": "Shop Guru Statue",
         "hosted_item": "sgstatue",
         "visibility_rules": [ "longsidequests,expensive,pstatue,delivery" ]
       }
@@ -1729,8 +1928,23 @@
         "name": "Volcano Chest",
         "item_count": 1,
         "access_rules": [ "@can_access_fire_mountain_secret_cave,@can_defeat_magtails" ],
-        "visibility_rules": [ "puzzlecaves" ]
-      }
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
+      },
+      {
+        "name": "Fire Mountain Secret Cave Entrance",
+        "hosted_item": "fmCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_fire_mountain_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Fire Mountain Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_fire_mountain_secret_cave" ],
+        "visibility_rules": [ "fmCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -1794,15 +2008,32 @@
         "name": "Iron Boots Chest",
         "item_count": 1,
         "access_rules": [ "@can_access_ice_ring_isle_secret_cave" ],
-        "visibility_rules": [ "puzzlecaves" ]
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
       },
       {
         "name": "Icy Combat",
         "item_count": 1,
-        "access_rules": [ "@can_access_ice_ring_isle_secret_cave,boots,firearrow",
-                          "@can_access_ice_ring_isle_secret_cave,[boots],firearrow,windwaker"],
-        "visibility_rules": [ "puzzlecaves,combatcaves" ]
-      }
+        "access_rules": [ "[@can_access_ice_ring_isle_secret_cave],boots,firearrow",
+                          "[@can_access_ice_ring_isle_secret_cave],firearrow,windwaker,[logic_tricked]" ],
+        "visibility_rules": [ "puzzlecaves,combatcaves,standard_entrance" ]
+      },
+      {
+        "name": "Ice Ring Isle Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "irCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_dragon_roost_island_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Ice Ring Isle Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_dragon_roost_island_secret_cave" ],
+        "visibility_rules": [ "irCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -1837,9 +2068,11 @@
         "name": "Top of Island",
         "item_count": 1,
         "access_rules": [ "baitbag,@can_buy_hyoi_pears",
-                          "{}" ],
+                          "{}",
+                          "leaf,[logic_complex],windwaker" ],
         "visibility_rules": [ "islandpuzzle" ],
-        "capture_item": true
+        "capture_item": true,
+        "capture_item_layout": "floating_item_grid"
       }
     ],
     "map_locations": [
@@ -1852,6 +2085,8 @@
   },
   {
     "name": "Earth Temple",
+    "short_name": "ET",
+    "color": "blue",
     "access_rules": [ "[@can_access_earth_temple],et_true" ],
     "sections": [
       {
@@ -1867,52 +2102,59 @@
       {
         "name": "ChuChu Room",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody",
-                          "[@can_play_command_melody],leaf,[double]"],
+        "access_rules": [ "@can_get_passed_earth_temple" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Bubble Crypt",
         "item_count": 1,
-        "access_rules": [ "[@can_play_command_melody],hammer,power" ],
+        "access_rules": [ "@can_get_passed_earth_temple,[hammer],power" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Destructible Wall Chest",
         "item_count": 1,
-        "access_rules": [ "[@can_play_command_melody],hammer,mirror" ],
+        "access_rules": [ "@can_get_passed_earth_temple,[hammer],mirror" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Three Blocks",
         "item_count": 1,
-        "access_rules": [ "[@can_play_command_melody],et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters]" ],
+        "access_rules": [ "@can_get_passed_earth_temple,et_key:1,[et_key:2],firearrow,power,@can_defeat_floormasters",
+                          "@can_get_passed_earth_temple,et_key:1,[et_key:2],leaf,[logic_glitched],power,@can_defeat_floormasters",
+                          "@can_get_passed_earth_temple,et_key:1,[et_key:2],bombs,power,@can_defeat_floormasters,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Behind Statues",
         "item_count": 1,
-        "access_rules": [ "[@can_play_command_melody],et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters]" ],
+        "access_rules": [ "@can_get_passed_earth_temple,et_key:1,[et_key:2],firearrow,power,@can_defeat_floormasters,@can_play_command_melody",
+          "@can_get_passed_earth_temple,et_key:1,[et_key:2],leaf,[logic_glitched],power,@can_defeat_floormasters,@can_aim_mirror_shield",
+        "@can_get_passed_earth_temple,et_key:1,[et_key:2],bombs,[logic_complex],power,@can_defeat_floormasters" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "ReDead Crypt",
         "item_count": 1,
-        "access_rules": [ "[@can_play_command_melody],et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters],[@can_defeat_redeads]",
-                          "[@can_play_command_melody],et_key:1,[et_key:2],firearrow,power,[@can_defeat_floormasters],leaf,boomerang"],
+        "access_rules": [ "@can_get_passed_earth_temple,et_key:1,[et_key:2],firearrow,power,@can_defeat_floormasters,[@can_defeat_redeads]",
+                          "@can_get_passed_earth_temple,et_key:1,[et_key:2],leaf,[logic_glitched],power,@can_defeat_floormasters,boomerang",
+                        "@can_get_passed_earth_temple,et_key:1,[et_key:2],bombs,[logic_complex],power,@can_defeat_floormasters,boomerang" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
-        "name": "Two Stalfos",
+        "name": "Three Stalfos Miniboss",
         "item_count": 1,
-        "access_rules": [ "[@can_play_command_melody],et_key:2,[et_key:3],firearrow,power,[@can_defeat_floormasters],@can_defeat_stalfos",
-                          "[@can_play_command_melody],et_key:2,[et_key:3],firearrow,power,[@can_defeat_floormasters],[@can_defeat_stalfos],hookshot"],
+        "access_rules": [ "can_get_passed_earth_temple,et_key:2,[et_key:3],firearrow,power,@can_defeat_floormasters,@can_defeat_stalfos",
+                          "@can_get_passed_earth_temple,et_key:2,[et_key:3],firearrow,power,@can_defeat_floormasters,hookshot",
+                          "@can_get_passed_earth_temple,et_key:2,[et_key:3],leaf,[logic_glitched],power,@can_defeat_floormasters,@can_defeat_stalfos",
+                          "@can_get_passed_earth_temple,et_key:2,[et_key:3],leaf,[logic_glitched],power,@can_defeat_floormasters,hookshot",
+                          "@can_get_passed_earth_temple,et_key:2,[et_key:3],leaf,[logic_complex],power,@can_defeat_floormasters" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Tingle Chest",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@tingle_tuner_bombs" ],
+        "access_rules": [ "can_get_passed_earth_temple,@can_aim_mirror_shield,@tingle_tuner_bombs" ],
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
@@ -1930,31 +2172,43 @@
       {
         "name": "Large Crypt",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles]" ],
+        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles]",
+        "@can_get_passed_earth_temple,@can_aim_mirror_shield,@can_play_earth_gods_lyric,et_key:3,power,hammer,[logic_complex]",
+        "@can_get_passed_earth_temple,@can_aim_mirror_shield,leaf,bombs,power,hammer,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Mirror Room",
         "item_count": 2,
-        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles]" ],
+        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles]",
+        "@can_get_passed_earth_temple,@can_aim_mirror_shield,@can_play_earth_gods_lyric,et_key:3,power,hammer,[logic_complex]",
+        "@can_get_passed_earth_temple,@can_aim_mirror_shield,leaf,bombs,power,hammer,[logic_complex]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Stalfos Crpyt",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],@can_defeat_stalfos" ],
+        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],@can_defeat_stalfos",
+        "@can_get_passed_earth_temple,@can_aim_mirror_shield,@can_play_earth_gods_lyric,et_key:3,power,hammer,[logic_complex],@can_defeat_stalfos",
+        "@can_get_passed_earth_temple,@can_aim_mirror_shield,leaf,bombs,power,hammer,[logic_complex],@can_defeat_stalfos" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Big Key Chest",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],@can_defeat_blue_bubbles,@can_defeat_darknuts" ],
+        "access_rules": [ "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],@can_defeat_blue_bubbles,@can_defeat_darknuts",
+                          "@can_play_command_melody,@can_aim_mirror_shield,@can_play_earth_gods_lyric,leaf,[logic_glitched],hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],@can_defeat_blue_bubbles,@can_defeat_darknuts",
+                          "@can_get_passed_earth_temple,@can_aim_mirror_shield,@can_play_earth_gods_lyric,et_key:3,power,hammer,[logic_complex],@can_defeat_darknuts",
+                          "@can_get_passed_earth_temple,@can_aim_mirror_shield,leaf,bombs,power,hammer,[logic_complex],@can_can_defeat_darknuts" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Jalhalla Heart Container",
+        "short_name": "Jalhalla",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,[@can_aim_mirror_shield],@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],et_bk,@can_defeat_jalhalla" ],
+        "access_rules": [ "@can_play_command_melody,[@can_aim_mirror_shield],@can_play_earth_gods_lyric,power,hammer,et_key:1,[et_key:3],[@can_defeat_red_bubbles],et_bk,@can_defeat_jalhalla",
+        "@can_get_passed_earth_temple,@can_aim_mirror_shield,@can_play_earth_gods_lyric,et_key:3,power,hammer,[logic_complex],@can_defeat_jalhalla,@can_defeat_jalhalla_poes",
+        "@can_get_passed_earth_temple,@can_aim_mirror_shield,leaf,bombs,power,hammer,[logic_complex],@can_defeat_jalhalla,@can_defeat_jalhalla_poes" ],
         "visibility_rules": [ "dungeons" ],
         "chest_unopened_img": "images/dungeon/5 Jalhalla.png"
       }
@@ -1969,6 +2223,8 @@
   },
   {
     "name": "Wind Temple",
+    "short_name": "WT",
+    "color": "orange",
     "access_rules": [ "[@can_access_wind_temple],wt_true" ],
     "sections": [
       {
@@ -1990,54 +2246,63 @@
       {
         "name": "Tingle Chest",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,@tingle_tuner_bombs" ],
+        "access_rules": [ "@can_play_command_melody,boots,leaf,@tingle_tuner_bombs",
+                          "@can_play_command_melody,@can_get_spring_storage,@tingle_tuner_bombs" ],
         "visibility_rules": [ "dungeons,statues" ]
       },
       {
         "name": "Makar's Cell",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,hookshot" ],
+        "access_rules": [ "@can_play_command_melody,boots,leaf,hookshot",
+                          "@can_play_command_melody,@can_get_spring_storage",
+                          "@can_play_command_melody,[logic_complex],leaf" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "In Alcove",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf" ],
+        "access_rules": [ "@can_play_command_melody,boots,leaf",
+                          "@can_play_command_melody,@can_get_spring_storage",
+                          "@can_play_command_melody,[logic_complex],leaf" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Three Darknuts",
         "item_count": 1,
-        "access_rules": [ "[@can_play_command_melody],boots,leaf,@can_play_wind_gods_aria,@can_defeat_darknuts" ],
+        "access_rules": [ "[@can_play_command_melody],boots,leaf,@can_play_wind_gods_aria,@can_defeat_darknuts",
+                          "@can_play_command_melody,@can_get_spring_storage,firearrow,bombs",
+                          "@can_play_command_melody,[logic_complex],leaf" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Many Cyclones Room",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,[boots],leaf,@can_cut_grass",
-                          "@can_play_command_melody,[boots],leaf,double",
-                          "@can_play_command_melody,[boots],leaf,[hookshot],[@can_defeat_wizzrobes_at_range]" ],
+        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_get_magic",
+                          "@can_play_command_melody,boots,leaf,[hookshot],[@can_defeat_wizzrobes_at_range]" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Bottom of Hub",
         "item_count": 1,
-        "access_rules": [ "@can_play_command_melody,boots,leaf,[@can_cut_grass]",
-                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles" ],
+        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_get_magic",
+                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles",
+                          "@can_play_command_melody,@can_get_spring_storage" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Spike Wall Room",
         "item_count": 2,
-        "access_rules": [ "@can_play_command_melody,boots,[leaf],[@can_cut_grass]",
-                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles" ],
+        "access_rules": [ "@can_play_command_melody,boots,leaf,@can_get_magic",
+                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles",
+                          "@can_play_command_melody,@can_get_spring_storage" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
         "name": "Miniboss",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,boots,leaf,@can_cut_grass,wt_key:1,[wt_key:2],@can_defeat_darknuts,@can_remove_peahat_armor",
-                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles,wt_key:1,[wt_key:2],@can_defeat_darknuts,@can_remove_peahat_armor" ],
+                          "@can_play_command_melody,boots,leaf,hookshot,@can_defeat_blue_bubbles,wt_key:1,[wt_key:2],@can_defeat_darknuts,@can_remove_peahat_armor",
+                          "@can_play_command_melody,@can_get_spring_storage,hookshot,wt_key:1,[wt_key:2],@can_defeat_darknuts,@can_remove_peahat_armor" ],
         "visibility_rules": [ "dungeons" ]
       },
       {
@@ -2062,6 +2327,7 @@
       },
       {
         "name": "Molgera Heart Container",
+        "short_name": "Molgera",
         "item_count": 1,
         "access_rules": [ "@can_play_command_melody,boots,leaf,hookshot,[@can_defeat_blue_bubbles],wt_key:1,[wt_key:2],[@can_play_wind_gods_aria],wt_bk,@can_defeat_molgera",
                         "@can_play_command_melody,[boots],leaf,hookshot,[@can_defeat_blue_bubbles],[wt_key:1],[@can_play_wind_gods_aria],[wt_bk],@can_defeat_molgera"
@@ -2104,6 +2370,7 @@
   },
   {
     "name": "Mail",
+    "color": "darkred",
     "sections": [
       {
         "name": "Bird Girlfriend",
@@ -2119,6 +2386,7 @@
       },
       {
         "name": "Baito (Must Clear ET)",
+        "short_name": "Baito",
         "item_count": 1,
         "access_rules": [ "delivery,momletter,[passing],@Earth Temple/Jalhalla Heart Container" ],
         "visibility_rules": [ "mail,dungeons" ]
@@ -2142,7 +2410,26 @@
         "visibility_rules": [ "mail" ]
       },
       {
+        "name": "Silver Membership Reward",
+        "item_count": 1,
+        "access_rules": [ "baitbag,passing",
+                          "bombs,passing",
+                          "bow,passing",
+                          "bottle,passing" ],
+        "visibility_rules": [ "mail,shortsidequests,expensive,logic_complex" ]
+      },
+      {
+        "name": "Gold Membership Reward",
+        "item_count": 1,
+        "access_rules": [ "baitbag,passing",
+                          "bombs,passing",
+                          "bow,passing",
+                          "bottle,passing" ],
+        "visibility_rules": [ "mail,longsidequests,expensive,logic_complex" ]
+      },
+      {
         "name": "Orca (Must Clear FW)",
+        "short_name": "Orca",
         "item_count": 1,
         "access_rules": [ "@Forbidden Woods/Kalle Demos Heart Container" ],
         "visibility_rules": [ "mail,dungeons" ]
@@ -2155,12 +2442,14 @@
       },
       {
         "name": "Aryll (Must Clear FF)",
+        "short_name": "Aryll",
         "item_count": 1,
         "access_rules": [ "@Forsaken Fortress/Helmaroc King Heart Container,[passing]" ],
         "visibility_rules": [ "mail,dungeons" ]
       },
       {
         "name": "Tingle (Free him, Clear FF)",
+        "short_name": "Tingle",
         "item_count": 1,
         "access_rules": [ "wallet,@Forsaken Fortress/Helmaroc King Heart Container,[passing]" ],
         "visibility_rules": [ "mail,dungeons,expensive" ]
@@ -2180,7 +2469,9 @@
       {
         "name": "20 Rupee Item",
         "item_count": 1,
-        "access_rules":"",
+        "access_rules":[ "", "{}" ],
+        "capture_item": true,
+        "capture_item_layout": "shop_item_grid",
         "visibility_rules": [ "misc" ]
       }
     ],
@@ -2204,11 +2495,6 @@
         "map": "map", //Greatfish
         "x": 195,
         "y": 546
-      },
-      {
-        "map": "map", //Tower of the Gods
-        "x": 620,
-        "y": 512
       },
       {
         "map": "map", //Eastern Triangle
@@ -2368,13 +2654,14 @@
   },
   {
     "name": "Ghost Ship",
+    "color": "whitesmoke",
     "access_rules": [ "gschart" ],
     "sections": [
       {
         "name": "Chest",
         "item_count": 1,
         "access_rules": [ "@can_play_ballad_of_gales,@can_defeat_wizzrobes,@can_defeat_poes,[@can_defeat_redeads],[@can_defeat_stalfos]",
-                          "[@can_play_ballad_of_gales],[@can_defeat_wizzrobes],[@can_defeat_poes],[@can_defeat_redeads],[@can_defeat_stalfos],leaf"],
+                          "[logic_glitched],leaf" ],
         "visibility_rules": [ "misc" ]
       }
     ],
@@ -2427,17 +2714,36 @@
         "visibility_rules": [ "islandpuzzle" ]
       },
       {
-        "name": "First Maze Chest",
+        "name": "Lower Maze Chest",
+        "short_name": "Lower Chest",
         "item_count": 1,
-        "access_rules": [ "@can_access_cabana_labyrinth,hammer" ],
-        "visibility_rules": [ "puzzlecaves" ]
+        "access_rules": [ "@can_access_cabana_labyrinth,hammer",
+                          "@can_access_cabana_labyrinth,[logic_glitched]" ],
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
       },
       {
-        "name": "Second Maze Chest",
+        "name": "Upper Maze Chest",
+        "short_name": "Upper Chest",
         "item_count": 1,
-        "access_rules": [ "@can_access_cabana_labyrinth,hammer,@can_play_winds_requiem" ],
-        "visibility_rules": [ "puzzlecaves" ]
-      }
+        "access_rules": [ "@can_access_cabana_labyrinth,hammer,@can_play_winds_requiem",
+                          "@can_access_cabana_labyrinth,[logic_glitched],@can_play_winds_requiem" ],
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
+      },
+      {
+        "name": "Private Oasis Hidden Cave Entrance",
+        "hosted_item": "poCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_cabana_labyrinth" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Private Oasis Hidden Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_cabana_labyrinth" ],
+        "visibility_rules": [ "poCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -2472,7 +2778,7 @@
         "name": "Barrel Shooting",
         "item_count": 2,
         "visibility_rules": [ "minigames" ],
-        "clear_as_group": false
+        "clear_as_group": false,
       }
     ],
     "map_locations": [
@@ -2489,15 +2795,32 @@
       {
         "name": "Fire Ring Chest",
         "item_count": 1,
-        "access_rules": [ "baitbag,@can_buy_hyoi_pears", "firearrow,[baitbag]" ],
+        "access_rules": [ "baitbag,@can_buy_hyoi_pears", "firearrow,[logic_glitched]" ],
         "visibility_rules": [ "islandpuzzle" ]
       },
       {
         "name": "Light Torches",
         "item_count": 1,
         "access_rules": [ "@can_access_needle_rock_isle_secret_cave,firearrow" ],
-        "visibility_rules": [ "puzzlecaves" ]
-      }
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
+      },
+      {
+        "name": "Needle Rock Isle Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "nrCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_needle_rock_isle_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Needle Rock Isle Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_needle_rock_isle_secret_cave" ],
+        "visibility_rules": [ "nrCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -2536,9 +2859,26 @@
       {
         "name": "Light Puzzle",
         "item_count": 1,
-        "access_rules": [ "[@can_access_angular_isles_secret_cave],@can_aim_mirror_shield,leaf"],
-        "visibility_rules": [ "puzzlecaves" ]
-      }
+        "access_rules": [ "@can_access_angular_isles_secret_cave,@can_aim_mirror_shield,leaf" ],
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
+      },
+      {
+        "name": "Angular Isles Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "aiCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_angular_isles_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Angular Isles Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_angular_isles_secret_cave" ],
+        "visibility_rules": [ "aiCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -2549,7 +2889,7 @@
     ]
   },
   {
-    "name": "Boat Course Raft",
+    "name": "Boating Course Raft",
     "sections": [
       {
         "name": "Chest",
@@ -2566,14 +2906,31 @@
     ]
   },
   {
-    "name": "Boat Course",
+    "name": "Boating Course",
     "sections": [
       {
         "name": "Three Diamond Switches",
         "item_count": 1,
         "access_rules": [ "@can_access_boating_course_secret_cave,@can_hit_diamond_switches_at_range,[@can_defeat_miniblins_easily]" ],
-        "visibility_rules": [ "puzzlecaves,combatcaves" ]
-      }
+        "visibility_rules": [ "puzzlecaves,combatcaves,standard_entrance" ]
+      },
+      {
+        "name": "Boating Course Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "bcCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_boating_course_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Boating Course Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_boating_course_secret_cave" ],
+        "visibility_rules": [ "bcCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -2590,8 +2947,25 @@
         "name": "Easy Combat Trial",
         "item_count": 1,
         "access_rules": [ "@can_access_stone_watcher_island_secret_cave,@can_defeat_armos,@can_defeat_wizzrobes,@can_defeat_darknuts,@can_play_winds_requiem" ],
-        "visibility_rules": [ "combatcaves" ]
-      }
+        "visibility_rules": [ "combatcaves,standard_entrance" ]
+      },
+      {
+        "name": "Stone Watcher Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "swCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_stone_watcher_island_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Stone Watcher Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_stone_watcher_island_secret_cave" ],
+        "visibility_rules": [ "swCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -2630,7 +3004,8 @@
       {
         "name": "Wind's Requiem",
         "item_count": 1,
-        "access_rules": [ "[bombs],@can_play_winds_requiem" ],
+        "access_rules": [ "bombs,@can_play_winds_requiem",
+                          "[logic_tricked],@can_play_winds_requiem" ],
         "visibility_rules": [ "misc" ]
       }
     ],
@@ -2667,8 +3042,25 @@
         "name": "Hard Combat Trail",
         "item_count": 1,
         "access_rules": [ "@can_access_overlook_island_secret_cave,@can_defeat_stalfos,@can_defeat_wizzrobes,[@can_defeat_red_chuchus],[@can_defeat_green_chuchus],[@can_defeat_keese],[@can_defeat_fire_keese],[@can_defeat_morths],[@can_defeat_kargarocs],@can_defeat_darknuts" ],
-        "visibility_rules": [ "combatcaves" ]
-      }
+        "visibility_rules": [ "combatcaves,standard_entrance" ]
+      },
+      {
+        "name": "Overlook Island Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "olCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_needle_rock_isle_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Overlook Island Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_needle_rock_isle_secret_cave" ],
+        "visibility_rules": [ "olCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -2686,8 +3078,25 @@
         "item_count": 1,
         "access_rules": [ "@can_access_birds_peak_rock_secret_cave,@can_play_winds_requiem",
                           "[@can_access_birds_peak_rock_secret_cave],@can_play_winds_requiem,grapple" ],
-        "visibility_rules": [ "puzzlecaves" ]
-      }
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
+      },
+      {
+        "name": "Bird's Peak Rock Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "bpCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_needle_rock_isle_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Bird's Peak Rock Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_needle_rock_isle_secret_cave" ],
+        "visibility_rules": [ "bpCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -2699,57 +3108,114 @@
   },
   {
     "name": "Pawprint Isle ChuChu Cave",
+    "short_name": "ChuChu Cave",
     "sections": [
       {
         "name": "Free Chest",
         "item_count": 1,
-        "visibility_rules": [ "puzzlecaves" ]
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
       },
       {
-        "name": "Behind Independent Boulder",
+        "name": "Behind Left Boulder",
         "item_count": 1,
-        "access_rules": [ "[@can_move_boulders]" ],
-        "visibility_rules": [ "puzzlecaves" ]
+        "access_rules": [ "@can_move_boulders",
+                          "[logic_tricked]" ],
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
       },
       {
         "name": "Behind Right Boulder",
         "item_count": 1,
         "access_rules": [ "@can_move_boulders",
-                           "[@can_move_boulders],leaf"
+                           "[logic_tricked],leaf"
                         ],
-        "visibility_rules": [ "puzzlecaves" ]
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
       },
       {
         "name": "Grapple Peg Wall",
         "item_count": 1,
         "access_rules": [ "grapple" ],
-        "visibility_rules": [ "puzzlecaves" ]
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
       }
     ],
     "map_locations": [
       {
         "map": "map",
-        "x": 637,
+        "x": 655,
+        "y": 258
+      }
+    ]
+  },
+  {
+    "name": "Pawprint Isle ChuChu Statue Secret Cave",
+    "short_name": "Pawprint ChuChu Statue",
+    "access_rules": [ "@can_access_pawprint_isle_chuchu_cave" ],
+    "sections": [
+      {
+        "name": "Secret Cave Entrance",
+        "hosted_item": "picCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "visibility_rules": [ "picCave" ]
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 655,
         "y": 258
       }
     ]
   },
   {
     "name": "Pawprint Isle Wizzrobe Cave",
+    "short_name": "Wizzrobe Cave",
     "access_rules": [ "@can_access_pawprint_isle_wizzrobe_cave" ],
     "sections": [
       {
         "name": "Kill Everything",
         "item_count": 1,
         "access_rules": [ "@can_defeat_wizzrobes_at_range,[@can_defeat_fire_keese],[@can_defeat_magtails],[@can_defeat_red_chuchus],[@can_defeat_green_chuchus],[@can_defeat_yellow_chuchus],[@can_defeat_red_bubbles],[@can_remove_peahat_armor]" ],
-        "visibility_rules": [ "combatcaves" ]
+        "visibility_rules": [ "combatcaves,standard_entrance" ]
       }
     ],
     "map_locations": [
       {
         "map": "map",
-        "x": 620,
-        "y": 256
+        "x": 635,
+        "y": 258
+      }
+    ]
+  },
+  {
+    "name": "Pawprint Isle Cursed Tree Secret Cave",
+    "short_name": "Pawprint Cursed Tree",
+    "access_rules": [ "@can_access_pawprint_isle_wizzrobe_cave" ],
+    "sections": [
+      {
+        "name": "Secret Cave Entrance",
+        "hosted_item": "piwCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "visibility_rules": [ "piwCave" ]
+      },
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 635,
+        "y": 258
       }
     ]
   },
@@ -2890,7 +3356,8 @@
         "name": "Great Fairy",
         "item_count": 1,
         "access_rules": [ "bombs",
-                          "firearrow" ],
+                          "firearrow",
+                          "[logic_glitched],windwaker" ],
         "visibility_rules": [ "greatfairies" ]
       }
     ],
@@ -2998,10 +3465,27 @@
         "name": "Warp Maze",
         "item_count": 2,
         "access_rules": [ "@can_access_diamond_steppe_island_warp_maze_cave",
-                          "[@can_access_diamond_steppe_island_warp_maze_cave],windwaker"],
+                          "[@can_access_diamond_steppe_island_warp_maze_cave],windwaker" ],
         "clear_as_group": false,
-        "visibility_rules": [ "puzzlecaves" ]
-      }
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
+      },
+      {
+        "name": "Diamond Steppe Island Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "dsCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_diamond_steppe_island_warp_maze_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Diamond Steppe Island Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_diamond_steppe_island_warp_maze_cave" ],
+        "visibility_rules": [ "dsCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -3036,28 +3520,49 @@
         "name": "Fiery Chest",
         "item_count": 1,
         "access_rules": [ "@can_access_bomb_island_secret_cave,@can_stun_magtails" ],
-        "visibility_rules": [ "puzzlecaves" ]
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
+      },
+      {
+        "name": "Bomb Island Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "biCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_bomb_island_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Bomb Island Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_bomb_island_secret_cave" ],
+        "visibility_rules": [ "biCave" ]
       },
       {
         "name": "Trade for Sea Flower",
+        "short_name": "Sea Flower",
         "hosted_item": "sflower",
         "visibility_rules": [ "longsidequests,expensive,tflower,delivery",
                               "shortsidequests,tflower,delivery"  ]
       },
       {
         "name": "Trade for Sickle Moon Flag",
+        "short_name": "Sickle Moon Flag",
         "hosted_item": "smflag",
         "visibility_rules": [ "longsidequests,expensive,eflower,delivery",
                               "longsidequests,expensive,pinwheel,delivery" ]
       },
       {
         "name": "Trade for Fountain Idol",
+        "short_name": "Fountain Idol",
         "hosted_item": "fidol",
         "visibility_rules": [ "longsidequests,expensive,smflag,delivery",
                               "longsidequests,expensive,bcflag,delivery" ]
       },
       {
         "name": "Trade for Hero's Flag",
+        "short_name": "Hero's Flag",
         "hosted_item": "hflag",
         "visibility_rules": [ "longsidequests,expensive,bsflag,delivery" ]
       }
@@ -3111,8 +3616,25 @@
         "name": "Too Many Keese",
         "item_count": 1,
         "access_rules": [ "@can_access_rock_spire_isle_secret_cave" ],
-        "visibility_rules": [ "combatcaves" ]
-      }
+        "visibility_rules": [ "combatcaves,standard_entrance" ]
+      },
+      {
+        "name": "Rock Spire Isle Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "rsiCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_rock_spire_isle_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Rock Spire Isle Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_rock_spire_isle_secret_cave" ],
+        "visibility_rules": [ "rsiCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -3131,7 +3653,8 @@
         "access_rules": [ "wallet,[@can_farm_lots_of_rupees]",
                           "{}" ],
         "visibility_rules": [ "expensive" ],
-        "capture_item": true
+        "capture_item": true,
+        "capture_item_layout": "shop_item_grid"
       },
       {
         "name": "950 Rupees",
@@ -3139,7 +3662,8 @@
         "access_rules": [ "wallet,[@can_farm_lots_of_rupees]",
                           "{}" ],
         "visibility_rules": [ "expensive" ],
-        "capture_item": true
+        "capture_item": true,
+        "capture_item_layout": "shop_item_grid"
       },
       {
         "name": "900 Rupees",
@@ -3147,7 +3671,8 @@
         "access_rules": [ "wallet,[@can_farm_lots_of_rupees]",
                           "{}" ],
         "visibility_rules": [ "expensive" ],
-        "capture_item": true
+        "capture_item": true,
+        "capture_item_layout": "shop_item_grid"
       }
     ],
     "map_locations": [
@@ -3207,7 +3732,24 @@
         "item_count": 1,
         "access_rules": [ "@can_access_shark_island_secret_cave,@can_defeat_miniblins" ],
         "visibility_rules": [ "combatcaves" ]
-      }
+      },
+      {
+        "name": "Shark Island Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "shiCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_shark_island_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Shark Island Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_shark_island_secret_cave" ],
+        "visibility_rules": [ "shiCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -3224,14 +3766,31 @@
         "name": "Isle Interior",
         "item_count": 1,
         "access_rules": [ "@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas",
-                          "@can_access_cliff_plateau_isles_secret_cave,grapple,[@can_defeat_boko_babas]" ],
-        "visibility_rules": [ "puzzlecaves" ]
+                          "@can_access_cliff_plateau_isles_secret_cave,[logic_tricked]" ],
+        "visibility_rules": [ "puzzlecaves,standard_entrance" ]
+      },
+      {
+        "name": "Cliff Plateau Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "cpCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_cliff_plateau_isles_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Cliff Plateau Isles Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_cliff_plateau_isles_secret_cave" ],
+        "visibility_rules": [ "cpCave" ]
       },
       {
         "name": "Highest Isle",
         "item_count": 1,
-        "access_rules": [ "@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas,leaf",
-                          "@can_access_cliff_plateau_isles_secret_cave,grapple,leaf,[@can_defeat_boko_babas]" ],
+        "access_rules": [ "@can_access_cliff_plateau_isles_secret_cave,[@can_defeat_boko_babas],leaf",
+                          "@can_access_cliff_plateau_isles_secret_cave,leaf,[logic_tricked]" ],
         "visibility_rules": [ "puzzlecaves" ]
       }
     ],
@@ -3309,8 +3868,25 @@
         "name": "Three Mothulas",
         "item_count": 1,
         "access_rules": [ "@can_access_horseshoe_island_secret_cave,@can_defeat_mothulas,@can_defeat_winged_mothulas" ],
-        "visibility_rules": [ "combatcaves" ]
-      }
+        "visibility_rules": [ "combatcaves,standard_entrance" ]
+      },
+      {
+        "name": "Horseshoe Island Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "hiCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_horseshoe_island_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Horseshoe Island Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_horseshoe_island_secret_cave" ],
+        "visibility_rules": [ "hiCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -3344,7 +3920,10 @@
       {
         "name": "Birb Man",
         "item_count": 1,
-        "access_rules": [ "@can_fly_with_deku_leaf_outdoors,double" ],
+        "access_rules": [
+          "@can_fly_with_deku_leaf_outdoors,double",
+          "[logic_glitched],hookshot,passing,bombs,sword"
+        ],
         "visibility_rules": [ "minigames" ]
       }
     ],
@@ -3381,8 +3960,25 @@
         "name": "Short Combat Trial",
         "item_count": 1,
         "access_rules": [ "@can_access_star_island_secret_cave,@can_defeat_magtails" ],
-        "visibility_rules": [ "combatcaves" ]
-      }
+        "visibility_rules": [ "combatcaves,standard_entrance" ]
+      },
+      {
+        "name": "Star Island Secret Cave Entrance",
+        "short_name": "Secret Cave Entrance",
+        "hosted_item": "stiCave",
+        "chest_opened_img": "images/Grotto Found.png",
+        "access_rules": [ "@can_access_star_island_secret_cave" ],
+        "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
+      },
+      {
+        "name": "Star Island Secret Cave",
+        "short_name": "Secret Cave",
+        "item_count": 1,
+        "chest_unopened_img": "images/Grotto.png",
+        "chest_opened_img": "images/Grotto Checked.png",
+        "access_rules": [ "@can_access_star_island_secret_cave" ],
+        "visibility_rules": [ "stiCave" ]
+      },
     ],
     "map_locations": [
       {
@@ -3726,16 +4322,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart1",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart1,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -3752,16 +4348,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart2",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart2,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -3778,16 +4374,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart3",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart3,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -3804,15 +4400,15 @@
       {
         "name": "Chart",
         "hosted_item": "chart4",
-        "chest_open_image": "images/Treasure Chart Open.png",
-        "visibility_rules": [ "treasurecharts",
+        "chest_opened_img": "images/Treasure Chart Open.png",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart4,grapple" ],
-        "visibility_rules": [ "treasurecharts",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       }
     ],
@@ -3830,16 +4426,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart5",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart5,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -3856,15 +4452,15 @@
       {
         "name": "Chart",
         "hosted_item": "chart6",
-        "chest_open_image": "images/Treasure Chart Open.png",
-        "visibility_rules": [ "treasurecharts",
+        "chest_opened_img": "images/Treasure Chart Open.png",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
-        "access_rules": [ "chart6,grapple,[bombs]" ],
-        "visibility_rules": [ "treasurecharts",
+        "access_rules": [ "chart6,grapple,bombs", "chart6,grapple,[logic_complex]" ],
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       }
     ],
@@ -3882,16 +4478,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart7",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart7,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -3908,16 +4504,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart8",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
-        "access_rules": [ "chart8,grapple,[bombs]" ],
+        "access_rules": [ "chart8,grapple,bombs", "chart8,grapple,[logic_complex]" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -3934,16 +4530,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart9",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart9,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -3960,16 +4556,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart10",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart10,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -3986,16 +4582,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart11",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart11,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4012,16 +4608,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart12",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart12,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4038,16 +4634,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart13",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart13,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4064,16 +4660,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart14",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart14,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4090,16 +4686,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart15",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart15,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4116,16 +4712,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart16",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart16,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4142,16 +4738,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart17",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart17,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4168,16 +4764,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart18",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart18,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4194,16 +4790,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart19",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart19,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4220,16 +4816,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart20",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart20,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4246,16 +4842,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart21",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart21,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4272,16 +4868,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart22",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
-        "access_rules": [ "chart22,grapple,[bombs]" ],
+        "access_rules": [ "chart22,grapple,bombs", "chart22,grapple,[logic_complex]" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4298,15 +4894,15 @@
       {
         "name": "Chart",
         "hosted_item": "chart23",
-        "chest_open_image": "images/Treasure Chart Open.png",
-        "visibility_rules": [ "treasurecharts",
+        "chest_opened_img": "images/Treasure Chart Open.png",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart23,grapple" ],
-        "visibility_rules": [ "treasurecharts",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       }
     ],
@@ -4324,16 +4920,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart24",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
-        "access_rules": [ "chart24,grapple,[bombs]" ],
+        "access_rules": [ "chart24,grapple,bombs", "chart24,grapple,[logic_complex]" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4350,16 +4946,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart25",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
-        "access_rules": [ "chart25,grapple,[bombs]" ],
+        "access_rules": [ "chart25,grapple,bombs", "chart25,grapple,[logic_complex]" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4376,16 +4972,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart26",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart26,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4402,16 +4998,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart27",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart27,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4428,16 +5024,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart28",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart28,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4454,16 +5050,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart29",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart29,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4480,16 +5076,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart30",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart30,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4506,15 +5102,15 @@
       {
         "name": "Chart",
         "hosted_item": "chart31",
-        "chest_open_image": "images/Treasure Chart Open.png",
-        "visibility_rules": [ "treasurecharts",
+        "chest_opened_img": "images/Treasure Chart Open.png",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart31,grapple,[@can_defeat_seahats]" ],
-        "visibility_rules": [ "treasurecharts",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       }
     ],
@@ -4532,15 +5128,15 @@
       {
         "name": "Chart",
         "hosted_item": "chart32",
-        "chest_open_image": "images/Treasure Chart Open.png",
-        "visibility_rules": [ "treasurecharts",
+        "chest_opened_img": "images/Treasure Chart Open.png",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart32,grapple" ],
-        "visibility_rules": [ "treasurecharts",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       }
     ],
@@ -4558,16 +5154,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart33",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart33,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4584,16 +5180,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart34",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart34,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4610,16 +5206,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart35",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart35,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4636,16 +5232,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart36",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart36,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4662,16 +5258,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart37",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
-        "access_rules": [ "chart37,grapple,[@can_destroy_cannons]" ],
+        "access_rules": [ "chart37,grapple,bombs", "chart37,grapple,[logic_complex]" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4688,16 +5284,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart38",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart38,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4714,16 +5310,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart39",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart39,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4740,16 +5336,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart40",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart40,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4766,16 +5362,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart41",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart41,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4792,15 +5388,15 @@
       {
         "name": "Chart",
         "hosted_item": "chart42",
-        "chest_open_image": "images/Treasure Chart Open.png",
-        "visibility_rules": [ "treasurecharts",
+        "chest_opened_img": "images/Treasure Chart Open.png",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart42,grapple" ],
-        "visibility_rules": [ "treasurecharts",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       }
     ],
@@ -4818,16 +5414,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart43",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart43,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4844,15 +5440,15 @@
       {
         "name": "Chart",
         "hosted_item": "chart44",
-        "chest_open_image": "images/Treasure Chart Open.png",
-        "visibility_rules": [ "treasurecharts",
+        "chest_opened_img": "images/Treasure Chart Open.png",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart44,grapple" ],
-        "visibility_rules": [ "treasurecharts",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       }
     ],
@@ -4870,16 +5466,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart45",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart45,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4896,15 +5492,15 @@
       {
         "name": "Chart",
         "hosted_item": "chart46",
-        "chest_open_image": "images/Treasure Chart Open.png",
-        "visibility_rules": [ "treasurecharts",
+        "chest_opened_img": "images/Treasure Chart Open.png",
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
-        "access_rules": [ "chart46,grapple,[bombs]" ],
-        "visibility_rules": [ "treasurecharts",
+        "access_rules": [ "chart46,grapple,bombs", "chart46,grapple,[logic_complex]" ],
+        "visibility_rules": [ "treasurecharts,chart_shuffle",
                               "triforcecharts" ]
       }
     ],
@@ -4922,16 +5518,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart47",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart47,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4948,16 +5544,16 @@
       {
         "name": "Chart",
         "hosted_item": "chart48",
-        "chest_open_image": "images/Treasure Chart Open.png",
+        "chest_opened_img": "images/Treasure Chart Open.png",
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       },
       {
         "name": "Sunken Treasure",
         "item_count": 1,
         "access_rules": [ "chart48,grapple" ],
         "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
+                              "triforcecharts,chart_shuffle" ]
       }
     ],
     "map_locations": [
@@ -4969,13 +5565,41 @@
     ]
   },
   {
+    "name": "Five-Star Chart",
+    "sections": [
+      {
+        "name": "Chart",
+        "hosted_item": "chart49",
+        "chest_opened_img": "images/Treasure Chart Open.png",
+        "visibility_rules": [ "treasurecharts",
+                              "triforcecharts,chart_shuffle" ]
+      },
+      {
+        "name": "Sunken Treasure",
+        "item_count": 1,
+        "access_rules": [ "chart49,grapple" ],
+        "visibility_rules": [ "treasurecharts",
+                              "triforcecharts,chart_shuffle" ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "map",
+        "x": 894,
+        "y": 901
+      }
+    ]
+  },
+  {
     "name": "Dragon Roost Cavern Entrance",
+    "short_name": "DRC Entrance",
+    "color": "red",
     "access_rules": [ "@can_access_dragon_roost_cavern" ],
     "sections": [
       {
         "name": "Completed Dungeon",
         "item_count": 1,
-        "access_rules": [ "@can_access_dragon_roost_cavern,[@can_defeat_gohma]"],
+        "access_rules": [ "@can_access_dragon_roost_cavern,[@can_defeat_gohma]" ],
         "visibility_rules": [ "dungeons" ],
         "chest_unopened_img": "images/dungeon/1 Heart Container.png"
       },
@@ -4990,12 +5614,14 @@
   },
   {
     "name": "Forbidden Woods Entrance",
-    "access_rules": [ "@can_access_forbidden_woods"],
+    "short_name": "FW Entrance",
+    "color": "green",
+    "access_rules": [ "@can_access_forbidden_woods" ],
     "sections": [
       {
         "name": "Completed Dungeon",
         "item_count": 1,
-        "access_rules": [ "@can_access_forbidden_woods,[@can_defeat_kalle_demos]"],
+        "access_rules": [ "@can_access_forbidden_woods,[@can_defeat_kalle_demos]" ],
         "visibility_rules": [ "dungeons" ],
         "chest_unopened_img": "images/dungeon/2 Heart Container.png"
       },
@@ -5010,12 +5636,14 @@
   },
   {
     "name": "Tower of the Gods Entrance",
+    "short_name": "TOTG Entrance",
+    "color": "yellow",
     "access_rules": [ "@can_access_tower_of_the_gods" ],
     "sections": [
       {
         "name": "Completed Dungeon",
         "item_count": 1,
-        "access_rules": [ "@can_access_tower_of_the_gods,[@can_defeat_gohdan]"],
+        "access_rules": [ "@can_access_tower_of_the_gods,[@can_defeat_gohdan]" ],
         "visibility_rules": [ "dungeons" ],
         "chest_unopened_img": "images/dungeon/3 Heart Container.png"
       },
@@ -5030,12 +5658,14 @@
   },
   {
     "name": "Earth Temple Entrance",
+    "short_name": "ET Entrance",
+    "color": "blue",
     "access_rules": [ "@can_access_earth_temple" ],
     "sections": [
       {
         "name": "Completed Dungeon",
         "item_count": 1,
-        "access_rules": [ "@can_access_earth_temple,[@can_defeat_jalhalla],[@can_defeat_jalhalla_poes]"],
+        "access_rules": [ "@can_access_earth_temple,[@can_defeat_jalhalla],[@can_defeat_jalhalla_poes]" ],
         "visibility_rules": [ "dungeons" ],
         "chest_unopened_img": "images/dungeon/5 Heart Container.png"
       },
@@ -5050,12 +5680,14 @@
   },
   {
     "name": "Wind Temple Entrance",
+    "short_name": "WT Entrance",
+    "color": "orange",
     "access_rules": [ "@can_access_wind_temple" ],
     "sections": [
       {
         "name": "Completed Dungeon",
         "item_count": 1,
-        "access_rules": [ "@can_access_wind_temple,[@can_defeat_molgera]"],
+        "access_rules": [ "@can_access_wind_temple,[@can_defeat_molgera]" ],
         "visibility_rules": [ "dungeons" ],
         "chest_unopened_img": "images/dungeon/6 Heart Container.png"
       },
@@ -5068,32 +5700,6 @@
       }
     ]
   },
-  {
-    "name": "Five-Star Chart",
-    "sections": [
-      {
-        "name": "Chart",
-        "hosted_item": "chart49",
-        "chest_open_image": "images/Treasure Chart Open.png",
-        "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
-      },
-      {
-        "name": "Sunken Treasure",
-        "item_count": 1,
-        "access_rules": [ "chart49,grapple" ],
-        "visibility_rules": [ "treasurecharts",
-                              "triforcecharts" ]
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "map",
-        "x": 894,
-        "y": 901
-      }
-    ]
-  }
 ]
 /* template
   {
