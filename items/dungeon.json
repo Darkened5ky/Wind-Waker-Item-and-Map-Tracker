@@ -69,68 +69,44 @@
 	//Race Mode
 	{
 		"name": "DRC Toggle",
-		"type": "progressive",
-		"initial_stage_idx": 0,
-		"stages": [
-			{
-			"img": "images/dungeon/1 drcicon.png",
-			"codes": "drc_true"
-			}
-		]
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/dungeon/1 drcicon.png",
+		"codes": "drc_true"
 	},
 	{
 		"name": "FW Toggle",
-		"type": "progressive",
-		"initial_stage_idx": 0,
-		"stages": [
-			{
-			"img": "images/dungeon/2 fwicon.png",
-			"codes": "fw_true"
-			}
-		]
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/dungeon/2 fwicon.png",
+		"codes": "fw_true"
 	},
 	{
 		"name": "TOTG Toggle",
-		"type": "progressive",
-		"initial_stage_idx": 0,
-		"stages": [
-			{
-			"img": "images/dungeon/3 totgicon.png",
-			"codes": "totg_true"
-			}
-		]
+		"type": "toggle",
+		"initial_active_state": true,
+  	"img": "images/dungeon/3 totgicon.png",
+  	"codes": "totg_true"
 	},
 	{
 		"name": "FF Toggle",
-		"type": "progressive",
-		"initial_stage_idx": 0,
-		"stages": [
-			{
-			"img": "images/dungeon/4 fficon.png",
-			"codes": "ff_true"
-			}
-		]
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/dungeon/4 fficon.png",
+		"codes": "ff_true"
 	},
 	{
 		"name": "ET Toggle",
-		"type": "progressive",
-		"initial_stage_idx": 0,
-		"stages": [
-			{
-			"img": "images/dungeon/5 eticon.png",
-			"codes": "et_true"
-			}
-		]
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/dungeon/5 eticon.png",
+		"codes": "et_true"
 	},
 	{
 		"name": "WT Toggle",
-		"type": "progressive",
-		"initial_stage_idx": 0,
-		"stages": [
-			{
-			"img": "images/dungeon/6 wticon.png",
-			"codes": "wt_true"
-			}
-		]
+		"type": "toggle",
+		"initial_active_state": true,
+		"img": "images/dungeon/6 wticon.png",
+		"codes": "wt_true"
 	},
 ]

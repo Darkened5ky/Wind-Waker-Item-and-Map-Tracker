@@ -806,8 +806,8 @@
     "name": "can_get_dri_boulder_chest",
     "access_rules": [ "bow",
                       "baitbag",
-                      "boomerang",
-                      "bombs",
+                      "[logic_standard],boomerang",
+                      "[logic_standard],bombs",
                       "[logic_glitched],@can_fly_with_deku_leaf_outdoors,sword",
                       "[logic_glitched],@can_fly_with_deku_leaf_outdoors,hammer" ],
     "sections": [{ "name": "access", "item_count": 1 }]
@@ -1231,7 +1231,7 @@
         "name": "Long Passage",
         "item_count": 1,
         "access_rules": [ "@can_fly_with_deku_leaf_outdoors,@can_get_magic",
-                          "@can_get_dri_boulder_chest,windwaker" ],
+                          "[logic_glitched],@can_get_dri_boulder_chest,windwaker" ],
         "visibility_rules": [ "islandpuzzle" ]
       },
       {
@@ -2022,7 +2022,7 @@
         "short_name": "Secret Cave Entrance",
         "hosted_item": "irCave",
         "chest_opened_img": "images/Grotto Found.png",
-        "access_rules": [ "@can_access_dragon_roost_island_secret_cave" ],
+        "access_rules": [ "@can_access_ice_ring_isle_secret_cave" ],
         "visibility_rules": [ "combatcaves,rando_entrance", "puzzlecaves,rando_entrance", "savage,rando_entrance" ]
       },
       {
@@ -2031,7 +2031,7 @@
         "item_count": 1,
         "chest_unopened_img": "images/Grotto.png",
         "chest_opened_img": "images/Grotto Checked.png",
-        "access_rules": [ "@can_access_dragon_roost_island_secret_cave" ],
+        "access_rules": [ "@can_access_ice_ring_isle_secret_cave" ],
         "visibility_rules": [ "irCave" ]
       },
     ],
@@ -2859,7 +2859,7 @@
       {
         "name": "Light Puzzle",
         "item_count": 1,
-        "access_rules": [ "@can_access_angular_isles_secret_cave,@can_aim_mirror_shield,leaf" ],
+        "access_rules": [ "@can_access_angular_isles_secret_cave,@can_aim_mirror_shield" ],
         "visibility_rules": [ "puzzlecaves,standard_entrance" ]
       },
       {
@@ -3731,7 +3731,7 @@
         "name": "Enemy Hell",
         "item_count": 1,
         "access_rules": [ "@can_access_shark_island_secret_cave,@can_defeat_miniblins" ],
-        "visibility_rules": [ "combatcaves" ]
+        "visibility_rules": [ "combatcaves,standard_entrance" ]
       },
       {
         "name": "Shark Island Secret Cave Entrance",

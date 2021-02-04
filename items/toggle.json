@@ -91,7 +91,7 @@
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
-		"name": "Expensive Stuff",
+		"name": "Expensive Purchases",
 		"type": "toggle",
 		"img": "images/toggles/ToggleExpensive.png",
 		"codes": "expensive",
@@ -106,6 +106,15 @@
 		"codes": "puzzlecaves",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
 		"disabled_img": "images/toggles/TogglePuzzleCaves.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+  {
+		"name": "Mixed Secret Caves",
+		"type": "toggle",
+		"img": "images/toggles/TogglePuzzleCaves.png",
+		"codes": "mixedcaves",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleMixedCaves.png",
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
@@ -127,10 +136,19 @@
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
-		"name": "Minigames",
+		"name": "Short Minigames",
 		"type": "toggle",
-		"img": "images/toggles/ToggleMinigames.png",
-		"codes": "minigames",
+		"img": "images/toggles/ToggleShortMinigames.png",
+		"codes": "shortminigames",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleMinigames.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+  {
+		"name": "Long Minigames",
+		"type": "toggle",
+		"img": "images/toggles/ToggleLongMinigames.png",
+		"codes": "longminigames",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
 		"disabled_img": "images/toggles/ToggleMinigames.png",
 		"img_mods": "overlay|images/toggles/ToggleON.png"
@@ -182,12 +200,21 @@
 	},
 	{
 		"name": "Swordless",
-		"type": "toggle",
-		"img": "images/toggles/ToggleSwordless.png",
-		"codes": "swordless",
-		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
-		"disabled_img": "images/toggles/ToggleSwordless.png",
-		"img_mods": "overlay|images/toggles/ToggleON.png"
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+    "stages":[
+      {
+        "img": "images/toggles/ToggleSwordless.png",
+    		"codes": "withsword",
+    		"img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png"
+      },
+      {
+    		"img": "images/toggles/ToggleSwordless.png",
+    		"codes": "swordless",
+    		"img_mods": "overlay|images/toggles/ToggleON.png"
+    }
+    ]
 	},
 	{
 		"name": "Skip Rematches",
@@ -271,4 +298,13 @@
 		"disabled_img": "images/toggles/ToggleChartShuffleOFF.png",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleLargeOFF.png"
 	},
+  {
+    "name": "Long Combat Trials",
+    "type": "toggle",
+    "img": "images/toggles/ToggleLongCombatTrials.png",
+    "codes": "longtrials",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleIslandPuzzle.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+  }
 ]
