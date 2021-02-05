@@ -5,9 +5,9 @@
 		"type": "toggle",
     "ignore_user_input": true,
     "initial_active_state": true,
-		"img": "images/toggles/ToggleDungeon.png",
+		"img": "images/toggles/LocaleCorrect.png",
     "disabled_img_mods": "",
-    "disabled_img": "images/toggles/ToggleShortSidequests.png",
+    "disabled_img": "images/toggles/LocaleIncorrect.png",
 		"codes": "locale_select"
   },
 	{
