@@ -8,6 +8,7 @@ Tracker:AddItems("items/freestanding.json")
 Tracker:AddItems("items/general.json")
 Tracker:AddItems("items/quest.json")
 Tracker:AddItems("items/toggle.json")
+Tracker:AddItems("items/locales.json")
 
 Tracker:AddMaps("maps.json")
 
@@ -28,5 +29,14 @@ function tracker_on_accessibility_updated()
         triforce.Active = true
     else
         triforce.Active = false
+    end
+
+    local startingIslands = Tracker:ProviderCountForCode("starting_island")
+    local islandTitle = Tracker:FindObjectForCode("locale_select")
+
+    if startingIslands > 1 then
+        islandTitle.Active = false
+    else
+        islandTitle.Active = true
     end
 end

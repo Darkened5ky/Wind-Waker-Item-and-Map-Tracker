@@ -1,0 +1,823 @@
+
+[
+
+	{
+		"name": "Forsaken Fortress",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/forsaken_fortress.png",
+				"codes": "locale_forsaken_fortress"
+			},
+			{
+				"img"  : "images/starting/forsaken_fortress.png",
+				"codes": "starting_forsaken_fortress,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Star Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/star_island.png",
+				"codes": "locale_star_island"
+			},
+			{
+				"img"  : "images/starting/star_island.png",
+				"codes": "starting_star_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Four-Eye Reef",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/four_eye_reef.png",
+				"codes": "locale_four_eye_reef"
+			},
+			{
+				"img"  : "images/starting/four_eye_reef.png",
+				"codes": "starting_four_eye_reef,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Northern Fairy Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/northern_fairy_island.png",
+				"codes": "locale_northern_fairy_island"
+			},
+			{
+				"img"  : "images/starting/northern_fairy_island.png",
+				"codes": "starting_northern_fairy_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Child Isle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/child_isle.png",
+				"codes": "locale_child_isle"
+			},
+			{
+				"img"  : "images/starting/child_isle.png",
+				"codes": "starting_child_isle,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Gale Isle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/gale_isle.png",
+				"codes": "locale_gale_isle"
+			},
+			{
+				"img"  : "images/starting/gale_isle.png",
+				"codes": "starting_gale_isle,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Spectacle Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/spectacle_island.png",
+				"codes": "locale_spectacle_island"
+			},
+			{
+				"img"  : "images/starting/spectacle_island.png",
+				"codes": "starting_spectacle_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Crescent Moon Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/crescent_moon_island.png",
+				"codes": "locale_crescent_moon_island"
+			},
+			{
+				"img"  : "images/starting/crescent_moon_island.png",
+				"codes": "starting_crescent_moon_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Windfall Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/windfall_island.png",
+				"codes": "locale_windfall_island"
+			},
+			{
+				"img"  : "images/starting/windfall_island.png",
+				"codes": "starting_windfall_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Seven-Star Isles",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/seven_star_isles.png",
+				"codes": "locale_seven_star_isles"
+			},
+			{
+				"img"  : "images/starting/seven_star_isles.png",
+				"codes": "starting_seven_star_isles,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Pawprint Isle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/pawprint_isle.png",
+				"codes": "locale_pawprint_isle"
+			},
+			{
+				"img"  : "images/starting/pawprint_isle.png",
+				"codes": "starting_pawprint_isle,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Overlook Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/overlook_island.png",
+				"codes": "locale_overlook_island"
+			},
+			{
+				"img"  : "images/starting/overlook_island.png",
+				"codes": "starting_overlook_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Dragon Roost Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/dragon_roost_island.png",
+				"codes": "locale_dragon_roost_island"
+			},
+			{
+				"img"  : "images/starting/dragon_roost_island.png",
+				"codes": "starting_dragon_roost_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Flight Control Platform",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/flight_control_platform.png",
+				"codes": "locale_flight_control_platform"
+			},
+			{
+				"img"  : "images/starting/flight_control_platform.png",
+				"codes": "starting_flight_control_platform,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Western Fairy Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/western_fairy_island.png",
+				"codes": "locale_western_fairy_island"
+			},
+			{
+				"img"  : "images/starting/western_fairy_island.png",
+				"codes": "starting_western_fairy_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Rock Spire Isle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/rock_spire_isle.png",
+				"codes": "locale_rock_spire_isle"
+			},
+			{
+				"img"  : "images/starting/rock_spire_isle.png",
+				"codes": "starting_rock_spire_isle,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Tingle Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/tingle_island.png",
+				"codes": "locale_tingle_island"
+			},
+			{
+				"img"  : "images/starting/tingle_island.png",
+				"codes": "starting_tingle_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Northern Triangle Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/northern_triangle_island.png",
+				"codes": "locale_northern_triangle_island"
+			},
+			{
+				"img"  : "images/starting/northern_triangle_island.png",
+				"codes": "starting_northern_triangle_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Eastern Fairy Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/eastern_fairy_island.png",
+				"codes": "locale_eastern_fairy_island"
+			},
+			{
+				"img"  : "images/starting/eastern_fairy_island.png",
+				"codes": "starting_eastern_fairy_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Fire Mountain",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/fire_mountain.png",
+				"codes": "locale_fire_mountain"
+			},
+			{
+				"img"  : "images/starting/fire_mountain.png",
+				"codes": "starting_fire_mountain,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Star Belt Archipelago",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/star_belt_archipelago.png",
+				"codes": "locale_star_belt_archipelago"
+			},
+			{
+				"img"  : "images/starting/star_belt_archipelago.png",
+				"codes": "starting_star_belt_archipelago,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Three-Eye Reef",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/three_eye_reef.png",
+				"codes": "locale_three_eye_reef"
+			},
+			{
+				"img"  : "images/starting/three_eye_reef.png",
+				"codes": "starting_three_eye_reef,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Greatfish Isle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/greatfish_isle.png",
+				"codes": "locale_greatfish_isle"
+			},
+			{
+				"img"  : "images/starting/greatfish_isle.png",
+				"codes": "starting_greatfish_isle,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Cyclops Reef",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/cyclops_reef.png",
+				"codes": "locale_cyclops_reef"
+			},
+			{
+				"img"  : "images/starting/cyclops_reef.png",
+				"codes": "starting_cyclops_reef,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Six-Eye Reef",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/six_eye_reef.png",
+				"codes": "locale_six_eye_reef"
+			},
+			{
+				"img"  : "images/starting/six_eye_reef.png",
+				"codes": "starting_six_eye_reef,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Tower of the Gods",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/tower_of_the_gods.png",
+				"codes": "locale_tower_of_the_gods"
+			},
+			{
+				"img"  : "images/starting/tower_of_the_gods.png",
+				"codes": "starting_tower_of_the_gods,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Eastern Triangle Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/eastern_triangle_island.png",
+				"codes": "locale_eastern_triangle_island"
+			},
+			{
+				"img"  : "images/starting/eastern_triangle_island.png",
+				"codes": "starting_eastern_triangle_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Thorned Fairy Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/thorned_fairy_island.png",
+				"codes": "locale_thorned_fairy_island"
+			},
+			{
+				"img"  : "images/starting/thorned_fairy_island.png",
+				"codes": "starting_thorned_fairy_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Needle Rock Isle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/needle_rock_isle.png",
+				"codes": "locale_needle_rock_isle"
+			},
+			{
+				"img"  : "images/starting/needle_rock_isle.png",
+				"codes": "starting_needle_rock_isle,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Islet of Steel",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/islet_of_steel.png",
+				"codes": "locale_islet_of_steel"
+			},
+			{
+				"img"  : "images/starting/islet_of_steel.png",
+				"codes": "starting_islet_of_steel,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Stone Watcher Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/stone_watcher_island.png",
+				"codes": "locale_stone_watcher_island"
+			},
+			{
+				"img"  : "images/starting/stone_watcher_island.png",
+				"codes": "starting_stone_watcher_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Southern Triangle Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/southern_triangle_island.png",
+				"codes": "locale_southern_triangle_island"
+			},
+			{
+				"img"  : "images/starting/southern_triangle_island.png",
+				"codes": "starting_southern_triangle_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Private Oasis",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/private_oasis.png",
+				"codes": "locale_private_oasis"
+			},
+			{
+				"img"  : "images/starting/private_oasis.png",
+				"codes": "starting_private_oasis,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Bomb Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/bomb_island.png",
+				"codes": "locale_bomb_island"
+			},
+			{
+				"img"  : "images/starting/bomb_island.png",
+				"codes": "starting_bomb_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Bird's Peak Rock",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/birds_peak_rock.png",
+				"codes": "locale_birds_peak_rock"
+			},
+			{
+				"img"  : "images/starting/birds_peak_rock.png",
+				"codes": "starting_birds_peak_rock,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Diamond Steppe Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/diamond_steppe_island.png",
+				"codes": "locale_diamond_steppe_island"
+			},
+			{
+				"img"  : "images/starting/diamond_steppe_island.png",
+				"codes": "starting_diamond_steppe_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Five-Eye Reef",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/five_eye_reef.png",
+				"codes": "locale_five_eye_reef"
+			},
+			{
+				"img"  : "images/starting/five_eye_reef.png",
+				"codes": "starting_five_eye_reef,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Shark Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/shark_island.png",
+				"codes": "locale_shark_island"
+			},
+			{
+				"img"  : "images/starting/shark_island.png",
+				"codes": "starting_shark_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Southern Fairy Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/southern_fairy_island.png",
+				"codes": "locale_southern_fairy_island"
+			},
+			{
+				"img"  : "images/starting/southern_fairy_island.png",
+				"codes": "starting_southern_fairy_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Ice Ring Isle",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/ice_ring_isle.png",
+				"codes": "locale_ice_ring_isle"
+			},
+			{
+				"img"  : "images/starting/ice_ring_isle.png",
+				"codes": "starting_ice_ring_isle,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Forest Haven",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/forest_haven.png",
+				"codes": "locale_forest_haven"
+			},
+			{
+				"img"  : "images/starting/forest_haven.png",
+				"codes": "starting_forest_haven,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Cliff Plateau Isles",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/cliff_plateau_isles.png",
+				"codes": "locale_cliff_plateau_isles"
+			},
+			{
+				"img"  : "images/starting/cliff_plateau_isles.png",
+				"codes": "starting_cliff_plateau_isles,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Horseshoe Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/horseshoe_island.png",
+				"codes": "locale_horseshoe_island"
+			},
+			{
+				"img"  : "images/starting/horseshoe_island.png",
+				"codes": "starting_horseshoe_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Outset Island",
+		"type": "progressive",
+		"initial_stage_idx": 1,
+		"stages": [
+			{
+				"img"  : "images/locale/outset_island.png",
+				"codes": "locale_outset_island"
+			},
+			{
+				"img"  : "images/starting/outset_island.png",
+				"codes": "starting_outset_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Headstone Island",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/headstone_island.png",
+				"codes": "locale_headstone_island"
+			},
+			{
+				"img"  : "images/starting/headstone_island.png",
+				"codes": "starting_headstone_island,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Two-Eye Reef",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/two_eye_reef.png",
+				"codes": "locale_two_eye_reef"
+			},
+			{
+				"img"  : "images/starting/two_eye_reef.png",
+				"codes": "starting_two_eye_reef,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Angular Isles",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/angular_isles.png",
+				"codes": "locale_angular_isles"
+			},
+			{
+				"img"  : "images/starting/angular_isles.png",
+				"codes": "starting_angular_isles,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Boating Course",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/boating_course.png",
+				"codes": "locale_boating_course"
+			},
+			{
+				"img"  : "images/starting/boating_course.png",
+				"codes": "starting_boating_course,starting_island"
+			}
+		]
+	},
+
+	{
+		"name": "Five-Star Isles",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img"  : "images/locale/five_star_isles.png",
+				"codes": "locale_five_star_isles"
+			},
+			{
+				"img"  : "images/starting/five_star_isles.png",
+				"codes": "starting_five_star_isles,starting_island"
+			}
+		]
+	},
+
+
+	{
+		"name": "Battlesquids",
+		"type": "toggle",
+		"img"  : "images/locale/battlesquids.png",
+		"codes": "locale_battlesquids"
+	},
+	{
+		"name": "The Great Sea",
+		"type": "toggle",
+		"initial_active_state": true,
+		"img"  : "images/locale/great_sea.png",
+		"codes": "locale_great_sea"
+	},
+	{
+		"name": "Under The Great Sea",
+		"type": "toggle",
+		"initial_active_state": true,
+		"img"  : "images/locale/under_great_sea.png",
+		"codes": "locale_under_great_sea"
+	},
+	{
+		"name": "Mailbox",
+		"type": "toggle",
+		"initial_active_state": true,
+		"img"  : "images/locale/mailbox.png",
+		"codes": "locale_mailbox"
+	},
+	{
+		"name": "Savage Labyrinth",
+		"type": "toggle",
+		"img"  : "images/locale/savage.png",
+		"codes": "locale_savage"
+	},
+
+]

@@ -41,4 +41,4 @@ if %runfail% GEQ %itemlist% (
 
 ::Test
 
-"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\EmoTracker\EmoTracker.lnk"
+"%AppData%/Microsoft/Windows/Start Menu/Programs/LightApps/EmoTracker.lnk"

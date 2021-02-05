@@ -1,8 +1,19 @@
 [
   //Settings
+  {
+		"name": "Select Locales",
+		"type": "toggle",
+    "ignore_user_input": true,
+    "initial_active_state": true,
+		"img": "images/toggles/ToggleDungeon.png",
+    "disabled_img_mods": "",
+    "disabled_img": "images/toggles/ToggleShortSidequests.png",
+		"codes": "locale_select"
+  },
 	{
 		"name": "Dungeons",
 		"type": "toggle",
+    "initial_active_state": true,
 		"img": "images/toggles/ToggleDungeon.png",
 		"codes": "dungeons",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
@@ -12,6 +23,7 @@
 	{
 		"name": "Short Sidequests",
 		"type": "toggle",
+    "initial_active_state": true,
 		"img": "images/toggles/ToggleShortSidequests.png",
 		"codes": "shortsidequests",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
@@ -76,6 +88,7 @@
 		"name": "Free Gifts",
 		"type": "toggle",
 		"img": "images/toggles/ToggleFreeGifts.png",
+    "initial_active_state": true,
 		"codes": "gifts",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
 		"disabled_img": "images/toggles/ToggleFreeGifts.png",
@@ -93,6 +106,7 @@
 	{
 		"name": "Expensive Purchases",
 		"type": "toggle",
+    "initial_active_state": true,
 		"img": "images/toggles/ToggleExpensive.png",
 		"codes": "expensive",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
@@ -102,6 +116,7 @@
 	{
 		"name": "Puzzle Secret Caves",
 		"type": "toggle",
+    "initial_active_state": true,
 		"img": "images/toggles/TogglePuzzleCaves.png",
 		"codes": "puzzlecaves",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
@@ -111,7 +126,7 @@
   {
 		"name": "Mixed Secret Caves",
 		"type": "toggle",
-		"img": "images/toggles/TogglePuzzleCaves.png",
+		"img": "images/toggles/ToggleMixedCaves.png",
 		"codes": "mixedcaves",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
 		"disabled_img": "images/toggles/ToggleMixedCaves.png",
@@ -129,10 +144,20 @@
 	{
 		"name": "Great Fairies",
 		"type": "toggle",
+    "initial_active_state": true,
 		"img": "images/toggles/ToggleGreatFairies.png",
 		"codes": "greatfairies",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
 		"disabled_img": "images/toggles/ToggleGreatFairies.png",
+		"img_mods": "overlay|images/toggles/ToggleON.png"
+	},
+  {
+		"name": "Minigames",
+		"type": "toggle",
+		"img": "images/toggles/ToggleMinigames.png",
+		"codes": "shortminigames",
+		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
+		"disabled_img": "images/toggles/ToggleShortMinigames.png",
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
@@ -141,7 +166,7 @@
 		"img": "images/toggles/ToggleShortMinigames.png",
 		"codes": "shortminigames",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
-		"disabled_img": "images/toggles/ToggleMinigames.png",
+		"disabled_img": "images/toggles/ToggleShortMinigames.png",
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
   {
@@ -150,7 +175,7 @@
 		"img": "images/toggles/ToggleLongMinigames.png",
 		"codes": "longminigames",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
-		"disabled_img": "images/toggles/ToggleMinigames.png",
+		"disabled_img": "images/toggles/ToggleLongMinigames.png",
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{

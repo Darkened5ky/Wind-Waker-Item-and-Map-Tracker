@@ -22,12 +22,12 @@
         "item_height": 26,
         "item_width": 175,
         "rows": [
-          [ "dungeons", "puzzlecaves", "combatcaves", "savage" ],
-          [ "greatfairies", "gifts", "misc", "statues" ],
-          [ "shortsidequests", "longsidequests", "spoilstrading", "mail" ],
-          [ "minigames", "sploosh", "expensive", "islandpuzzle" ],
-          [ "platforms", "subs", "octos", "reefs" ],
-          [ "triforcecharts", "treasurecharts", "skip_rematches", "swordless" ]
+          [ "dungeons",        "puzzlecaves",    "mixedcaves",     "combatcaves" ],
+          [ "statues",         "greatfairies",   "islandpuzzle",   "longtrials" ],
+          [ "shortsidequests", "longsidequests", "spoilstrading",  "platforms" ],
+          [ "shortminigames",  "longminigames",  "expensive",      "octos" ],
+          [ "subs",            "reefs",          "gifts",          "misc" ],
+          [ "triforcecharts",  "treasurecharts", "skip_rematches", "swordless" ]
         ]
       },
       {
@@ -42,7 +42,27 @@
         {
           "type": "item",
           "item": "chart_shuffle"
-        }
+        },
+      ]
+    },
+    {
+      "type": "item",
+      "item": "locale_select",
+      "width": 175
+    },
+    {
+      "type": "itemgrid",
+      "h_alignment": "center",
+      "item_size": 85,
+      "item_margin": "0",
+      "rows": [
+        [ "locale_forsaken_fortress", "locale_star_island", "locale_northern_fairy_island", "locale_gale_isle", "locale_crescent_moon_island", "locale_seven_star_isles", "locale_overlook_island", "" ],
+        [ "locale_four_eye_reef", "locale_child_isle", "locale_spectacle_island", "locale_windfall_island", "locale_pawprint_isle", "locale_dragon_roost_island", "locale_flight_control_platform", "locale_savage" ],
+        [ "locale_western_fairy_island", "locale_rock_spire_isle", "locale_tingle_island", "locale_northern_triangle_island", "locale_eastern_fairy_island", "locale_fire_mountain", "locale_star_belt_archipelago", "locale_battlesquids" ],
+        [ "locale_three_eye_reef", "locale_greatfish_isle", "locale_cyclops_reef", "locale_six_eye_reef", "locale_tower_of_the_gods", "locale_eastern_triangle_island", "locale_thorned_fairy_island", "locale_mailbox" ],
+        [ "locale_needle_rock_isle", "locale_islet_of_steel", "locale_stone_watcher_island", "locale_southern_triangle_island", "locale_private_oasis", "locale_bomb_island", "locale_birds_peak_rock", "locale_great_sea" ],
+        [ "locale_diamond_steppe_island", "locale_five_eye_reef", "locale_shark_island", "locale_southern_fairy_island", "locale_ice_ring_isle", "locale_forest_haven", "locale_cliff_plateau_isles", "locale_under_great_sea" ],
+        [ "locale_horseshoe_island", "locale_outset_island", "locale_headstone_island", "locale_two_eye_reef", "locale_angular_isles", "locale_boating_course", "locale_five_star_isles", "" ]
       ]
     }
   ]
