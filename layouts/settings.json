@@ -48,7 +48,7 @@
     {
       "type": "item",
       "item": "locale_select",
-      "width": 175
+      "width": 400
     },
     {
       "type": "itemgrid",

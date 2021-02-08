@@ -329,7 +329,7 @@
     "img": "images/toggles/ToggleLongCombatTrials.png",
     "codes": "longtrials",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
-		"disabled_img": "images/toggles/ToggleIslandPuzzle.png",
+		"disabled_img": "images/toggles/ToggleLongCombatTrials.png",
 		"img_mods": "overlay|images/toggles/ToggleON.png"
   }
 ]

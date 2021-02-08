@@ -65,4 +65,244 @@
       }
     ]
   },
+  "cave_entrances_dri": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "driPicCave", "driFmCave", "driIrCave",  "driPoCave",  "driNrCave" ],
+      [ "driAiCave",  "driBcCave", "driDsCave",  "driCpCave",  "driBpCave" ],
+      [ "driDriCave", "driSwCave", "driHiCave",  "driRsiCave", "driBiCave" ],
+      [ "driPiwCave", "driOlCave", "driStiCave", "driShiCave", "driOiCave" ],
+    ]
+  },
+  "cave_entrances_fm": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "fmPicCave", "fmFmCave", "fmIrCave",  "fmPoCave",  "fmNrCave" ],
+      [ "fmAiCave",  "fmBcCave", "fmDsCave",  "fmCpCave",  "fmBpCave" ],
+      [ "fmDriCave", "fmSwCave", "fmHiCave",  "fmRsiCave", "fmBiCave" ],
+      [ "fmPiwCave", "fmOlCave", "fmStiCave", "fmShiCave", "fmOiCave" ],
+    ]
+  },
+  "cave_entrances_ir": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "irPicCave", "irFmCave", "irIrCave",  "irPoCave",  "irNrCave" ],
+      [ "irAiCave",  "irBcCave", "irDsCave",  "irCpCave",  "irBpCave" ],
+      [ "irDriCave", "irSwCave", "irHiCave",  "irRsiCave", "irBiCave" ],
+      [ "irPiwCave", "irOlCave", "irStiCave", "irShiCave", "irOiCave" ],
+    ]
+  },
+  "cave_entrances_po": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "poPicCave", "poFmCave", "poIrCave",  "poPoCave",  "poNrCave" ],
+      [ "poAiCave",  "poBcCave", "poDsCave",  "poCpCave",  "poBpCave" ],
+      [ "poDriCave", "poSwCave", "poHiCave",  "poRsiCave", "poBiCave" ],
+      [ "poPiwCave", "poOlCave", "poStiCave", "poShiCave", "poOiCave" ],
+    ]
+  },
+  "cave_entrances_nr": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "nrPicCave", "nrFmCave", "nrIrCave",  "nrPoCave",  "nrNrCave" ],
+      [ "nrAiCave",  "nrBcCave", "nrDsCave",  "nrCpCave",  "nrBpCave" ],
+      [ "nrDriCave", "nrSwCave", "nrHiCave",  "nrRsiCave", "nrBiCave" ],
+      [ "nrPiwCave", "nrOlCave", "nrStiCave", "nrShiCave", "nrOiCave" ],
+    ]
+  },
+  "cave_entrances_pic": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "picPicCave", "picFmCave", "picIrCave",  "picPoCave",  "picNrCave" ],
+      [ "picAiCave",  "picBcCave", "picDsCave",  "picCpCave",  "picBpCave" ],
+      [ "picDriCave", "picSwCave", "picHiCave",  "picRsiCave", "picBiCave" ],
+      [ "picPiwCave", "picOlCave", "picStiCave", "picShiCave", "picOiCave" ],
+    ]
+  },
+  "cave_entrances_ai": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "aiPicCave", "aiFmCave", "aiIrCave",  "aiPoCave",  "aiNrCave" ],
+      [ "aiAiCave",  "aiBcCave", "aiDsCave",  "aiCpCave",  "aiBpCave" ],
+      [ "aiDriCave", "aiSwCave", "aiHiCave",  "aiRsiCave", "aiBiCave" ],
+      [ "aiPiwCave", "aiOlCave", "aiStiCave", "aiShiCave", "aiOiCave" ],
+    ]
+  },
+  "cave_entrances_bc": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "bcPicCave", "bcFmCave", "bcIrCave",  "bcPoCave",  "bcNrCave" ],
+      [ "bcAiCave",  "bcBcCave", "bcDsCave",  "bcCpCave",  "bcBpCave" ],
+      [ "bcDriCave", "bcSwCave", "bcHiCave",  "bcRsiCave", "bcBiCave" ],
+      [ "bcPiwCave", "bcOlCave", "bcStiCave", "bcShiCave", "bcOiCave" ],
+    ]
+  },
+  "cave_entrances_ds": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "dsPicCave", "dsFmCave", "dsIrCave",  "dsPoCave",  "dsNrCave" ],
+      [ "dsAiCave",  "dsBcCave", "dsDsCave",  "dsCpCave",  "dsBpCave" ],
+      [ "dsDriCave", "dsSwCave", "dsHiCave",  "dsRsiCave", "dsBiCave" ],
+      [ "dsPiwCave", "dsOlCave", "dsStiCave", "dsShiCave", "dsOiCave" ],
+    ]
+  },
+  "cave_entrances_cp": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "cpPicCave", "cpFmCave", "cpIrCave",  "cpPoCave",  "cpNrCave" ],
+      [ "cpAiCave",  "cpBcCave", "cpDsCave",  "cpCpCave",  "cpBpCave" ],
+      [ "cpDriCave", "cpSwCave", "cpHiCave",  "cpRsiCave", "cpBiCave" ],
+      [ "cpPiwCave", "cpOlCave", "cpStiCave", "cpShiCave", "cpOiCave" ],
+    ]
+  },
+  "cave_entrances_bp": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "bpPicCave", "bpFmCave", "bpIrCave",  "bpPoCave",  "bpNrCave" ],
+      [ "bpAiCave",  "bpBcCave", "bpDsCave",  "bpCpCave",  "bpBpCave" ],
+      [ "bpDriCave", "bpSwCave", "bpHiCave",  "bpRsiCave", "bpBiCave" ],
+      [ "bpPiwCave", "bpOlCave", "bpStiCave", "bpShiCave", "bpOiCave" ],
+    ]
+  },
+  "cave_entrances_sw": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "swPicCave", "swFmCave", "swIrCave",  "swPoCave",  "swNrCave" ],
+      [ "swAiCave",  "swBcCave", "swDsCave",  "swCpCave",  "swBpCave" ],
+      [ "swDriCave", "swSwCave", "swHiCave",  "swRsiCave", "swBiCave" ],
+      [ "swPiwCave", "swOlCave", "swStiCave", "swShiCave", "swOiCave" ],
+    ]
+  },
+  "cave_entrances_hi": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "hiPicCave", "hiFmCave", "hiIrCave",  "hiPoCave",  "hiNrCave" ],
+      [ "hiAiCave",  "hiBcCave", "hiDsCave",  "hiCpCave",  "hiBpCave" ],
+      [ "hiDriCave", "hiSwCave", "hiHiCave",  "hiRsiCave", "hiBiCave" ],
+      [ "hiPiwCave", "hiOlCave", "hiStiCave", "hiShiCave", "hiOiCave" ],
+    ]
+  },
+  "cave_entrances_rsi": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "rsiPicCave", "rsiFmCave", "rsiIrCave",  "rsiPoCave",  "rsiNrCave" ],
+      [ "rsiAiCave",  "rsiBcCave", "rsiDsCave",  "rsiCpCave",  "rsiBpCave" ],
+      [ "rsiDriCave", "rsiSwCave", "rsiHiCave",  "rsiRsiCave", "rsiBiCave" ],
+      [ "rsiPiwCave", "rsiOlCave", "rsiStiCave", "rsiShiCave", "rsiOiCave" ],
+    ]
+  },
+  "cave_entrances_bi": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "biPicCave", "biFmCave", "biIrCave",  "biPoCave",  "biNrCave" ],
+      [ "biAiCave",  "biBcCave", "biDsCave",  "biCpCave",  "biBpCave" ],
+      [ "biDriCave", "biSwCave", "biHiCave",  "biRsiCave", "biBiCave" ],
+      [ "biPiwCave", "biOlCave", "biStiCave", "biShiCave", "biOiCave" ],
+    ]
+  },
+  "cave_entrances_piw": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "piwPicCave", "piwFmCave", "piwIrCave",  "piwPoCave",  "piwNrCave" ],
+      [ "piwAiCave",  "piwBcCave", "piwDsCave",  "piwCpCave",  "piwBpCave" ],
+      [ "piwDriCave", "piwSwCave", "piwHiCave",  "piwRsiCave", "piwBiCave" ],
+      [ "piwPiwCave", "piwOlCave", "piwStiCave", "piwShiCave", "piwOiCave" ],
+    ]
+  },
+  "cave_entrances_ol": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "olPicCave", "olFmCave", "olIrCave",  "olPoCave",  "olNrCave" ],
+      [ "olAiCave",  "olBcCave", "olDsCave",  "olCpCave",  "olBpCave" ],
+      [ "olDriCave", "olSwCave", "olHiCave",  "olRsiCave", "olBiCave" ],
+      [ "olPiwCave", "olOlCave", "olStiCave", "olShiCave", "olOiCave" ],
+    ]
+  },
+  "cave_entrances_sti": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "stiPicCave", "stiFmCave", "stiIrCave",  "stiPoCave",  "stiNrCave" ],
+      [ "stiAiCave",  "stiBcCave", "stiDsCave",  "stiCpCave",  "stiBpCave" ],
+      [ "stiDriCave", "stiSwCave", "stiHiCave",  "stiRsiCave", "stiBiCave" ],
+      [ "stiPiwCave", "stiOlCave", "stiStiCave", "stiShiCave", "stiOiCave" ],
+    ]
+  },
+  "cave_entrances_shi": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "shiPicCave", "shiFmCave", "shiIrCave",  "shiPoCave",  "shiNrCave" ],
+      [ "shiAiCave",  "shiBcCave", "shiDsCave",  "shiCpCave",  "shiBpCave" ],
+      [ "shiDriCave", "shiSwCave", "shiHiCave",  "shiRsiCave", "shiBiCave" ],
+      [ "shiPiwCave", "shiOlCave", "shiStiCave", "shiShiCave", "shiOiCave" ],
+    ]
+  },
+  "cave_entrances_oi": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "item_size": 75,
+    "rows": [
+      [ "oiPicCave", "oiFmCave", "oiIrCave",  "oiPoCave",  "oiNrCave" ],
+      [ "oiAiCave",  "oiBcCave", "oiDsCave",  "oiCpCave",  "oiBpCave" ],
+      [ "oiDriCave", "oiSwCave", "oiHiCave",  "oiRsiCave", "oiBiCave" ],
+      [ "oiPiwCave", "oiOlCave", "oiStiCave", "oiShiCave", "oiOiCave" ],
+    ]
+  },
 }
