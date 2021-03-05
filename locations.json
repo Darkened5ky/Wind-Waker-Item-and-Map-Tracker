@@ -166,6 +166,18 @@
 	},
 
 	{
+		"name": "can_obtain_15_blue_chu_jelly",
+		"access_rules": [
+			                "@can_travel_to_any_island,grapple",
+		                  "@can_travel_to_any_island,@can_cut_or_slash,[boomerang]",
+		                  "@can_travel_to_any_island,@can_cut_or_slash,[hammer]",
+		                  "@can_travel_to_any_island,bow",
+		                  "@can_travel_to_any_island,@can_cut_or_slash,[bombs]",
+											"@can_travel_to_any_island,@can_cut_or_slash,[leaf]", ],
+		"sections": [{ "name": "access", "item_count": 1 }]
+	},
+
+	{
 		"name": "can_salvage_floor_30",
 		"access_rules": [ "@can_defeat_armos,@can_defeat_boko_babas,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_keese,@can_defeat_magtails,@can_defeat_miniblins,@can_defeat_mothulas,@can_defeat_peahats,@can_defeat_red_chuchus,@can_defeat_red_bubbles,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_yellow_chuchus,@can_play_winds_requiem,grapple",
 		"@can_defeat_armos,@can_defeat_boko_babas,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_keese,@can_defeat_miniblins,@can_defeat_magtails,@can_defeat_mothulas,@can_defeat_peahats,@can_defeat_red_chuchus,@can_defeat_red_bubbles,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_yellow_chuchus,@can_play_winds_requiem,sword",
@@ -602,7 +614,8 @@
 
 	{
 		"name": "can_complete_all_memory_dungeons_and_bosses",
-		"access_rules": [ "@can_complete_memory_dragon_roost_cavern_and_gohma,@can_complete_memory_earth_temple_and_jalhalla,@can_complete_memory_forbidden_woods_and_kalle_demos,@can_complete_memory_wind_temple_and_molgera" ],
+		"access_rules": [ "@can_complete_memory_dragon_roost_cavern_and_gohma,@can_complete_memory_earth_temple_and_jalhalla,@can_complete_memory_forbidden_woods_and_kalle_demos,@can_complete_memory_wind_temple_and_molgera",
+		                  "skip_rematches" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -1261,6 +1274,12 @@
 	},
 
 	{
+		"name": "can_farm_knights_crests",
+		"access_rules": [ "grapple", "can_defeat_darknuts" ],
+		"sections": [{ "name": "access", "item_count": 1 }]
+	},
+
+	{
 		"name": "can_drc_backward",
 		"access_rules": [ "drc_key:2,logic_tricked,[logic_glitched],bow",
 		                  "bombs,@can_cut_or_slash,logic_tricked,[logic_complex],drc_key:2,logic_tricked,[logic_glitched]" ],
@@ -1342,7 +1361,6 @@
 	{
 		"name": "can_travel_to_forsaken_fortress",
 		"access_rules": [ "starting_forsaken_fortress",
-		                  "starting_forsaken_fortress",
 		                  "@can_play_ballad_of_gales" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -1352,7 +1370,7 @@
 		"access_rules": [ "@can_sail,starting_gale_isle",
 		                  "@can_sail,starting_spectacle_island",
 		                  "starting_windfall_island",
-		                  "starting_windfall_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_play_ballad_of_gales",
 		                  "@can_sail,starting_pawprint_isle",
 		                  "@can_sail,starting_northern_triangle_island" ],
@@ -1364,7 +1382,7 @@
 		"access_rules": [ "@can_sail,starting_seven_star_isles",
 		                  "@can_sail,starting_pawprint_isle",
 		                  "starting_dragon_roost_island",
-		                  "starting_dragon_roost_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_play_ballad_of_gales",
 		                  "@can_sail,starting_flight_control_platform",
 		                  "@can_sail,starting_fire_mountain" ],
@@ -1376,7 +1394,7 @@
 		"access_rules": [ "@can_sail,starting_spectacle_island",
 		                  "@can_sail,starting_rock_spire_isle",
 		                  "starting_tingle_island",
-		                  "starting_tingle_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_play_ballad_of_gales",
 		                  "@can_sail,starting_northern_triangle_island",
 		                  "@can_sail,starting_cyclops_reef" ],
@@ -1388,7 +1406,7 @@
 		"access_rules": [ "@can_sail,starting_rock_spire_isle",
 		                  "@can_sail,starting_three_eye_reef",
 		                  "starting_greatfish_isle",
-		                  "starting_greatfish_isle",
+		                  "@can_travel_to_any_island",
 		                  "@can_play_ballad_of_gales",
 		                  "@can_sail,starting_cyclops_reef",
 		                  "@can_sail,starting_islet_of_steel" ],
@@ -1400,7 +1418,7 @@
 		"access_rules": [ "@can_sail,starting_eastern_fairy_island",
 		                  "@can_sail,starting_six_eye_reef",
 		                  "starting_tower_of_the_gods",
-		                  "starting_tower_of_the_gods",
+		                  "@can_travel_to_any_island",
 		                  "@can_play_ballad_of_gales",
 		                  "@can_sail,starting_eastern_triangle_island",
 		                  "@can_sail,starting_private_oasis" ],
@@ -1412,7 +1430,7 @@
 		"access_rules": [ "@can_sail,starting_southern_triangle_island",
 		                  "@can_sail,starting_shark_island",
 		                  "starting_southern_fairy_island",
-		                  "starting_southern_fairy_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_play_ballad_of_gales",
 		                  "@can_sail,starting_ice_ring_isle",
 		                  "@can_sail,starting_two_eye_reef" ],
@@ -1424,7 +1442,7 @@
 		"access_rules": [ "@can_sail,starting_bomb_island",
 		                  "@can_sail,starting_ice_ring_isle",
 		                  "starting_forest_haven",
-		                  "starting_forest_haven",
+		                  "@can_travel_to_any_island",
 		                  "@can_play_ballad_of_gales",
 		                  "@can_sail,starting_cliff_plateau_isles",
 		                  "@can_sail,starting_boating_course" ],
@@ -1436,7 +1454,7 @@
 		"access_rules": [ "@can_sail,starting_forsaken_fortress",
 		                  "@can_sail,@can_travel_to_forsaken_fortress",
 		                  "starting_star_island",
-		                  "starting_star_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_northern_fairy_island",
 		                  "@can_sail,starting_child_isle" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1446,7 +1464,7 @@
 		"name": "can_travel_to_northern_fairy_island",
 		"access_rules": [ "@can_sail,starting_star_island",
 		                  "starting_northern_fairy_island",
-		                  "starting_northern_fairy_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_gale_isle",
 		                  "@can_sail,starting_spectacle_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1463,7 +1481,7 @@
 		"name": "can_travel_to_gale_isle",
 		"access_rules": [ "@can_sail,starting_northern_fairy_island",
 		                  "starting_gale_isle",
-		                  "starting_gale_isle",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_crescent_moon_island",
 		                  "@can_sail,starting_windfall_island",
 		                  "@can_sail,@can_travel_to_windfall_island" ],
@@ -1474,7 +1492,7 @@
 		"name": "can_travel_to_crescent_moon_island",
 		"access_rules": [ "@can_sail,starting_gale_isle",
 		                  "starting_crescent_moon_island",
-		                  "starting_crescent_moon_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_seven_star_isles",
 		                  "@can_sail,starting_pawprint_isle" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1491,7 +1509,7 @@
 		"name": "can_travel_to_seven-star_isles",
 		"access_rules": [ "@can_sail,starting_crescent_moon_island",
 		                  "starting_seven_star_isles",
-		                  "starting_seven_star_isles",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_overlook_island",
 		                  "@can_sail,starting_dragon_roost_island",
 		                  "@can_sail,@can_travel_to_dragon_roost_island" ],
@@ -1502,7 +1520,7 @@
 		"name": "can_travel_to_overlook_island",
 		"access_rules": [ "@can_sail,starting_seven_star_isles",
 		                  "starting_overlook_island",
-		                  "starting_overlook_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_flight_control_platform" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -1512,7 +1530,7 @@
 		"access_rules": [ "@can_sail,starting_forsaken_fortress",
 		                  "@can_sail,@can_travel_to_forsaken_fortress",
 		                  "starting_four_eye_reef",
-		                  "starting_four_eye_reef",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_child_isle",
 		                  "@can_sail,starting_western_fairy_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1523,7 +1541,7 @@
 		"access_rules": [ "@can_sail,starting_star_island",
 		                  "@can_sail,starting_four_eye_reef",
 		                  "starting_child_isle",
-		                  "starting_child_isle",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_spectacle_island",
 		                  "@can_sail,starting_rock_spire_isle" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1534,7 +1552,7 @@
 		"access_rules": [ "@can_sail,starting_northern_fairy_island",
 		                  "@can_sail,starting_child_isle",
 		                  "starting_spectacle_island",
-		                  "starting_spectacle_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_windfall_island",
 		                  "@can_sail,@can_travel_to_windfall_island",
 		                  "@can_sail,starting_tingle_island",
@@ -1548,7 +1566,7 @@
 		                  "@can_sail,starting_windfall_island",
 		                  "@can_sail,@can_travel_to_windfall_island",
 		                  "starting_pawprint_isle",
-		                  "starting_pawprint_isle",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_dragon_roost_island",
 		                  "@can_sail,@can_travel_to_dragon_roost_island",
 		                  "@can_sail,starting_eastern_fairy_island" ],
@@ -1561,7 +1579,7 @@
 		                  "@can_sail,starting_dragon_roost_island",
 		                  "@can_sail,@can_travel_to_dragon_roost_island",
 		                  "starting_flight_control_platform",
-		                  "starting_flight_control_platform",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_star_belt_archipelago" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -1577,7 +1595,7 @@
 		"name": "can_travel_to_western_fairy_island",
 		"access_rules": [ "@can_sail,starting_four_eye_reef",
 		                  "starting_western_fairy_island",
-		                  "starting_western_fairy_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_rock_spire_isle",
 		                  "@can_sail,starting_three_eye_reef" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1588,7 +1606,7 @@
 		"access_rules": [ "@can_sail,starting_child_isle",
 		                  "@can_sail,starting_western_fairy_island",
 		                  "starting_rock_spire_isle",
-		                  "starting_rock_spire_isle",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_tingle_island",
 		                  "@can_sail,@can_travel_to_tingle_island",
 		                  "@can_sail,starting_greatfish_isle",
@@ -1603,7 +1621,7 @@
 		                  "@can_sail,starting_tingle_island",
 		                  "@can_sail,@can_travel_to_tingle_island",
 		                  "starting_northern_triangle_island",
-		                  "starting_northern_triangle_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_eastern_fairy_island",
 		                  "@can_sail,starting_six_eye_reef" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1614,7 +1632,7 @@
 		"access_rules": [ "@can_sail,starting_pawprint_isle",
 		                  "@can_sail,starting_northern_triangle_island",
 		                  "starting_eastern_fairy_island",
-		                  "starting_eastern_fairy_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_fire_mountain",
 		                  "@can_sail,starting_tower_of_the_gods",
 		                  "@can_sail,@can_travel_to_tower_of_the_gods" ],
@@ -1627,7 +1645,7 @@
 		                  "@can_sail,@can_travel_to_dragon_roost_island",
 		                  "@can_sail,starting_eastern_fairy_island",
 		                  "starting_fire_mountain",
-		                  "starting_fire_mountain",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_star_belt_archipelago",
 		                  "@can_sail,starting_eastern_triangle_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1638,7 +1656,7 @@
 		"access_rules": [ "@can_sail,starting_flight_control_platform",
 		                  "@can_sail,starting_fire_mountain",
 		                  "starting_star_belt_archipelago",
-		                  "starting_star_belt_archipelago",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_thorned_fairy_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -1647,7 +1665,7 @@
 		"name": "can_travel_to_three-eye_reef",
 		"access_rules": [ "@can_sail,starting_western_fairy_island",
 		                  "starting_three_eye_reef",
-		                  "starting_three_eye_reef",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_greatfish_isle",
 		                  "@can_sail,@can_travel_to_greatfish_isle",
 		                  "@can_sail,starting_needle_rock_isle" ],
@@ -1661,7 +1679,7 @@
 		                  "@can_sail,starting_greatfish_isle",
 		                  "@can_sail,@can_travel_to_greatfish_isle",
 		                  "starting_cyclops_reef",
-		                  "starting_cyclops_reef",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_six_eye_reef",
 		                  "@can_sail,starting_stone_watcher_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1672,7 +1690,7 @@
 		"access_rules": [ "@can_sail,starting_northern_triangle_island",
 		                  "@can_sail,starting_cyclops_reef",
 		                  "starting_six_eye_reef",
-		                  "starting_six_eye_reef",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_tower_of_the_gods",
 		                  "@can_sail,@can_travel_to_tower_of_the_gods",
 		                  "@can_sail,starting_southern_triangle_island" ],
@@ -1685,7 +1703,7 @@
 		                  "@can_sail,starting_tower_of_the_gods",
 		                  "@can_sail,@can_travel_to_tower_of_the_gods",
 		                  "starting_eastern_triangle_island",
-		                  "starting_eastern_triangle_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_thorned_fairy_island",
 		                  "@can_sail,starting_bomb_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1696,7 +1714,7 @@
 		"access_rules": [ "@can_sail,starting_star_belt_archipelago",
 		                  "@can_sail,starting_eastern_triangle_island",
 		                  "starting_thorned_fairy_island",
-		                  "starting_thorned_fairy_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_birds_peak_rock" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -1705,7 +1723,7 @@
 		"name": "can_travel_to_needle_rock_isle",
 		"access_rules": [ "@can_sail,starting_three_eye_reef",
 		                  "starting_needle_rock_isle",
-		                  "starting_needle_rock_isle",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_islet_of_steel",
 		                  "@can_sail,starting_diamond_steppe_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1717,7 +1735,7 @@
 		                  "@can_sail,@can_travel_to_greatfish_isle",
 		                  "@can_sail,starting_needle_rock_isle",
 		                  "starting_islet_of_steel",
-		                  "starting_islet_of_steel",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_stone_watcher_island",
 		                  "@can_sail,starting_five_eye_reef" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1728,7 +1746,7 @@
 		"access_rules": [ "@can_sail,starting_cyclops_reef",
 		                  "@can_sail,starting_islet_of_steel",
 		                  "starting_stone_watcher_island",
-		                  "starting_stone_watcher_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_southern_triangle_island",
 		                  "@can_sail,starting_shark_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1739,7 +1757,7 @@
 		"access_rules": [ "@can_sail,starting_six_eye_reef",
 		                  "@can_sail,starting_stone_watcher_island",
 		                  "starting_southern_triangle_island",
-		                  "starting_southern_triangle_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_private_oasis",
 		                  "@can_sail,starting_southern_fairy_island",
 		                  "@can_sail,@can_travel_to_southern_fairy_island" ],
@@ -1752,7 +1770,7 @@
 		                  "@can_sail,@can_travel_to_tower_of_the_gods",
 		                  "@can_sail,starting_southern_triangle_island",
 		                  "starting_private_oasis",
-		                  "starting_private_oasis",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_bomb_island",
 		                  "@can_sail,starting_ice_ring_isle" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1763,7 +1781,7 @@
 		"access_rules": [ "@can_sail,starting_eastern_triangle_island",
 		                  "@can_sail,starting_private_oasis",
 		                  "starting_bomb_island",
-		                  "starting_bomb_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_birds_peak_rock",
 		                  "@can_sail,starting_forest_haven",
 		                  "@can_sail,@can_travel_to_forest_haven" ],
@@ -1782,7 +1800,7 @@
 		"access_rules": [ "@can_sail,starting_thorned_fairy_island",
 		                  "@can_sail,starting_bomb_island",
 		                  "starting_birds_peak_rock",
-		                  "starting_birds_peak_rock",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_cliff_plateau_isles" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -1791,7 +1809,7 @@
 		"name": "can_travel_to_diamond_steppe_island",
 		"access_rules": [ "@can_sail,starting_needle_rock_isle",
 		                  "starting_diamond_steppe_island",
-		                  "starting_diamond_steppe_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_five_eye_reef",
 		                  "@can_sail,starting_horseshoe_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1802,7 +1820,7 @@
 		"access_rules": [ "@can_sail,starting_islet_of_steel",
 		                  "@can_sail,starting_diamond_steppe_island",
 		                  "starting_five_eye_reef",
-		                  "starting_five_eye_reef",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_shark_island",
 		                  "@can_sail,starting_outset_island",
 		                  "@can_sail,@can_travel_to_outset_island" ],
@@ -1814,7 +1832,7 @@
 		"access_rules": [ "@can_sail,starting_stone_watcher_island",
 		                  "@can_sail,starting_five_eye_reef",
 		                  "starting_shark_island",
-		                  "starting_shark_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_southern_fairy_island",
 		                  "@can_sail,@can_travel_to_southern_fairy_island",
 		                  "@can_sail,starting_headstone_island" ],
@@ -1827,7 +1845,7 @@
 		                  "@can_sail,starting_southern_fairy_island",
 		                  "@can_sail,@can_travel_to_southern_fairy_island",
 		                  "starting_ice_ring_isle",
-		                  "starting_ice_ring_isle",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_forest_haven",
 		                  "@can_sail,@can_travel_to_forest_haven",
 		                  "@can_sail,starting_angular_isles" ],
@@ -1840,7 +1858,7 @@
 		                  "@can_sail,starting_forest_haven",
 		                  "@can_sail,@can_travel_to_forest_haven",
 		                  "starting_cliff_plateau_isles",
-		                  "starting_cliff_plateau_isles",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_five_star_isles" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -1849,7 +1867,7 @@
 		"name": "can_travel_to_horseshoe_island",
 		"access_rules": [ "@can_sail,starting_diamond_steppe_island",
 		                  "starting_horseshoe_island",
-		                  "starting_horseshoe_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_outset_island",
 		                  "@can_sail,@can_travel_to_outset_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1861,7 +1879,7 @@
 		                  "@can_sail,starting_outset_island",
 		                  "@can_sail,@can_travel_to_outset_island",
 		                  "starting_headstone_island",
-		                  "starting_headstone_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_two_eye_reef" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -1879,7 +1897,7 @@
 		                  "@can_sail,@can_travel_to_southern_fairy_island",
 		                  "@can_sail,starting_headstone_island",
 		                  "starting_two_eye_reef",
-		                  "starting_two_eye_reef",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_angular_isles" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -1889,7 +1907,8 @@
 		"access_rules": [ "@can_sail,starting_ice_ring_isle",
 		                  "@can_sail,starting_two_eye_reef",
 		                  "starting_angular_isles",
-		                  "starting_angular_isles",
+											"@can_travel_to_any_island",
+		                  "@can_sail,@can_travel_to_forest_haven",
 		                  "@can_sail,starting_boating_course" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -1900,7 +1919,7 @@
 		                  "@can_sail,@can_travel_to_forest_haven",
 		                  "@can_sail,starting_angular_isles",
 		                  "starting_boating_course",
-		                  "starting_boating_course",
+		                  "@can_travel_to_any_island",
 		                  "@can_sail,starting_five_star_isles" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -1910,7 +1929,7 @@
 		"access_rules": [ "@can_sail,starting_cliff_plateau_isles",
 		                  "@can_sail,starting_boating_course",
 		                  "starting_five_star_isles",
-		                  "starting_five_star_isles" ],
+		                  "@can_travel_to_any_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -1957,7 +1976,7 @@
 		"access_rules": [ "@can_sail,starting_five_eye_reef",
 		                  "@can_sail,starting_horseshoe_island",
 		                  "starting_outset_island",
-		                  "starting_outset_island",
+		                  "@can_travel_to_any_island",
 		                  "@can_play_ballad_of_gales",
 		                  "@can_sail,starting_headstone_island" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1975,7 +1994,9 @@
 			},			{
 				"name"            : "Mesa the Grasscutter's House",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_travel_to_outset_island" ],
+				"access_rules"    : [ "@can_travel_to_outset_island,@can_play_song_of_passing",
+				                      "@can_travel_to_outset_island,@can_sail.[logic_tricked]",
+														  "@can_travel_to_outset_island,logic_tricked,[logic_glitched]" ],
 				"visibility_rules": [ "gifts," ]
 			},			{
 				"name"            : "Give Orca 10 Knight's Crests",
@@ -2410,22 +2431,34 @@
 			},			{
 				"name"            : "5 Rupee Auction",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_play_song_of_passing,@can_travel_to_windfall_island" ],
+				"access_rules"    : [ "@can_play_song_of_passing,@can_travel_to_windfall_island",
+				                      "{@can_travel_to_windfall_island}" ],
+				"capture_item"    : true,
+				"capture_item_layout" : "shop_item_grid",
 				"visibility_rules": [ "expensive,shortminigames," ]
 			},			{
 				"name"            : "40 Rupee Auction",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_play_song_of_passing,@can_travel_to_windfall_island" ],
+				"access_rules"    : [ "@can_play_song_of_passing,@can_travel_to_windfall_island",
+				                      "{@can_travel_to_windfall_island}" ],
+				"capture_item"    : true,
+				"capture_item_layout" : "shop_item_grid",
 				"visibility_rules": [ "expensive,shortminigames," ]
 			},			{
 				"name"            : "60 Rupee Auction",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_play_song_of_passing,@can_travel_to_windfall_island" ],
+				"access_rules"    : [ "@can_play_song_of_passing,@can_travel_to_windfall_island",
+				                      "{@can_travel_to_windfall_island}" ],
+				"capture_item"    : true,
+				"capture_item_layout" : "shop_item_grid",
 				"visibility_rules": [ "expensive,longminigames," ]
 			},			{
 				"name"            : "80 Rupee Auction",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_play_song_of_passing,@can_travel_to_windfall_island" ],
+				"access_rules"    : [ "@can_play_song_of_passing,@can_travel_to_windfall_island",
+				                      "{@can_travel_to_windfall_island}" ],
+				"capture_item"    : true,
+				"capture_item_layout" : "shop_item_grid",
 				"visibility_rules": [ "expensive,longminigames," ]
 			},			{
 				"name"            : "Sploosh Kaboom First Prize",
@@ -2666,6 +2699,15 @@
 	{
 		"name"         : "Dragon Roost Cavern",
 		"sections"     : [			{
+        "name": "Small Keys",
+        "hosted_item": "drc_key",
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Big Key",
+        "hosted_item": "drc_bk",
+        "visibility_rules": [ "dungeons" ]
+      },			{
 				"name"            : "First Room",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_access_dragon_roost_cavern" ],
@@ -2853,6 +2895,15 @@
 	{
 		"name"         : "Forbidden Woods",
 		"sections"     : [			{
+        "name": "Small Keys",
+        "hosted_item": "fw_key",
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Big Key",
+        "hosted_item": "fw_bk",
+        "visibility_rules": [ "dungeons" ]
+      },			{
 				"name"            : "First Room",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_access_forbidden_woods" ],
@@ -3014,6 +3065,15 @@
 	{
 		"name"         : "Tower of the Gods",
 		"sections"     : [			{
+        "name": "Small Keys",
+        "hosted_item": "totg_key",
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Big Key",
+        "hosted_item": "totg_bk",
+        "visibility_rules": [ "dungeons" ]
+      },			{
 				"name"            : "Chest Behind Bombable Walls",
 				"item_count"      : 1,
 				"access_rules"    : [
@@ -3752,6 +3812,15 @@
 	{
 		"name"         : "Earth Temple",
 		"sections"     : [			{
+        "name": "Small Keys",
+        "hosted_item": "et_key",
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Big Key",
+        "hosted_item": "et_bk",
+        "visibility_rules": [ "dungeons" ]
+      },			{
 				"name"            : "Transparent Chest In Warp Pot Room",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_get_into_earth_temple" ],
@@ -4048,6 +4117,15 @@
 	{
 		"name"         : "Wind Temple",
 		"sections"     : [			{
+        "name": "Small Keys",
+        "hosted_item": "wt_key",
+        "visibility_rules": [ "dungeons" ]
+      },
+      {
+        "name": "Big Key",
+        "hosted_item": "wt_bk",
+        "visibility_rules": [ "dungeons" ]
+      },			{
 				"name"            : "Chest Between Two Dirt Patches",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_access_wind_temple,@can_play_command_melody" ],
@@ -4149,18 +4227,20 @@
 				"name"            : "Maze Chest",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_defeat_phantom_ganon,@can_reach_ganons_tower_phantom_ganon_room" ],
-				"visibility_rules": [ "dungeons," ]
+				"visibility_rules": [ "dungeons" ]
 			},			{
 				"name"            : "Defeat Ganondorf",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_defeat_ganondorf,@can_reach_and_defeat_puppet_ganon,grapple,hookshot,lightarrow" ],
+				"chest_unopened_img": "images/dungeon/7 Ganondorf.png",
+				"chest_opened_img": "",
+				"access_rules"    : [ "@can_reach_and_defeat_ganondorf" ],
 				"visibility_rules": [ "triforce_full" ]
-			}],
+			} ],
 		"map_locations": [
 			{
 				"map": "map",
 				"x"  : 660,
-				"y"  : 535
+				"y"  : 533
 			},
 		],
 		"color": "grey"
@@ -4179,7 +4259,7 @@
 				"access_rules"    : [ "@can_play_song_of_passing,@can_travel_to_postbox,delivery,momletter" ],
 				"visibility_rules": [ "misc," ]
 			},			{
-				"name"            : "Jalhalla Heart Container",
+				"name"            : "Baito",
 				"item_count"      : 1,
 				"access_rules"    : [ "@Earth Temple/Jalhalla Heart Container,@can_play_song_of_passing,@can_travel_to_postbox,delivery,momletter" ],
 				"visibility_rules": [ "dungeons," ]
@@ -4189,7 +4269,7 @@
 				"access_rules"    : [ "@can_travel_to_postbox,farore" ],
 				"visibility_rules": [ "gifts," ]
 			},			{
-				"name"            : "Kalle Demos Heart Container",
+				"name"            : "Orca",
 				"item_count"      : 1,
 				"access_rules"    : [ "@Forbidden Woods/Kalle Demos Heart Container,@can_travel_to_postbox" ],
 				"visibility_rules": [ "dungeons," ]
@@ -4199,12 +4279,12 @@
 				"access_rules"    : [ "@can_get_fairies,@can_play_song_of_passing,@can_travel_to_outset_island,bottle" ],
 				"visibility_rules": [ "gifts," ]
 			},			{
-				"name"            : "Helmaroc King Heart Container",
+				"name"            : "Aryll",
 				"item_count"      : 1,
 				"access_rules"    : [ "@Forsaken Fortress/Helmaroc King Heart Container,@can_play_song_of_passing,@can_travel_to_postbox" ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
-				"name"            : "Helmaroc King Heart Container",
+				"name"            : "Tingle",
 				"item_count"      : 1,
 				"access_rules"    : [ "wallet,@Forsaken Fortress/Helmaroc King Heart Container,@can_play_song_of_passing,@can_travel_to_postbox,@rescued_tingle" ],
 				"visibility_rules": [ "dungeons," ]
@@ -4956,7 +5036,7 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_angular_isles_secret_cave,@can_aim_mirror_shield,leaf",
-		                  "@can_access_angular_isles_secret_cave,@can_aim_mirror_shield,hookshot", ],
+		                  "@can_access_angular_isles_secret_cave,@can_aim_mirror_shield,hookshot" ],
 				"visibility_rules": [ "puzzlecaves,standard_entrance,locale_angular_isles" ]
 			},			{
 				"name"            : "Unexplored Cave",
@@ -4975,14 +5055,14 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "aiPicCave,@can_move_boulders",
-			                  "aiPicCave,[logic_tricked]", ],
+			                  "aiPicCave,[logic_tricked]" ],
 					"visibility_rules": [ "mixedcaves,rando_entrance,aiPicCave,locale_pawprint_isle" ]
 				},			{
 					"name"            : "Chuchu Right Boulder Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "aiPicCave,@can_move_boulders",
-			                  "aiPicCave,leaf,[logic_tricked]", ],
+			                  "aiPicCave,leaf,[logic_tricked]" ],
 					"visibility_rules": [ "mixedcaves,rando_entrance,aiPicCave,locale_pawprint_isle" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -5004,21 +5084,21 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "aiIrCave,firearrow,boots",
-			                  "aiIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "aiIrCave,firearrow,logic_tricked,[logic_glitched],windwaker" ],
 					"visibility_rules": [ "puzzlecaves,mixedcaves,rando_entrance,aiIrCave,locale_ice_ring_isle" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "aiPoCave,hammer",
-			                  "aiPoCave,logic_tricked,[logic_glitched]", ],
+			                  "aiPoCave,logic_tricked,[logic_glitched]" ],
 					"visibility_rules": [ "puzzlecaves,rando_entrance,aiPoCave,locale_private_oasis" ]
 				},			{
 					"name"            : "Cabana Maze Upper Floor Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "aiPoCave,@can_play_winds_requiem,hammer",
-			                  "aiPoCave,@can_play_winds_requiem,logic_tricked,[logic_glitched]", ],
+			                  "aiPoCave,@can_play_winds_requiem,logic_tricked,[logic_glitched]" ],
 					"visibility_rules": [ "puzzlecaves,rando_entrance,aiPoCave,locale_private_oasis" ]
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
@@ -5030,7 +5110,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "aiAiCave,@can_aim_mirror_shield,leaf",
-			                  "aiAiCave,@can_aim_mirror_shield,hookshot", ],
+			                  "aiAiCave,@can_aim_mirror_shield,hookshot" ],
 					"visibility_rules": [ "puzzlecaves,rando_entrance,aiAiCave,locale_angular_isles" ]
 				},			{
 					"name"            : "Three Diamond Switches",
@@ -5048,7 +5128,7 @@
 					"access_rules"    : [
 			                  "aiCpCave,@can_defeat_boko_babas",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot" ],
 					"visibility_rules": [ "puzzlecaves,rando_entrance,aiCpCave,locale_cliff_plateau_isles" ]
 				},			{
 					"name"            : "Wind's Requiem Chest",
@@ -5085,7 +5165,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "aiPiwCave,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_magtails,@can_defeat_red_bubbles,@can_defeat_red_chuchus,@can_defeat_wizzrobes_at_range,@can_defeat_yellow_chuchus,@can_remove_peahat_armor",
-			                  "aiPiwCave,@can_defeat_wizzrobes_at_range,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
+			                  "aiPiwCave,@can_defeat_wizzrobes_at_range,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]" ],
 					"visibility_rules": [ "combatcaves,rando_entrance,aiPiwCave,locale_pawprint_isle" ]
 				},			{
 					"name"            : "Hard Combat Trial",
@@ -5102,26 +5182,26 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "aiShiCave,@can_cut_or_slash,@can_defeat_miniblins",
-			                  "aiShiCave,@can_defeat_miniblins,[logic_tricked]", ],
+			                  "aiShiCave,@can_defeat_miniblins,[logic_tricked]" ],
 					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,aiShiCave,locale_shark_island" ]
 				},			{
 					"name"            : "Savage Labyrinth Floor 30",
 					"item_count"      : 1,
-					"capture_item": true,
+					"capture_item"    : true,
 					"capture_item_layout": "shop_item_grid",
 					"access_rules"    : [
 			                  "aiOiCave,@can_salvage_floor_30",
-											"{}" ],
+			                  "{aiOiCave}" ],
 					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,aiOiCave,locale_savage" ]
 				},			{
 					"name"            : "Savage Labyrinth Floor 50",
 					"item_count"      : 1,
-					"capture_item": true,
+					"capture_item"    : true,
 					"capture_item_layout": "shop_item_grid",
 					"access_rules"    : [
 			                  "aiOiCave,@can_salvage_floor_30,@can_aim_mirror_shield,@can_defeat_blue_bubbles,@can_defeat_dark_chuchus,@can_defeat_poes,@can_defeat_redeads,@can_defeat_stalfos,hammer",
 			                  "aiOiCave,@can_salvage_floor_30,@can_aim_mirror_shield,logic_tricked,[logic_complex],hookshot,boots",
-											"{}" ],
+			                  "{aiOiCave}" ],
 					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,aiOiCave,locale_savage" ]
 				}],
 		"map_locations": [
@@ -5129,9 +5209,8 @@
 				"map": "map",
 				"x"  : 662,
 				"y"  : 984
-			},
-		],
-		"access_rules": [ "locale_angular_isles" ]
+			}
+		]
 	},
 
 	{
@@ -5772,7 +5851,7 @@
 				"item_count"      : 1,
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_bp",
-				"access_rules"    : [ "@can_access_secret_cave_entrance_on_dragon_roost_island" ],
+				"access_rules"    : [ "@can_access_secret_cave_entrance_on_birds_peak_rock" ],
 				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
@@ -6563,8 +6642,8 @@
 		"sections"     : [			{
 				"name"            : "Ankle",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_travel_to_tingle_island,statue5,statue5,statue5,statue5,statue5" ],
-				"visibility_rules": [ "statues," ]
+				"access_rules"    : [ "@can_travel_to_tingle_island,statue5" ],
+				"visibility_rules": [ "misc" ]
 			}],
 		"map_locations": [
 			{
@@ -6952,8 +7031,8 @@
 		"map_locations": [
 			{
 				"map": "map",
-				"x"  : 806,
-				"y"  : 680
+				"x"  : 816,
+				"y"  : 650
 			},
 		]
 	},
@@ -6969,8 +7048,8 @@
 		"map_locations": [
 			{
 				"map": "map",
-				"x"  : 334,
-				"y"  : 76
+				"x"  : 789,
+				"y"  : 700
 			},
 		],
 		"access_rules": [ "locale_bomb_island" ]
@@ -7181,21 +7260,27 @@
 		"sections"     : [			{
 				"name"            : "500 Rupees",
 				"item_count"      : 1,
-				"access_rules"    : [ "wallet,@can_farm_lots_of_rupees,@can_travel_to_rock_spire_isle", "{}" ],
+				"access_rules"    : [ "wallet,@can_farm_lots_of_rupees,@can_travel_to_rock_spire_isle",
+					                    "{@can_travel_to_any_island}",
+				                      "{@Mailbox/Rock Spire Ad}" ],
 				"capture_item": true,
 				"capture_item_layout": "shop_item_grid",
 				"visibility_rules": [ "expensive," ]
 			},			{
 				"name"            : "950 Rupees",
 				"item_count"      : 1,
-				"access_rules"    : [ "wallet,@can_farm_lots_of_rupees,@can_travel_to_rock_spire_isle", "{}" ],
+				"access_rules"    : [ "wallet,@can_farm_lots_of_rupees,@can_travel_to_rock_spire_isle",
+					                    "{@can_travel_to_any_island}",
+				                      "{@Mailbox/Rock Spire Ad}" ],
 				"capture_item": true,
 				"capture_item_layout": "shop_item_grid",
 				"visibility_rules": [ "expensive," ]
 			},			{
 				"name"            : "900 Rupees",
 				"item_count"      : 1,
-				"access_rules"    : [ "wallet,@can_farm_lots_of_rupees,@can_travel_to_rock_spire_isle", "{}" ],
+				"access_rules"    : [ "wallet,@can_farm_lots_of_rupees,@can_travel_to_rock_spire_isle",
+					                    "{@can_travel_to_any_island}",
+				                      "{@Mailbox/Rock Spire Ad}" ],
 				"capture_item": true,
 				"capture_item_layout": "shop_item_grid",
 				"visibility_rules": [ "expensive," ]
@@ -7619,13 +7704,8 @@
 				"name"            : "Highest Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas",
-		                  "@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas,logic_tricked,[logic_complex]",
-		                  "@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas,logic_tricked,[logic_complex]",
-		                  "@can_access_cliff_plateau_isles_secret_cave,logic_tricked,[logic_complex]",
-		                  "@can_defeat_boko_babas,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex]",
-		                  "@can_defeat_boko_babas,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex]",
-		                  "@can_defeat_boko_babas,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex]",
+		                  "@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas,standard_entrance,leaf",
+		                  "@can_access_cliff_plateau_isles_secret_cave,logic_tricked,[logic_glitched],standard_entrance",
 		                  "@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex]",
 										  "driCpCave,[leaf],[@can_defeat_boko_babas]",
 											"picCpCave,[leaf],[@can_defeat_boko_babas]",
@@ -8247,7 +8327,7 @@
 		"map_locations": [
 			{
 				"map": "map",
-				"x"  : 883,
+				"x"  : 843,
 				"y"  : 110
 			},
 		],
@@ -9613,6 +9693,106 @@
 		],
 		"access_rules": [ "locale_five_star_isles" ]
 	},
+	{
+		"name": "Dragon Roost Island Dungeon Entrance",
+		"sections": [
+			{
+				"name"              : "Completed Dungeon",
+				"item_count"        : ,
+				"chest_unopened_img": "images/Freestanding/Heart Container.png",
+				"chest_opened_img"  : "images/Freestanding/Collected Heart Container.png",
+				"access_rules"      : [ "@can_access_dungeon_entrance_on_dragon_roost_island" ],
+				"visibility_rules"  : [ "dungeons" ]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map",
+				"x"  : 813,
+				"y"  : 229
+			}
+		]
+	},
+	{
+		"name"              : "Forest Haven Dungeon Entrance",
+		"sections": [
+			{
+				"name"              : "Completed Dungeon",
+				"item_count"        : 1,
+				"chest_unopened_img": "images/Freestanding/Heart Container.png",
+				"chest_opened_img"  : "images/Freestanding/Collected Heart Container.png",
+				"access_rules"      : [ "@can_access_dungeon_entrance_in_forest_haven_sector" ],
+				"visibility_rules"  : [ "dungeons" ]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map",
+				"x"  : 763,
+				"y"  : 842
+			}
+		]
+	},
+	{
+		"name"              : "Tower of the Gods Dungeon Entrance",
+		"sections": [
+			{
+				"name"              : "Completed Dungeon",
+				"item_count"        : 1,
+				"chest_unopened_img": "images/Freestanding/Heart Container.png",
+				"chest_opened_img"  : "images/Freestanding/Collected Heart Container.png",
+				"access_rules"      : [ "@can_access_dungeon_entrance_in_tower_of_the_gods_sector" ],
+				"visibility_rules"  : [ "dungeons" ]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map",
+				"x"  : 660,
+				"y"  : 513
+			}
+		]
+	},
+	{
+		"name": "Headstone Dungeon Entrance",
+		"sections": [
+			{
+				"name"              : "Completed Dungeon",
+				"item_count"      : 1,
+				"chest_unopened_img": "images/Freestanding/Heart Container.png",
+				"chest_opened_img"  : "images/Freestanding/Collected Heart Container.png",
+				"access_rules"      : [ "@can_access_dungeon_entrance_on_headstone_island" ],
+				"visibility_rules"  : [ "dungeons" ]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map",
+				"x"  : 395,
+				"y"  : 995
+			}
+		]
+	},
+	{
+		"name": "Gale Isle Dungeon Entrance",
+		"sections": [
+			{
+				"name"              : "Completed Dungeon",
+				"item_count"      : 1,
+				"chest_unopened_img": "images/Freestanding/Heart Container.png",
+				"chest_opened_img"  : "images/Freestanding/Collected Heart Container.png",
+				"access_rules"      : ["@can_access_dungeon_entrance_on_gale_isle" ],
+				"visibility_rules"  : [ "dungeons" ]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map",
+				"x"  : 537,
+				"y"  : 48
+			}
+		]
+	}
 ]
 /*
 	{

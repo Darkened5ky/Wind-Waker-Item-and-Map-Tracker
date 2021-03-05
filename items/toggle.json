@@ -155,9 +155,9 @@
 		"name": "Minigames",
 		"type": "toggle",
 		"img": "images/toggles/ToggleMinigames.png",
-		"codes": "shortminigames",
+		"codes": "minigames",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
-		"disabled_img": "images/toggles/ToggleShortMinigames.png",
+		"disabled_img": "images/toggles/ToggleMinigames.png",
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{

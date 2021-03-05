@@ -1789,121 +1789,121 @@
       "name": "Mysterious Combat Cave",
       "type": "toggle",
       "img": "images/entrances/dragon.png",
-      "codes": "rsiCaves,rsirsirsiDriCave"
+      "codes": "rsiCaves,rsiDriCave"
     },
     {
       "name": "Firey Cave",
       "type": "toggle",
       "img": "images/entrances/fire.png",
-      "codes": "rsiCaves,rsirsirsirsirsiFmCave"
+      "codes": "rsiCaves,rsiFmCave"
     },
     {
       "name": "Icey Cavern",
       "type": "toggle",
       "img": "images/entrances/ice.png",
-      "codes": "rsiCaves,rsirsirsirsirsiIrCave"
+      "codes": "rsiCaves,rsiIrCave"
     },
     {
       "name": "Cabana Maze",
       "type": "toggle",
       "img": "images/entrances/private.png",
-      "codes": "rsiCaves,rsirsirsirsirsiPoCave"
+      "codes": "rsiCaves,rsiPoCave"
     },
     {
       "name": "5-Torches Wreck",
       "type": "toggle",
       "img": "images/entrances/needle.png",
-      "codes": "rsiCaves,rsirsirsirsirsiNrCave"
+      "codes": "rsiCaves,rsiNrCave"
     },
     {
       "name": "Light Puzzle Cave",
       "type": "toggle",
       "img": "images/entrances/angular.png",
-      "codes": "rsiCaves,rsirsirsirsirsiAiCave"
+      "codes": "rsiCaves,rsiAiCave"
     },
     {
       "name": "3-Diamond Switches",
       "type": "toggle",
       "img": "images/entrances/boating_course.png",
-      "codes": "rsiCaves,rsirsirsirsirsiBcCave"
+      "codes": "rsiCaves,rsiBcCave"
     },
     {
       "name": "Easy Combat Trial",
       "type": "toggle",
       "img": "images/entrances/stone.png",
-      "codes": "rsiCaves,rsirsirsirsirsiSwCave"
+      "codes": "rsiCaves,rsiSwCave"
     },
     {
       "name": "Hard Combat Trial",
       "type": "toggle",
       "img": "images/entrances/overlook.png",
-      "codes": "rsiCaves,rsirsirsirsirsiOlCave"
+      "codes": "rsiCaves,rsiOlCave"
     },
     {
       "name": "Wind's Requiem Cave",
       "type": "toggle",
       "img": "images/entrances/bird.png",
-      "codes": "rsiCaves,rsirsirsirsirsiBpCave"
+      "codes": "rsiCaves,rsiBpCave"
     },
     {
       "name": "Chuchu Cave",
       "type": "toggle",
       "img": "images/entrances/chuchu_cave.png",
-      "codes": "rsiCaves,rsirsirsirsirsiPicCave"
+      "codes": "rsiCaves,rsiPicCave"
     },
     {
       "name": "Wizzrobe Cave",
       "type": "toggle",
       "img": "images/entrances/wizzrobe.png",
-      "codes": "rsiCaves,rsirsirsirsirsiPiwCave"
+      "codes": "rsiCaves,rsiPiwCave"
     },
     {
       "name": "Warp-Pot Maze",
       "type": "toggle",
       "img": "images/entrances/diamond_steppe.png",
-      "codes": "rsiCaves,rsirsirsirsirsiDsCave"
+      "codes": "rsiCaves,rsiDsCave"
     },
     {
       "name": "Magtail Cave",
       "type": "toggle",
       "img": "images/entrances/bomb.png",
-      "codes": "rsiCaves,rsirsirsirsirsiBiCave"
+      "codes": "rsiCaves,rsiBiCave"
     },
     {
       "name": "Keese Cave",
       "type": "toggle",
       "img": "images/entrances/rock.png",
-      "codes": "rsiCaves,rsirsirsirsirsiRsiCave"
+      "codes": "rsiCaves,rsiRsiCave"
     },
     {
       "name": "Enemy Hell",
       "type": "toggle",
       "img": "images/entrances/shark.png",
-      "codes": "rsiCaves,rsirsirsirsirsiShiCave"
+      "codes": "rsiCaves,rsiShiCave"
     },
     {
       "name": "Floating Plants Cavern",
       "type": "toggle",
       "img": "images/entrances/cliff.png",
-      "codes": "rsiCaves,rsirsirsirsirsiCpCave"
+      "codes": "rsiCaves,rsiCpCave"
     },
     {
       "name": "Mothula Cave",
       "type": "toggle",
       "img": "images/entrances/horse.png",
-      "codes": "rsiCaves,rsirsirsirsirsiHiCave"
+      "codes": "rsiCaves,rsiHiCave"
     },
     {
       "name": "Short Combat Cave",
       "type": "toggle",
       "img": "images/entrances/star.png",
-      "codes": "rsiCaves,rsirsirsirsirsiStiCave"
+      "codes": "rsiCaves,rsiStiCave"
     },
     {
       "name": "Savage Labyrinth",
       "type": "toggle",
       "img": "images/entrances/savage.png",
-      "codes": "rsiCaves,rsirsirsiOiCave"
+      "codes": "rsiCaves,rsiOiCave"
     },
 	{
 		"name": "ShI Grotto",
