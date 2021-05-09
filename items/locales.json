@@ -820,4 +820,19 @@
 		"codes": "locale_savage"
 	},
 
+	{
+		"name": "Pictobox",
+		"type": "toggle",
+		"initial_active_state": true,
+		"img"  : "images/locale/picto.png",
+		"codes": "locale_picto"
+	},
+	{
+		"name": "dv_im",
+		"type": "toggle",
+		"initial_active_state": true,
+		"img"  : "images/locale/dv_im.png",
+		"codes": "locale_dvim"
+	},
+
 ]

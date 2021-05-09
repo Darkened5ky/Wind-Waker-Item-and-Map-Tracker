@@ -117,7 +117,7 @@
 
 	{
 		"name": "tingle_tuner_bombs",
-		"access_rules": [ "bombs" ],
+		"access_rules": [ "bombs", "bomb60", "bomb90" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -2007,7 +2007,7 @@
 				"name"            : "Orca 500 Hits",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_sword_fight_with_orca" ],
-				"visibility_rules": [ "longminigames,longtrials," ]
+				"visibility_rules": [ "longminigames,longtrials,locale_dvim" ]
 			},			{
 				"name"            : "Great Fairy",
 				"item_count"      : 1,
@@ -2031,6 +2031,44 @@
 				"item_count"      : 1,
 				"access_rules"    : [ "baitbag,@can_travel_to_outset_island,power" ],
 				"visibility_rules": [ "islandpuzzle," ]
+			},			{
+				"name"            : "Above Aryll's Lookout",
+				"item_count"      : 1,
+				"access_rules"    : [ "baitbag,@can_travel_to_outset_island" ],
+				"visibility_rules": [ "gifts,locale_dvim" ]
+			},			{
+				"name"            : "On Grandma's Roof",
+				"item_count"      : 1,
+				"access_rules"    : [ "baitbag,@can_travel_to_outset_island" ],
+				"visibility_rules": [ "gifts,locale_dvim" ]
+			},			{
+				"name"            : "Above Water Basin",
+				"item_count"      : 1,
+				"access_rules"    : [ "baitbag,@can_travel_to_outset_island" ],
+				"visibility_rules": [ "gifts,locale_dvim" ]
+			},			{
+				"name"            : "Near Water Basin",
+				"item_count"      : 1,
+				"access_rules"    : [ "@can_cut_down_outset_trees,@can_travel_to_outset_island" ],
+				"visibility_rules": [ "gifts,locale_dvim" ]
+			},			{
+				"name"            : "On Mesa's Roof",
+				"item_count"      : 1,
+				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
+				                      "leaf,@can_travel_to_outset_island",
+														  "[logic_tricked],@can_travel_to_outset_island" ],
+				"visibility_rules": [ "gifts,locale_dvim" ]
+			},			{
+				"name"            : "Path to Fairy Woods",
+				"item_count"      : 1,
+				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
+				                      "leaf,@can_travel_to_outset_island" ],
+				"visibility_rules": [ "gifts,locale_dvim" ]
+			},			{
+				"name"            : "Platforming Across Rocks",
+				"item_count"      : 2,
+				"access_rules"    : [ "@can_travel_to_outset_island" ],
+				"visibility_rules": [ "gifts,locale_dvim" ]
 			}],
 		"map_locations": [
 			{
@@ -2305,7 +2343,7 @@
 				"name"            : "Minenco the former Miss Windfall",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_windfall_island,pic2" ],
-				"visibility_rules": [ "shortsidequests," ]
+				"visibility_rules": [ "shortsidequests,locale_picto" ]
 			}],
 		"map_locations": [
 			{
@@ -2324,22 +2362,27 @@
 				"name"            : "Lenzo the Photographer's Assistant",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_windfall_island,pic1" ],
-				"visibility_rules": [ "longsidequests,longsidequests," ]
+				"visibility_rules": [ "longsidequests,longsidequests,locale_picto" ]
 			},			{
 				"name"            : "Lenzo the Picto Technician",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_access_forest_haven,@can_travel_to_windfall_island,bottle,pic1" ],
-				"visibility_rules": [ "longsidequests,longsidequests," ]
+				"visibility_rules": [ "longsidequests,longsidequests,locale_picto" ]
 			},			{
 				"name"            : "Linda & Anton the Couple",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_play_song_of_passing,@can_travel_to_windfall_island,pic2" ],
-				"visibility_rules": [ "longsidequests," ]
+				"visibility_rules": [ "longsidequests,locale_picto" ]
 			},			{
 				"name"            : "Zunari the Trader",
 				"item_count"      : 1,
+				"access_rules"    : [ "@can_travel_to_windfall_island,@can_travel_to_greatfish_isle,delivery,@rescued_aryll,[eflower]" ],
+				"visibility_rules": [ "shortsidequests,tflower" ]
+			},			{
+				"name"            : "Get Town Flower from Zunari",
+				"hosted_item"     : "tflower",
 				"access_rules"    : [ "@can_travel_to_windfall_island,@can_travel_to_greatfish_isle,delivery,@rescued_aryll" ],
-				"visibility_rules": [ "shortsidequests," ]
+				"visibility_rules": [ "shortsidequests,no_trade", "longsidequests,no_trade" ]
 			},			{
 				"name"            : "Sam the Content",
 				"item_count"      : 1,
@@ -2349,14 +2392,14 @@
 				"name"            : "Kane the Decorator",
 				"item_count"      : 4,
 				"access_rules"    : [ "@can_travel_to_windfall_island,@can_travel_to_greatfish_isle,@can_travel_to_bomb_island,@can_travel_to_child_isle,delivery,@rescued_aryll" ],
-				"visibility_rules": [ "longsidequests,expensive,logic_tricked,[logic_complex]," ]
+				"visibility_rules": [ "longsidequests,expensive,logic_tricked,[logic_complex],locale_dvim" ]
 			},			{
 				"name"            : "Kamo the former Sailor",
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_play_song_of_passing,@can_travel_to_windfall_island,pic2",
 		                  "@can_travel_to_windfall_island,logic_tricked,[logic_complex],pic2", ],
-				"visibility_rules": [ "longsidequests," ]
+				"visibility_rules": [ "longsidequests,locale_picto" ]
 			},			{
 				"name"            : "15 Green Chu Jelly",
 				"item_count"      : 1,
@@ -2407,27 +2450,27 @@
 				"name"            : "Tott the Dancer",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_windfall_island,windwaker" ],
-				"visibility_rules": [ "misc," ]
+				"visibility_rules": [ "misc,locale_windfall_island" ]
 			},			{
 				"name"            : "Tingle the Prisoner",
 				"item_count"      : 2,
 				"access_rules"    : [ "@can_travel_to_windfall_island" ],
-				"visibility_rules": [ "gifts," ]
+				"visibility_rules": [ "gifts,locale_windfall_island" ]
 			},			{
 				"name"            : "Jail Maze",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_windfall_island" ],
-				"visibility_rules": [ "islandpuzzle," ]
+				"visibility_rules": [ "islandpuzzle,locale_windfall_island" ]
 			},			{
 				"name"            : "House of Wealth Chest",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_windfall_island" ],
-				"visibility_rules": [ "gifts," ]
+				"visibility_rules": [ "gifts,locale_windfall_island" ]
 			},			{
 				"name"            : "Pirate Ship",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_windfall_island" ],
-				"visibility_rules": [ "shortminigames," ]
+				"visibility_rules": [ "shortminigames,locale_windfall_island" ]
 			},			{
 				"name"            : "5 Rupee Auction",
 				"item_count"      : 1,
@@ -2435,7 +2478,7 @@
 				                      "{@can_travel_to_windfall_island}" ],
 				"capture_item"    : true,
 				"capture_item_layout" : "shop_item_grid",
-				"visibility_rules": [ "expensive,shortminigames," ]
+				"visibility_rules": [ "expensive,shortminigames,locale_windfall_island" ]
 			},			{
 				"name"            : "40 Rupee Auction",
 				"item_count"      : 1,
@@ -2443,7 +2486,7 @@
 				                      "{@can_travel_to_windfall_island}" ],
 				"capture_item"    : true,
 				"capture_item_layout" : "shop_item_grid",
-				"visibility_rules": [ "expensive,shortminigames," ]
+				"visibility_rules": [ "expensive,shortminigames,locale_windfall_island" ]
 			},			{
 				"name"            : "60 Rupee Auction",
 				"item_count"      : 1,
@@ -2451,7 +2494,7 @@
 				                      "{@can_travel_to_windfall_island}" ],
 				"capture_item"    : true,
 				"capture_item_layout" : "shop_item_grid",
-				"visibility_rules": [ "expensive,longminigames," ]
+				"visibility_rules": [ "expensive,longminigames,locale_windfall_island" ]
 			},			{
 				"name"            : "80 Rupee Auction",
 				"item_count"      : 1,
@@ -2459,7 +2502,7 @@
 				                      "{@can_travel_to_windfall_island}" ],
 				"capture_item"    : true,
 				"capture_item_layout" : "shop_item_grid",
-				"visibility_rules": [ "expensive,longminigames," ]
+				"visibility_rules": [ "expensive,longminigames,locale_windfall_island" ]
 			},			{
 				"name"            : "Sploosh Kaboom First Prize",
 				"item_count"      : 1,
@@ -2484,12 +2527,30 @@
 			},
 		],
 		"color": "tomato",
-		"access_rules": [ "locale_windfall_island" ]
+		"access_rules": [ "" ]
 	},
 
 	{
 		"name"         : "Dragon Roost Island",
 		"sections"     : [			{
+				"name"            : "Freestanding in the Wading Pool",
+				"item_count"      : 6,
+				"access_rules"    : [ "@can_travel_to_dragon_roost_island" ],
+				"visibility_rules": [ "gifts,locale_dragon_roost_island,locale_dvim" ]
+			},			{
+				"name"            : "Freestanding on Drop Ledge",
+				"item_count"      : 1,
+				"access_rules"    : [ "@can_travel_to_dragon_roost_island" ],
+				"visibility_rules": [ "gifts,locale_dragon_roost_island,locale_dvim" ]
+			},			{
+				"name"            : "Freestanding on Drop Ledge",
+				"item_count"      : 1,
+				"capture_item"    : true,
+				"capture_item_layout": "shop_item_grid",
+				"access_rules"    : [ "@can_travel_to_dragon_roost_island,{}",
+				                      "@can_travel_to_dragon_roost_island,grapple" ],
+				"visibility_rules": [ "gifts,locale_dragon_roost_island,locale_dvim" ]
+			},			{
 				"name"            : "Wind Shrine",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_dragon_roost_island,windwaker" ],
@@ -2926,6 +2987,16 @@
 				"access_rules"    : [ "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf" ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
+				"name"            : "Bomb Leaf Pile",
+				"item_count"      : 1,
+				"access_rules"    : [ "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,@tingle_tuner_bombs" ],
+				"visibility_rules": [ "dungeons,statues,locale_dvim" ]
+			},			{
+				"name"            : "Freestanding in Hub Room",
+				"item_count"      : 5,
+				"access_rules"    : [ "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,@tingle_tuner_bombs" ],
+				"visibility_rules": [ "dungeons,statues,locale_dvim" ]
+			},			{
 				"name"            : "Morth Pit",
 				"item_count"      : 1,
 				"access_rules"    : [
@@ -2964,6 +3035,14 @@
 		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,logic_tricked,[logic_complex],leaf,fw_key:1",
 		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,leaf,fw_key:1,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
 				"visibility_rules": [ "dungeons," ]
+			},			{
+				"name"            : "Mothula Freestanding Items",
+				"item_count"      : 8,
+				"access_rules"    : [
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,leaf,fw_key:1,grapple",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,logic_tricked,[logic_complex],leaf,fw_key:1",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,leaf,fw_key:1,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
+				"visibility_rules": [ "dungeons,locale_dvim" ]
 			},			{
 				"name"            : "Past Seeds Hanging by Vines",
 				"item_count"      : 1,
@@ -3051,6 +3130,43 @@
 		                  "@can_fly_with_deku_leaf_outdoors,@can_travel_to_greatfish_isle",
 		                  "@can_door_cancel,@can_play_fish_minigame,@can_travel_to_greatfish_isle,logic_tricked,[logic_complex],hookshot", ],
 				"visibility_rules": [ "islandpuzzle," ]
+			},			{
+				"name"            : "Trade for Sea Flower",
+				"hosted_item"     : "sflower",
+				"access_rules"    : [ "@can_travel_to_greatfish_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "shortsidequests,tflower", "longsidequests,tflower",
+				                      "shortsidequests,eflower", "longsidequests,eflower" ]
+			},			{
+				"name"            : "Trade for Exotic Flower",
+				"hosted_item"     : "eflower",
+				"access_rules"    : [ "@can_travel_to_greatfish_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "shortsidequests,sflower", "longsidequests,sflower",
+				                      "longsidequests,pinwheel"  ]
+			},			{
+				"name"            : "Trade for Fountain Idol",
+				"hosted_item"     : "fidol",
+				"access_rules"    : [ "@can_travel_to_greatfish_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,smflag", "longsidequests,bcflag", "longsidequests,stidol", "longsidequests,pstatue" ]
+			},			{
+				"name"            : "Trade for Skull Tower Idol",
+				"hosted_item"     : "stidol",
+				"access_rules"    : [ "@can_travel_to_greatfish_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,fidol" ]
+			},			{
+				"name"            : "Trade for Hero's Flag",
+				"hosted_item"     : "hflag",
+				"access_rules"    : [ "@can_travel_to_greatfish_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,bsflag" ]
+			},			{
+				"name"            : "Trade for Postman Statue",
+				"hosted_item"     : "pstatue",
+				"access_rules"    : [ "@can_travel_to_greatfish_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,hflag" ]
+			},			{
+				"name"            : "Trade for Postman Statue",
+				"hosted_item"     : "pstatue",
+				"access_rules"    : [ "@can_travel_to_greatfish_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,hflag" ]
 			}],
 		"map_locations": [
 			{
@@ -3340,6 +3456,46 @@
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_mother_isle" ],
 				"visibility_rules": [ "misc," ]
+			},			{
+				"name"            : "Trade for Sea Flower",
+				"hosted_item"     : "sflower",
+				"access_rules"    : [ "@can_travel_to_child_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "shortsidequests,tflower", "longsidequests,tflower" ]
+			},			{
+				"name"            : "Trade for Town Flower",
+				"hosted_item"     : "tflower",
+				"access_rules"    : [ "@can_travel_to_child_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "shortsidequests,sflower", "longsidequests,sflower" ]
+			},			{
+				"name"            : "Trade for Pinwheel",
+				"hosted_item"     : "pinwheel",
+				"access_rules"    : [ "@can_travel_to_child_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,eflower" ]
+			},			{
+				"name"            : "Trade for Exotic Flower",
+				"hosted_item"     : "eflower",
+				"access_rules"    : [ "@can_travel_to_child_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,pinwheel" ]
+			},			{
+				"name"            : "Trade for Big Catch Flag",
+				"hosted_item"     : "bdflag",
+				"access_rules"    : [ "@can_travel_to_child_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,smflag", "shortsidequests,bsflag" ]
+			},			{
+				"name"            : "Trade for Sickle Moon Flag",
+				"hosted_item"     : "smflag",
+				"access_rules"    : [ "@can_travel_to_child_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,bcflag" ]
+			},			{
+				"name"            : "Trade for Big Sale Flag",
+				"hosted_item"     : "bsflag",
+				"access_rules"    : [ "@can_travel_to_child_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,fidol", "longsidequests,stidol", "longsidequests,hflag" ]
+			},			{
+				"name"            : "Trade for Shop Guru Statue",
+				"hosted_item"     : "sgstatue",
+				"access_rules"    : [ "@can_travel_to_child_isle,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,pstatue" ]
 			}],
 		"map_locations": [
 			{
@@ -3779,8 +3935,12 @@
 		                  "baitbag,@can_travel_to_headstone_island",
 		                  "@can_door_cancel,@can_travel_to_headstone_island,logic_tricked,[logic_complex],leaf",
 										"{}" ],
-				"visibility_rules": [ "islandpuzzle," ]
-			}],
+				"visibility_rules": [ "islandpuzzle,locale_dvim" ]
+			},			{
+					"name"            : "Dungeon Entrance",
+					"access_rules"    : [ "@can_access_dungeon_entrance_on_headstone_island" ],
+					"visibility_rules": [ "misc," ]
+				}],
 		"map_locations": [
 			{
 				"map": "map",
@@ -3836,7 +3996,7 @@
 				"access_rules"    : [
 		                  "boomerang,@can_access_earth_temple,@can_play_command_melody,firearrow",
 		                  "@can_access_earth_temple,@can_play_command_melody,firearrow,hookshot", ],
-				"visibility_rules": [ "statues,dungeons," ]
+				"visibility_rules": [ "statues,dungeons,locale_dvim" ]
 			},			{
 				"name"            : "Transparent Chest in First Crypt",
 				"item_count"      : 1,
@@ -3927,7 +4087,7 @@
 		                  "bombs,@can_aim_mirror_shield,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,firearrow,hookshot",
 		                  "@can_aim_mirror_shield,@can_get_into_earth_temple,@can_play_earth_gods_lyric,logic_tricked,[logic_complex],leaf,firearrow",
 		                  "bombs,@can_aim_mirror_shield,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,firearrow", ],
-				"visibility_rules": [ "statues,dungeons," ]
+				"visibility_rules": [ "statues,dungeons,locale_dvim" ]
 			},			{
 				"name"            : "Chest in Third Crypt",
 				"item_count"      : 1,
@@ -4115,6 +4275,26 @@
 	},
 
 	{
+		"name"         : "Gale Isle",
+		"sections"     : [
+			{
+				"name": "Dungeon Entrance",
+				"item_count": 1,
+				"access_rules": [ "@can_access_dungeon_entrance_on_gale_isle" ],
+				"visibility_rules": [ "misc,locale_dvim" ]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "map",
+				"x"  : 537,
+				"y"  : 28
+			},
+		],
+		"access_rules": [ "et_true,[@can_access_earth_temple]" ]
+	},
+
+	{
 		"name"         : "Wind Temple",
 		"sections"     : [			{
         "name": "Small Keys",
@@ -4142,6 +4322,13 @@
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_access_wind_temple_basement" ],
 				"visibility_rules": [ "dungeons," ]
+			},			{
+				"name"            : "Break Left Panel",
+				"item_count"      : 3,
+				"access_rules"    : [
+		                  "@can_access_wind_temple,@can_play_command_melody,leaf,boots",
+		                  "@can_access_wind_temple,@can_play_command_melody,@can_spring_storage,firearrow,boots", ],
+				"visibility_rules": [ "dungeons,statues,locale_dvim" ]
 			},			{
 				"name"            : "Chest in Left Alcove",
 				"item_count"      : 1,
@@ -4455,8 +4642,8 @@
 		"sections"     : [			{
 				"name"            : "Quest Reward",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_travel_to_any_island,delivery,@rescued_aryll" ],
-				"visibility_rules": [ "longsidequests,expensive," ]
+				"access_rules"    : [ "@can_travel_to_any_island,delivery,@rescued_aryll,[sgstatue]" ],
+				"visibility_rules": [ "longsidequests,expensive" ]
 			}],
 		"map_locations": [
 			{
@@ -6858,6 +7045,36 @@
 	{
 		"name"         : "Bomb Island",
 		"sections"     : [			{
+			"name"            : "Trade for Sea Flower",
+			"hosted_item"     : "sflower",
+			"access_rules"    : [ "@can_travel_to_bomb_island,delivery,@rescued_aryll" ],
+			"visibility_rules": [ "shortsidequests,tflower", "longsidequests,tflower" ]
+			},			{
+				"name"            : "Trade for Town Flower",
+				"hosted_item"     : "tflower",
+				"access_rules"    : [ "@can_travel_to_bomb_island,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "shortsidequests,sflower", "longsidequests,sflower" ]
+			},			{
+				"name"            : "Trade for Sickle Moon Flag",
+				"hosted_item"     : "smflag",
+				"access_rules"    : [ "@can_travel_to_bomb_island,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,eflower", "longsidequests,pinwheel", "fidol" ]
+			},			{
+				"name"            : "Trade for Fountain Idol",
+				"hosted_item"     : "fidol",
+				"access_rules"    : [ "@can_travel_to_bomb_island,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,smflag", "longsidequests,bcflag", "longsidequests,stidol", "longsidequests,pstatue" ]
+			},			{
+				"name"            : "Trade for Hero's Flag",
+				"hosted_item"     : "hflag",
+				"access_rules"    : [ "@can_travel_to_bomb_island,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,bsflag" ]
+			},			{
+				"name"            : "Trade for Big Catch Flag",
+				"hosted_item"     : "bcflag",
+				"access_rules"    : [ "@can_travel_to_bomb_island,delivery,@rescued_aryll" ],
+				"visibility_rules": [ "longsidequests,hflag" ]
+			},			{
 				"name"            : "Cave",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_access_bomb_island_secret_cave,@can_stun_magtails" ],
