@@ -23,7 +23,7 @@
 	{
 		"name": "Short Sidequests",
 		"type": "toggle",
-    "initial_active_state": false,
+    "initial_active_state": true,
 		"img": "images/toggles/ToggleShortSidequests.png",
 		"codes": "shortsidequests",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
@@ -163,10 +163,10 @@
 	{
 		"name": "Short Minigames",
 		"type": "toggle",
-		"img": "images/toggles/ToggleMinigames.png",
+		"img": "images/toggles/ToggleShortMinigames.png",
 		"codes": "shortminigames",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
-		"disabled_img": "images/toggles/ToggleMinigames.png",
+		"disabled_img": "images/toggles/ToggleShortMinigames.png",
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
   {
@@ -217,10 +217,10 @@
 	{
 		"name": "Odd Dungeon Checks",
 		"type": "toggle",
-		"img": "images/toggles/ToggleStatues.png",
+		"img": "images/toggles/ToggleOdd.png",
 		"codes": "statues",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
-		"disabled_img": "images/toggles/ToggleStatues.png",
+		"disabled_img": "images/toggles/ToggleOdd.png",
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{

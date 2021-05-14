@@ -26,7 +26,7 @@
           ]
         },
         {
-          "name": "Simplified Horizontal Tracker",
+          "name": "Condensed Horizontal Tracker",
           "flags":
           [
             "map",
@@ -35,7 +35,16 @@
           ]
         },
         {
-          "name": "Simplified Vertical Tracker",
+          "name": "Condensed Vertical Tracker",
+          "flags":
+          [
+            "map",
+            "pins",
+            "chathud"
+          ]
+        },
+        {
+          "name": "dv_im Map / Item Tracker",
           "flags":
           [
             "map",
