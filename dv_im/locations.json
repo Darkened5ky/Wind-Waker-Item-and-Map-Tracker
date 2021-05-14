@@ -193,7 +193,8 @@
 
 	{
 		"name": "can_access_forbidden_woods",
-		"access_rules": [ "@can_access_dungeon_entrance_in_forest_haven_sector" ],
+		"access_rules": [ "@can_access_dungeon_entrance_in_forest_haven_sector",
+		                  "@can_access_dungeon_entrance_on_dragon_roost_island,[@can_access_dungeon_entrance_in_forest_haven_sector]" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -208,13 +209,15 @@
 
 	{
 		"name": "can_access_tower_of_the_gods",
-		"access_rules": [ "@can_access_dungeon_entrance_in_tower_of_the_gods_sector" ],
+		"access_rules": [ "@can_access_dungeon_entrance_in_tower_of_the_gods_sector",
+		                  "@can_access_dungeon_entrance_on_dragon_roost_island,[@can_access_dungeon_entrance_in_tower_of_the_gods_sector]" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
 	{
 		"name": "can_access_earth_temple",
-		"access_rules": [ "@can_access_dungeon_entrance_on_headstone_island" ],
+		"access_rules": [ "@can_access_dungeon_entrance_on_headstone_island",
+			                "@can_access_dungeon_entrance_on_dragon_roost_island,[@can_access_dungeon_entrance_on_headstone_island]" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -234,7 +237,8 @@
 
 	{
 		"name": "can_access_wind_temple",
-		"access_rules": [ "@can_access_dungeon_entrance_on_gale_isle" ],
+		"access_rules": [ "@can_access_dungeon_entrance_on_gale_isle",
+		                  "@can_access_dungeon_entrance_on_dragon_roost_island,[@can_access_dungeon_entrance_on_gale_isle]" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -2033,18 +2037,28 @@
 				"visibility_rules": [ "islandpuzzle," ]
 			},			{
 				"name"            : "Above Aryll's Lookout",
+				"capture_item": true,
+				"capture_item_layout": "shop_item_grid",
 				"item_count"      : 1,
-				"access_rules"    : [ "baitbag,@can_travel_to_outset_island" ],
+				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
+				                      "@can_fly_with_deku_leaf_outdoors,@can_cut_or_slash,@cantravecan_travel_to_outset_island" ],
 				"visibility_rules": [ "gifts,locale_dvim" ]
 			},			{
 				"name"            : "On Grandma's Roof",
+				"capture_item": true,
+				"capture_item_layout": "shop_item_grid",
 				"item_count"      : 1,
-				"access_rules"    : [ "baitbag,@can_travel_to_outset_island" ],
+				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
+				                      "@can_fly_with_deku_leaf_outdoors,@can_cut_or_slash,@cantravecan_travel_to_outset_island" ],
 				"visibility_rules": [ "gifts,locale_dvim" ]
 			},			{
 				"name"            : "Above Water Basin",
+				"capture_item": true,
+				"capture_item_layout": "shop_item_grid",
 				"item_count"      : 1,
-				"access_rules"    : [ "baitbag,@can_travel_to_outset_island" ],
+				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
+				                      "@can_fly_with_deku_leaf_outdoors,@can_cut_or_slash,@cantravecan_travel_to_outset_island",
+														  "hookshot,@can_travel_to_outset_island" ],
 				"visibility_rules": [ "gifts,locale_dvim" ]
 			},			{
 				"name"            : "Near Water Basin",
@@ -2053,6 +2067,8 @@
 				"visibility_rules": [ "gifts,locale_dvim" ]
 			},			{
 				"name"            : "On Mesa's Roof",
+				"capture_item": true,
+				"capture_item_layout": "shop_item_grid",
 				"item_count"      : 1,
 				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
 				                      "leaf,@can_travel_to_outset_island",
@@ -3134,8 +3150,7 @@
 				"name"            : "Trade for Sea Flower",
 				"hosted_item"     : "sflower",
 				"access_rules"    : [ "@can_travel_to_greatfish_isle,delivery,@rescued_aryll" ],
-				"visibility_rules": [ "shortsidequests,tflower", "longsidequests,tflower",
-				                      "shortsidequests,eflower", "longsidequests,eflower" ]
+				"visibility_rules": [ "shortsidequests,tflower", "longsidequests,tflower", "longsidequests,eflower" ]
 			},			{
 				"name"            : "Trade for Exotic Flower",
 				"hosted_item"     : "eflower",
@@ -3157,11 +3172,6 @@
 				"hosted_item"     : "hflag",
 				"access_rules"    : [ "@can_travel_to_greatfish_isle,delivery,@rescued_aryll" ],
 				"visibility_rules": [ "longsidequests,bsflag" ]
-			},			{
-				"name"            : "Trade for Postman Statue",
-				"hosted_item"     : "pstatue",
-				"access_rules"    : [ "@can_travel_to_greatfish_isle,delivery,@rescued_aryll" ],
-				"visibility_rules": [ "longsidequests,hflag" ]
 			},			{
 				"name"            : "Trade for Postman Statue",
 				"hosted_item"     : "pstatue",
@@ -5612,7 +5622,7 @@
 				"item_count"      : 1,
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_sw",
-				"access_rules"    : [ "@can_access_secret_cave_entrance_on_dragon_roost_island" ],
+				"access_rules"    : [ "@can_access_secret_cave_entrance_on_stone_watcher_island" ],
 				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
