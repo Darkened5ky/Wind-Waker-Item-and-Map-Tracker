@@ -2556,7 +2556,7 @@
 				"access_rules"    : [ "@can_travel_to_dragon_roost_island" ],
 				"visibility_rules": [ "never" ]
 			},			{
-				"name"            : "Freestanding on Drop Ledge",
+				"name"            : "Freestanding on Peg",
 				"item_count"      : 1,
 				"capture_item"    : true,
 				"capture_item_layout": "shop_item_grid",

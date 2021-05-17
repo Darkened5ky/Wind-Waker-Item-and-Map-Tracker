@@ -2041,7 +2041,8 @@
 				"capture_item_layout": "shop_item_grid",
 				"item_count"      : 1,
 				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
-				                      "@can_fly_with_deku_leaf_outdoors,@can_cut_or_slash,@cantravecan_travel_to_outset_island" ],
+				                      "@can_fly_with_deku_leaf_outdoors,@can_cut_or_slash,@cantravecan_travel_to_outset_island",
+														  "{@can_travel_to_outset_island}" ],
 				"visibility_rules": [ "gifts,locale_dvim" ]
 			},			{
 				"name"            : "On Grandma's Roof",
@@ -2049,7 +2050,8 @@
 				"capture_item_layout": "shop_item_grid",
 				"item_count"      : 1,
 				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
-				                      "@can_fly_with_deku_leaf_outdoors,@can_cut_or_slash,@cantravecan_travel_to_outset_island" ],
+				                      "@can_fly_with_deku_leaf_outdoors,@can_cut_or_slash,@cantravecan_travel_to_outset_island",
+														  "{@can_travel_to_outset_island}" ],
 				"visibility_rules": [ "gifts,locale_dvim" ]
 			},			{
 				"name"            : "Above Water Basin",
@@ -2058,12 +2060,16 @@
 				"item_count"      : 1,
 				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
 				                      "@can_fly_with_deku_leaf_outdoors,@can_cut_or_slash,@cantravecan_travel_to_outset_island",
-														  "hookshot,@can_travel_to_outset_island" ],
+														  "hookshot,@can_travel_to_outset_island",
+														  "{@can_travel_to_outset_island}" ],
 				"visibility_rules": [ "gifts,locale_dvim" ]
 			},			{
 				"name"            : "Near Water Basin",
+				"capture_item": true,
+				"capture_item_layout": "shop_item_grid",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_cut_down_outset_trees,@can_travel_to_outset_island" ],
+				"access_rules"    : [ "@can_cut_down_outset_trees,@can_travel_to_outset_island",
+				                      "{@can_travel_to_outset_island}" ],
 				"visibility_rules": [ "gifts,locale_dvim" ]
 			},			{
 				"name"            : "On Mesa's Roof",
@@ -2072,7 +2078,8 @@
 				"item_count"      : 1,
 				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
 				                      "leaf,@can_travel_to_outset_island",
-														  "[logic_tricked],@can_travel_to_outset_island" ],
+														  "[logic_tricked],@can_travel_to_outset_island",
+														  "{@can_travel_to_outset_island}" ],
 				"visibility_rules": [ "gifts,locale_dvim" ]
 			},			{
 				"name"            : "Path to Fairy Woods",
@@ -2559,7 +2566,7 @@
 				"access_rules"    : [ "@can_travel_to_dragon_roost_island" ],
 				"visibility_rules": [ "gifts,locale_dragon_roost_island,locale_dvim" ]
 			},			{
-				"name"            : "Freestanding on Drop Ledge",
+				"name"            : "Freestanding on Peg",
 				"item_count"      : 1,
 				"capture_item"    : true,
 				"capture_item_layout": "shop_item_grid",
@@ -2579,9 +2586,8 @@
 			},			{
 				"name"            : "Long Passage",
 				"item_count"      : 1,
-				"access_rules"    : [
-		                  "@can_fly_with_deku_leaf_outdoors,@can_refill_magic,@can_travel_to_dragon_roost_island",
-		                  "@can_get_dri_boulder_chest,@can_travel_to_dragon_roost_island,logic_tricked,[logic_glitched],windwaker", ],
+				"access_rules"    : [ "@can_fly_with_deku_leaf_outdoors,@can_refill_magic,@can_travel_to_dragon_roost_island",
+		                          "@can_get_dri_boulder_chest,@can_travel_to_dragon_roost_island,logic_tricked,[logic_glitched],windwaker", ],
 				"visibility_rules": [ "islandpuzzle,locale_dragon_roost_island" ]
 			},			{
 				"name"            : "Baito's Mail Sorting",
