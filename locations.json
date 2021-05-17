@@ -2547,7 +2547,7 @@
 		"name"         : "Dragon Roost Island",
 		"sections"     : [			{
 				"name"            : "Freestanding in the Wading Pool",
-				"item_count"      : 6,
+				"item_count"      : 5,
 				"access_rules"    : [ "@can_travel_to_dragon_roost_island" ],
 				"visibility_rules": [ "never" ]
 			},			{
