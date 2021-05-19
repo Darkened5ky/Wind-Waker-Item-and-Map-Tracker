@@ -2400,7 +2400,7 @@
 				"name"            : "Zunari the Trader",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_windfall_island,@can_travel_to_greatfish_isle,delivery,@rescued_aryll,[eflower]" ],
-				"visibility_rules": [ "shortsidequests,tflower" ]
+				"visibility_rules": [ "shortsidequests,delivery" ]
 			},			{
 				"name"            : "Get Town Flower from Zunari",
 				"hosted_item"     : "tflower",
