@@ -10,11 +10,11 @@
         "pins",
         "chathud"
       ],
-      "version": "2.0.1.2",
+      "version": "2.0.2.1",
       "required_app_version": "2.3.8.8",
       "uid": "Wind-Waker-Item-and-Map-Tracker-Darkened5ky",
-      "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/2.0.1.2/Wind-Waker-Item-and-Map-Tracker.zip",
-      "documentation_url": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/blob/master/README.md",
+      "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/2.0.2.1/Wind-Waker-Item-and-Map-Tracker.zip",
+      "documentation_url": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/#readme",
       "variants": [
         {
           "name": "Map / Item Tracker",
