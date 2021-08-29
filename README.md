@@ -1,6 +1,12 @@
 # Wind-Waker-Item-and-Map-Tracker
 A map and item tracker for the Wind Waker Randomizer. Created by Darkened5ky with aesthetics help from Spleebie. Updated logic by Spleebie, emerald000, and Zach the DualVission.
 
+## Updates new to 2.0.2.0
+- Updates to support Lago and dv_im 1.9.0
+- Add secret cave entrance rando
+- Separate chart rando
+- dv_im moved to a separate pack variant
+
 ## Updates new to 2.0.1.2
 - The Wind Waker Randomizer dv_im logic type support added to reflect 1.8.0g
    * Glitched Logic moved onto associated Glitched Logic Types
