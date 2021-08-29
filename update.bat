@@ -20,7 +20,7 @@ echo .
   (if exist %%a (
     (echo %%a located.)
     (del %%a 2>NUL)
-    ("C:\Program Files\7-Zip\7z.exe" a %%a -xr!*.bat -xr!.git* -xr!*.git)
+    ("C:\Program Files\7-Zip\7z.exe" a %%a -xr!*.bat -xr!.git* -xr!*.git -xr!*/unused/*)
     (echo %%a replaced.)
   ) else (
     (set /a runfail=runfail+1)
@@ -41,4 +41,4 @@ if %runfail% GEQ %itemlist% (
 
 ::Test
 
-"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\EmoTracker\EmoTracker.lnk"
+"%AppData%/Microsoft/Windows/Start Menu/Programs/LightApps/EmoTracker.lnk"

@@ -1,138 +1,2418 @@
 [
-  //Secret Cave Entrances...
+  //Secret Grotto Entrances...
 	{
 		"name": "DRI Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "driCave"
+		"codes": "driGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "driCaves,driDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "driCaves,driFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "driCaves,driIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "driCaves,driPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "driCaves,driNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "driCaves,driAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "driCaves,driBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "driCaves,driSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "driCaves,driOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "driCaves,driBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "driCaves,driPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "driCaves,driPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "driCaves,driDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "driCaves,driBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "driCaves,driRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "driCaves,driShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "driCaves,driCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "driCaves,driHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "driCaves,driStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "driCaves,driOiCave"
+    },
 	{
 		"name": "FM Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "fmCave"
+		"codes": "fmGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "fmCaves,fmDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "fmCaves,fmFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "fmCaves,fmIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "fmCaves,fmPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "fmCaves,fmNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "fmCaves,fmAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "fmCaves,fmBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "fmCaves,fmSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "fmCaves,fmOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "fmCaves,fmBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "fmCaves,fmPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "fmCaves,fmPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "fmCaves,fmDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "fmCaves,fmBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "fmCaves,fmRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "fmCaves,fmShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "fmCaves,fmCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "fmCaves,fmHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "fmCaves,fmStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "fmCaves,fmOiCave"
+    },
 	{
 		"name": "IR Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "irCave"
+		"codes": "irGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "irCaves,irDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "irCaves,irFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "irCaves,irIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "irCaves,irPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "irCaves,irNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "irCaves,irAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "irCaves,irBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "irCaves,irSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "irCaves,irOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "irCaves,irBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "irCaves,irPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "irCaves,irPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "irCaves,irDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "irCaves,irBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "irCaves,irRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "irCaves,irShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "irCaves,irCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "irCaves,irHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "irCaves,irStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "irCaves,irOiCave"
+    },
 	{
 		"name": "PO Hidden Panel",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "driCave"
+		"codes": "poGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "poCaves,poDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "poCaves,poFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "poCaves,poIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "poCaves,poPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "poCaves,poNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "poCaves,poAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "poCaves,poBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "poCaves,poSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "poCaves,poOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "poCaves,poBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "poCaves,poPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "poCaves,poPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "poCaves,poDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "poCaves,poBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "poCaves,poRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "poCaves,poShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "poCaves,poCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "poCaves,poHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "poCaves,poStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "poCaves,poOiCave"
+    },
 	{
 		"name": "NR Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "nrCave"
+		"codes": "nrGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "nrCaves,nrDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "nrCaves,nrFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "nrCaves,nrIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "nrCaves,nrPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "nrCaves,nrNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "nrCaves,nrAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "nrCaves,nrBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "nrCaves,nrSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "nrCaves,nrOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "nrCaves,nrBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "nrCaves,nrPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "nrCaves,nrPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "nrCaves,nrDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "nrCaves,nrBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "nrCaves,nrRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "nrCaves,nrShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "nrCaves,nrCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "nrCaves,nrHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "nrCaves,nrStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "nrCaves,nrOiCave"
+    },
 	{
 		"name": "AI Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "aiCave"
+		"codes": "aiGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "aiCaves,aiDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "aiCaves,aiFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "aiCaves,aiIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "aiCaves,aiPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "aiCaves,aiNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "aiCaves,aiAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "aiCaves,aiBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "aiCaves,aiSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "aiCaves,aiOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "aiCaves,aiBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "aiCaves,aiPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "aiCaves,aiPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "aiCaves,aiDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "aiCaves,aiBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "aiCaves,aiRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "aiCaves,aiShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "aiCaves,aiCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "aiCaves,aiHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "aiCaves,aiStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "aiCaves,aiOiCave"
+    },
 	{
 		"name": "BC Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "bcCave"
+		"codes": "bcGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "bcCaves,bcDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "bcCaves,bcFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "bcCaves,bcIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "bcCaves,bcPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "bcCaves,bcNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "bcCaves,bcAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "bcCaves,bcBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "bcCaves,bcSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "bcCaves,bcOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "bcCaves,bcBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "bcCaves,bcPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "bcCaves,bcPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "bcCaves,bcDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "bcCaves,bcBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "bcCaves,bcRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "bcCaves,bcShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "bcCaves,bcCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "bcCaves,bcHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "bcCaves,bcStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "bcCaves,bcOiCave"
+    },
 	{
 		"name": "SW Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "swCave"
+		"codes": "swGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "swCaves,swDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "swCaves,swFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "swCaves,swIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "swCaves,swPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "swCaves,swNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "swCaves,swAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "swCaves,swBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "swCaves,swSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "swCaves,swOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "swCaves,swBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "swCaves,swPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "swCaves,swPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "swCaves,swDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "swCaves,swBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "swCaves,swRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "swCaves,swShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "swCaves,swCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "swCaves,swHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "swCaves,swStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "swCaves,swOiCave"
+    },
 	{
 		"name": "OL Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "olCave"
+		"codes": "olGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "olCaves,olDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "olCaves,olFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "olCaves,olIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "olCaves,olPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "olCaves,olNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "olCaves,olAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "olCaves,olBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "olCaves,olSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "olCaves,olOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "olCaves,olBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "olCaves,olPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "olCaves,olPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "olCaves,olDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "olCaves,olBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "olCaves,olRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "olCaves,olShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "olCaves,olCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "olCaves,olHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "olCaves,olStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "olCaves,olOiCave"
+    },
 	{
 		"name": "BP Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "bpCave"
+		"codes": "bpGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "bpCaves,bpDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "bpCaves,bpFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "bpCaves,bpIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "bpCaves,bpPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "bpCaves,bpNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "bpCaves,bpAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "bpCaves,bpBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "bpCaves,bpSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "bpCaves,bpOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "bpCaves,bpBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "bpCaves,bpPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "bpCaves,bpPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "bpCaves,bpDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "bpCaves,bpBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "bpCaves,bpRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "bpCaves,bpShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "bpCaves,bpCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "bpCaves,bpHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "bpCaves,bpStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "bpCaves,bpOiCave"
+    },
 	{
 		"name": "PIC Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "picCave"
+		"codes": "picGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "picCaves,picDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "picCaves,picFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "picCaves,picIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "picCaves,picPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "picCaves,picNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "picCaves,picAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "picCaves,picBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "picCaves,picSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "picCaves,picOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "picCaves,picBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "picCaves,picPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "picCaves,picPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "picCaves,picDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "picCaves,picBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "picCaves,picRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "picCaves,picShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "picCaves,picCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "picCaves,picHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "picCaves,picStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "picCaves,picOiCave"
+    },
 	{
 		"name": "PIW Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "piwCave"
+		"codes": "piwGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "piwCaves,piwDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "piwCaves,piwFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "piwCaves,piwIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "piwCaves,piwPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "piwCaves,piwNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "piwCaves,piwAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "piwCaves,piwBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "piwCaves,piwSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "piwCaves,piwOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "piwCaves,piwBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "piwCaves,piwPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "piwCaves,piwPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "piwCaves,piwDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "piwCaves,piwBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "piwCaves,piwRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "piwCaves,piwShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "piwCaves,piwCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "piwCaves,piwHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "piwCaves,piwStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "piwCaves,piwOiCave"
+    },
 	{
 		"name": "DS Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "dsCave"
+		"codes": "dsGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "dsCaves,dsDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "dsCaves,dsFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "dsCaves,dsIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "dsCaves,dsPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "dsCaves,dsNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "dsCaves,dsAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "dsCaves,dsBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "dsCaves,dsSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "dsCaves,dsOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "dsCaves,dsBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "dsCaves,dsPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "dsCaves,dsPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "dsCaves,dsDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "dsCaves,dsBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "dsCaves,dsRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "dsCaves,dsShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "dsCaves,dsCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "dsCaves,dsHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "dsCaves,dsStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "dsCaves,dsOiCave"
+    },
 	{
 		"name": "BI Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "biCave"
+		"codes": "biGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "biDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "biFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "biIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "biPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "biNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "biAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "biBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "biSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "biOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "biBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "biPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "biPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "biDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "biBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "biRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "biShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "biCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "biHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "biStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "biOiCave"
+    },
 	{
 		"name": "RSI Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "rsiCave"
+		"codes": "rsiGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "rsiCaves,rsiDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "rsiCaves,rsiFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "rsiCaves,rsiIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "rsiCaves,rsiPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "rsiCaves,rsiNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "rsiCaves,rsiAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "rsiCaves,rsiBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "rsiCaves,rsiSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "rsiCaves,rsiOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "rsiCaves,rsiBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "rsiCaves,rsiPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "rsiCaves,rsiPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "rsiCaves,rsiDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "rsiCaves,rsiBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "rsiCaves,rsiRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "rsiCaves,rsiShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "rsiCaves,rsiCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "rsiCaves,rsiHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "rsiCaves,rsiStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "rsiCaves,rsiOiCave"
+    },
 	{
 		"name": "ShI Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "shiCave"
+		"codes": "shiGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "shiCaves,shiDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "shiCaves,shiFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "shiCaves,shiIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "shiCaves,shiPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "shiCaves,shiNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "shiCaves,shiAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "shiCaves,shiBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "shiCaves,shiSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "shiCaves,shiOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "shiCaves,shiBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "shiCaves,shiPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "shiCaves,shiPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "shiCaves,shiDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "shiCaves,shiBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "shiCaves,shiRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "shiCaves,shiShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "shiCaves,shiCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "shiCaves,shiHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "shiCaves,shiStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "shiCaves,shiOiCave"
+    },
 	{
 		"name": "CP Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "cpCave"
+		"codes": "cpGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "cpCaves,cpDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "cpCaves,cpFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "cpCaves,cpIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "cpCaves,cpPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "cpCaves,cpNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "cpCaves,cpAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "cpCaves,cpBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "cpCaves,cpSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "cpCaves,cpOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "cpCaves,cpBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "cpCaves,cpPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "cpCaves,cpPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "cpCaves,cpDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "cpCaves,cpBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "cpCaves,cpRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "cpCaves,cpShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "cpCaves,cpCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "cpCaves,cpHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "cpCaves,cpStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "cpCaves,cpOiCave"
+    },
 	{
 		"name": "HI Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "hiCave"
+		"codes": "hiGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "hiCaves,hiDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "hiCaves,hiFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "hiCaves,hiIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "hiCaves,hiPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "hiCaves,hiNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "hiCaves,hiAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "hiCaves,hiBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "hiCaves,hiSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "hiCaves,hiOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "hiCaves,hiBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "hiCaves,hiPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "hiCaves,hiPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "hiCaves,hiDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "hiCaves,hiBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "hiCaves,hiRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "hiCaves,hiShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "hiCaves,hiCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "hiCaves,hiHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "hiCaves,hiStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "hiCaves,hiOiCave"
+    },
 	{
 		"name": "StI Grotto",
 		"type": "toggle",
 		"img": "images/Grotto Found.png",
 		"disabled_img": "images/Grotto.png",
-		"codes": "stiCave"
+		"codes": "stiGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "stiCaves,stiDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "stiCaves,stiFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "stiCaves,stiIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "stiCaves,stiPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "stiCaves,stiNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "stiCaves,stiAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "stiCaves,stiBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "stiCaves,stiSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "stiCaves,stiOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "stiCaves,stiBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "stiCaves,stiPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "stiCaves,stiPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "stiCaves,stiDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "stiCaves,stiBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "stiCaves,stiRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "stiCaves,stiShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "stiCaves,stiCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "stiCaves,stiHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "stiCaves,stiStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "stiCaves,stiOiCave"
+    },
 	{
 		"name": "OI Grotto",
 		"type": "toggle",
@@ -140,4 +2420,124 @@
 		"disabled_img": "images/Grotto.png",
 		"codes": "oiGrotto"
 	},
+    {
+      "name": "Mysterious Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/dragon.png",
+      "codes": "oiCaves,oiDriCave"
+    },
+    {
+      "name": "Firey Cave",
+      "type": "toggle",
+      "img": "images/entrances/fire.png",
+      "codes": "oiCaves,oiFmCave"
+    },
+    {
+      "name": "Icey Cavern",
+      "type": "toggle",
+      "img": "images/entrances/ice.png",
+      "codes": "oiCaves,oiIrCave"
+    },
+    {
+      "name": "Cabana Maze",
+      "type": "toggle",
+      "img": "images/entrances/private.png",
+      "codes": "oiCaves,oiPoCave"
+    },
+    {
+      "name": "5-Torches Wreck",
+      "type": "toggle",
+      "img": "images/entrances/needle.png",
+      "codes": "oiCaves,oiNrCave"
+    },
+    {
+      "name": "Light Puzzle Cave",
+      "type": "toggle",
+      "img": "images/entrances/angular.png",
+      "codes": "oiCaves,oiAiCave"
+    },
+    {
+      "name": "3-Diamond Switches",
+      "type": "toggle",
+      "img": "images/entrances/boating_course.png",
+      "codes": "oiCaves,oiBcCave"
+    },
+    {
+      "name": "Easy Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/stone.png",
+      "codes": "oiCaves,oiSwCave"
+    },
+    {
+      "name": "Hard Combat Trial",
+      "type": "toggle",
+      "img": "images/entrances/overlook.png",
+      "codes": "oiCaves,oiOlCave"
+    },
+    {
+      "name": "Wind's Requiem Cave",
+      "type": "toggle",
+      "img": "images/entrances/bird.png",
+      "codes": "oiCaves,oiBpCave"
+    },
+    {
+      "name": "Chuchu Cave",
+      "type": "toggle",
+      "img": "images/entrances/chuchu_cave.png",
+      "codes": "oiCaves,oiPicCave"
+    },
+    {
+      "name": "Wizzrobe Cave",
+      "type": "toggle",
+      "img": "images/entrances/wizzrobe.png",
+      "codes": "oiCaves,oiPiwCave"
+    },
+    {
+      "name": "Warp-Pot Maze",
+      "type": "toggle",
+      "img": "images/entrances/diamond_steppe.png",
+      "codes": "oiCaves,oiDsCave"
+    },
+    {
+      "name": "Magtail Cave",
+      "type": "toggle",
+      "img": "images/entrances/bomb.png",
+      "codes": "oiCaves,oiBiCave"
+    },
+    {
+      "name": "Keese Cave",
+      "type": "toggle",
+      "img": "images/entrances/rock.png",
+      "codes": "oiCaves,oiRsiCave"
+    },
+    {
+      "name": "Enemy Hell",
+      "type": "toggle",
+      "img": "images/entrances/shark.png",
+      "codes": "oiCaves,oiShiCave"
+    },
+    {
+      "name": "Floating Plants Cavern",
+      "type": "toggle",
+      "img": "images/entrances/cliff.png",
+      "codes": "oiCaves,oiCpCave"
+    },
+    {
+      "name": "Mothula Cave",
+      "type": "toggle",
+      "img": "images/entrances/horse.png",
+      "codes": "oiCaves,oiHiCave"
+    },
+    {
+      "name": "Short Combat Cave",
+      "type": "toggle",
+      "img": "images/entrances/star.png",
+      "codes": "oiCaves,oiStiCave"
+    },
+    {
+      "name": "Savage Labyrinth",
+      "type": "toggle",
+      "img": "images/entrances/savage.png",
+      "codes": "oiCaves,oiOiCave"
+    },
 ]

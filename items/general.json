@@ -10,16 +10,17 @@
 	//Sails
 	{
 		"name": "sail",
-		"type": "progressive",
-		"allow_disabled": false,
+		"type": "progressive_toggle",
 		"initial_stage_idx": 1,
+		"initial_active_state": true,
 		"stages": [
      		{
        			"img": "images/Sail.png",
        			"codes": "sail"
      		},
      		{
-     			"img": "images/Swift Sail.png"
+     			"img": "images/Swift Sail.png",
+					"codes": "sail,swift"
      		}
     	]
 	},
