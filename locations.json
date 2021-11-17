@@ -6221,26 +6221,26 @@
 				"name"            : "Free Chest",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_access_pawprint_isle_chuchu_cave" ],
-				"visibility_rules": [ "mixedcaves,standard_entrance,locale_pawprint_isle" ]
+				"visibility_rules": [ "puzzlecaves,standard_entrance,locale_pawprint_isle" ]
 			},			{
 				"name"            : "Left Boulder Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_pawprint_isle_chuchu_cave,@can_move_boulders",
 		                  "@can_access_pawprint_isle_chuchu_cave,[logic_tricked]", ],
-				"visibility_rules": [ "mixedcaves,standard_entrance,locale_pawprint_isle" ]
+				"visibility_rules": [ "puzzlecaves,standard_entrance,locale_pawprint_isle" ]
 			},			{
 				"name"            : "Right Boulder Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_pawprint_isle_chuchu_cave,@can_move_boulders",
 		                  "@can_access_pawprint_isle_chuchu_cave,leaf,[logic_tricked]", ],
-				"visibility_rules": [ "mixedcaves,standard_entrance,locale_pawprint_isle" ]
+				"visibility_rules": [ "puzzlecaves,standard_entrance,locale_pawprint_isle" ]
 			},			{
 				"name"            : "Pegs Chest",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_access_pawprint_isle_chuchu_cave,grapple" ],
-				"visibility_rules": [ "mixedcaves,standard_entrance,locale_pawprint_isle" ]
+				"visibility_rules": [ "puzzlecaves,standard_entrance,locale_pawprint_isle" ]
 			},			{
 				"name"            : "Unexplored Cave",
 				"item_count"      : 1,
