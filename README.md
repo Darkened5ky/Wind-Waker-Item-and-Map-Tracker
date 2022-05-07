@@ -1,6 +1,9 @@
 # Wind-Waker-Item-and-Map-Tracker
 A map and item tracker for the Wind Waker Randomizer. Created by Darkened5ky with aesthetics help from Spleebie. Updated logic by Spleebie, emerald000, and Zach the DualVission.
 
+## Updates new to 2.0.2.2
+- Fixes access issue with pawprint isle
+
 ## Updates new to 2.0.2.0
 - Updates to support Lago and dv_im 1.9.0
 - Add secret cave entrance rando
