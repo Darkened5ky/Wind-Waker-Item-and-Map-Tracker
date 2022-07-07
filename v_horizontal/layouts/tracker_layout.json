@@ -1,0 +1,77 @@
+{
+  "shared_item_grid": {
+    "type": "array",
+    "h_alignment": "center",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0,4,4",
+        "item_size": 48,
+        "rows": [
+          [ "sail",      "grapple",  "spoils",   "boomerang", "leaf",     "no_magic", "sword",     "magletter"  ],
+          [ "pic1",      "boots",    "baitbag",  "no_bow",    "bomb_bag", "gschart",  "shield",    "moeletter"  ],
+          [ "bottle",    "statue1",  "delivery", "hookshot",  "hammer",   "wallet",   "power",     "momletter"  ],
+          [ "requiem",   "ballad",   "command",  "lyric",     "aria",     "passing",  "no_quiver", "deed"       ]
+        ]
+      },
+      {
+        "type": "layout",
+        "key": "quest_items"
+      }
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "layout",
+    "key": "shared_item_grid"
+  },
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "header_content":
+                {
+                "type": "button_popup",
+                "layout": "toggles",
+              },
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "vertical",
+                "width": 488,
+                "compact": true
+              }
+            }
+          ]
+        },
+        {
+         "type": "map",
+         "maps": [ "map" ]
+        }
+      ]
+    }
+  }
+}

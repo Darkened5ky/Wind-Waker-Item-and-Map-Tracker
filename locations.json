@@ -39,7 +39,7 @@
 
 	{
 		"name": "can_fly_with_deku_leaf_outdoors",
-		"access_rules": [ "@can_change_wind_direction,leaf" ],
+		"access_rules": [ "@can_change_wind_direction,leaf,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -49,7 +49,7 @@
 		                  "mirror,windwaker",
 		                  "grapple,mirror",
 		                  "boomerang,mirror",
-		                  "leaf,mirror",
+		                  "leaf,magic,mirror",
 		                  "mirror,bow",
 		                  "hookshot,mirror" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -173,7 +173,7 @@
 		                  "@can_travel_to_any_island,@can_cut_or_slash,[hammer]",
 		                  "@can_travel_to_any_island,bow",
 		                  "@can_travel_to_any_island,@can_cut_or_slash,[bombs]",
-											"@can_travel_to_any_island,@can_cut_or_slash,[leaf]", ],
+											"@can_travel_to_any_island,@can_cut_or_slash,[leaf,magic]", ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -200,10 +200,10 @@
 
 	{
 		"name": "can_access_forbidden_woods_basement",
-		"access_rules": [ "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,logic_tricked,[logic_glitched],windwaker",
-		                  "@can_access_forbidden_woods,logic_tricked,[logic_complex],leaf,windwaker",
-		                  "bombs,@can_access_forbidden_woods,leaf,logic_tricked,[logic_glitched]",
-		                  "boomerang,@can_access_forbidden_woods,leaf" ],
+		"access_rules": [ "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,magic,logic_tricked,[logic_glitched],windwaker",
+		                  "@can_access_forbidden_woods,logic_tricked,[logic_complex],leaf,magic,windwaker",
+		                  "bombs,@can_access_forbidden_woods,leaf,magic,logic_tricked,[logic_glitched]",
+		                  "boomerang,@can_access_forbidden_woods,leaf,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -224,7 +224,7 @@
 	{
 		"name": "can_get_into_earth_temple",
 		"access_rules": [ "@can_access_earth_temple,@can_play_command_melody",
-		                  "@can_access_earth_temple,leaf,logic_tricked,[logic_glitched]" ],
+		                  "@can_access_earth_temple,leaf,magic,logic_tricked,[logic_glitched]" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -244,11 +244,11 @@
 
 	{
 		"name": "can_access_wind_temple_basement",
-		"access_rules": [ "@can_access_wind_temple,@can_play_command_melody,leaf,logic_tricked,[logic_glitched],double",
-		                  "@can_access_wind_temple,@can_play_command_melody,leaf,bottle,logic_tricked,[logic_glitched]",
-		                  "@can_access_wind_temple,@can_play_command_melody,leaf,logic_tricked,[logic_glitched],boots",
-		                  "@can_access_wind_temple,@can_play_command_melody,leaf,boots",
-		                  "@can_access_wind_temple,@can_play_command_melody,@can_spring_storage,firearrow",
+		"access_rules": [ "@can_access_wind_temple,@can_play_command_melody,leaf,magic,logic_tricked,[logic_glitched],double",
+		                  "@can_access_wind_temple,@can_play_command_melody,leaf,magic,bottle,logic_tricked,[logic_glitched]",
+		                  "@can_access_wind_temple,@can_play_command_melody,leaf,magic,logic_tricked,[logic_glitched],boots",
+		                  "@can_access_wind_temple,@can_play_command_melody,leaf,magic,boots",
+		                  "@can_access_wind_temple,@can_play_command_melody,@can_spring_storage,firearrow,magic",
 		                  "bombs,@can_access_wind_temple,@can_play_command_melody,@can_spring_storage",
 		                  "@can_access_wind_temple,@can_jumpslash,@can_play_command_melody,@can_spring_storage" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -279,13 +279,13 @@
 
 	{
 		"name": "can_access_secret_cave_entrance_on_fire_mountain",
-		"access_rules": [ "@can_sail,@can_travel_to_fire_mountain,firearrow,icearrow" ],
+		"access_rules": [ "@can_sail,@can_travel_to_fire_mountain,firearrow,magic,icearrow,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
 	{
 		"name": "can_access_secret_cave_entrance_on_ice_ring_isle",
-		"access_rules": [ "@can_sail,@can_travel_to_ice_ring_isle,firearrow,icearrow" ],
+		"access_rules": [ "@can_sail,@can_travel_to_ice_ring_isle,firearrow,magic,icearrow,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -306,7 +306,7 @@
 
 	{
 		"name": "can_access_secret_cave_entrance_on_needle_rock_isle",
-		"access_rules": [ "@can_travel_to_needle_rock_isle,firearrow,icearrow",
+		"access_rules": [ "@can_travel_to_needle_rock_isle,firearrow,magic,icearrow,magic",
 		                  "@can_travel_to_needle_rock_isle,logic_tricked,[logic_glitched],windwaker" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -370,7 +370,7 @@
 	{
 		"name": "can_access_secret_cave_entrance_on_pawprint_isle_side_isle",
 		"access_rules": [ "@can_travel_to_pawprint_isle,hookshot",
-		                  "bombs,@can_travel_to_pawprint_isle,leaf,logic_tricked,[logic_glitched]" ],
+		                  "bombs,@can_travel_to_pawprint_isle,leaf,magic,logic_tricked,[logic_glitched]" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -411,7 +411,7 @@
 
 	{
 		"name": "can_access_secret_cave_entrance_on_horseshoe_island",
-		"access_rules": [ "@can_travel_to_horseshoe_island,leaf",
+		"access_rules": [ "@can_travel_to_horseshoe_island,leaf,magic",
 		                  "@can_travel_to_horseshoe_island,logic_tricked,[logic_complex]" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -588,19 +588,19 @@
 	{
 		"name": "can_access_ganons_tower",
 		"access_rules": [ "@can_get_past_hyrule_barrier,hookshot",
-		                  "@can_get_past_hyrule_barrier,leaf" ],
+		                  "@can_get_past_hyrule_barrier,leaf,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
 	{
 		"name": "can_complete_memory_dragon_roost_cavern_and_gohma",
-		"access_rules": [ "@can_defeat_gohma,leaf,grapple" ],
+		"access_rules": [ "@can_defeat_gohma,leaf,magic,grapple" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
 	{
 		"name": "can_complete_memory_forbidden_woods_and_kalle_demos",
-		"access_rules": [ "@can_defeat_kalle_demos,leaf" ],
+		"access_rules": [ "@can_defeat_kalle_demos,leaf,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -612,7 +612,7 @@
 
 	{
 		"name": "can_complete_memory_wind_temple_and_molgera",
-		"access_rules": [ "@can_defeat_molgera,leaf" ],
+		"access_rules": [ "@can_defeat_molgera,leaf,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -627,7 +627,7 @@
 		"name": "can_unlock_ganons_tower_four_boss_door",
 		"access_rules": [ "@can_complete_all_memory_dungeons_and_bosses",
 		                  "@can_complete_all_memory_dungeons_and_bosses",
-		                  "bombs,logic_tricked,[logic_complex],leaf" ],
+		                  "bombs,logic_tricked,[logic_complex],leaf,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -639,7 +639,7 @@
 
 	{
 		"name": "can_reach_and_defeat_puppet_ganon",
-		"access_rules": [ "@can_defeat_darknuts,@can_defeat_mighty_darknuts,@can_defeat_moblins,@can_defeat_puppet_ganon,@can_reach_ganons_tower_phantom_ganon_room,lightarrow" ],
+		"access_rules": [ "@can_defeat_darknuts,@can_defeat_mighty_darknuts,@can_defeat_moblins,@can_defeat_puppet_ganon,@can_reach_ganons_tower_phantom_ganon_room,lightarrow,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -732,7 +732,7 @@
 		                  "@can_get_blue_chu_jelly_from_blue_chuchus,hookshot,spoils",
 		                  "@can_access_secret_cave_entrance_on_shark_island,@can_fly_with_deku_leaf_outdoors,@can_get_blue_chu_jelly_from_blue_chuchus,spoils",
 		                  "@Cliff Plateau Isles/Highest Chest,@can_get_blue_chu_jelly_from_blue_chuchus,spoils",
-		                  "@can_get_blue_chu_jelly_from_blue_chuchus,leaf,spoils",
+		                  "@can_get_blue_chu_jelly_from_blue_chuchus,leaf,magic,spoils",
 		                  "@can_access_secret_cave_entrance_on_boating_course,@can_get_blue_chu_jelly_from_blue_chuchus,spoils" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -782,7 +782,7 @@
 	{
 		"name": "can_defeat_darknuts",
 		"access_rules": [ "sword",
-		                  "lightarrow",
+		                  "lightarrow,magic",
 		                  "hammer" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -790,7 +790,7 @@
 	{
 		"name": "can_defeat_darknuts_easily",
 		"access_rules": [ "sword",
-		                  "lightarrow" ],
+		                  "lightarrow,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -842,7 +842,7 @@
 		"access_rules": [ "boomerang,sword",
 		                  "bow",
 		                  "bombs",
-		                  "leaf,sword",
+		                  "leaf,magic,sword",
 		                  "hammer" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
@@ -922,7 +922,7 @@
 		"name": "can_defeat_peahats",
 		"access_rules": [ "boomerang",
 		                  "hookshot,sword",
-		                  "leaf,sword",
+		                  "leaf,magic,sword",
 		                  "hammer",
 		                  "bow",
 		                  "bombs" ],
@@ -933,7 +933,7 @@
 		"name": "can_remove_peahat_armor",
 		"access_rules": [ "boomerang",
 		                  "hookshot",
-		                  "leaf",
+		                  "leaf,magic",
 		                  "hammer",
 		                  "bow",
 		                  "bombs" ],
@@ -957,7 +957,7 @@
 		                  "bow",
 		                  "hookshot",
 		                  "bombs",
-		                  "leaf,grapple" ],
+		                  "leaf,magic,grapple" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -1009,7 +1009,7 @@
 	{
 		"name": "can_defeat_armos_knights",
 		"access_rules": [ "bombs",
-		                  "lightarrow" ],
+		                  "lightarrow,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -1023,7 +1023,7 @@
 
 	{
 		"name": "can_defeat_twelve-eye_octos",
-		"access_rules": [ "lightarrow",
+		"access_rules": [ "lightarrow,magic",
 		                  "bombs",
 		                  "boomerang",
 		                  "logic_tricked,[logic_complex],bow" ],
@@ -1036,19 +1036,19 @@
 		                  "hammer",
 		                  "bow",
 		                  "bombs",
-		                  "leaf,grapple",
+		                  "leaf,magic,grapple",
 		                  "grapple,hookshot" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
 	{
 		"name": "can_defeat_blue_bubbles",
-		"access_rules": [ "firearrow,icearrow",
+		"access_rules": [ "firearrow,magic,icearrow,magic",
 		                  "bombs",
-		                  "leaf,sword",
-		                  "leaf,bow",
-		                  "leaf,grapple",
-		                  "leaf,hammer",
+		                  "leaf,magic,sword",
+		                  "leaf,magic,bow",
+		                  "leaf,magic,grapple",
+		                  "leaf,magic,hammer",
 		                  "hookshot,sword",
 		                  "hookshot,bow",
 		                  "grapple,hookshot",
@@ -1059,7 +1059,7 @@
 	{
 		"name": "can_defeat_redeads",
 		"access_rules": [ "sword",
-		                  "lightarrow",
+		                  "lightarrow,magic",
 		                  "hammer",
 		                  "bombs" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
@@ -1097,7 +1097,7 @@
 		"access_rules": [ "sword",
 		                  "bombs",
 		                  "hammer",
-		                  "lightarrow" ],
+		                  "lightarrow,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -1219,10 +1219,10 @@
 		                  "@can_defeat_jalhalla_poes,mirror,power,windwaker",
 		                  "@can_defeat_jalhalla_poes,grapple,mirror,power",
 		                  "boomerang,@can_defeat_jalhalla_poes,mirror,power",
-		                  "@can_defeat_jalhalla_poes,leaf,mirror,power",
+		                  "@can_defeat_jalhalla_poes,leaf,magic,mirror,power",
 		                  "@can_defeat_jalhalla_poes,mirror,power,bow",
 		                  "@can_defeat_jalhalla_poes,hookshot,mirror,power",
-		                  "@can_defeat_jalhalla_poes,power,lightarrow" ],
+		                  "@can_defeat_jalhalla_poes,power,lightarrow,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -1293,7 +1293,7 @@
 	{
 		"name": "can_burn_pallet_door",
 		"access_rules": [ "bombs,logic_tricked,[logic_glitched]",
-		                  "logic_tricked,[logic_glitched],firearrow,icearrow" ],
+		                  "logic_tricked,[logic_glitched],firearrow,magic,icearrow,magic" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -1321,7 +1321,7 @@
 		                  "baitbag",
 		                  "boomerang",
 		                  "bombs",
-		                  "@can_cut_or_slash,leaf,logic_tricked,[logic_glitched],windwaker,requiem" ],
+		                  "@can_cut_or_slash,leaf,magic,logic_tricked,[logic_glitched],windwaker,requiem" ],
 		"sections": [{ "name": "access", "item_count": 1 }]
 	},
 
@@ -2068,14 +2068,14 @@
 				"capture_item_layout": "shop_item_grid",
 				"item_count"      : 1,
 				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
-				                      "leaf,@can_travel_to_outset_island",
+				                      "leaf,magic,@can_travel_to_outset_island",
 														  "[logic_tricked],@can_travel_to_outset_island" ],
 				"visibility_rules": [ "never" ]
 			},			{
 				"name"            : "Path to Fairy Woods",
 				"item_count"      : 1,
 				"access_rules"    : [ "baitbag,@can_travel_to_outset_island",
-				                      "leaf,@can_travel_to_outset_island" ],
+				                      "leaf,magic,@can_travel_to_outset_island" ],
 				"visibility_rules": [ "never" ]
 			},			{
 				"name"            : "Platforming Across Rocks",
@@ -2105,7 +2105,7 @@
 		                  "@can_access_savage_labyrinth,@can_defeat_armos,@can_defeat_boko_babas,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_keese,@can_defeat_miniblins,@can_defeat_magtails,@can_defeat_mothulas,@can_defeat_peahats,@can_defeat_red_chuchus,@can_defeat_red_bubbles,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_yellow_chuchus,@can_play_winds_requiem,sword",
 		                  "@can_access_savage_labyrinth,@can_defeat_armos,@can_defeat_boko_babas,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_keese,@can_defeat_miniblins,@can_defeat_magtails,@can_defeat_mothulas,@can_defeat_peahats,@can_defeat_red_chuchus,@can_defeat_red_bubbles,@can_defeat_winged_mothulas,@can_defeat_wizzrobes,@can_defeat_yellow_chuchus,@can_play_winds_requiem,hammer",
 										"{}" ],
-				"visibility_rules": [ "combatcaves,longtrials,standard_entrance,locale_savage" ]
+				"visibility_rules": [ "combatcaves,standard_entrance,locale_savage" ]
 			},			{
 				"name"            : "Floor 50",
 				"item_count"      : 1,
@@ -2115,14 +2115,14 @@
 		                  "@Savage Labyrinth/Floor 30,@can_aim_mirror_shield,@can_defeat_blue_bubbles,@can_defeat_dark_chuchus,@can_defeat_poes,@can_defeat_redeads,@can_defeat_stalfos,hammer",
 		                  "@Savage Labyrinth/Floor 30,@can_aim_mirror_shield,logic_tricked,[logic_complex],hookshot,boots",
 										"{}" ],
-				"visibility_rules": [ "combatcaves,longtrials,standard_entrance,locale_savage" ]
+				"visibility_rules": [ "combatcaves,standard_entrance,locale_savage" ]
 			},			{
 				"name"            : "Unexplored Cave",
 				"item_count"      : 1,
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_oi",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_outset_island" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -2140,7 +2140,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "oiPicCave,@can_move_boulders",
-			                  "oiPicCave,leaf,[logic_tricked]", ],
+			                  "oiPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "oiPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -2161,8 +2161,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "oiIrCave,firearrow,boots",
-			                  "oiIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "oiIrCave,firearrow,magic,boots",
+			                  "oiIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "oiIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -2181,13 +2181,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "oiNrCave,firearrow" ],
+					"access_rules"    : [ "oiNrCave,firearrow,magic" ],
 					"visibility_rules": [ "oiNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "oiAiCave,@can_aim_mirror_shield,leaf",
+			                  "oiAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "oiAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "oiAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -2205,7 +2205,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "oiCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "oiCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -2249,7 +2249,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "oiOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,oiOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,oiOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -2328,15 +2328,15 @@
 			},			{
 				"name"            : "Kreeb the Windmill Keep",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_play_winds_requiem,@can_travel_to_windfall_island,firearrow" ],
+				"access_rules"    : [ "@can_play_winds_requiem,@can_travel_to_windfall_island,firearrow,magic" ],
 				"visibility_rules": [ "shortsidequests," ]
 			},			{
 				"name"            : "Transparent Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_change_wind_direction,@can_fly_with_deku_leaf_outdoors,@can_travel_to_windfall_island,firearrow",
-		                  "@can_change_wind_direction,@can_travel_to_windfall_island,firearrow,hookshot",
-		                  "bombs,@can_change_wind_direction,@can_travel_to_windfall_island,logic_tricked,[logic_complex],firearrow", ],
+		                  "@can_change_wind_direction,@can_fly_with_deku_leaf_outdoors,@can_travel_to_windfall_island,firearrow,magic",
+		                  "@can_change_wind_direction,@can_travel_to_windfall_island,firearrow,magic,hookshot",
+		                  "bombs,@can_change_wind_direction,@can_travel_to_windfall_island,logic_tricked,[logic_complex],firearrow,magic", ],
 				"visibility_rules": [ "shortsidequests," ]
 			},			{
 				"name"            : "Lenzo's Balcony",
@@ -2483,7 +2483,7 @@
 				"name"            : "Pirate Ship",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_windfall_island" ],
-				"visibility_rules": [ "shortminigames,locale_windfall_island" ]
+				"visibility_rules": [ "minigames,locale_windfall_island" ]
 			},			{
 				"name"            : "5 Rupee Auction",
 				"item_count"      : 1,
@@ -2491,7 +2491,7 @@
 				                      "{@can_travel_to_windfall_island}" ],
 				"capture_item"    : true,
 				"capture_item_layout" : "shop_item_grid",
-				"visibility_rules": [ "expensive,shortminigames,locale_windfall_island" ]
+				"visibility_rules": [ "expensive,minigames,locale_windfall_island" ]
 			},			{
 				"name"            : "40 Rupee Auction",
 				"item_count"      : 1,
@@ -2499,7 +2499,7 @@
 				                      "{@can_travel_to_windfall_island}" ],
 				"capture_item"    : true,
 				"capture_item_layout" : "shop_item_grid",
-				"visibility_rules": [ "expensive,shortminigames,locale_windfall_island" ]
+				"visibility_rules": [ "expensive,minigames,locale_windfall_island" ]
 			},			{
 				"name"            : "60 Rupee Auction",
 				"item_count"      : 1,
@@ -2507,7 +2507,7 @@
 				                      "{@can_travel_to_windfall_island}" ],
 				"capture_item"    : true,
 				"capture_item_layout" : "shop_item_grid",
-				"visibility_rules": [ "expensive,shortminigames,locale_windfall_island" ]
+				"visibility_rules": [ "expensive,minigames,locale_windfall_island" ]
 			},			{
 				"name"            : "80 Rupee Auction",
 				"item_count"      : 1,
@@ -2515,7 +2515,7 @@
 				                      "{@can_travel_to_windfall_island}" ],
 				"capture_item"    : true,
 				"capture_item_layout" : "shop_item_grid",
-				"visibility_rules": [ "expensive,shortminigames,locale_windfall_island" ]
+				"visibility_rules": [ "expensive,minigames,locale_windfall_island" ]
 			},			{
 				"name"            : "Sploosh Kaboom First Prize",
 				"item_count"      : 1,
@@ -2584,7 +2584,7 @@
 				"name"            : "Baito's Mail Sorting",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_dragon_roost_island" ],
-				"visibility_rules": [ "shortminigames,locale_dragon_roost_island" ]
+				"visibility_rules": [ "minigames,locale_dragon_roost_island" ]
 			},			{
 				"name"            : "20 Golden Feathers",
 				"item_count"      : 1,
@@ -2601,7 +2601,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_dri",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_dragon_roost_island" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -2619,7 +2619,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "driPicCave,@can_move_boulders",
-			                  "driPicCave,leaf,[logic_tricked]", ],
+			                  "driPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "driPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -2640,8 +2640,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "driIrCave,firearrow,boots",
-			                  "driIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "driIrCave,firearrow,magic,boots",
+			                  "driIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "driIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -2660,13 +2660,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "driNrCave,firearrow" ],
+					"access_rules"    : [ "driNrCave,firearrow,magic" ],
 					"visibility_rules": [ "driNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "driAiCave,@can_aim_mirror_shield,leaf",
+			                  "driAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "driAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "driAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -2684,7 +2684,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "driCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "driCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -2728,7 +2728,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "driOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,driOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,driOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -2801,7 +2801,7 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_dragon_roost_cavern,drc_key:2,grapple",
-		                  "@can_access_dragon_roost_cavern,drc_key:2,leaf",
+		                  "@can_access_dragon_roost_cavern,drc_key:2,leaf,magic",
 		                  "@can_access_dragon_roost_cavern,drc_key:2,hookshot,[logic_tricked]", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
@@ -2863,9 +2863,9 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_dragon_roost_cavern,@can_cut_down_hanging_drc_platform,drc_key:4,drc_key:1,grapple,@tingle_tuner_bombs",
-		                  "@can_access_dragon_roost_cavern,drc_key:1,leaf,grapple,@tingle_tuner_bombs",
+		                  "@can_access_dragon_roost_cavern,drc_key:1,leaf,magic,grapple,@tingle_tuner_bombs",
 		                  "@can_access_dragon_roost_cavern,@can_drc_backward,drc_key:1,grapple,@tingle_tuner_bombs",
-		                  "@can_access_dragon_roost_cavern,drc_key:1,grapple,icearrow,@tingle_tuner_bombs",
+		                  "@can_access_dragon_roost_cavern,drc_key:1,grapple,icearrow,magic,@tingle_tuner_bombs",
 		                  "@can_access_dragon_roost_cavern,logic_tricked,[logic_complex],drc_key:1,grapple,@tingle_tuner_bombs", ],
 				"visibility_rules": [ "statues,dungeons," ]
 			},			{
@@ -2873,41 +2873,41 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_dragon_roost_cavern,@can_cut_down_hanging_drc_platform,@can_stun_magtails,drc_key:4,drc_key:1,grapple",
-		                  "@can_access_dragon_roost_cavern,@can_cut_down_hanging_drc_platform,@can_stun_magtails,drc_key:4,drc_key:1,leaf",
-		                  "@can_access_dragon_roost_cavern,@can_stun_magtails,drc_key:1,leaf,grapple",
-		                  "@can_access_dragon_roost_cavern,@can_stun_magtails,drc_key:1,leaf",
+		                  "@can_access_dragon_roost_cavern,@can_cut_down_hanging_drc_platform,@can_stun_magtails,drc_key:4,drc_key:1,leaf,magic",
+		                  "@can_access_dragon_roost_cavern,@can_stun_magtails,drc_key:1,leaf,magic,grapple",
+		                  "@can_access_dragon_roost_cavern,@can_stun_magtails,drc_key:1,leaf,magic",
 		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_stun_magtails,drc_key:1,grapple",
-		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_stun_magtails,drc_key:1,leaf",
-		                  "@can_access_dragon_roost_cavern,@can_stun_magtails,drc_key:1,grapple,icearrow",
-		                  "@can_access_dragon_roost_cavern,@can_stun_magtails,drc_key:1,leaf,icearrow",
+		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_stun_magtails,drc_key:1,leaf,magic",
+		                  "@can_access_dragon_roost_cavern,@can_stun_magtails,drc_key:1,grapple,icearrow,magic",
+		                  "@can_access_dragon_roost_cavern,@can_stun_magtails,drc_key:1,leaf,magic,icearrow,magic",
 		                  "@can_access_dragon_roost_cavern,@can_stun_magtails,logic_tricked,[logic_complex],drc_key:1,grapple",
-		                  "@can_access_dragon_roost_cavern,@can_stun_magtails,logic_tricked,[logic_complex],drc_key:1,leaf", ],
+		                  "@can_access_dragon_roost_cavern,@can_stun_magtails,logic_tricked,[logic_complex],drc_key:1,leaf,magic", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Boss Stairs Right Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_dragon_roost_cavern,drc_key:4,grapple",
-		                  "@can_access_dragon_roost_cavern,drc_key:4,leaf",
+		                  "@can_access_dragon_roost_cavern,drc_key:4,leaf,magic",
 		                  "@can_access_dragon_roost_cavern,drc_key:4,hookshot",
-		                  "@can_access_dragon_roost_cavern,drc_key:4,icearrow",
+		                  "@can_access_dragon_roost_cavern,drc_key:4,icearrow,magic",
 		                  "@can_access_dragon_roost_cavern,@can_drc_backward,grapple",
-		                  "@can_access_dragon_roost_cavern,@can_drc_backward,leaf",
+		                  "@can_access_dragon_roost_cavern,@can_drc_backward,leaf,magic",
 		                  "@can_access_dragon_roost_cavern,@can_drc_backward,hookshot",
-		                  "@can_access_dragon_roost_cavern,@can_drc_backward,icearrow", ],
+		                  "@can_access_dragon_roost_cavern,@can_drc_backward,icearrow,magic", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Boss Stairs Left Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_dragon_roost_cavern,drc_key:4,grapple",
-		                  "@can_access_dragon_roost_cavern,drc_key:4,leaf",
+		                  "@can_access_dragon_roost_cavern,drc_key:4,leaf,magic",
 		                  "@can_access_dragon_roost_cavern,drc_key:4,hookshot",
-		                  "@can_access_dragon_roost_cavern,drc_key:4,icearrow",
+		                  "@can_access_dragon_roost_cavern,drc_key:4,icearrow,magic",
 		                  "@can_access_dragon_roost_cavern,@can_drc_backward,grapple",
-		                  "@can_access_dragon_roost_cavern,@can_drc_backward,leaf",
+		                  "@can_access_dragon_roost_cavern,@can_drc_backward,leaf,magic",
 		                  "@can_access_dragon_roost_cavern,@can_drc_backward,hookshot",
-		                  "@can_access_dragon_roost_cavern,@can_drc_backward,icearrow", ],
+		                  "@can_access_dragon_roost_cavern,@can_drc_backward,icearrow,magic", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Gohma Heart Container",
@@ -2921,10 +2921,10 @@
 		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_defeat_gohma,logic_tricked,[logic_complex],drc_key:4,windwaker",
 		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_defeat_gohma,logic_tricked,[logic_complex],drc_key:4,windwaker",
 		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_defeat_gohma,logic_tricked,[logic_complex],windwaker",
-		                  "@can_access_dragon_roost_cavern,@can_defeat_gohma,logic_tricked,[logic_complex],drc_key:4,leaf",
-		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_defeat_gohma,logic_tricked,[logic_complex],drc_key:4,leaf",
-		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_defeat_gohma,logic_tricked,[logic_complex],drc_key:4,leaf",
-		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_defeat_gohma,logic_tricked,[logic_complex],leaf", ],
+		                  "@can_access_dragon_roost_cavern,@can_defeat_gohma,logic_tricked,[logic_complex],drc_key:4,leaf,magic",
+		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_defeat_gohma,logic_tricked,[logic_complex],drc_key:4,leaf,magic",
+		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_defeat_gohma,logic_tricked,[logic_complex],drc_key:4,leaf,magic",
+		                  "@can_access_dragon_roost_cavern,@can_drc_backward,@can_defeat_gohma,logic_tricked,[logic_complex],leaf,magic", ],
 				"visibility_rules": [ "dungeons," ]
 			}],
 		"map_locations": [
@@ -2945,7 +2945,7 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_forest_haven,grapple",
-		                  "@can_access_forest_haven,@can_change_wind_direction,@can_refill_magic,logic_tricked,[logic_complex],leaf",
+		                  "@can_access_forest_haven,@can_change_wind_direction,@can_refill_magic,logic_tricked,[logic_complex],leaf,magic",
 		                  "@can_access_forest_haven,@can_door_cancel,@can_jumpslash,@can_play_fish_minigame", ],
 				"visibility_rules": [ "islandpuzzle," ]
 			},			{
@@ -2992,80 +2992,80 @@
 			},			{
 				"name"            : "Climb to Top Using Boko Baba Bulbs",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_access_forbidden_woods,@can_defeat_door_flowers,leaf" ],
+				"access_rules"    : [ "@can_access_forbidden_woods,@can_defeat_door_flowers,leaf,magic" ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Hole in Tree",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf" ],
+				"access_rules"    : [ "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,magic" ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Bomb Leaf Pile",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,@tingle_tuner_bombs" ],
+				"access_rules"    : [ "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,magic,@tingle_tuner_bombs" ],
 				"visibility_rules": [ "never" ]
 			},			{
 				"name"            : "Freestanding in Hub Room",
 				"item_count"      : 5,
-				"access_rules"    : [ "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,@tingle_tuner_bombs" ],
+				"access_rules"    : [ "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,magic,@tingle_tuner_bombs" ],
 				"visibility_rules": [ "never" ]
 			},			{
 				"name"            : "Morth Pit",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,grapple",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,logic_tricked,[logic_complex],leaf",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,magic,grapple",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,logic_tricked,[logic_complex],leaf,magic",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,magic,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Vine Maze Left Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,grapple",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,logic_tricked,[logic_complex],leaf",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,magic,grapple",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,logic_tricked,[logic_complex],leaf,magic",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,magic,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Vine Maze Right Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,grapple",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,logic_tricked,[logic_complex],leaf",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,magic,grapple",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,logic_tricked,[logic_complex],leaf,magic",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,magic,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Tall Room Before Mini-Boss",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_forbidden_woods,@can_defeat_peahats,@can_defeat_boko_babas,leaf,fw_key:1,grapple",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,fw_key:1,grapple,[logic_tricked]", ],
+		                  "@can_access_forbidden_woods,@can_defeat_peahats,@can_defeat_boko_babas,leaf,magic,fw_key:1,grapple",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,leaf,magic,fw_key:1,grapple,[logic_tricked]", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Mothula Mini-Boss Room",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,leaf,fw_key:1,grapple",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,logic_tricked,[logic_complex],leaf,fw_key:1",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,leaf,fw_key:1,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,leaf,magic,fw_key:1,grapple",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,logic_tricked,[logic_complex],leaf,magic,fw_key:1",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,leaf,magic,fw_key:1,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Mothula Freestanding Items",
 				"item_count"      : 8,
 				"access_rules"    : [
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,leaf,fw_key:1,grapple",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,logic_tricked,[logic_complex],leaf,fw_key:1",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,leaf,fw_key:1,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,leaf,magic,fw_key:1,grapple",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,logic_tricked,[logic_complex],leaf,magic,fw_key:1",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_winged_mothulas,leaf,magic,fw_key:1,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
 				"visibility_rules": [ "never" ]
 			},			{
 				"name"            : "Past Seeds Hanging by Vines",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_destroy_seeds_hanging_by_vines,leaf,fw_key:1,grapple",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_destroy_seeds_hanging_by_vines,logic_tricked,[logic_complex],leaf,fw_key:1",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_destroy_seeds_hanging_by_vines,leaf,fw_key:1,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,logic_tricked,[logic_complex],leaf,fw_key:1,grapple",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,logic_tricked,[logic_complex],leaf,fw_key:1",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,logic_tricked,[logic_complex],leaf,fw_key:1,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_destroy_seeds_hanging_by_vines,leaf,magic,fw_key:1,grapple",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_destroy_seeds_hanging_by_vines,logic_tricked,[logic_complex],leaf,magic,fw_key:1",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,@can_destroy_seeds_hanging_by_vines,leaf,magic,fw_key:1,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,logic_tricked,[logic_complex],leaf,magic,fw_key:1,grapple",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,logic_tricked,[logic_complex],leaf,magic,fw_key:1",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_door_flowers,logic_tricked,[logic_complex],leaf,magic,fw_key:1,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched]", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Chest Across Red Hanging Flower",
@@ -3108,19 +3108,19 @@
 				"name"            : "Double Mothula Room",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_forbidden_woods,@can_defeat_door_flowers,@can_defeat_boko_babas,@can_defeat_mothulas,leaf",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_mothulas,leaf,grapple", ],
+		                  "@can_access_forbidden_woods,@can_defeat_door_flowers,@can_defeat_boko_babas,@can_defeat_mothulas,leaf,magic",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_mothulas,leaf,magic,grapple", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Kalle Demos Heart Container",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_forbidden_woods,@can_defeat_door_flowers,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,leaf,fw_bk",
-		                  "@can_access_forbidden_woods,@can_defeat_door_flowers,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,logic_tricked,[logic_complex],leaf,windwaker",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,leaf,fw_bk,grapple",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,logic_tricked,[logic_complex],leaf,grapple,windwaker",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,logic_tricked,[logic_complex],leaf,fw_bk",
-		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,logic_tricked,[logic_complex],leaf,windwaker", ],
+		                  "@can_access_forbidden_woods,@can_defeat_door_flowers,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,leaf,magic,fw_bk",
+		                  "@can_access_forbidden_woods,@can_defeat_door_flowers,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,logic_tricked,[logic_complex],leaf,magic,windwaker",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,leaf,magic,fw_bk,grapple",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,logic_tricked,[logic_complex],leaf,magic,grapple,windwaker",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,logic_tricked,[logic_complex],leaf,magic,fw_bk",
+		                  "@can_access_forbidden_woods,@can_defeat_boko_babas,@can_defeat_mothulas,@can_defeat_kalle_demos,logic_tricked,[logic_complex],leaf,magic,windwaker", ],
 				"visibility_rules": [ "dungeons," ]
 			}],
 		"map_locations": [
@@ -3213,7 +3213,7 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "bombs,@can_access_tower_of_the_gods",
-		                  "@can_access_tower_of_the_gods,leaf,double,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,leaf,magic,double,[logic_tricked]",
 		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,logic_tricked,[logic_complex]", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
@@ -3221,7 +3221,7 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "bombs,@can_access_tower_of_the_gods",
-		                  "@can_access_tower_of_the_gods,leaf,double,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,leaf,magic,double,[logic_tricked]",
 		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,logic_tricked,[logic_complex]", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
@@ -3229,17 +3229,17 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "bombs,@can_access_tower_of_the_gods,@can_access_tower_of_the_gods",
-		                  "bombs,@can_access_tower_of_the_gods,leaf,logic_tricked,[logic_glitched]",
-		                  "@can_access_tower_of_the_gods,leaf,leaf,double,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,leaf,logic_tricked,[logic_glitched],double,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,leaf,magic,logic_tricked,[logic_glitched]",
+		                  "@can_access_tower_of_the_gods,leaf,magic,leaf,magic,double,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,leaf,magic,logic_tricked,[logic_glitched],double,[logic_tricked]",
 		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,logic_tricked,[logic_complex],logic_tricked,[logic_complex]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_cut_or_slash,logic_tricked,[logic_complex],leaf,logic_tricked,[logic_glitched]", ],
+		                  "bombs,@can_access_tower_of_the_gods,@can_cut_or_slash,logic_tricked,[logic_complex],leaf,magic,logic_tricked,[logic_glitched]", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Tingle Statue Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_tower_of_the_gods,leaf,@tingle_tuner_bombs,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,leaf,magic,@tingle_tuner_bombs,[logic_tricked]",
 		                  "@can_access_tower_of_the_gods,@tingle_tuner_bombs,totg_key:1",
 		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,logic_tricked,[logic_complex],@tingle_tuner_bombs", ],
 				"visibility_rules": [ "statues,dungeons," ]
@@ -3247,7 +3247,7 @@
 				"name"            : "First Chest Guarded by Armos Knights",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_tower_of_the_gods,leaf,leaf,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,leaf,magic,leaf,magic,[logic_tricked]",
 		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_yellow_chuchus,totg_key:1",
 		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,logic_tricked,[logic_complex],logic_tricked,[logic_complex]", ],
 				"visibility_rules": [ "dungeons," ]
@@ -3255,7 +3255,7 @@
 				"name"            : "Stone Tablet",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_tower_of_the_gods,leaf,[logic_tricked],windwaker",
+		                  "@can_access_tower_of_the_gods,leaf,magic,[logic_tricked],windwaker",
 		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,totg_key:1,windwaker",
 		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,logic_tricked,[logic_complex],windwaker", ],
 				"visibility_rules": [ "dungeons," ]
@@ -3263,10 +3263,10 @@
 				"name"            : "Darknut Mini-Boss Room",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_tower_of_the_gods,@can_defeat_darknuts,@can_play_command_melody,leaf,[logic_tricked],windwaker",
-		                  "@can_access_tower_of_the_gods,@can_defeat_darknuts,@can_play_command_melody,leaf,leaf,[logic_tricked],windwaker",
-		                  "@can_access_tower_of_the_gods,@can_defeat_darknuts,@can_play_command_melody,leaf,leaf,[logic_tricked],windwaker",
-		                  "@can_access_tower_of_the_gods,@can_defeat_darknuts,leaf,leaf,[logic_tricked],windwaker",
+		                  "@can_access_tower_of_the_gods,@can_defeat_darknuts,@can_play_command_melody,leaf,magic,[logic_tricked],windwaker",
+		                  "@can_access_tower_of_the_gods,@can_defeat_darknuts,@can_play_command_melody,leaf,magic,leaf,magic,[logic_tricked],windwaker",
+		                  "@can_access_tower_of_the_gods,@can_defeat_darknuts,@can_play_command_melody,leaf,magic,leaf,magic,[logic_tricked],windwaker",
+		                  "@can_access_tower_of_the_gods,@can_defeat_darknuts,leaf,magic,leaf,magic,[logic_tricked],windwaker",
 		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_darknuts,@can_play_command_melody,totg_key:1,windwaker",
 		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_darknuts,@can_play_command_melody,@can_play_command_melody,totg_key:1,windwaker",
 		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_darknuts,@can_play_command_melody,@can_play_command_melody,totg_key:1,windwaker",
@@ -3280,91 +3280,91 @@
 				"name"            : "Second Chest Guarded by Armos Knights",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,grapple,grapple,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,leaf,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,magic,grapple,grapple,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,magic,leaf,magic,[logic_tricked]",
 		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_command_melody,@can_play_winds_requiem,grapple,grapple,totg_key:1",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,@can_play_command_melody,leaf,leaf,totg_key:1",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,@can_play_command_melody,leaf,magic,leaf,magic,totg_key:1",
 		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,@can_play_command_melody,@can_play_winds_requiem,logic_tricked,[logic_complex],grapple,grapple",
-		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,@can_play_winds_requiem,@can_play_command_melody,logic_tricked,[logic_complex],leaf,leaf", ],
+		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,@can_play_winds_requiem,@can_play_command_melody,logic_tricked,[logic_complex],leaf,magic,leaf,magic", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Floating Platforms Room",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,grapple,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,magic,grapple,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,magic,[logic_tricked]",
 		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_command_melody,@can_play_winds_requiem,grapple,grapple,totg_key:1",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,@can_play_command_melody,leaf,leaf,totg_key:1",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,@can_play_command_melody,leaf,magic,leaf,magic,totg_key:1",
 		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,@can_play_command_melody,@can_play_winds_requiem,logic_tricked,[logic_complex],grapple,grapple",
-		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,@can_play_winds_requiem,@can_play_command_melody,logic_tricked,[logic_complex],leaf,leaf", ],
+		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,@can_play_winds_requiem,@can_play_command_melody,logic_tricked,[logic_complex],leaf,magic,leaf,magic", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Top of Floating Platforms Room",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,grapple,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,magic,grapple,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,@can_play_command_melody,leaf,magic,[logic_tricked]",
 		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_command_melody,@can_play_winds_requiem,grapple,grapple,totg_key:1",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,@can_play_command_melody,leaf,leaf,totg_key:1",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,@can_play_command_melody,leaf,magic,leaf,magic,totg_key:1",
 		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,@can_play_command_melody,@can_play_winds_requiem,logic_tricked,[logic_complex],grapple,grapple",
-		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,@can_play_winds_requiem,@can_play_command_melody,logic_tricked,[logic_complex],leaf,leaf", ],
+		                  "@can_access_tower_of_the_gods,@can_cut_or_slash,@can_play_winds_requiem,@can_play_command_melody,logic_tricked,[logic_complex],leaf,magic,leaf,magic", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Big Key Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,magic,totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],totg_key:1,[logic_tricked]",
 		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,@can_play_winds_requiem,totg_key:2",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2", ],
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_play_winds_requiem,leaf,magic,logic_tricked,[logic_glitched],logic_tricked,[logic_glitched],totg_key:2", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Gohdan Heart Container",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,leaf,totg_key:2",
-		                  "@can_access_tower_of_the_gods,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,totg_bk,totg_key:1,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
-		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,leaf,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "bombs,@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,logic_tricked,[logic_complex],leaf,magic,leaf,magic,totg_key:2",
+		                  "@can_access_tower_of_the_gods,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,totg_bk,totg_key:1,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:1,totg_key:2,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
+		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,leaf,magic,leaf,magic,totg_bk,totg_key:2,totg_key:1,[logic_tricked]",
 		                  "@can_access_tower_of_the_gods,@can_defeat_yellow_chuchus,@can_defeat_armos,@can_defeat_gohdan,@can_play_winds_requiem,@can_play_winds_requiem,totg_bk,totg_key:2", ],
 				"visibility_rules": [ "dungeons," ]
 			}],
@@ -3410,7 +3410,7 @@
 				"name"            : "Chest Outside Upper Jail Cell",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_get_inside_forsaken_fortress,leaf",
+		                  "@can_get_inside_forsaken_fortress,leaf,magic",
 		                  "@can_get_inside_forsaken_fortress,hookshot",
 		                  "@can_get_inside_forsaken_fortress,@can_reach_and_defeat_phantom_ganon,logic_tricked,[logic_glitched]",
 		                  "@can_get_inside_forsaken_fortress,logic_tricked,[logic_glitched],windwaker", ],
@@ -3434,7 +3434,7 @@
 				"name"            : "Helmaroc King Heart Container",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_defeat_helmaroc_king,@can_get_inside_forsaken_fortress,leaf,hammer",
+		                  "@can_defeat_helmaroc_king,@can_get_inside_forsaken_fortress,leaf,magic,hammer",
 		                  "@can_defeat_helmaroc_king,@can_get_inside_forsaken_fortress,hookshot,hammer",
 		                  "@can_defeat_helmaroc_king,@can_get_inside_forsaken_fortress,logic_tricked,[logic_glitched],hammer", ],
 				"visibility_rules": [ "dungeons," ]
@@ -3526,7 +3526,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_fm",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_fire_mountain" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -3544,7 +3544,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "fmPicCave,@can_move_boulders",
-			                  "fmPicCave,leaf,[logic_tricked]", ],
+			                  "fmPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "fmPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -3565,8 +3565,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "fmIrCave,firearrow,boots",
-			                  "fmIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "fmIrCave,firearrow,magic,boots",
+			                  "fmIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "fmIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -3585,13 +3585,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "fmNrCave,firearrow" ],
+					"access_rules"    : [ "fmNrCave,firearrow,magic" ],
 					"visibility_rules": [ "fmNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "fmAiCave,@can_aim_mirror_shield,leaf",
+			                  "fmAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "fmAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "fmAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -3609,7 +3609,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "fmCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "fmCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -3653,7 +3653,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "fmOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,fmOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,fmOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -3742,7 +3742,7 @@
 		"sections"     : [			{
 				"name"            : "Frozen Chest",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_sail,@can_travel_to_ice_ring_isle,firearrow" ],
+				"access_rules"    : [ "@can_sail,@can_travel_to_ice_ring_isle,firearrow,magic" ],
 				"visibility_rules": [ "islandpuzzle,locale_ice_ring_isle" ]
 			},			{
 				"name"            : "Cave Chest",
@@ -3753,16 +3753,16 @@
 				"name"            : "Interior Cave Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_ice_ring_isle_secret_cave,firearrow,boots",
-		                  "@can_access_ice_ring_isle_secret_cave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
-				"visibility_rules": [ "puzzlecaves,mixedcaves,standard_entrance,locale_ice_ring_isle" ]
+		                  "@can_access_ice_ring_isle_secret_cave,firearrow,magic,boots",
+		                  "@can_access_ice_ring_isle_secret_cave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
+				"visibility_rules": [ "puzzlecaves,combatcaves,standard_entrance,locale_ice_ring_isle" ]
 			},			{
 				"name"            : "Unexplored Cave",
 				"item_count"      : 1,
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_ir",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_ice_ring_isle" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -3780,7 +3780,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "irPicCave,@can_move_boulders",
-			                  "irPicCave,leaf,[logic_tricked]", ],
+			                  "irPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "irPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -3801,8 +3801,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "irIrCave,firearrow,boots",
-			                  "irIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "irIrCave,firearrow,magic,boots",
+			                  "irIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "irIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -3821,13 +3821,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "irNrCave,firearrow" ],
+					"access_rules"    : [ "irNrCave,firearrow,magic" ],
 					"visibility_rules": [ "irNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "irAiCave,@can_aim_mirror_shield,leaf",
+			                  "irAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "irAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "irAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -3845,7 +3845,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "irCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "irCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -3889,7 +3889,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "irOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,irOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,irOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -3940,7 +3940,7 @@
 				"capture_item_layout": "floating_item_grid",
 				"access_rules"    : [
 		                  "baitbag,@can_travel_to_headstone_island",
-		                  "@can_door_cancel,@can_travel_to_headstone_island,logic_tricked,[logic_complex],leaf",
+		                  "@can_door_cancel,@can_travel_to_headstone_island,logic_tricked,[logic_complex],leaf,magic",
 										"{}" ],
 				"visibility_rules": [ "islandpuzzle" ]
 			},			{
@@ -4001,8 +4001,8 @@
 				"name"            : "Behind Curtain In Warp Pot Room",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "boomerang,@can_access_earth_temple,@can_play_command_melody,firearrow",
-		                  "@can_access_earth_temple,@can_play_command_melody,firearrow,hookshot", ],
+		                  "boomerang,@can_access_earth_temple,@can_play_command_melody,firearrow,magic",
+		                  "@can_access_earth_temple,@can_play_command_melody,firearrow,magic,hookshot", ],
 				"visibility_rules": [ "never" ]
 			},			{
 				"name"            : "Transparent Chest in First Crypt",
@@ -4016,10 +4016,10 @@
 				"name"            : "Chest In Three Blocks Room",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,et_key:2,firearrow,power",
-		                  "@can_get_into_earth_temple,logic_tricked,[logic_complex],et_key:2,firearrow,power",
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,leaf,et_key:2,logic_tricked,[logic_glitched],power",
-		                  "@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,et_key:2,logic_tricked,[logic_glitched],power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,et_key:2,firearrow,magic,power",
+		                  "@can_get_into_earth_temple,logic_tricked,[logic_complex],et_key:2,firearrow,magic,power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,leaf,magic,et_key:2,logic_tricked,[logic_glitched],power",
+		                  "@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,et_key:2,logic_tricked,[logic_glitched],power",
 		                  "bombs,@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],et_key:2,power",
 		                  "bombs,@can_get_into_earth_temple,logic_tricked,[logic_complex],et_key:2,power", ],
 				"visibility_rules": [ "dungeons," ]
@@ -4027,10 +4027,10 @@
 				"name"            : "Chest Behind Statues",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,@can_play_command_melody,et_key:2,firearrow,power",
-		                  "@can_aim_mirror_shield,@can_defeat_floormasters,@can_get_into_earth_temple,et_key:2,firearrow,power",
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,@can_play_command_melody,leaf,et_key:2,logic_tricked,[logic_glitched],power",
-		                  "@can_aim_mirror_shield,@can_defeat_floormasters,@can_get_into_earth_temple,leaf,et_key:2,logic_tricked,[logic_glitched],power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,@can_play_command_melody,et_key:2,firearrow,magic,power",
+		                  "@can_aim_mirror_shield,@can_defeat_floormasters,@can_get_into_earth_temple,et_key:2,firearrow,magic,power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,@can_play_command_melody,leaf,magic,et_key:2,logic_tricked,[logic_glitched],power",
+		                  "@can_aim_mirror_shield,@can_defeat_floormasters,@can_get_into_earth_temple,leaf,magic,et_key:2,logic_tricked,[logic_glitched],power",
 		                  "bombs,@can_defeat_floormasters,@can_get_into_earth_temple,@can_play_command_melody,logic_tricked,[logic_complex],et_key:2,power",
 		                  "bombs,@can_aim_mirror_shield,@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],et_key:2,power", ],
 				"visibility_rules": [ "dungeons," ]
@@ -4038,8 +4038,8 @@
 				"name"            : "Casket in Second Crypt",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,et_key:2,firearrow,power",
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,leaf,et_key:2,logic_tricked,[logic_glitched],power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,et_key:2,firearrow,magic,power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,leaf,magic,et_key:2,logic_tricked,[logic_glitched],power",
 		                  "bombs,@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],et_key:2,power", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
@@ -4047,53 +4047,53 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_defeat_floormasters,@can_defeat_stalfos,@can_get_into_earth_temple,et_key:3,power",
-		                  "@can_defeat_stalfos,@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,et_key:3,et_key:2,power",
-		                  "@can_defeat_stalfos,@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,et_key:2,et_key:3,power",
-		                  "@can_defeat_stalfos,@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,et_key:2,power",
+		                  "@can_defeat_stalfos,@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,et_key:3,et_key:2,power",
+		                  "@can_defeat_stalfos,@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,et_key:2,et_key:3,power",
+		                  "@can_defeat_stalfos,@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,et_key:2,power",
 		                  "@can_defeat_floormasters,@can_get_into_earth_temple,et_key:3,hookshot,power",
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,et_key:3,et_key:2,hookshot,power",
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,et_key:2,et_key:3,hookshot,power",
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,et_key:2,hookshot,power",
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,et_key:3,power",
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,et_key:3,et_key:2,power",
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,et_key:2,et_key:3,power",
-		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,et_key:2,power", ],
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,et_key:3,et_key:2,hookshot,power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,et_key:2,et_key:3,hookshot,power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,et_key:2,hookshot,power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,et_key:3,power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,et_key:3,et_key:2,power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,et_key:2,et_key:3,power",
+		                  "@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,et_key:2,power", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Tingle Statue Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_aim_mirror_shield,@can_get_into_earth_temple,@can_play_command_melody,@tingle_tuner_bombs",
-		                  "@can_get_into_earth_temple,leaf,@tingle_tuner_bombs", ],
+		                  "@can_get_into_earth_temple,leaf,magic,@tingle_tuner_bombs", ],
 				"visibility_rules": [ "statues,dungeons," ]
 			},			{
 				"name"            : "End of Foggy Room With Floormasters",
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_aim_mirror_shield,@can_get_into_earth_temple,@can_play_earth_gods_lyric",
-		                  "bombs,@can_aim_mirror_shield,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf",
+		                  "bombs,@can_aim_mirror_shield,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic",
 		                  "@can_get_into_earth_temple,@can_play_command_melody,@can_play_earth_gods_lyric,logic_tricked,[logic_complex]",
-		                  "bombs,@can_get_into_earth_temple,@can_play_command_melody,logic_tricked,[logic_complex],leaf", ],
+		                  "bombs,@can_get_into_earth_temple,@can_play_command_melody,logic_tricked,[logic_complex],leaf,magic", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Kill All Floormasters in Foggy Room",
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_aim_mirror_shield,@can_defeat_floormasters,@can_get_into_earth_temple,@can_play_earth_gods_lyric",
-		                  "bombs,@can_aim_mirror_shield,@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf",
+		                  "bombs,@can_aim_mirror_shield,@can_defeat_floormasters,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic",
 		                  "@can_defeat_floormasters,@can_get_into_earth_temple,@can_play_command_melody,@can_play_earth_gods_lyric,logic_tricked,[logic_complex]",
-		                  "bombs,@can_defeat_floormasters,@can_get_into_earth_temple,@can_play_command_melody,logic_tricked,[logic_complex],leaf", ],
+		                  "bombs,@can_defeat_floormasters,@can_get_into_earth_temple,@can_play_command_melody,logic_tricked,[logic_complex],leaf,magic", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Behind Curtain Next to Hammer Button",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "boomerang,@can_aim_mirror_shield,@can_get_into_earth_temple,@can_play_earth_gods_lyric,firearrow",
-		                  "bombs,boomerang,@can_aim_mirror_shield,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,firearrow",
-		                  "@can_aim_mirror_shield,@can_get_into_earth_temple,@can_play_earth_gods_lyric,firearrow,hookshot",
-		                  "bombs,@can_aim_mirror_shield,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,firearrow,hookshot",
-		                  "@can_aim_mirror_shield,@can_get_into_earth_temple,@can_play_earth_gods_lyric,logic_tricked,[logic_complex],leaf,firearrow",
-		                  "bombs,@can_aim_mirror_shield,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,firearrow", ],
+		                  "boomerang,@can_aim_mirror_shield,@can_get_into_earth_temple,@can_play_earth_gods_lyric,firearrow,magic",
+		                  "bombs,boomerang,@can_aim_mirror_shield,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,firearrow,magic",
+		                  "@can_aim_mirror_shield,@can_get_into_earth_temple,@can_play_earth_gods_lyric,firearrow,magic,hookshot",
+		                  "bombs,@can_aim_mirror_shield,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,firearrow,magic,hookshot",
+		                  "@can_aim_mirror_shield,@can_get_into_earth_temple,@can_play_earth_gods_lyric,logic_tricked,[logic_complex],leaf,magic,firearrow,magic",
+		                  "bombs,@can_aim_mirror_shield,@can_get_into_earth_temple,logic_tricked,[logic_complex],leaf,magic,firearrow,magic", ],
 				"visibility_rules": [ "never" ]
 			},			{
 				"name"            : "Chest in Third Crypt",
@@ -4321,7 +4321,7 @@
 				"name"            : "Tingle Statue Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_wind_temple,@can_play_command_melody,leaf,boots,@tingle_tuner_bombs",
+		                  "@can_access_wind_temple,@can_play_command_melody,leaf,magic,boots,@tingle_tuner_bombs",
 		                  "@can_access_wind_temple,@can_play_command_melody,@can_spring_storage,boots,@tingle_tuner_bombs", ],
 				"visibility_rules": [ "statues,dungeons," ]
 			},			{
@@ -4333,27 +4333,27 @@
 				"name"            : "Break Left Panel",
 				"item_count"      : 3,
 				"access_rules"    : [
-		                  "@can_access_wind_temple,@can_play_command_melody,leaf,boots",
-		                  "@can_access_wind_temple,@can_play_command_melody,@can_spring_storage,firearrow,boots", ],
+		                  "@can_access_wind_temple,@can_play_command_melody,leaf,magic,boots",
+		                  "@can_access_wind_temple,@can_play_command_melody,@can_spring_storage,firearrow,magic,boots", ],
 				"visibility_rules": [ "never" ]
 			},			{
 				"name"            : "Chest in Left Alcove",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_wind_temple,@can_play_command_melody,leaf,boots",
-		                  "@can_access_wind_temple,@can_play_command_melody,@can_spring_storage,firearrow,boots", ],
+		                  "@can_access_wind_temple,@can_play_command_melody,leaf,magic,boots",
+		                  "@can_access_wind_temple,@can_play_command_melody,@can_spring_storage,firearrow,magic,boots", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Big Key Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_wind_temple,@can_defeat_darknuts,@can_play_command_melody,@can_play_wind_gods_aria,leaf,boots",
-		                  "@can_access_wind_temple,@can_defeat_darknuts,@can_play_command_melody,@can_play_wind_gods_aria,@can_spring_storage,firearrow,boots", ],
+		                  "@can_access_wind_temple,@can_defeat_darknuts,@can_play_command_melody,@can_play_wind_gods_aria,leaf,magic,boots",
+		                  "@can_access_wind_temple,@can_defeat_darknuts,@can_play_command_melody,@can_play_wind_gods_aria,@can_spring_storage,firearrow,magic,boots", ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Chest In Many Cyclones Room",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_access_wind_temple,@can_play_command_melody,@can_refill_magic,leaf,boots" ],
+				"access_rules"    : [ "@can_access_wind_temple,@can_play_command_melody,@can_refill_magic,leaf,magic,boots" ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Chest In Middle Of Hub Room",
@@ -4382,12 +4382,12 @@
 			},			{
 				"name"            : "Chest at Top of Hub Room",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_access_wind_temple_basement,leaf" ],
+				"access_rules"    : [ "@can_access_wind_temple_basement,leaf,magic" ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Chest Behind Seven Armos",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_access_wind_temple_basement,@can_defeat_armos,leaf" ],
+				"access_rules"    : [ "@can_access_wind_temple_basement,@can_defeat_armos,leaf,magic" ],
 				"visibility_rules": [ "dungeons," ]
 			},			{
 				"name"            : "Kill All Enemies in Tall Basement Room",
@@ -4399,9 +4399,9 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_wind_temple_basement,@can_defeat_blue_bubbles,@can_defeat_molgera,@can_play_wind_gods_aria,hookshot,wt_bk,wt_key:2",
-		                  "@can_access_wind_temple_basement,@can_defeat_blue_bubbles,@can_defeat_molgera,@can_jumpslash,@can_play_wind_gods_aria,@can_refill_magic,logic_tricked,[logic_complex],leaf,hookshot,wt_key:2",
+		                  "@can_access_wind_temple_basement,@can_defeat_blue_bubbles,@can_defeat_molgera,@can_jumpslash,@can_play_wind_gods_aria,@can_refill_magic,logic_tricked,[logic_complex],leaf,magic,hookshot,wt_key:2",
 		                  "@can_access_wind_temple_basement,@can_defeat_molgera,hookshot,[logic_tricked],wt_bk,wt_key:2",
-		                  "@can_access_wind_temple_basement,@can_defeat_molgera,@can_jumpslash,@can_refill_magic,logic_tricked,[logic_complex],leaf,hookshot,[logic_tricked],wt_key:2", ],
+		                  "@can_access_wind_temple_basement,@can_defeat_molgera,@can_jumpslash,@can_refill_magic,logic_tricked,[logic_complex],leaf,magic,hookshot,[logic_tricked],wt_key:2", ],
 				"visibility_rules": [ "dungeons," ]
 			}],
 		"map_locations": [
@@ -4727,9 +4727,9 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_defeat_poes,@can_defeat_redeads,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_ballad_of_gales,@can_sail,@can_travel_to_any_island,gschart",
-		                  "@can_defeat_poes,@can_defeat_redeads,@can_defeat_stalfos,@can_play_ballad_of_gales,@can_sail,@can_travel_to_any_island,leaf,gschart,logic_tricked,[logic_glitched]",
+		                  "@can_defeat_poes,@can_defeat_redeads,@can_defeat_stalfos,@can_play_ballad_of_gales,@can_sail,@can_travel_to_any_island,leaf,magic,gschart,logic_tricked,[logic_glitched]",
 		                  "@can_defeat_wizzrobes,@can_play_ballad_of_gales,@can_sail,gschart,[logic_tricked]",
-		                  "@can_play_ballad_of_gales,@can_sail,leaf,gschart,logic_tricked,[logic_glitched],[logic_tricked]", ],
+		                  "@can_play_ballad_of_gales,@can_sail,leaf,magic,gschart,logic_tricked,[logic_glitched],[logic_tricked]", ],
 				"visibility_rules": [ "misc," ]
 			}],
 		"map_locations": [
@@ -4801,7 +4801,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_po",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_private_oasis" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -4819,7 +4819,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "poPicCave,@can_move_boulders",
-			                  "poPicCave,leaf,[logic_tricked]", ],
+			                  "poPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "poPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -4840,8 +4840,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "poIrCave,firearrow,boots",
-			                  "poIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "poIrCave,firearrow,magic,boots",
+			                  "poIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "poIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -4860,13 +4860,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "poNrCave,firearrow" ],
+					"access_rules"    : [ "poNrCave,firearrow,magic" ],
 					"visibility_rules": [ "poNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "poAiCave,@can_aim_mirror_shield,leaf",
+			                  "poAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "poAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "poAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -4884,7 +4884,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "poCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "poCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -4928,7 +4928,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "poOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,poOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,poOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -4994,12 +4994,12 @@
 				"name"            : "First Prize",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_spectacle_island" ],
-				"visibility_rules": [ "shortminigames," ]
+				"visibility_rules": [ "minigames," ]
 			},			{
 				"name"            : "Second Prize",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_travel_to_spectacle_island" ],
-				"visibility_rules": [ "longminigames," ]
+				"visibility_rules": [ "minigames," ]
 			}],
 		"map_locations": [
 			{
@@ -5018,12 +5018,12 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "baitbag,@can_travel_to_needle_rock_isle",
-		                  "@can_travel_to_needle_rock_isle,firearrow,[logic_tricked]", ],
+		                  "@can_travel_to_needle_rock_isle,firearrow,magic,[logic_tricked]", ],
 				"visibility_rules": [ "islandpuzzle,locale_needle_rock_isle" ]
 			},			{
 				"name"            : "Light Torches",
 				"item_count"      : 1,
-				"access_rules"    : [ "@can_access_needle_rock_isle_secret_cave,firearrow" ],
+				"access_rules"    : [ "@can_access_needle_rock_isle_secret_cave,firearrow,magic" ],
 				"visibility_rules": [ "puzzlecaves,standard_entrance,locale_needle_rock_isle" ]
 			},			{
 				"name"            : "Unexplored Cave",
@@ -5031,7 +5031,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_nr",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_needle_rock_isle" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -5049,7 +5049,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "nrPicCave,@can_move_boulders",
-			                  "nrPicCave,leaf,[logic_tricked]", ],
+			                  "nrPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "nrPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -5070,8 +5070,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "nrIrCave,firearrow,boots",
-			                  "nrIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "nrIrCave,firearrow,magic,boots",
+			                  "nrIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "nrIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -5090,13 +5090,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "nrNrCave,firearrow" ],
+					"access_rules"    : [ "nrNrCave,firearrow,magic" ],
 					"visibility_rules": [ "nrNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "nrAiCave,@can_aim_mirror_shield,leaf",
+			                  "nrAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "nrAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "nrAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -5114,7 +5114,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "nrCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "nrCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -5158,7 +5158,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "nrOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,nrOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,nrOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -5229,7 +5229,7 @@
 				"name"            : "Light Puzzle",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_angular_isles_secret_cave,@can_aim_mirror_shield,leaf",
+		                  "@can_access_angular_isles_secret_cave,@can_aim_mirror_shield,leaf,magic",
 		                  "@can_access_angular_isles_secret_cave,@can_aim_mirror_shield,hookshot" ],
 				"visibility_rules": [ "puzzlecaves,standard_entrance,locale_angular_isles" ]
 			},			{
@@ -5238,7 +5238,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_ai",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_angular_isles" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -5256,7 +5256,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "aiPicCave,@can_move_boulders",
-			                  "aiPicCave,leaf,[logic_tricked]" ],
+			                  "aiPicCave,leaf,magic,[logic_tricked]" ],
 					"visibility_rules": [ "aiPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -5277,8 +5277,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "aiIrCave,firearrow,boots",
-			                  "aiIrCave,firearrow,logic_tricked,[logic_glitched],windwaker" ],
+			                  "aiIrCave,firearrow,magic,boots",
+			                  "aiIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker" ],
 					"visibility_rules": [ "aiIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -5297,13 +5297,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "aiNrCave,firearrow" ],
+					"access_rules"    : [ "aiNrCave,firearrow,magic" ],
 					"visibility_rules": [ "aiNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "aiAiCave,@can_aim_mirror_shield,leaf",
+			                  "aiAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "aiAiCave,@can_aim_mirror_shield,hookshot" ],
 					"visibility_rules": [ "aiAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -5321,7 +5321,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "aiCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot" ],
 					"visibility_rules": [ "aiCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -5365,7 +5365,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "aiOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,aiOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,aiOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -5431,14 +5431,14 @@
 				"name"            : "Three Diamond Switches",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_access_boating_course_secret_cave,@can_defeat_miniblins_easily,@can_hit_diamond_switches_at_range" ],
-				"visibility_rules": [ "mixedcaves,standard_entrance,locale_boating_course" ]
+				"visibility_rules": [ "puzzlecaves,combatcaves,standard_entrance,locale_boating_course" ]
 			},			{
 				"name"            : "Unexplored Cave",
 				"item_count"      : 1,
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_bc",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_boating_course" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -5456,7 +5456,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "bcPicCave,@can_move_boulders",
-			                  "bcPicCave,leaf,[logic_tricked]", ],
+			                  "bcPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "bcPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -5477,8 +5477,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "bcIrCave,firearrow,boots",
-			                  "bcIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "bcIrCave,firearrow,magic,boots",
+			                  "bcIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "bcIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -5497,13 +5497,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "bcNrCave,firearrow" ],
+					"access_rules"    : [ "bcNrCave,firearrow,magic" ],
 					"visibility_rules": [ "bcNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "bcAiCave,@can_aim_mirror_shield,leaf",
+			                  "bcAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "bcAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "bcAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -5521,7 +5521,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "bcCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "bcCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -5565,7 +5565,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "bcOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,bcOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,bcOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -5620,7 +5620,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_sw",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_stone_watcher_island" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -5638,7 +5638,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "swPicCave,@can_move_boulders",
-			                  "swPicCave,leaf,[logic_tricked]", ],
+			                  "swPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "swPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -5659,8 +5659,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "swIrCave,firearrow,boots",
-			                  "swIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "swIrCave,firearrow,magic,boots",
+			                  "swIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "swIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -5679,13 +5679,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "swNrCave,firearrow" ],
+					"access_rules"    : [ "swNrCave,firearrow,magic" ],
 					"visibility_rules": [ "swNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "swAiCave,@can_aim_mirror_shield,leaf",
+			                  "swAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "swAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "swAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -5703,7 +5703,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "swCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "swCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -5747,7 +5747,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "swOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,swOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,swOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -5856,14 +5856,14 @@
 				"name"            : "Hard Combat Trial",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_access_overlook_island_secret_cave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-				"visibility_rules": [ "combatcaves,longtrials,standard_entrance" ]
+				"visibility_rules": [ "combatcaves,standard_entrance" ]
 			},			{
 				"name"            : "Unexplored Cave",
 				"item_count"      : 1,
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_ol",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_overlook_island" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -5881,7 +5881,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "olPicCave,@can_move_boulders",
-			                  "olPicCave,leaf,[logic_tricked]", ],
+			                  "olPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "olPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -5902,8 +5902,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "olIrCave,firearrow,boots",
-			                  "olIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "olIrCave,firearrow,magic,boots",
+			                  "olIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "olIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -5922,13 +5922,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "olNrCave,firearrow" ],
+					"access_rules"    : [ "olNrCave,firearrow,magic" ],
 					"visibility_rules": [ "olNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "olAiCave,@can_aim_mirror_shield,leaf",
+			                  "olAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "olAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "olAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -5946,7 +5946,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "olCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "olCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -5990,7 +5990,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "olOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,olOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,olOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -6046,7 +6046,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_bp",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_birds_peak_rock" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -6064,7 +6064,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "bpPicCave,@can_move_boulders",
-			                  "bpPicCave,leaf,[logic_tricked]", ],
+			                  "bpPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "bpPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -6085,8 +6085,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "bpIrCave,firearrow,boots",
-			                  "bpIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "bpIrCave,firearrow,magic,boots",
+			                  "bpIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "bpIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -6105,13 +6105,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "bpNrCave,firearrow" ],
+					"access_rules"    : [ "bpNrCave,firearrow,magic" ],
 					"visibility_rules": [ "bpNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "bpAiCave,@can_aim_mirror_shield,leaf",
+			                  "bpAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "bpAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "bpAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -6129,7 +6129,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "bpCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "bpCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -6173,7 +6173,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "bpOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,bpOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,bpOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -6234,7 +6234,7 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_pawprint_isle_chuchu_cave,@can_move_boulders",
-		                  "@can_access_pawprint_isle_chuchu_cave,leaf,[logic_tricked]", ],
+		                  "@can_access_pawprint_isle_chuchu_cave,leaf,magic,[logic_tricked]", ],
 				"visibility_rules": [ "puzzlecaves,standard_entrance,locale_pawprint_isle" ]
 			},			{
 				"name"            : "Pegs Chest",
@@ -6247,7 +6247,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_pic",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_pawprint_isle" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -6265,7 +6265,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "picPicCave,@can_move_boulders",
-			                  "picPicCave,leaf,[logic_tricked]", ],
+			                  "picPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "picPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -6286,8 +6286,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "picIrCave,firearrow,boots",
-			                  "picIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "picIrCave,firearrow,magic,boots",
+			                  "picIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "picIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -6306,13 +6306,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "picNrCave,firearrow" ],
+					"access_rules"    : [ "picNrCave,firearrow,magic" ],
 					"visibility_rules": [ "picNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "picAiCave,@can_aim_mirror_shield,leaf",
+			                  "picAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "picAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "picAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -6330,7 +6330,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "picCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "picCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -6374,7 +6374,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "picOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,picOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,picOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -6431,7 +6431,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_piw",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_pawprint_isle_side_isle" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -6449,7 +6449,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "piwPicCave,@can_move_boulders",
-			                  "piwPicCave,leaf,[logic_tricked]", ],
+			                  "piwPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "piwPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -6470,8 +6470,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "piwIrCave,firearrow,boots",
-			                  "piwIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "piwIrCave,firearrow,magic,boots",
+			                  "piwIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "piwIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -6490,13 +6490,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "piwNrCave,firearrow" ],
+					"access_rules"    : [ "piwNrCave,firearrow,magic" ],
 					"visibility_rules": [ "piwNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "piwAiCave,@can_aim_mirror_shield,leaf",
+			                  "piwAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "piwAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "piwAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -6514,7 +6514,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "piwCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "piwCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -6558,7 +6558,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "piwOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,piwOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,piwOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -6744,7 +6744,7 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "bombs,@can_travel_to_southern_fairy_island",
-		                  "@can_travel_to_southern_fairy_island,firearrow",
+		                  "@can_travel_to_southern_fairy_island,firearrow,magic",
 		                  "@can_door_cancel,@can_travel_to_southern_fairy_island,logic_tricked,[logic_complex]",
 		                  "@can_sail,@can_travel_to_southern_fairy_island,[logic_tricked],windwaker", ],
 				"visibility_rules": [ "greatfairies," ]
@@ -6880,7 +6880,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_ds",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_diamond_steppe_island" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -6898,7 +6898,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "dsPicCave,@can_move_boulders",
-			                  "dsPicCave,leaf,[logic_tricked]", ],
+			                  "dsPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "dsPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -6919,8 +6919,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "dsIrCave,firearrow,boots",
-			                  "dsIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "dsIrCave,firearrow,magic,boots",
+			                  "dsIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "dsIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -6939,13 +6939,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "dsNrCave,firearrow" ],
+					"access_rules"    : [ "dsNrCave,firearrow,magic" ],
 					"visibility_rules": [ "dsNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "dsAiCave,@can_aim_mirror_shield,leaf",
+			                  "dsAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "dsAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "dsAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -6963,7 +6963,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "dsCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "dsCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -7007,7 +7007,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "dsOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,dsOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,dsOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -7085,14 +7085,14 @@
 				"name"            : "Cave",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_access_bomb_island_secret_cave,@can_stun_magtails" ],
-				"visibility_rules": [ "mixedcaves,standard_entrance, locale_bomb_island" ]
+				"visibility_rules": [ "puzzlecaves,combatcaves,standard_entrance, locale_bomb_island" ]
 			},			{
 				"name"            : "Unexplored Cave",
 				"item_count"      : 1,
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_bi",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_bomb_island" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -7110,7 +7110,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "biPicCave,@can_move_boulders",
-			                  "biPicCave,leaf,[logic_tricked]", ],
+			                  "biPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "biPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -7131,8 +7131,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "biIrCave,firearrow,boots",
-			                  "biIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "biIrCave,firearrow,magic,boots",
+			                  "biIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "biIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -7151,13 +7151,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "biNrCave,firearrow" ],
+					"access_rules"    : [ "biNrCave,firearrow,magic" ],
 					"visibility_rules": [ "biNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "biAiCave,@can_aim_mirror_shield,leaf",
+			                  "biAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "biAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "biAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -7175,7 +7175,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "biCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "biCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -7219,7 +7219,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "biOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,biOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,biOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -7310,7 +7310,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_rsi",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_rock_spire_isle" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -7328,7 +7328,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "rsiPicCave,@can_move_boulders",
-			                  "rsiPicCave,leaf,[logic_tricked]", ],
+			                  "rsiPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "rsiPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -7349,8 +7349,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "rsiIrCave,firearrow,boots",
-			                  "rsiIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "rsiIrCave,firearrow,magic,boots",
+			                  "rsiIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "rsiIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -7369,13 +7369,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "rsiNrCave,firearrow" ],
+					"access_rules"    : [ "rsiNrCave,firearrow,magic" ],
 					"visibility_rules": [ "rsiNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "rsiAiCave,@can_aim_mirror_shield,leaf",
+			                  "rsiAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "rsiAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "rsiAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -7393,7 +7393,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "rsiCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "rsiCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -7437,7 +7437,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "rsiOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,rsiOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,rsiOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -7573,14 +7573,14 @@
 				"access_rules"    : [
 		                  "@can_access_shark_island_secret_cave,@can_cut_or_slash,@can_defeat_miniblins",
 		                  "@can_access_shark_island_secret_cave,@can_defeat_miniblins,[logic_tricked]", ],
-				"visibility_rules": [ "combatcaves,longtrials,standard_entrance,locale_shark_island" ]
+				"visibility_rules": [ "combatcaves,standard_entrance,locale_shark_island" ]
 			},			{
 				"name"            : "Unexplored Cave",
 				"item_count"      : 1,
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_shi",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_shark_island" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -7598,7 +7598,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "shiPicCave,@can_move_boulders",
-			                  "shiPicCave,leaf,[logic_tricked]", ],
+			                  "shiPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "shiPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -7619,8 +7619,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "shiIrCave,firearrow,boots",
-			                  "shiIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "shiIrCave,firearrow,magic,boots",
+			                  "shiIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "shiIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -7639,13 +7639,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "shiNrCave,firearrow" ],
+					"access_rules"    : [ "shiNrCave,firearrow,magic" ],
 					"visibility_rules": [ "shiNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "shiAiCave,@can_aim_mirror_shield,leaf",
+			                  "shiAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "shiAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "shiAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -7663,7 +7663,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "shiCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "shiCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -7707,7 +7707,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "shiOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,shiOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,shiOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -7756,7 +7756,7 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas",
-		                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+		                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 		                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 				"visibility_rules": [ "puzzlecaves,standard_entrance,locale_cliff_plateau_isles" ]
 			},			{
@@ -7765,7 +7765,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_cp",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_cliff_plateau_isles" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -7783,7 +7783,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "cpPicCave,@can_move_boulders",
-			                  "cpPicCave,leaf,[logic_tricked]", ],
+			                  "cpPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "cpPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -7804,8 +7804,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "cpIrCave,firearrow,boots",
-			                  "cpIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "cpIrCave,firearrow,magic,boots",
+			                  "cpIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "cpIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -7824,13 +7824,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "cpNrCave,firearrow" ],
+					"access_rules"    : [ "cpNrCave,firearrow,magic" ],
 					"visibility_rules": [ "cpNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "cpAiCave,@can_aim_mirror_shield,leaf",
+			                  "cpAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "cpAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "cpAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -7848,7 +7848,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "cpCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "cpCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -7892,7 +7892,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "cpOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,cpOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,cpOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -7928,29 +7928,29 @@
 				"name"            : "Highest Chest",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas,standard_entrance,leaf",
+		                  "@can_access_cliff_plateau_isles_secret_cave,@can_defeat_boko_babas,standard_entrance,leaf,magic",
 		                  "@can_access_cliff_plateau_isles_secret_cave,logic_tricked,[logic_glitched],standard_entrance",
 		                  "@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex]",
-										  "driCpCave,[leaf],[@can_defeat_boko_babas]",
-											"picCpCave,[leaf],[@can_defeat_boko_babas]",
-											"rsiCpCave,[leaf],[@can_defeat_boko_babas]",
-											"piwCpCave,[leaf],[@can_defeat_boko_babas]",
-											"stiCpCave,[leaf],[@can_defeat_boko_babas]",
-											"shiCpCave,[leaf],[@can_defeat_boko_babas]",
-										 	"fmCpCave,[leaf],[@can_defeat_boko_babas]",
-											"irCpCave,[leaf],[@can_defeat_boko_babas]",
-											"poCpCave,[leaf],[@can_defeat_boko_babas]",
-											"nrCpCave,[leaf],[@can_defeat_boko_babas]",
-											"aiCpCave,[leaf],[@can_defeat_boko_babas]",
-											"bcCpCave,[leaf],[@can_defeat_boko_babas]",
-											"dsCpCave,[leaf],[@can_defeat_boko_babas]",
-											"cpCpCave,[leaf],[@can_defeat_boko_babas]",
-											"bpCpCave,[leaf],[@can_defeat_boko_babas]",
-											"swCpCave,[leaf],[@can_defeat_boko_babas]",
-											"hiCpCave,[leaf],[@can_defeat_boko_babas]",
-											"biCpCave,[leaf],[@can_defeat_boko_babas]",
-											"olCpCave,[leaf],[@can_defeat_boko_babas]",
-											"oiCpCave,[leaf],[@can_defeat_boko_babas]"],
+										  "driCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"picCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"rsiCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"piwCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"stiCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"shiCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+										 	"fmCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"irCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"poCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"nrCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"aiCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"bcCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"dsCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"cpCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"bpCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"swCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"hiCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"biCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"olCpCave,[leaf,magic],[@can_defeat_boko_babas]",
+											"oiCpCave,[leaf,magic],[@can_defeat_boko_babas]"],
 				"visibility_rules": [ "puzzlecaves,locale_cliff_plateau_isles" ]
 			}],
 		"map_locations": [
@@ -8022,9 +8022,9 @@
 				"name"            : "Play Golf",
 				"item_count"      : 1,
 				"access_rules"    : [
-		                  "@can_fly_with_deku_leaf_outdoors,@can_travel_to_horseshoe_island,leaf",
+		                  "@can_fly_with_deku_leaf_outdoors,@can_travel_to_horseshoe_island,leaf,magic",
 		                  "@can_fly_with_deku_leaf_outdoors,@can_travel_to_horseshoe_island,logic_tricked,[logic_complex]",
-		                  "@can_travel_to_horseshoe_island,leaf,hookshot",
+		                  "@can_travel_to_horseshoe_island,leaf,magic,hookshot",
 		                  "@can_travel_to_horseshoe_island,logic_tricked,[logic_complex],hookshot", ],
 				"visibility_rules": [ "islandpuzzle,locale_horseshoe_island" ]
 			},			{
@@ -8038,7 +8038,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_hi",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_horseshoe_island" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -8056,7 +8056,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "hiPicCave,@can_move_boulders",
-			                  "hiPicCave,leaf,[logic_tricked]", ],
+			                  "hiPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "hiPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -8077,8 +8077,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "hiIrCave,firearrow,boots",
-			                  "hiIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "hiIrCave,firearrow,magic,boots",
+			                  "hiIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "hiIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -8097,13 +8097,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "hiNrCave,firearrow" ],
+					"access_rules"    : [ "hiNrCave,firearrow,magic" ],
 					"visibility_rules": [ "hiNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "hiAiCave,@can_aim_mirror_shield,leaf",
+			                  "hiAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "hiAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "hiAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -8121,7 +8121,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "hiCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "hiCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -8165,7 +8165,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "hiOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,hiOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,hiOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -8239,7 +8239,7 @@
 		                  "@can_fly_with_deku_leaf_outdoors,@can_travel_to_flight_control_platform,double",
 		                  "bombs,@can_jumpslash,@can_travel_to_flight_control_platform,logic_tricked,[logic_glitched],hookshot",
 		                  "bombs,@can_jumpslash,@can_travel_to_flight_control_platform,logic_tricked,[logic_complex],logic_tricked,[logic_glitched]", ],
-				"visibility_rules": [ "longminigames," ]
+				"visibility_rules": [ "minigames," ]
 			}],
 		"map_locations": [
 			{
@@ -8258,7 +8258,7 @@
 				"item_count"      : 1,
 				"access_rules"    : [
 		                  "@can_defeat_green_chuchus,@can_defeat_miniblins,@can_defeat_red_chuchus,@can_defeat_wizzrobes,@can_defeat_wizzrobes_at_range,@can_travel_to_flight_control_platform_sub",
-		                  "@can_travel_to_flight_control_platform_sub,logic_tricked,[logic_complex],leaf", ],
+		                  "@can_travel_to_flight_control_platform_sub,logic_tricked,[logic_complex],leaf,magic", ],
 				"visibility_rules": [ "subs," ]
 			}],
 		"map_locations": [
@@ -8284,7 +8284,7 @@
 				"capture_item"    : true,
 				"capture_item_layout": "cave_entrances_sti",
 				"access_rules"    : [ "@can_access_secret_cave_entrance_on_star_island" ],
-				"visibility_rules": [ "puzzlecaves,rando_entrance", "mixedcaves,rando_entrance", "combatcaves,rando_entrance" ]
+				"visibility_rules": [ "puzzlecaves,rando_entrance", "combatcaves,rando_entrance" ]
 			},			{
 				"name"            : "Chuchu Cave Free Chest",
 				"item_count"      : 1,
@@ -8302,7 +8302,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "stiPicCave,@can_move_boulders",
-			                  "stiPicCave,leaf,[logic_tricked]", ],
+			                  "stiPicCave,leaf,magic,[logic_tricked]", ],
 					"visibility_rules": [ "stiPicCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Chuchu Pegs Chest",
@@ -8323,8 +8323,8 @@
 					"name"            : "Icey Interior Cavern Chest",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "stiIrCave,firearrow,boots",
-			                  "stiIrCave,firearrow,logic_tricked,[logic_glitched],windwaker", ],
+			                  "stiIrCave,firearrow,magic,boots",
+			                  "stiIrCave,firearrow,magic,logic_tricked,[logic_glitched],windwaker", ],
 					"visibility_rules": [ "stiIrCave,puzzlecaves,combatcaves,rando_entrance" ]
 				},			{
 					"name"            : "Cabana Maze Lower Floor Chest",
@@ -8343,13 +8343,13 @@
 				},			{
 					"name"            : "Light the Wreck's 5-Torches",
 					"item_count"      : 1,
-					"access_rules"    : [ "stiNrCave,firearrow" ],
+					"access_rules"    : [ "stiNrCave,firearrow,magic" ],
 					"visibility_rules": [ "stiNrCave,puzzlecaves,rando_entrance" ]
 				},			{
 					"name"            : "Light Puzzle",
 					"item_count"      : 1,
 					"access_rules"    : [
-			                  "stiAiCave,@can_aim_mirror_shield,leaf",
+			                  "stiAiCave,@can_aim_mirror_shield,leaf,magic",
 			                  "stiAiCave,@can_aim_mirror_shield,hookshot", ],
 					"visibility_rules": [ "stiAiCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -8367,7 +8367,7 @@
 					"item_count"      : 1,
 					"access_rules"    : [
 			                  "stiCpCave,@can_defeat_boko_babas",
-			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf",
+			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],leaf,magic",
 			                  "@can_burn_pallet_door,@can_door_cancel,@can_travel_to_cliff_plateau_isles,logic_tricked,[logic_complex],hookshot", ],
 					"visibility_rules": [ "stiCpCave,puzzlecaves,rando_entrance" ]
 				},			{
@@ -8411,7 +8411,7 @@
 					"name"            : "Hard Combat Trial",
 					"item_count"      : 1,
 					"access_rules"    : [ "stiOlCave,@can_defeat_darknuts,@can_defeat_fire_keese,@can_defeat_green_chuchus,@can_defeat_kargarocs,@can_defeat_keese,@can_defeat_morths,@can_defeat_red_chuchus,@can_defeat_stalfos,@can_defeat_wizzrobes,@can_play_winds_requiem" ],
-					"visibility_rules": [ "combatcaves,longtrials,rando_entrance,stiOlCave,locale_overlook_island" ]
+					"visibility_rules": [ "combatcaves,rando_entrance,stiOlCave,locale_overlook_island" ]
 				},			{
 					"name"            : "Easy Combat Cave Chest",
 					"item_count"      : 1,
@@ -8541,12 +8541,12 @@
 				"name"            : "Kill the Northern Wizzrobe",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_sail,@can_travel_to_seven-star_isles" ],
-				"visibility_rules": [ "platforms,longtrials," ]
+				"visibility_rules": [ "platforms," ]
 			},			{
 				"name"            : "Kill the remaining Wizzrobes",
 				"item_count"      : 1,
 				"access_rules"    : [ "@can_defeat_wizzrobes_at_range,@can_sail,@can_travel_to_seven-star_isles" ],
-				"visibility_rules": [ "platforms,longtrials," ]
+				"visibility_rules": [ "platforms," ]
 			}],
 		"map_locations": [
 			{

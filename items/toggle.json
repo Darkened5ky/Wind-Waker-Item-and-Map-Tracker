@@ -123,15 +123,6 @@
 		"disabled_img": "images/toggles/TogglePuzzleCaves.png",
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
-  {
-		"name": "Mixed Secret Caves",
-		"type": "toggle",
-		"img": "images/toggles/ToggleMixedCaves.png",
-		"codes": "mixedcaves",
-		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
-		"disabled_img": "images/toggles/ToggleMixedCaves.png",
-		"img_mods": "overlay|images/toggles/ToggleON.png"
-	},
 	{
 		"name": "Combat Secret Caves",
 		"type": "toggle",
@@ -158,24 +149,6 @@
 		"codes": "minigames",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
 		"disabled_img": "images/toggles/ToggleMinigames.png",
-		"img_mods": "overlay|images/toggles/ToggleON.png"
-	},
-	{
-		"name": "Short Minigames",
-		"type": "toggle",
-		"img": "images/toggles/ToggleMinigames.png",
-		"codes": "shortminigames",
-		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
-		"disabled_img": "images/toggles/ToggleMinigames.png",
-		"img_mods": "overlay|images/toggles/ToggleON.png"
-	},
-  {
-		"name": "Long Minigames",
-		"type": "toggle",
-		"img": "images/toggles/ToggleLongMinigames.png",
-		"codes": "longminigames",
-		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
-		"disabled_img": "images/toggles/ToggleLongMinigames.png",
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
@@ -270,34 +243,6 @@
 		"img_mods": "overlay|images/toggles/ToggleON.png"
 	},
 	{
-		"name": "Logic Type",
-		"type": "progressive",
-		"allow_disabled": false,
-		"initial_stage_idx": 1,
-		"stages":[
-			{
-				"img": "images/toggles/ToggleLogicType/1GlitchlessBeginner.png",
-				"codes":"logic_easy"
-			},
-			{
-				"img": "images/toggles/ToggleLogicType/2GlitchlessStandard.png",
-				"codes":"logic_standard"
-			},
-			{
-				"img": "images/toggles/ToggleLogicType/3GlitchedTrivial.png",
-				"codes":"logic_tricked"
-			},
-			{
-				"img": "images/toggles/ToggleLogicType/4GlitchedModerate.png",
-				"codes":"logic_glitched"
-			},
-			{
-				"img": "images/toggles/ToggleLogicType/5GlitchedLunatic.png",
-				"codes":"logic_complex"
-			},
-		]
-	},
-	{
 		"name": "Cave Entrance Randomization",
 		"type": "progressive",
 		"allow_disabled": false,
@@ -322,14 +267,5 @@
 		"codes": "chart_shuffle",
 		"disabled_img": "images/toggles/ToggleChartShuffleOFF.png",
 		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleLargeOFF.png"
-	},
-  {
-    "name": "Long Combat Trials",
-    "type": "toggle",
-    "img": "images/toggles/ToggleLongCombatTrials.png",
-    "codes": "longtrials",
-		"disabled_img_mods": "brightness|0.5,overlay|images/toggles/ToggleOFF.png",
-		"disabled_img": "images/toggles/ToggleLongCombatTrials.png",
-		"img_mods": "overlay|images/toggles/ToggleON.png"
-  }
+	}
 ]

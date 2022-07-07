@@ -14,7 +14,7 @@
           [ "dungeons",        "puzzlecaves",    "combatcaves",    "savage" ],
           [ "greatfairies",    "gifts",          "misc",           "statues" ],
           [ "shortsidequests", "longsidequests", "spoilstrading",  "mail" ],
-          [ "shortminigames",  "sploosh",        "expensive",      "islandpuzzle" ],
+          [ "minigames",  "sploosh",        "expensive",      "islandpuzzle" ],
           [ "platforms",       "subs",           "octos",          "reefs" ],
           [ "triforcecharts",  "treasurecharts", "skip_rematches", "swordless" ]
         ]
