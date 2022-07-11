@@ -10,10 +10,10 @@
         "pins",
         "chathud"
       ],
-      "version": "2.0.2.2",
+      "version": "2.0.3.0",
       "required_app_version": "2.3.8.8",
       "uid": "Wind-Waker-Item-and-Map-Tracker-Darkened5ky",
-      "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/2.0.2.2/Wind-Waker-Item-and-Map-Tracker-Darkened5ky.zip",
+      "link": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/releases/download/2.0.3.0/Wind-Waker-Item-and-Map-Tracker-Darkened5ky.zip",
       "documentation_url": "https://github.com/Darkened5ky/Wind-Waker-Item-and-Map-Tracker/#readme",
       "variants": [
         {
@@ -44,16 +44,7 @@
           ]
         },
         {
-          "name": "dv_im Map / Item Tracker",
-          "flags":
-          [
-            "map",
-            "pins",
-            "chathud"
-          ]
-        },
-        {
-          "name": "Old Map / Item Tracker",
+          "name": "ALTTP Inspired Sprites",
           "flags":
           [
             "map",
