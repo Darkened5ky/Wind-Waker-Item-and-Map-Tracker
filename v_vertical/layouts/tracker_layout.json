@@ -1,0 +1,85 @@
+{
+  "shared_item_grid": {
+    "type": "array",
+    "h_alignment": "center",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0,4,15",
+        "item_size": 48,
+        "rows": [
+          [],
+          [ "sail",       "pic1",      "bottle",    "requiem"   ],
+          [ "grapple",    "boots",     "statue1",   "ballad"    ],
+          [ "spoils",     "baitbag",   "delivery",  "command"   ],
+          [ "boomerang",  "no_bow",    "hookshot",  "lyric"     ],
+          [ "leaf",       "bomb_bag",  "hammer",    "aria"      ],
+          [ "no_magic",   "wallet",    "gschart",   "passing"   ],
+          [ "sword",      "shield",    "power",     "no_quiver" ],
+          [ "magletter",  "moeletter", "momletter", "deed"      ]
+        ]
+      },
+      {
+        "type": "layout",
+        "key": "quest_items"
+      }
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "layout",
+    "key": "shared_item_grid"
+  },
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "header": "",
+          "dock": "left",
+          "header_content":
+            {
+            "type": "button_popup",
+            "layout": "toggles",
+          },
+          "content": [
+            {
+              "type": "recentpins",
+              "style": "wrap",
+              "h_alignment": "stretch",
+              "max_width" : 488,
+              "v_alignment": "stretch",
+              "orientation": "vertical",
+              "compact": true
+            }
+          ]
+        },
+        {
+         "type": "map",
+         "maps": [ "map" ]
+        }
+      ]
+    }
+  }
+}

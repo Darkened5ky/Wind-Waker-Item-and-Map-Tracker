@@ -149,7 +149,7 @@
 	{
 		"name": "Deku Leaf",
 		"type": "toggle",
-		"img": "images/Deku Leaf.png",
+		"img": "images/deku/leaf.png",
 		"codes": "leaf"
 	},
 
@@ -219,24 +219,153 @@
 			}
 		]
 	},
+	{
+		"name": "Arrow Quiver",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/bow/quiver0.png",
+				"codes": "no_quiver",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/bow/quiver60.png",
+				"codes": "quiver60"
+			},
+			{
+				"img": "images/bow/quiver99.png",
+				"codes": "quiver99"
+			}
+		]
+	},
+	{
+		"name": "Hero's Bow With Quiver",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/bow/bow0qui0.png",
+				"codes": "bow_quiver",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/bow/bow1qui0.png"
+			},
+			{
+				"img": "images/bow/bow2qui0.png"
+			},
+			{
+				"img": "images/bow/bow3qui0.png"
+			},
+			{
+				"img": "images/bow/bow0qui1.png"
+			},
+			{
+				"img": "images/bow/bow1qui1.png"
+			},
+			{
+				"img": "images/bow/bow2qui1.png"
+			},
+			{
+				"img": "images/bow/bow3qui1.png"
+			},
+			{
+				"img": "images/bow/bow0qui2.png"
+			},
+			{
+				"img": "images/bow/bow1qui2.png"
+			},
+			{
+				"img": "images/bow/bow2qui2.png"
+			},
+			{
+				"img": "images/bow/bow3qui2.png"
+			}
+		]
+	},
 
 	//Bombs
 	{
 		"name": "Bombs",
-		"type": "progressive_toggle",
+		"type": "toggle",
+		"img": "images/bomb/bomb30.png",
+		"codes": "bombs"
+	},
+	{
+		"name": "Bomb Bag",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
 		"stages": [
 			{
-				"img": "images/bomb/bomb30.png",
-				"codes": "bombs"
+				"img": "images/bomb/bomb0.png",
+				"codes": "no_bomb",
+				"img_mods": "@disabled"
 			},
 			{
 				"img": "images/bomb/bomb60.png",
-				"codes": "bombs,bomb60"
+				"codes": "bomb60"
 			},
 			{
 				"img": "images/bomb/bomb99.png",
-				"codes": "bombs,bomb60,bomb99"
+				"codes": "bomb99"
 			}
+		]
+	},
+	{
+		"name": "Bombs With Bag",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/bomb/bomb_bag0.png",
+				"codes": "bomb_bag",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/bomb/bomb_bag1.png",
+				"codes": "bombs",
+			},
+			{
+				"img": "images/bomb/bomb_bag2.png",
+				"codes": "bomb60"
+			},
+			{
+				"img": "images/bomb/bomb_bag3.png",
+				"codes": "bomb99"
+			}
+		]
+	},
+	{
+		"name": "Bombs With Bag",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/bomb/bomb0_bag0.png",
+				"codes": "bomb_bag_sew",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/bomb/bomb1_bag0.png"
+			},
+			{
+				"img": "images/bomb/bomb0_bag1.png"
+			},
+			{
+				"img": "images/bomb/bomb1_bag1.png"
+			},
+			{
+				"img": "images/bomb/bomb0_bag2.png"
+			},
+			{
+				"img": "images/bomb/bomb1_bag2.png"
+			},
 		]
 	},
 
@@ -329,36 +458,96 @@
 	{
 		"name": "Swords",
 		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 1,
 		"stages": [
 			{
-				"img": "images/sword/Hero's Sword.png",
+				"img": "images/sword/sword0.png",
+				"codes": "no_sword",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/sword/sword1.png",
 				"codes": "sword"
 			},
 			{
-				"img": "images/sword/Master Sword (Uncharged).png",
+				"img": "images/sword/msword1.png",
 				"codes": "ms"
 			},
 			{
-				"img": "images/sword/Master Sword (Half Charged).png",
+				"img": "images/sword/msword2.png",
 				"codes": "ms2"
 			},
 			{
-				"img": "images/sword/Master Sword (Fully Charged).png",
+				"img": "images/sword/msword3.png",
 				"codes": "ms3"
+			}
+		]
+	},
+	{
+		"name": "Hurricane Spin",
+		"type": "toggle",
+		"img": "images/sword/hurricane.png",
+		"codes": "hurricane"
+	},
+	{
+		"name": "Swords with Hurricane Spin",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/sword/h0sword0.png",
+				"codes": "sword_spin",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/sword/h1sword0.png",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/sword/h0sword1.png"
+			},
+			{
+				"img": "images/sword/h1sword1.png"
+			},
+			{
+				"img": "images/sword/h0sword2.png"
+			},
+			{
+				"img": "images/sword/h1sword2.png"
+			},
+			{
+				"img": "images/sword/h0sword3.png"
+			},
+			{
+				"img": "images/sword/h1sword3.png"
+			},
+			{
+				"img": "images/sword/h0sword4.png"
+			},
+			{
+				"img": "images/sword/h1sword4.png"
 			}
 		]
 	},
 	{
 		"name": "Shields",
 		"type": "progressive",
-		"initial_stage_idx": 0,
+		"initial_stage_idx": 1,
+		"allow_disabled": false,
 		"stages": [
 			{
-				"img": "images/Hero's Shield.png",
+				"img": "images/shield/shield0.png",
+				"codes": "no_shield",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/shield/shield1.png",
 				"codes": "shield"
 			},
 			{
-				"img": "images/Mirror Shield.png",
+				"img": "images/shield/shield2.png",
 				"codes": "mirror"
 			}
 		]
@@ -382,10 +571,53 @@
 		"codes": "deed"
 	},
 	{
-		"name": "Double Magic",
-		"type": "toggle",
-		"img": "images/Green Potion.png",
-		"codes": "double"
+		"name": "Magic Meter",
+		"type": "progressive",
+		"initial_stage_idx": 1,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/deku/magic0.png",
+				"codes": "no_magic",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/deku/magic1.png",
+				"codes": "magic"
+			},
+			{
+				"img": "images/deku/magic2.png",
+				"codes": "double"
+			}
+		]
+	},
+	{
+		"name": "Deku Leaf And Magic Meter",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/deku/m0leaf0.png",
+				"codes": "leaf_magic",
+				"img_mods": "@disabled"
+			},
+			{
+				"img": "images/deku/m0leaf1.png"
+			},
+			{
+				"img": "images/deku/m1leaf0.png"
+			},
+			{
+				"img": "images/deku/m1leaf1.png"
+			},
+			{
+				"img": "images/deku/m2leaf0.png"
+			},
+			{
+				"img": "images/deku/m2leaf1.png"
+			},
+		]
 	},
 
 	//Mail
